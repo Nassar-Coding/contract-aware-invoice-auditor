@@ -1,0 +1,499 @@
+note: Dispositions of reader/engine disagreements on the G3 reference cases. Each is bound to both values; a changed value
+  reopens it.
+dispositions:
+  CW-S16|payable:
+    reader: false
+    engine: true
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S16|allowed_quantity:
+    reader: '0'
+    engine: '2'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S16|amount:
+    reader: '0.00'
+    engine: '3650.56'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S18|payable:
+    reader: false
+    engine: true
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S18|allowed_quantity:
+    reader: '0'
+    engine: '40'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S18|amount:
+    reader: '0.00'
+    engine: '2272.00'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S45|payable:
+    reader: false
+    engine: true
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S45|allowed_quantity:
+    reader: '0'
+    engine: '100'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S45|amount:
+    reader: '0.00'
+    engine: '385.00'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S46|payable:
+    reader: false
+    engine: true
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S46|allowed_quantity:
+    reader: '0'
+    engine: '100'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S46|amount:
+    reader: '0.00'
+    engine: '385.00'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S47|payable:
+    reader: false
+    engine: true
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S47|allowed_quantity:
+    reader: '0'
+    engine: '100'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  CW-S47|amount:
+    reader: '0.00'
+    engine: '385.00'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S45|payable:
+    reader: false
+    engine: true
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S45|allowed_quantity:
+    reader: '0'
+    engine: '2'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S45|amount:
+    reader: '0.00'
+    engine: '3694.70'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S46|payable:
+    reader: false
+    engine: true
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S46|allowed_quantity:
+    reader: '0'
+    engine: '2'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S46|amount:
+    reader: '0.00'
+    engine: '3694.70'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S47|payable:
+    reader: false
+    engine: true
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S47|allowed_quantity:
+    reader: '0'
+    engine: '2'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S47|amount:
+    reader: '0.00'
+    engine: '3694.70'
+    disposition: 'Procedural breach, not a bar to the line''s value (G3 decision G3-D1): the window/period clauses (CW Cl.41
+      p8; DDS Cl.32, Cl.33 p8) state no consequence; CW Cl.48 / DDS Cl.42 time the payment of a correct submission and do
+      not forfeit its value; the contract makes a condition of payment expressly where it means one (CW Cl.46; DDS Cl.37);
+      the G1 consequence table (C-PROC) treats identity, period and window failures as procedural. The reader noted
+      the same figure as the ''flag only'' alternative. Scope of the alternative is in spec/g3_decisions.yaml.'
+    settled_against: scan pages cited; reader note
+  DDS-S50|payable:
+    reader: false
+    engine: true
+    disposition: 'Unsigned report on a service outside Schedule 5 (G3 decision G3-D2): Cl.15 (p5) requires both signatures
+      and the breach is recorded (report_unsigned); Cl.37 (p8) makes delivery a condition of payment only for services Schedule
+      5 lists, so no clause withholds DD-101. Schedule 5 services on an unsigned report are not payable (engine). The reader
+      noted the same figure as the ''curable defect'' alternative.'
+    settled_against: scan pages cited; reader note
+  DDS-S50|allowed_quantity:
+    reader: '0'
+    engine: '2'
+    disposition: 'Unsigned report on a service outside Schedule 5 (G3 decision G3-D2): Cl.15 (p5) requires both signatures
+      and the breach is recorded (report_unsigned); Cl.37 (p8) makes delivery a condition of payment only for services Schedule
+      5 lists, so no clause withholds DD-101. Schedule 5 services on an unsigned report are not payable (engine). The reader
+      noted the same figure as the ''curable defect'' alternative.'
+    settled_against: scan pages cited; reader note
+  DDS-S50|amount:
+    reader: '0.00'
+    engine: '3694.70'
+    disposition: 'Unsigned report on a service outside Schedule 5 (G3 decision G3-D2): Cl.15 (p5) requires both signatures
+      and the breach is recorded (report_unsigned); Cl.37 (p8) makes delivery a condition of payment only for services Schedule
+      5 lists, so no clause withholds DD-101. Schedule 5 services on an unsigned report are not payable (engine). The reader
+      noted the same figure as the ''curable defect'' alternative.'
+    settled_against: scan pages cited; reader note
+  CW-S56|payable:
+    reader: false
+    engine: true
+    disposition: 'Identity breach, not a bar to the line''s value (G3 decision G3-D1, extended in G3 to identity once the identity
+      cases existed): the Agreement (p1) states the contract reference and the Subcontractor, but no clause makes a variant
+      reference or party name a condition of payment or states any consequence; Cl.42 (p8) lists the content of an application
+      without the reference; Cl.48 (p8) times payment of ''a correctly submitted application''; where the contract means a payment
+      bar it says so (Cl.43 ''returned unpaid'', Cl.46 ''not payable in any valuation''). The work is evidenced and valued;
+      the breach is recorded as a finding. The reader chose the alternative (not payable on this application) and noted the
+      engine''s figure as the other reading. Scope: G3-D1 in verification/g3/decision_scopes.json (contract_ref_variant 23 CW
+      lines; subcontractor_mismatch 0).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  CW-S56|allowed_quantity:
+    reader: '0'
+    engine: '100'
+    disposition: 'Identity breach, not a bar to the line''s value (G3 decision G3-D1, extended in G3 to identity once the identity
+      cases existed): the Agreement (p1) states the contract reference and the Subcontractor, but no clause makes a variant
+      reference or party name a condition of payment or states any consequence; Cl.42 (p8) lists the content of an application
+      without the reference; Cl.48 (p8) times payment of ''a correctly submitted application''; where the contract means a payment
+      bar it says so (Cl.43 ''returned unpaid'', Cl.46 ''not payable in any valuation''). The work is evidenced and valued;
+      the breach is recorded as a finding. The reader chose the alternative (not payable on this application) and noted the
+      engine''s figure as the other reading. Scope: G3-D1 in verification/g3/decision_scopes.json (contract_ref_variant 23 CW
+      lines; subcontractor_mismatch 0).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  CW-S56|amount:
+    reader: '0.00'
+    engine: '21980.00'
+    disposition: 'Identity breach, not a bar to the line''s value (G3 decision G3-D1, extended in G3 to identity once the identity
+      cases existed): the Agreement (p1) states the contract reference and the Subcontractor, but no clause makes a variant
+      reference or party name a condition of payment or states any consequence; Cl.42 (p8) lists the content of an application
+      without the reference; Cl.48 (p8) times payment of ''a correctly submitted application''; where the contract means a payment
+      bar it says so (Cl.43 ''returned unpaid'', Cl.46 ''not payable in any valuation''). The work is evidenced and valued;
+      the breach is recorded as a finding. The reader chose the alternative (not payable on this application) and noted the
+      engine''s figure as the other reading. Scope: G3-D1 in verification/g3/decision_scopes.json (contract_ref_variant 23 CW
+      lines; subcontractor_mismatch 0).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  CW-S57|payable:
+    reader: false
+    engine: true
+    disposition: 'Identity breach, not a bar to the line''s value (G3 decision G3-D1, extended in G3 to identity once the identity
+      cases existed): the Agreement (p1) states the contract reference and the Subcontractor, but no clause makes a variant
+      reference or party name a condition of payment or states any consequence; Cl.42 (p8) lists the content of an application
+      without the reference; Cl.48 (p8) times payment of ''a correctly submitted application''; where the contract means a payment
+      bar it says so (Cl.43 ''returned unpaid'', Cl.46 ''not payable in any valuation''). The work is evidenced and valued;
+      the breach is recorded as a finding. The reader chose the alternative (not payable on this application) and noted the
+      engine''s figure as the other reading. Scope: G3-D1 in verification/g3/decision_scopes.json (contract_ref_variant 23 CW
+      lines; subcontractor_mismatch 0).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  CW-S57|allowed_quantity:
+    reader: '0'
+    engine: '100'
+    disposition: 'Identity breach, not a bar to the line''s value (G3 decision G3-D1, extended in G3 to identity once the identity
+      cases existed): the Agreement (p1) states the contract reference and the Subcontractor, but no clause makes a variant
+      reference or party name a condition of payment or states any consequence; Cl.42 (p8) lists the content of an application
+      without the reference; Cl.48 (p8) times payment of ''a correctly submitted application''; where the contract means a payment
+      bar it says so (Cl.43 ''returned unpaid'', Cl.46 ''not payable in any valuation''). The work is evidenced and valued;
+      the breach is recorded as a finding. The reader chose the alternative (not payable on this application) and noted the
+      engine''s figure as the other reading. Scope: G3-D1 in verification/g3/decision_scopes.json (contract_ref_variant 23 CW
+      lines; subcontractor_mismatch 0).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  CW-S57|amount:
+    reader: '0.00'
+    engine: '21980.00'
+    disposition: 'Identity breach, not a bar to the line''s value (G3 decision G3-D1, extended in G3 to identity once the identity
+      cases existed): the Agreement (p1) states the contract reference and the Subcontractor, but no clause makes a variant
+      reference or party name a condition of payment or states any consequence; Cl.42 (p8) lists the content of an application
+      without the reference; Cl.48 (p8) times payment of ''a correctly submitted application''; where the contract means a payment
+      bar it says so (Cl.43 ''returned unpaid'', Cl.46 ''not payable in any valuation''). The work is evidenced and valued;
+      the breach is recorded as a finding. The reader chose the alternative (not payable on this application) and noted the
+      engine''s figure as the other reading. Scope: G3-D1 in verification/g3/decision_scopes.json (contract_ref_variant 23 CW
+      lines; subcontractor_mismatch 0).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  DDS-S60|payable:
+    reader: false
+    engine: true
+    disposition: 'One-well-per-invoice breach, not a bar to the line''s value (G3 decision G3-D1): Cl.32 (p8) ''The Contractor
+      shall invoice each well separately'' states no consequence (like Cl.33''s window); Cl.42 (p8) times payment of ''a correct
+      invoice''; the payment bars the contract states are express (Cl.37). The service is evidenced by the report for the line''s
+      own well. The reader chose the alternative (not chargeable on this invoice) and noted the engine''s figure as the other
+      reading. Scope: G3-D1 (line_well_differs_from_invoice: 0 DDS lines).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  DDS-S60|allowed_quantity:
+    reader: '0'
+    engine: '2'
+    disposition: 'One-well-per-invoice breach, not a bar to the line''s value (G3 decision G3-D1): Cl.32 (p8) ''The Contractor
+      shall invoice each well separately'' states no consequence (like Cl.33''s window); Cl.42 (p8) times payment of ''a correct
+      invoice''; the payment bars the contract states are express (Cl.37). The service is evidenced by the report for the line''s
+      own well. The reader chose the alternative (not chargeable on this invoice) and noted the engine''s figure as the other
+      reading. Scope: G3-D1 (line_well_differs_from_invoice: 0 DDS lines).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  DDS-S60|amount:
+    reader: '0.00'
+    engine: '3694.70'
+    disposition: 'One-well-per-invoice breach, not a bar to the line''s value (G3 decision G3-D1): Cl.32 (p8) ''The Contractor
+      shall invoice each well separately'' states no consequence (like Cl.33''s window); Cl.42 (p8) times payment of ''a correct
+      invoice''; the payment bars the contract states are express (Cl.37). The service is evidenced by the report for the line''s
+      own well. The reader chose the alternative (not chargeable on this invoice) and noted the engine''s figure as the other
+      reading. Scope: G3-D1 (line_well_differs_from_invoice: 0 DDS lines).'
+    settled_against: scan CW p1, p8 / DDS p8 (read on the image); reader note
+  CW-S65|findings:
+    reader: [record_date_mismatch]
+    engine: []
+    disposition: 'The item needs no Schedule 5 record (Sch 5 p27 does not list it); the evidence findings
+      apply to ''a record required by Schedule 5'' (Cl.46, Cl.47 p8), and Cl.42 (p8) does not require an application line to
+      cite a record. The cited record''s other date / area / item therefore has no consequence under Cl.46-47; its effect is
+      that it is not the classification of this excavation (S4 p10; Cl.5 p3), which reader and engine agree on: every ground
+      class carried (owner G5), ground_differs_from_record unresolved, and the line payable. The engine states the mismatch
+      in its reading (B1). The reader''s own note on each case says the mismatch ''does not stop payment''.'
+    settled_against: scan pages cited; reader note
+  CW-S66|findings:
+    reader: [record_area_mismatch]
+    engine: []
+    disposition: 'The item needs no Schedule 5 record (Sch 5 p27 does not list it); the evidence findings
+      apply to ''a record required by Schedule 5'' (Cl.46, Cl.47 p8), and Cl.42 (p8) does not require an application line to
+      cite a record. The cited record''s other date / area / item therefore has no consequence under Cl.46-47; its effect is
+      that it is not the classification of this excavation (S4 p10; Cl.5 p3), which reader and engine agree on: every ground
+      class carried (owner G5), ground_differs_from_record unresolved, and the line payable. The engine states the mismatch
+      in its reading (B1). The reader''s own note on each case says the mismatch ''does not stop payment''.'
+    settled_against: scan pages cited; reader note
+  CW-S67|findings:
+    reader: [item_not_supported_by_record]
+    engine: []
+    disposition: 'The item needs no Schedule 5 record (Sch 5 p27 does not list it); the evidence findings
+      apply to ''a record required by Schedule 5'' (Cl.46, Cl.47 p8), and Cl.42 (p8) does not require an application line to
+      cite a record. The cited record''s other date / area / item therefore has no consequence under Cl.46-47; its effect is
+      that it is not the classification of this excavation (S4 p10; Cl.5 p3), which reader and engine agree on: every ground
+      class carried (owner G5), ground_differs_from_record unresolved, and the line payable. The engine states the mismatch
+      in its reading (B1). The reader''s own note on each case says the mismatch ''does not stop payment''.'
+    settled_against: scan pages cited; reader note
+  CW-R24|findings:
+    reader: [item_not_supported_by_record, record_area_mismatch, record_date_mismatch]
+    engine: []
+    disposition: 'The item needs no Schedule 5 record (Sch 5 p27 does not list it); the evidence findings
+      apply to ''a record required by Schedule 5'' (Cl.46, Cl.47 p8), and Cl.42 (p8) does not require an application line to
+      cite a record. The cited record''s other date / area / item therefore has no consequence under Cl.46-47; its effect is
+      that it is not the classification of this excavation (S4 p10; Cl.5 p3), which reader and engine agree on: every ground
+      class carried (owner G5), ground_differs_from_record unresolved, and the line payable. The engine states the mismatch
+      in its reading (B1). The reader''s own note on each case says the mismatch ''does not stop payment''.'
+    settled_against: scan pages cited; reader note
+  DDS-S72|alternatives:
+    reader:
+      ? ''
+      : - ['98', '4908.70']
+        - ['98', '4924.50']
+        - ['98', '4940.30']
+    engine:
+      ? ''
+      : - ['0', '0.00']
+        - ['98', '4908.70']
+        - ['98', '4924.50']
+        - ['98', '4940.30']
+    disposition: 'Nomination not supplied (Cl.23 p6, last sentence: ''Item PD-210 is charged only on
+      the performance-drilled sections nominated in the call-off''; App A p29; no call-off is supplied; decision Q8 in part,
+      owner G5). The reading instructions (v4, as v3) say not to take the claim''s own statement as the document the contract names; the
+      reader assumed the section was nominated ''as the charge implies'' and stated in its note that otherwise the line pays
+      0.00 - the engine''s 0.00 alternative. Every allocation of the tolerance domain and its amount agree exactly (and the
+      allocation counts agree).'
+    settled_against: scan pages cited; reader note
+  DDS-S73|alternatives:
+    reader:
+      ? ''
+      : - ['40', '1694.00']
+        - ['40', '2326.00']
+    engine:
+      ? ''
+      : - ['0', '0.00']
+        - ['40', '1694.00']
+        - ['40', '2326.00']
+    disposition: 'Nomination not supplied (Cl.23 p6, last sentence: ''Item PD-210 is charged only on
+      the performance-drilled sections nominated in the call-off''; App A p29; no call-off is supplied; decision Q8 in part,
+      owner G5). The reading instructions (v4, as v3) say not to take the claim''s own statement as the document the contract names; the
+      reader assumed the section was nominated ''as the charge implies'' and stated in its note that otherwise the line pays
+      0.00 - the engine''s 0.00 alternative. Every allocation of the tolerance domain and its amount agree exactly (and the
+      allocation counts agree).'
+    settled_against: scan pages cited; reader note
+  DDS-S74|alternatives:
+    reader:
+      ? ''
+      : - ['202', '10134.70']
+        - ['202', '10150.50']
+        - ['202', '10166.30']
+    engine:
+      ? ''
+      : - ['0', '0.00']
+        - ['202', '10134.70']
+        - ['202', '10150.50']
+        - ['202', '10166.30']
+    disposition: 'Nomination not supplied (Cl.23 p6, last sentence: ''Item PD-210 is charged only on
+      the performance-drilled sections nominated in the call-off''; App A p29; no call-off is supplied; decision Q8 in part,
+      owner G5). The reading instructions (v4, as v3) say not to take the claim''s own statement as the document the contract names; the
+      reader assumed the section was nominated ''as the charge implies'' and stated in its note that otherwise the line pays
+      0.00 - the engine''s 0.00 alternative. Every allocation of the tolerance domain and its amount agree exactly (and the
+      allocation counts agree).'
+    settled_against: scan pages cited; reader note
+  DDS-S75|alternatives:
+    reader:
+      ? ''
+      : - ['1510', '87648.50']
+        - ['1510', '87989.50']
+    engine:
+      ? ''
+      : - ['0', '0.00']
+        - ['1510', '87648.50']
+        - ['1510', '87989.50']
+    disposition: 'Nomination not supplied (Cl.23 p6, last sentence: ''Item PD-210 is charged only on
+      the performance-drilled sections nominated in the call-off''; App A p29; no call-off is supplied; decision Q8 in part,
+      owner G5). The reading instructions (v4, as v3) say not to take the claim''s own statement as the document the contract names; the
+      reader assumed the section was nominated ''as the charge implies'' and stated in its note that otherwise the line pays
+      0.00 - the engine''s 0.00 alternative. Every allocation of the tolerance domain and its amount agree exactly (and the
+      allocation counts agree).'
+    settled_against: scan pages cited; reader note
+  DDS-S76|alternatives:
+    reader:
+      ? ''
+      : - ['98.5', '4937.78']
+        - ['98.5', '4939.35']
+        - ['98.5', '4940.93']
+        - ['98.5', '4942.52']
+        - ['98.5', '4944.10']
+        - ['98.5', '4945.67']
+        - ['98.5', '4947.25']
+        - ['98.5', '4948.84']
+        - ['98.5', '4950.42']
+        - ['98.5', '4951.99']
+        - ['98.5', '4953.57']
+        - ['98.5', '4955.16']
+        - ['98.5', '4956.74']
+        - ['98.5', '4958.31']
+        - ['98.5', '4959.89']
+        - ['98.5', '4961.48']
+    engine:
+      ? ''
+      : - ['0', '0.00']
+        - ['98.5', '4937.78']
+        - ['98.5', '4939.35']
+        - ['98.5', '4940.93']
+        - ['98.5', '4942.52']
+        - ['98.5', '4944.10']
+        - ['98.5', '4945.67']
+        - ['98.5', '4947.25']
+        - ['98.5', '4948.84']
+        - ['98.5', '4950.42']
+        - ['98.5', '4951.99']
+        - ['98.5', '4953.57']
+        - ['98.5', '4955.16']
+        - ['98.5', '4956.74']
+        - ['98.5', '4958.31']
+        - ['98.5', '4959.89']
+        - ['98.5', '4961.48']
+    disposition: 'Nomination not supplied (Cl.23 p6, last sentence: ''Item PD-210 is charged only on
+      the performance-drilled sections nominated in the call-off''; App A p29; no call-off is supplied; decision Q8 in part,
+      owner G5). The reading instructions (v4, as v3) say not to take the claim''s own statement as the document the contract names; the
+      reader assumed the section was nominated ''as the charge implies'' and stated in its note that otherwise the line pays
+      0.00 - the engine''s 0.00 alternative. Every allocation of the tolerance domain and its amount agree exactly (and the
+      allocation counts agree).'
+    settled_against: scan pages cited; reader note

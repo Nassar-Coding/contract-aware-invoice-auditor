@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+verification/pages/
+verification/blind/crops_*/
+build/

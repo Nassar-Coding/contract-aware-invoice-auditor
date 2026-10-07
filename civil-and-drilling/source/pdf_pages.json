@@ -1,0 +1,696 @@
+{
+ "CW": {
+  "path": "civilwork/contract/CW-2025-0417-CIV.pdf",
+  "page_count": 43,
+  "text_layer_chars": 0,
+  "pages": [
+   {
+    "page": 1,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "4d2e5ac1757d66a1aa1cbaf4f95ba99bbfe5b5a9ce2878ced29f05509715f4ad"
+   },
+   {
+    "page": 2,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "6f5b3e661419ec40c15da4e7a7a0f86477ed13281e6df2e2942d1e29d2c2cafd"
+   },
+   {
+    "page": 3,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "c05176f042e94bc7548fa69cdba5c388794ccac6a7d10b2b2121d7996fae68a4"
+   },
+   {
+    "page": 4,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "462e39414a42a3d750c9d67af5cb80251e79e2bf471990275a94102de4c8f23a"
+   },
+   {
+    "page": 5,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "70ef03fdfb78cdcf58c9774506c59d767e192a5a9187090df67b3cf09cbd0c2c"
+   },
+   {
+    "page": 6,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "525e228bf81b56fd3558563300a76677f4c297a654073b9cd6a86e3404aa44ba"
+   },
+   {
+    "page": 7,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "d65a132c3c8bf9ce928d36742f599520adfe880150634ea6e3b4e167cd82a567"
+   },
+   {
+    "page": 8,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "5a7d5eaa0ae140fa59fb4e3a4962797a2f0e329e6810b6d26589aebc23528248"
+   },
+   {
+    "page": 9,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "a007464d2d89901a36be31bbce4c9796873d2c710abeec0c4e8d900721dc3724"
+   },
+   {
+    "page": 10,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "5cf595e63aaa5f01572007cdc74e0eac9b028a548340fb942c99adb52875e3c4"
+   },
+   {
+    "page": 11,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "1fd54289e516316cb8ebcb81e27a200322abda6fd0cffef27d573af57a8d5afe"
+   },
+   {
+    "page": 12,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "1cf5ce7f7e2b3639042cfe06762bddee2e1cfca26ad0cb4fb9c7e876cc14cf2c"
+   },
+   {
+    "page": 13,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "67032b271fba5125792c26711d936b66037ebdeba6d6eb4d1c8ce5df3c553a94"
+   },
+   {
+    "page": 14,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "5a21bdc4ee8ff1451042a88544337baddd21fceea7aaf56e82bc5b2cbcb307a6"
+   },
+   {
+    "page": 15,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "d44c64ce16a16f420470c6b21c4ec56749ce2e5a34fc1c79cb8c76a8078a788d"
+   },
+   {
+    "page": 16,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "a15acc3c9b8c4ae9bc65734ea0c74d69d3de62c872653d46ed876e9f8df89874"
+   },
+   {
+    "page": 17,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "d91fd62c5f142580e0af4b44ddc4037e73b25f51c2b1ab8064d5392e71077065"
+   },
+   {
+    "page": 18,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "c09a14056aab4951d4452c3a38daefdb0cd5a46cbe2523a4ff7536d04722ffcb"
+   },
+   {
+    "page": 19,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "37b3ea2201671b2fbbbca28e7246701d6bdaf594c94e142519c4e54402368464"
+   },
+   {
+    "page": 20,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "b64075799215c6f2d083739bef8ddd5b4a22dcac33a2aa8a3607fc5decc4cc73"
+   },
+   {
+    "page": 21,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "fff593f8f7cf5361edfea77f73fb5943ee9c274ebd7fa7fdb17158083e2491f4"
+   },
+   {
+    "page": 22,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "81589ffce076d7582d913d11018ab460dd618c6262125206d34bea61244580af"
+   },
+   {
+    "page": 23,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "83a2e901053c0dc8f6b4a29e7df7635f77082c67bf86f77310948575b9dfb2a8"
+   },
+   {
+    "page": 24,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "a4052b8f23631f09beab61de6da63d4c3f2cd7af12a5521e7ae6fa72e76bcc1c"
+   },
+   {
+    "page": 25,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "f4cd6eaf285afca7be4cccc55751bdc4fc91d166c8e07890236aa0fab9a6bbd5"
+   },
+   {
+    "page": 26,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "b47257f16cd8f1191bf4777d1bd59ddfa559ae59979df83e0125e4f4ee36b086"
+   },
+   {
+    "page": 27,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "a9ace183791505374a0348570c332d234808de91f4aaae3d4c3540b1b840f102"
+   },
+   {
+    "page": 28,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "405bc3b8646809557daff0ac6804148d2bea44b56b790fa0d1f55dc56083be13"
+   },
+   {
+    "page": 29,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "dc91c9758bce4a2d3a089051f1b599305ea67c8de9ba6f901f7e48e9fa85b8f7"
+   },
+   {
+    "page": 30,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "6e17a0ccbf33b2b7d0ac934c6ccd82ca20058c639c76df5d3e5d00a992494e3c"
+   },
+   {
+    "page": 31,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "748af3c1775c035f470caaa57eb66c068a51ee7a6641f11f0df9c6daab3ad631"
+   },
+   {
+    "page": 32,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "562ed899df6007d3af998f4c9c40f0d55c80ef7b9f4977e58b5cf274b40e619d"
+   },
+   {
+    "page": 33,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "6abb0f1709bf30d9a5ed0f1db87818ac288485c8d926ba638da6cdbad1d71749"
+   },
+   {
+    "page": 34,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "7b2311ea8ca5ee2ce48d8f5ff02ca6d75488d2bd6924275a4629a0e9952346b4"
+   },
+   {
+    "page": 35,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "21bcc15d68060e8e3b1add0e4e7bbbfdb580d3d472b7641d99b7162eed740712"
+   },
+   {
+    "page": 36,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "7057fd4cc663e414051aff6151906630e4e9d9c6206bf35b171b4443dd858715"
+   },
+   {
+    "page": 37,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "4ef7fceee90bdb20672422811a6296bbba8bcea10319ab558ad2e134e5fc1187"
+   },
+   {
+    "page": 38,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "5ca0f0eec1a01ef13fa90efbff9e416f3c39ce0c6b280977d7d50eb4d71edfb5"
+   },
+   {
+    "page": 39,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "be4bed1d51a6e0b6a480397b64055177a33d179d069c4d92de2c1010572e7c99"
+   },
+   {
+    "page": 40,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "fd69ac4aa73fd1ea2fc009293bb25519e1cf30aa6ec9927d943ae2edcf3b3daa"
+   },
+   {
+    "page": 41,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "7309d1c6bc95538ad0db748d51d8e3bd01350895891651f0a264bc558e46f281"
+   },
+   {
+    "page": 42,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "1d66022142c8b067f87f0e61b09e85306b77a1dac90309222ffd5c6052ee9588"
+   },
+   {
+    "page": 43,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "5df97beaf369564c88728f005d450a3fe857df665091e7a4d5b69687bf066b1a"
+   }
+  ]
+ },
+ "DDS": {
+  "path": "drilling_services/contract/DDS-2025-118.pdf",
+  "page_count": 42,
+  "text_layer_chars": 0,
+  "pages": [
+   {
+    "page": 1,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "1f87ce5767898b8363804e4d32e4f7e72ddc0308ec794c1cdcbb781e6eca8e10"
+   },
+   {
+    "page": 2,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "84afe7b3eff7925d46a94403313140ce240271a8ab4f83c084232d3e3b85e43e"
+   },
+   {
+    "page": 3,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "77a55f14ba6f1ef2ce354d84a7ebf9d9c29337c8bd757813a44b5169b75fde6d"
+   },
+   {
+    "page": 4,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "2562deffa46b2c23e14dc5ae3ec40574583668b77164402dec7b1522e0379ff0"
+   },
+   {
+    "page": 5,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "146c1c731cd67982ac0a123a0282dc87781409d846f65a7fa25b29b15e5b1a50"
+   },
+   {
+    "page": 6,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "80b231884f767297908b5802f289067776f74359add44abf46f93653113274cd"
+   },
+   {
+    "page": 7,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "ce9ba35155a4f7160bb5be03a50bad1b1516ce39faab884472f5d929240245a8"
+   },
+   {
+    "page": 8,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "3775327cb0ffd90ea84345f497f39753cb00ae7a575cb8f778db18196cd20259"
+   },
+   {
+    "page": 9,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "acfc8a1a94aca37f4ea171908493a1e6a9bb3838388c6c3025b6aefa781926bd"
+   },
+   {
+    "page": 10,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "476bbdc5683db890069f5c6b8875e68436fffde5acd5791260292483a3c93a85"
+   },
+   {
+    "page": 11,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "f663cd276ea3fb5414bceda0f3c07c613a99889db3d546a30ca69a9dbb2faa52"
+   },
+   {
+    "page": 12,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "6ecdbd994154896a15c44c84715eb64c6b86536e61829bb4a94c722236cef0bb"
+   },
+   {
+    "page": 13,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "ff7ac842d50ad8f78c89075e345210f36ee3c6b7695769d65a3f2cf67555a162"
+   },
+   {
+    "page": 14,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "2c69cd44d3782a554c452b91d209958309de3ce5a3a1d31ae7489402dcea9bc8"
+   },
+   {
+    "page": 15,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "2d7e7f344cb1a985558ef778beedf8af80e900512e2010ef228ab654229403d4"
+   },
+   {
+    "page": 16,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "bd4c890aa05f71cac105d881e51aca17943964a21175cffc8f418c1dc0682873"
+   },
+   {
+    "page": 17,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "9f5fa488c0ac5169e25003cb504129f5ec30c4b6e2dc648b6d350cd38045c647"
+   },
+   {
+    "page": 18,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "f651eab590c056151f998d32fdbe85c3dcd869186b41897f3f03eaf89730e09d"
+   },
+   {
+    "page": 19,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "8ca9250ea2cb75ab68cb24f0585f3ad4ec3bb0b84f64d0a6b572a08c4a12f623"
+   },
+   {
+    "page": 20,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "a35bfcb025a5a2485816abc46f62d91b412d5033127a0ba5dd85a987a9ccf4cf"
+   },
+   {
+    "page": 21,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "0095b5ae8ffc66d1c3108c56e3a9603b6737460c5d1e7421f43cd4bd637118ff"
+   },
+   {
+    "page": 22,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "7a246b279549ddbd91205711979674ef148f737dd8ce8f84ee00a9bc5bc9dfa1"
+   },
+   {
+    "page": 23,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "b0c1f356ffd63a662379cc8e6f65aab028fcc043ecc28ecfdec2bbf13699cda9"
+   },
+   {
+    "page": 24,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "34f567614fd4f7014348c6bad68755052739c941793a7ed3568c7dc85ee068c1"
+   },
+   {
+    "page": 25,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "8ffb940929d1cfe5ef276c7918a2e6cd29a42f09d09675016606f8a2b3ca8179"
+   },
+   {
+    "page": 26,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "995c6ea4cd8fa060b7b87b81ce279d7b6e1fd79d4343f4539a22537844b4cbe3"
+   },
+   {
+    "page": 27,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "68e88636b0f5dec6fa5fd5265fb7e3e77d44d64297f8577bd8f1335b4294543b"
+   },
+   {
+    "page": 28,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "7654fe1cda7eec63b4ffd814cf0541712f3927f3808cb87623aa925d3e31e5df"
+   },
+   {
+    "page": 29,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "36ad3b9cbbad62a9408de301947143d232a45559639954541a8bde532bc8b13e"
+   },
+   {
+    "page": 30,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "7a2e970c5ae7b689ed51fe15926d4e1a42bda4a3ea0d7db9f3edb6030ba73bf1"
+   },
+   {
+    "page": 31,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "431127a6a05a37388df6e236b4507760fae39aaba16c30ae9a648c397053e233"
+   },
+   {
+    "page": 32,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "f6f4cd0f79b995022131c400b9576d940ce6c25116385e26f4096cf13a8d4e40"
+   },
+   {
+    "page": 33,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "e36875bcb08ff589b66017bfbc763c12951db587fca6f2b0a63dd38e1964bea4"
+   },
+   {
+    "page": 34,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "bfa64d4ed911fcf5e2b23547a0e7e4df3e2f126a4c4a8b05ec0d42f4452d5d49"
+   },
+   {
+    "page": 35,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "426ce498dd465df6812e3e20b621b69cb3b1a562b097b97b535dffc9a1e34ffe"
+   },
+   {
+    "page": 36,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "c62455ee4c31999b46d43b80db8067f2a1b5f07c082fcb05e5650648af640a33"
+   },
+   {
+    "page": 37,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "cb5fff01abc6289a85e856920f5bea5064ac4c27c30d9956c0ccd62c0c571eca"
+   },
+   {
+    "page": 38,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "f1e89555e3fb1abc73f2af1d33e80f19298554fa664dc118ef1bef48329e4f22"
+   },
+   {
+    "page": 39,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "a6212ec14d0c2d86e3bd9c995802ef43952248138a792424359e5a83137170df"
+   },
+   {
+    "page": 40,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "f8a9a855567ffafd2ec9f1130926973c6d44cb13cb6551ab23b39576d1fe573f"
+   },
+   {
+    "page": 41,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "d57f5a9e1c5727ae253db370811d70af591b72e70e899506a4187ffb332c288c"
+   },
+   {
+    "page": 42,
+    "images": 1,
+    "width": 1654,
+    "height": 2338,
+    "colorspace": "DeviceGray",
+    "samples_sha256": "d11f6cc277fea75fd42012a0ddca63deaaa8a269cb79e4b139375b1c9d147bec"
+   }
+  ]
+ }
+}

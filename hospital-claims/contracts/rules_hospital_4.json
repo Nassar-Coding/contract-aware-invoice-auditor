@@ -1,0 +1,398 @@
+{
+  "boundary_reading": "\"Not billable within N days of this Service\" covers a Service Date exactly N days away. That is the ordinary meaning of \"within\", and it makes the boundary day the last day the window covers rather than the first day outside it.",
+  "contract_number": "INS-H4-2024-2049",
+  "contract_term": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "daily_caps": [
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L40",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L185"
+      ],
+      "service_id": "H4-S002",
+      "service_name": "Advanced Orthopaedic Ward Bed Occupancy"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L44",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L186"
+      ],
+      "service_id": "H4-S006",
+      "service_name": "Ambulatory Cardiac Ward Bed Occupancy"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L187"
+      ],
+      "service_id": "H4-S009",
+      "service_name": "Ambulatory Immunologic Ward Bed Occupancy"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 24,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L54",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L188"
+      ],
+      "service_id": "H4-S016",
+      "service_name": "Assisted Gastrointestinal Anaesthesia Administration"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L59",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L189"
+      ],
+      "service_id": "H4-S021",
+      "service_name": "Assisted Urologic Nursing Observation"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L61",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L190"
+      ],
+      "service_id": "H4-S023",
+      "service_name": "Bedside Gastrointestinal Biopsy Procedure"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L69",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L191"
+      ],
+      "service_id": "H4-S031",
+      "service_name": "Elective Gastrointestinal Nursing Observation"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L77",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L192"
+      ],
+      "service_id": "H4-S039",
+      "service_name": "Extended Hepatic Transfusion Service"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L82",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L193"
+      ],
+      "service_id": "H4-S044",
+      "service_name": "Extended Urologic Telemetry Monitoring"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L194"
+      ],
+      "service_id": "H4-S045",
+      "service_name": "Focused Metabolic Biopsy Procedure"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L87",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L195"
+      ],
+      "service_id": "H4-S049",
+      "service_name": "Inpatient Orthopaedic Anaesthesia Administration"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L89",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L196"
+      ],
+      "service_id": "H4-S051",
+      "service_name": "Intensive Geriatric Case Conference"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 24,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L92",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L197"
+      ],
+      "service_id": "H4-S054",
+      "service_name": "Intensive Urologic Specimen Analysis"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L110",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L198"
+      ],
+      "service_id": "H4-S072",
+      "service_name": "Postoperative Oncology Diagnostic Imaging"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 24,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L111",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L199"
+      ],
+      "service_id": "H4-S073",
+      "service_name": "Postoperative Otolaryngologic Telemetry Monitoring"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L113",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L200"
+      ],
+      "service_id": "H4-S075",
+      "service_name": "Postoperative Paediatric Sterilisation Service"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L115",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L201"
+      ],
+      "service_id": "H4-S077",
+      "service_name": "Postoperative Rheumatologic Nursing Observation"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L119",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L202"
+      ],
+      "service_id": "H4-S081",
+      "service_name": "Preoperative Oncology Diagnostic Imaging"
+    }
+  ],
+  "direction_reading": "The clause states the window is measured in either direction.",
+  "exclusion_boundary": "inclusive_at_equal",
+  "exclusion_direction": "both",
+  "exclusion_windows": [
+    {
+      "anchor_service_id": "H4-S022",
+      "anchor_service_name": "Bedside Cardiac Home Visit",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L247"
+      ],
+      "service_id": "H4-S003",
+      "service_name": "Advanced Paediatric Theatre Time",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H4-S071",
+      "anchor_service_name": "Postoperative Geriatric Imaging Interpretation",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L248"
+      ],
+      "service_id": "H4-S008",
+      "service_name": "Ambulatory Haematology Transfusion Service",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H4-S062",
+      "anchor_service_name": "Outpatient Cardiac Physiotherapy Session",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L249"
+      ],
+      "service_id": "H4-S019",
+      "service_name": "Assisted Paediatric Theatre Time",
+      "window_days": 10
+    },
+    {
+      "anchor_service_id": "H4-S010",
+      "anchor_service_name": "Ambulatory Musculoskeletal Specimen Analysis",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L250"
+      ],
+      "service_id": "H4-S026",
+      "service_name": "Comprehensive Ophthalmic Laboratory Panel",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H4-S070",
+      "anchor_service_name": "Postoperative Geriatric Case Conference",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L251"
+      ],
+      "service_id": "H4-S028",
+      "service_name": "Continuous Gastrointestinal Transfusion Service",
+      "window_days": 10
+    },
+    {
+      "anchor_service_id": "H4-S067",
+      "anchor_service_name": "Outpatient Urologic Endoscopic Procedure",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L252"
+      ],
+      "service_id": "H4-S046",
+      "service_name": "Focused Urologic Case Conference",
+      "window_days": 21
+    },
+    {
+      "anchor_service_id": "H4-S022",
+      "anchor_service_name": "Bedside Cardiac Home Visit",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L253"
+      ],
+      "service_id": "H4-S048",
+      "service_name": "Focused Vascular Transport Service",
+      "window_days": 14
+    },
+    {
+      "anchor_service_id": "H4-S038",
+      "anchor_service_name": "Extended Hepatic Discharge Planning",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L254"
+      ],
+      "service_id": "H4-S050",
+      "service_name": "Inpatient Psychiatric Home Visit",
+      "window_days": 14
+    },
+    {
+      "anchor_service_id": "H4-S091",
+      "anchor_service_name": "Standard Paediatric Dialysis Session",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L255"
+      ],
+      "service_id": "H4-S053",
+      "service_name": "Intensive Rheumatologic Radiotherapy Fraction",
+      "window_days": 10
+    },
+    {
+      "anchor_service_id": "H4-S061",
+      "anchor_service_name": "Intermittent Urologic Telemetry Monitoring",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L256"
+      ],
+      "service_id": "H4-S056",
+      "service_name": "Intermittent Neurological Laboratory Panel",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H4-S092",
+      "anchor_service_name": "Standard Vascular Home Visit",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L257"
+      ],
+      "service_id": "H4-S069",
+      "service_name": "Postoperative Cardiac Wound Care",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H4-S064",
+      "anchor_service_name": "Outpatient Obstetric Dialysis Session",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L258"
+      ],
+      "service_id": "H4-S074",
+      "service_name": "Postoperative Paediatric Imaging Interpretation",
+      "window_days": 14
+    },
+    {
+      "anchor_service_id": "H4-S022",
+      "anchor_service_name": "Bedside Cardiac Home Visit",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L259"
+      ],
+      "service_id": "H4-S083",
+      "service_name": "Specialist Cardiac Ventilation Support",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H4-S042",
+      "anchor_service_name": "Extended Renal Ward Bed Occupancy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L260"
+      ],
+      "service_id": "H4-S089",
+      "service_name": "Standard Ophthalmic Laboratory Panel",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H4-S025",
+      "anchor_service_name": "Comprehensive Neurological Endoscopic Procedure",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L261"
+      ],
+      "service_id": "H4-S093",
+      "service_name": "Supervised Gastrointestinal Nursing Observation",
+      "window_days": 7
+    }
+  ],
+  "hospital": "H4",
+  "review_state": "accepted",
+  "schema_version": "1",
+  "scope": "Caps and exclusion windows read from this hospital's agreement, with the clause each comes from. Effective dates span the whole contract term unless a clause narrows them.",
+  "service_day": "calendar"
+}

@@ -1,0 +1,72 @@
+# G2 evidence-mapping specification, civil site records (evidence mappings, civil records).
+# Each narrative template maps the site's own words to a meaning, a physical unit and the candidate
+# Schedule 1 item(s) the record can evidence. Candidates are EVIDENCE facts, not a decision that a billed
+# line is right: identification, units, quantities and payability are decided at G3 (Cl.26, 33A, 47A ...).
+# Record words may normalise units ("cube" -> m3) in evidence only; this never converts an invoice's unit
+# (CW Cl.26, p6). A narrative matching no template is an unresolved parse, never a default.
+# A corpus survey (verification/g2/coverage.json "cw_templates") found exactly these 26 templates in the
+# 2,169 records; every variable slot was listed and fixed values are recorded as attributes.
+version: 1
+
+record_layout:
+  title_line: 1
+  keys: [Ticket, Job, Area, Date, Week beginning, Days on, Ground, "Signed (foreman)", "Countersigned (Engineer's representative)"]
+  required_daily: [Ticket, Job, Area, Date, "Signed (foreman)", "Countersigned (Engineer's representative)"]
+  required_weekly: [Ticket, Job, Area, Week beginning, Days on, "Signed (foreman)", "Countersigned (Engineer's representative)"]
+  optional: [Ground]
+  narrative: "exactly one free-text line between the header block and the signatures"
+  placeholder_signature: "a value made only of underscores/spaces is not a signature (Cl.47 p8)"
+  signature_states: "signed = a personal name (initials and surname, or given name and surname); unsigned = missing line, placeholder, or words saying nobody signed (unsigned, N/A, pending ...); unknown = any other text ('??', 'illegible'): queued, never approval (FD01; Cl.46-47 p8, P22 p14)"
+  date_formats: {Date: "DD/MM/YYYY", Week beginning: "DD/MM/YYYY", Days on: "Ddd DD/MM, ... (year from the week start, rolled forward past December)"}
+  source: ["Cl.47 (p8)", "47A (p33)", "Sch 5 (p27)", "P22 (p14)", "S4 (p10)"]
+
+families:
+  DX: {title: DAILY EXCAVATION RECORD, sch5_items: [A.12.030, A.12.040], weekly: false}
+  CT: {title: COMPACTION TEST CERTIFICATE, sch5_items: [A.14.010, D.41.010, D.41.040], weekly: false}
+  PR: {title: CONCRETE POUR RECORD, sch5_items: [B.21.020, B.21.030, B.21.040], weekly: false}
+  PT: {title: PRESSURE TEST CERTIFICATE, sch5_items: [C.31.020, C.32.030], weekly: false}
+  MO: {title: METEOROLOGICAL RECORD, sch5_items: [E.51.010], weekly: false}
+  PS: {title: PLANT STANDING RECORD, sch5_items: [E.51.030], weekly: false}
+  DW: {title: DEWATERING LOG, sch5_items: [A.16.010], weekly: true}
+  CV: {title: CCTV SURVEY REPORT, sch5_items: [C.35.010], weekly: false}
+  JS: {title: JOINT SURVEY SHEET, sch5_items: [B.23.010, E.52.010, B.23.020], weekly: false}
+
+# regex: full-line match on the narrative; group q = measured quantity; other named groups are attributes.
+# requires: the value each item-defining attribute must have for the template's candidate item (Schedule 1's own
+# description). A record stating another value evidences no candidate (the mismatch is kept; the claim is never
+# repriced as another item); a value the template cannot read leaves the narrative unmatched (queued).
+templates:
+  - {id: DX1, family: DX, regex: '^trench over four metres, (?P<q>\d+) m3 dug$', unit: m3, meaning: "trench excavation deeper than 4 m", candidates: [A.12.040], source: "P13 (p13); Sch 1 A.12.040"}
+  - {id: DX2, family: DX, regex: '^trench dig (?P<q>\d+) cube, (?P<depth_m>\d+(?:\.\d+)?) m deep section$', unit: m3, meaning: "trench excavation; the stated depth selects the item", candidates: depth_rule, source: "P13 (p13); Sch 1 A.12.020-040"}
+  - {id: DX3, family: DX, regex: '^deep trench (?P<q>\d+) m3, between two and four metres$', unit: m3, meaning: "trench excavation 2 m to 4 m", candidates: [A.12.030], source: "P13 (p13); Sch 1 A.12.030"}
+  - {id: CT1, family: CT, regex: '^capping layer, (?P<q>\d+) m2 placed and compacted$', unit: m2, meaning: "capping layer compacted", candidates: [D.41.040], source: "Sch 1 D.41.040"}
+  - {id: CT2, family: CT, regex: '^(?P<q>\d+) square metres of sub-base in and compacted$', unit: m2, meaning: "Type 1 sub-base compacted", candidates: [D.41.010], source: "Sch 1 D.41.010"}
+  - {id: CT3, family: CT, regex: '^brought in (?P<q>\d+) cube of fill, compacted in layers$', unit: m3, meaning: "imported granular fill placed and compacted", candidates: [A.14.010], source: "Sch 1 A.14.010"}
+  - {id: CT4, family: CT, regex: '^laid and rolled (?P<q>\d+) m2 of Type (?P<type>\d+)$', unit: m2, meaning: "Type 1 sub-base laid and compacted", candidates: [D.41.010], source: "Sch 1 D.41.010; S15 (p11)", requires: {type: "1"}, requires_source: "Sch 1 D.41.010 'Sub-base, Type 1 granular' (pp17-18); FD03"}
+  - {id: CT5, family: CT, regex: '^placed and whacked (?P<q>\d+) m3 of imported stone$', unit: m3, meaning: "imported granular fill placed and compacted", candidates: [A.14.010], source: "Sch 1 A.14.010"}
+  - {id: PR1, family: PR, regex: '^wall pour (?P<q>\d+) m3, (?P<mix>\d+/\d+) mix$', unit: m3, meaning: "reinforced concrete to walls", candidates: [B.21.040], source: "Sch 1 B.21.040", requires: {mix: "32/40"}, requires_source: "Sch 1 B.21.040 'Reinforced concrete to walls, C32/40' (pp17-18); FD03"}
+  - {id: PR2, family: PR, regex: '^slab pour (?P<q>\d+) m3, (?P<mix>\d+/\d+)$', unit: m3, meaning: "reinforced concrete to slabs", candidates: [B.21.030], source: "Sch 1 B.21.030", requires: {mix: "32/40"}, requires_source: "Sch 1 B.21.030 'Reinforced concrete to slabs, C32/40' (pp17-18); FD03"}
+  - {id: PR3, family: PR, regex: '^poured (?P<q>\d+) m3 into the foundations, (?P<mix>\d+/\d+) mix$', unit: m3, meaning: "reinforced concrete to foundations", candidates: [B.21.020], source: "Sch 1 B.21.020", requires: {mix: "32/40"}, requires_source: "Sch 1 B.21.020 'Reinforced concrete to foundations, C32/40' (pp17-18); FD03"}
+  - {id: PR4, family: PR, regex: '^poured the slab, (?P<q>\d+) cube of C(?P<mix>\d+/\d+)$', unit: m3, meaning: "reinforced concrete to slabs", candidates: [B.21.030], source: "Sch 1 B.21.030", requires: {mix: "32/40"}, requires_source: "Sch 1 B.21.030 'Reinforced concrete to slabs, C32/40' (pp17-18); FD03"}
+  - {id: PR5, family: PR, regex: '^foundation pour (?P<q>\d+) cube, C(?P<mix>\d+/\d+) off the truck$', unit: m3, meaning: "reinforced concrete to foundations", candidates: [B.21.020], source: "Sch 1 B.21.020", requires: {mix: "32/40"}, requires_source: "Sch 1 B.21.020 'Reinforced concrete to foundations, C32/40' (pp17-18); FD03"}
+  - {id: PT1, family: PT, regex: '^built (?P<q>\d+) large chamber, (?P<dia_mm>\d+) dia precast$', unit: no., meaning: "precast manhole 1800 mm (pressure-test certificate)", candidates: [C.32.030], source: "Sch 1 C.32.030; S13 (p11)", requires: {dia_mm: "1800"}, requires_source: "Sch 1 C.32.030 'Precast manhole, 1800 mm diameter' (pp17-18); FD03"}
+  - {id: PT2, family: PT, regex: '^laid (?P<q>\d+) m of (?P<dia_mm>\d+) ductile main$', unit: lm, meaning: "ductile iron pipe 400 mm laid (pressure-test certificate)", candidates: [C.31.020], source: "Sch 1 C.31.020; S13 (p11)", requires: {dia_mm: "400"}, requires_source: "Sch 1 C.31.020 'Ductile iron pipe, 400 mm' (pp17-18); FD03"}
+  - {id: MO1, family: MO, regex: '^no work possible, weather, (?P<q>\d+) hours standing$', unit: hour, meaning: "hours attended standing, reason weather (6A applies at G3)", candidates: [E.51.010], reason: weather, source: "Cl.18 (p4); S20 (p11); 6A (p32)"}
+  - {id: MO2, family: MO, regex: '^rained off -- crew and plant stood for (?P<q>\d+) hours$', unit: hour, meaning: "hours attended standing, reason rain", candidates: [E.51.010], reason: rain, source: "Cl.18; S20; 6A"}
+  - {id: PS1, family: PS, regex: '^tracked machine stood idle (?P<q>\d+) hours waiting on access$', unit: hour, meaning: "plant standing hours attended, reason 'waiting on access'", candidates: [E.51.030], reason: waiting on access, source: "Cl.18 (p4); P3 (p12); 6A (p32)"}
+  - {id: PS2, family: PS, regex: '^excavator and driver held up (?P<q>\d+) hours$', unit: hour, meaning: "plant standing hours attended, no reason stated", candidates: [E.51.030], reason: not stated, source: "Cl.18 (p4); 6A (p32)"}
+  - {id: DW1, family: DW, regex: '^pumps kept going (?P<q>\d+) week this period$', unit: week, meaning: "dewatering in operation; worked days listed in 'Days on' (47A)", candidates: [A.16.010], source: "Sch 5 note (p27); 47A (p33)"}
+  - {id: DW2, family: DW, regex: '^wellpoints running, (?P<q>\d+) week on the dewatering$', unit: week, meaning: "dewatering in operation (47A)", candidates: [A.16.010], source: "Sch 5 note; 47A"}
+  - {id: CV1, family: CV, regex: '^surveyed (?P<q>\d+) m of the finished run with the camera$', unit: lm, meaning: "CCTV survey length", candidates: [C.35.010], source: "Sch 1 C.35.010"}
+  - {id: JS1, family: JS, regex: '^laid (?P<q>\d+) m2 of (?P<mesh>A\d+) mesh with laps$', unit: m2, meaning: "mesh reinforcement, surveyed quantity (33A)", candidates: [B.23.020], source: "Sch 4 Part 6 (p26); 33A (p32)", requires: {mesh: "A393"}, requires_source: "Sch 1 B.23.020 'Mesh reinforcement, A393' (pp17-18); FD03"}
+  - {id: JS2, family: JS, regex: '^set out and agreed (?P<q>\d+) chainage band with the Engineer$', unit: no., meaning: "setting-out chainage bands against joint survey", candidates: [E.52.010], source: "Cl.11 (p4); Sch 4 Part 6"}
+  - {id: JS3, family: JS, regex: '^fixed (?P<q>\d+) tonne of bar, cut and bent to schedule$', unit: tonne, meaning: "high-yield bar, surveyed mass (33A; P18)", candidates: [B.23.010], source: "Sch 4 Part 6; 33A; P18 (p13)"}
+  - {id: JS4, family: JS, regex: '^steel fixers placed (?P<q>\d+) t of high yield bar$', unit: tonne, meaning: "high-yield bar, surveyed mass", candidates: [B.23.010], source: "Sch 4 Part 6; 33A; P18"}
+
+depth_rule:
+  source: "P13 (p13): trench depth decides A.12.020 (not exceeding 2 m) / A.12.030 (2 m to 4 m) / A.12.040 (exceeding 4 m)"
+  bands: [{max_m: "2", item: A.12.020}, {max_m: "4", item: A.12.030}, {max_m: null, item: A.12.040}]
+
+# Narrative applicability scan (applicability checks are kept). Words that would signal a
+# special contractual condition; counts are reported in verification/g2/coverage.json.
+special_condition_words: [flood, watch, suspend, suspension, heat, midday, safety, reject, rejected, unapproved, over-excavat, defect, dust, method statement, permit, instructed, night, rest day, friday, saturday, revised, revision, correct]

@@ -1,0 +1,21 @@
+# G3 reference cases for review findings F1 and F4, drilling contract: INPUTS ONLY (no expected values). Written
+# for independent review findings F1 (well class authority), F4 (PD-210 tolerance) and the Q5 residual before the readers
+# ran, read with the v3 reader instructions. Same defaults as synthetic_dds.yaml.
+defaults:
+  invoice: {contract_ref: DDS-2025-118, contractor: Meridian Downhole Services Ltd, well_name: NGP-SY-001, rig: NG-Rig 44, field: Harran, well_class: Standard, submit_after_days: 5}
+  report:
+    signed: both
+    A: {"Hole section": '12-1/4"', Status: Operating, "Depth start (m MD)": "2000", "Depth end (m MD)": "2100", "Circulating hours": "20", "BHA run": "1",
+        "In the hole": "MWD collar, drilling jars, real-time link, rotary steerable, survey package", "Crew on tour": "2 directional hands, 1 night man, 2 MWD engineers",
+        "Gyro surveys": "0", "Pressure points": "0", "Wiper trips": "0", "Back-reaming hours": "0", "Clean-out runs": "0"}
+    B: {Run: "1", "Run first day": "<service date>", "Run last day": "<service date + 3>", "Tools in run": "<as In the hole>", "Run circulating hours": "80", "Metres logged": "0", "Metres reamed": "0", "Radioactive source carried": "No"}
+  state: {annual_footage_pct: "100", note: "annual footage-band state is supplied as an input (G4 owns it); no other lines or invoices exist"}
+cases:
+  - {id: DDS-S64, tests: "DD-120 on a day recording 8 circulating and 3 back-reaming hours, 10 hours billed", report: {A: {"Circulating hours": "8", "Back-reaming hours": "3"}}, line: {service_code: DD-120, quantity: "10", service_date: "2025-06-10"}}
+  - {id: DDS-S65, tests: "HC-630 on a day recording two clean-out runs in one BHA run, 2 billed", report: {A: {"Clean-out runs": "2"}}, line: {service_code: HC-630, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S66, tests: "MW-310 on an invoice whose header states HPHT; no call-off supplied", invoice: {well_class: HPHT}, line: {service_code: MW-310, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S67, tests: "LW-410 metres on an invoice whose header states Extended Reach; no call-off supplied", invoice: {well_class: Extended Reach}, report: {A: {"In the hole": "MWD collar, drilling jars, gamma tool, real-time link, rotary steerable, survey package"}}, line: {service_code: LW-410, quantity: "100", service_date: "2025-06-10"}}
+  - {id: DDS-S68, tests: "PD-210 101 m charged on the interval 2,900-3,000 m (report 2,900-3,000 m)", report: {A: {"Depth start (m MD)": "2900", "Depth end (m MD)": "3000"}}, line: {service_code: PD-210, quantity: "101", service_date: "2025-06-10", depth_from_m: "2900", depth_to_m: "3000"}}
+  - {id: DDS-S69, tests: "PD-210 102 m charged on the interval 2,900-3,000 m (report 2,900-3,000 m)", report: {A: {"Depth start (m MD)": "2900", "Depth end (m MD)": "3000"}}, line: {service_code: PD-210, quantity: "102", service_date: "2025-06-10", depth_from_m: "2900", depth_to_m: "3000"}}
+  - {id: DDS-S70, tests: "PD-210 99 m charged on the interval 2,900-3,000 m (report 2,900-3,000 m)", report: {A: {"Depth start (m MD)": "2900", "Depth end (m MD)": "3000"}}, line: {service_code: PD-210, quantity: "99", service_date: "2025-06-10", depth_from_m: "2900", depth_to_m: "3000"}}
+  - {id: DDS-S71, tests: "PD-210 101 m charged on one interval 1,450-1,550 m crossing 1,500 m (report 1,450-1,550 m)", report: {A: {"Depth start (m MD)": "1450", "Depth end (m MD)": "1550"}}, line: {service_code: PD-210, quantity: "101", service_date: "2025-06-10", depth_from_m: "1450", depth_to_m: "1550"}}

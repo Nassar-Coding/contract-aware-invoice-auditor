@@ -1,0 +1,44 @@
+name: reproduce
+
+# Each job fetches its pinned inputs, reruns an auditor from them and fails unless the regenerated outputs are
+# byte-identical to the committed ones and every check passes.
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  hospital:
+    name: Hospital claims
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: make hospital-inputs
+      - run: make hospital PYTHON=python
+      - run: make hospital-test PYTHON=python
+      - run: make hospital-eval PYTHON=python
+
+  civil:
+    name: Civil works and drilling
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: make setup PYTHON=python
+      - run: make civil-inputs
+      - run: make civil
+      - run: make civil-verify

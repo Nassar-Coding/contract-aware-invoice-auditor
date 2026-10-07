@@ -1,0 +1,140 @@
+# G4 decision register: how G4 applies chronology and shared state, and which state outcomes it keeps open.
+# Each entry: the reading applied, the text that decides it (read on the scan), the alternative(s) and their effect, the
+# discriminating histories (verification/g4/histories, compared with the independent readers by
+# tools/g4_history_compare.py), and the scope key computed by audit/g4_run.py into verification/g4/decision_scopes.json.
+# A reading is never adopted because it matches billing. tools/verify_g4.py (Y9) checks every entry against the scopes.
+version: 1
+decisions:
+  - id: G4-D1
+    title: Order of the civil band count
+    status: decided in part
+    reading: "Measurements are counted in order of execution date (Sch 4 Part 3 p24 counts the quantity measured from zero at the start of each Contract Year). Measurements of ONE date have no stated order: Sch 4 Part 3 substitutes Cl.30 (p6), whose 'application number and then line number' went with it. Where the order of a date's measurements changes a division at a band edge, every order is carried ('order' alternatives, owner G5), Cl.30's former wording labelled as one of them; where it changes nothing, the date's lines are counted in that conventional order with no alternative."
+    basis: ["Sch 4 Part 3 (p24)", "Cl.30 (p6), substituted"]
+    alternatives: {application_order: "count in application-number order across dates (Cl.30's substituted wording): rejected, the substitution removed it (all four readers)", submission_order: "count in submission order: not stated anywhere"}
+    histories: [CW-H01, CW-H02]
+    scope_key: G4-D1_order
+    effect: "8 lines carry order alternatives (4 same-date pairs at an edge); PA-00611-04 is billed at the Cl.30-wording value"
+  - id: G4-D2
+    title: Contract Year of the band count and of the footage count
+    status: open
+    reading: "Kept open: civil Q12 (reset on 5 January 2026 vs none) and drilling Q14 (reset on 1 January 2026 vs none); every ledger is computed under both, and the difference is carried on each line it changes."
+    basis: ["CW 3A (p32)", "DDS 3A (p35)", "Sch 4 Part 3 (p24)", "DDS Sch 2 Part 2 (p17)"]
+    alternatives: {A: "anniversary reset", B: "no new Contract Year in the extension ('an extension does not begin a new Contract Year')"}
+    histories: [CW-H03, CW-H12, DDS-H06]
+    scope_key: G4-D2_contract_year
+    questions: [Q12, Q14]
+    effect: "CW 270 lines carry Q12; DDS no line changes (no well reaches 40,000 m in a Contract Year)"
+  - id: G4-D3
+    title: A weekly item is measured by the week (Q7 CW)
+    status: decided
+    reading: "A.16.010 is measured 'per week in operation' against one dewatering log per week (Sch 1 p17; Sch 5 note p27; 47A p33). Lines citing the same week's log for the same item and work area are the same measurement: Cl.44 (p8) 'No item shall be measured twice ... the later measurement shall be disallowed in full' applies whatever work date each line states inside the week."
+    basis: ["Cl.44 (p8)", "Sch 5 note (p27)", "47A (p33)"]
+    alternatives: {Q7_A_literal: "each work date is a separate 'date' under Cl.44, so the same week is payable once per line: rejected - it measures one week of dewatering more than once, which Cl.44's first sentence forbids", Q7_B: "the further lines are unsupported rather than duplicates: the same money (the later lines are not payable), a different label"}
+    histories: [CW-H08, CW-R02]
+    scope_key: G4-D3_weekly_duplicates
+    questions: [Q7]
+  - id: G4-D4
+    title: Exclusion period (Q6 C decided, Q6 D open)
+    status: decided in part
+    reading: "A.14.020 is not measurable on the two days following an A.14.010 measurement on the same work area (D+1, D+2: Cl.32 p6, Sch 4 Part 5 p26 '2 days following'); E.51.020 on the day a listed D item is measured there (P21 p13). Whether the day D itself is excluded is kept open (Q6 D): P19 (p13) 'within two days of the measurement' includes it, Cl.32 and Sch 4 Part 5 'following' do not; Part P prevails over Parts I-III (p12) and a Schedule over the Conditions (p3), but nothing ranks Part P against a Schedule."
+    basis: ["Cl.32 (p6)", "Sch 4 Part 5 (p26)", "P19, P21 (p13)", "Agreement (p3)", "Part P preamble (p12)"]
+    alternatives: {Q6_C_day1_only: "only D+1: rejected, 'two days following' are D+1 and D+2 (all four readers)", Q6_D: "day D included or not - carried"}
+    histories: [CW-H06, CW-H07, CW-R03]
+    scope_key: G4-D4_exclusion_window
+    questions: [Q6]
+  - id: G4-D5
+    title: The later measurement (Cl.44) is the later submission
+    status: decided
+    reading: "Repeated measurements share item, work area and date, so 'the later measurement' can only be the one presented later: the application submitted later; within one application, the later line. An application number is not a date. Where the applications were submitted on the same day, which is later is not established: each is carried as the one that stands ('earlier' alternatives, owner G5)."
+    basis: ["Cl.44 (p8)"]
+    alternatives: {application_number: "the higher application number is the later: not a date (r4 kept it open in CW-H08; same money there)", work_date: "for a weekly item the stated work date: does not date the weekly measurement (G4-D3)"}
+    histories: [CW-H05, CW-H08, CW-R01, CW-R02]
+    scope_key: G4-D5_later_measurement
+  - id: G4-D6
+    title: Daily limits apply to the quantity that stands, per item/work area/day (CW) and per well-day (DDS, D6)
+    status: decided
+    reading: "Cl.31 (p6) / Cl.22 (p6) limit the quantity charged for the day; the excess is not payable and not carried forward. They apply after Cl.44 / Cl.29 have left one measurement or charge standing for the day, so the limit is applied to that one (a repeat is disallowed in full, not 'within the limit')."
+    basis: ["CW Cl.31 (p6)", "Sch 4 Part 4 (p26)", "DDS Cl.22 (p6)", "Sch 3 Part 5 (pp21-22)", "D6"]
+    alternatives: {sum_all_charges: "sum every charge of the day and cut the excess from the later one: the same money whenever the later is disallowed in full, which Cl.44/Cl.29 require"}
+    histories: [CW-H05, CW-H07, DDS-H01]
+    scope_key: G4-D6_daily_limits
+    effect: "CW PA-00243-10 (E.51.020 3 -> 1) and PA-00845-03 (D.41.030 3,440 -> 3,200); DDS no line over its limit once one charge stands"
+  - id: G4-D7
+    title: Which quantity advances the civil band count (Q6 A/B)
+    status: open
+    reading: "Kept open. A rejected quantity (wrong unit, duplicate, excluded, outside the term) never counts. A quantity unpaid for want of its record counts under Q6 A ('the quantity measured', Sch 4 Part 3 p24) and not under Q6 B. Both ledgers are computed."
+    basis: ["Sch 4 Part 3 (p24)", "Cl.46 (p8)"]
+    alternatives: {A: "measured, including unpaid for want of record", B: "payable only"}
+    histories: [CW-H04]
+    scope_key: G4-D7_band_quantity_basis_Q6
+    questions: [Q6]
+    effect: "no line of the pinned data differs between A and B"
+  - id: G4-D8
+    title: A3 retrospective difference and its one recipient
+    status: decided in part
+    reading: "Every line G3 protected from A3 (submitted before the issue date) is re-evaluated as if submitted on the issue date; the difference is the new value less the G4 value of the line (both after state), and is posted ONCE, on the single recipient document. The recipient is kept open (Q1): CW A 'on or after' (31A) - a tie of three applications submitted on the issue date, B 'after' (A3) - PA-00443; DDS A MDS-01625, B a tie of three, C each well's own first invoice (56 of 68 wells have none). The total is reported per shared reading (Q12 etc.); a well's class is one fact for all its lines."
+    basis: ["CW 31A (p32)", "CW A3 (p43)", "DDS 36A (p35)", "DDS A3 (p42)", "DDS Cl.32 (p8)"]
+    alternatives: {post_to_every_candidate: "never (it would count the adjustment more than once)", smallest_number: "never (no rule)"}
+    histories: [CW-H09, CW-H12, DDS-H05]
+    scope_key: G4-D8_A3
+    questions: [Q1, Q2]
+  - id: G4-D9
+    title: P23 under Q3 A is not posted
+    status: decided
+    reading: "Under Q3 A (decided at G3) a line without its required record is not payable in its own valuation, so it was never included in one; P23 (p14) deducts only an amount that was. Posting a deduction as well would count the same amount twice. The link to the next valuation is recorded."
+    basis: ["P23 (p14)", "Cl.46 (p8)", "spec/g3_decisions.yaml Q3"]
+    alternatives: {Q3_B: "the line keeps its value and P23 deducts it from the next valuation (only under the rejected Q3 B)"}
+    histories: [CW-H04, CW-H11]
+    scope_key: G4-D9_P23
+  - id: G4-D10
+    title: Retention history and the 45A release
+    status: decided
+    reading: "5% of each application's value after state, rounded down to the halala (Cl.45 p8), per reading where lines carry alternatives; one half of the retention on all earlier applications released, rounded down, once, on the first application submitted after 30 September 2026 (45A p32, D5)."
+    basis: ["Cl.45 (p8)", "45A (p32)", "D5"]
+    alternatives: {}
+    histories: [CW-H10]
+    scope_key: G4-D10_retention
+  - id: G4-D11
+    title: Charged once (Cl.26, 27, 29, 31) - which charge stands (Q7 C)
+    status: decided in part
+    reading: "A charge not on the day the contract gives it (Cl.26 run day, Cl.27 first/last day on the well - the first/last Daily Drilling Report of the well; LW-430 only where an LWD tool was run) never stands. Of the admissible charges of one service for one well-day, run, well or loss, one stands; no clause says which (Q7 C, CW Cl.44's rule is not in the drilling contract), so each is carried as the one that stands ('stands' alternatives, owner G5)."
+    basis: ["DDS Cl.26, 27, 29, 31 (p7)", "Sch 5 (p24)", "P4 (p11)"]
+    alternatives: {earlier_invoice_stands: "the charge on the earlier-submitted invoice stands and the later one is the repeat - the independent readers' reading where the invoices differ; not stated in the text (recorded for a policy decision, Q7 C)"}
+    histories: [DDS-H01, DDS-H03, DDS-H04, DDS-H07, DDS-R01, DDS-R02]
+    scope_key: G4-D11_once_only
+    questions: [Q7]
+  - id: G4-D12
+    title: HC-630 once per BHA run under the Schedule 8 reading (Q5 residual)
+    status: decided
+    reading: "Under the Schedule 8 reading ('each BHA run, as Clause 26 describes', p28) one HC-630 charge per BHA run; Cl.26 gives HC-630 no day, so which charge of the run stands is carried (Q7 C). Under the Cl.30 reading each charge keeps its count. The choice between the readings stays G5's (spec/g3_decisions.yaml Q5)."
+    basis: ["Sch 8 (p28)", "Cl.26, Cl.30 (p7)"]
+    alternatives: {}
+    histories: [DDS-H03]
+    scope_key: G4-D12_HC630_per_run
+    effect: "no BHA run of the pinned data has more than one HC-630 charge"
+  - id: G4-D13
+    title: Annual footage per well and Contract Year (Q11 x Q14)
+    status: open
+    reading: "The metres already drilled on the well in the Contract Year before each PD-210 interval are counted under Q11 A (PD-210 metres charged) and B (every metre drilled, Part A depths) and Q14 A/B; an interval crossing 40,000 or 120,000 m is divided; each piece at the depth rate x its percentage, rounded half to even (Cl.17)."
+    basis: ["Sch 2 Part 2 (p17)", "3A (p35)", "Cl.17 (p6)", "D4"]
+    alternatives: {}
+    histories: [DDS-H06]
+    scope_key: G4-D13_footage
+    questions: [Q11, Q14]
+  - id: G4-D14
+    title: PD-210 intervals charged twice
+    status: decided in part
+    reading: "PD-210 may be charged more than once on a day for different depth intervals (Cl.29); where intervals overlap, the overlapping metres are charged once; which charge keeps them is carried (Q7 C), the other valued on its remaining metres."
+    basis: ["Cl.23 (p6)", "Cl.29 (p7)"]
+    alternatives: {}
+    histories: [DDS-H02]
+    scope_key: G4-D14_pd210_overlaps
+    effect: "184 same-day PD-210 groups on the pinned data, none overlapping"
+  - id: G4-D15
+    title: A loss is charged once
+    status: decided
+    reading: "Cl.31 (p7): the lost tool's charge is one unit for the loss; charges of the same tool code for the same well and lost-in-hole run are one loss (stands alternatives where more than one is admissible)."
+    basis: ["Cl.31 (p7)", "31A (p35)"]
+    alternatives: {}
+    histories: [DDS-H07]
+    scope_key: G4-D15_loss_once

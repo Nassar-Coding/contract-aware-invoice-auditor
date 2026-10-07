@@ -1,0 +1,65 @@
+[
+ {
+  "line": "PA-00111-12",
+  "application": "PA-00111",
+  "next_valuation": "PA-00250",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ },
+ {
+  "line": "PA-00111-13",
+  "application": "PA-00111",
+  "next_valuation": "PA-00250",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ },
+ {
+  "line": "PA-00170-04",
+  "application": "PA-00170",
+  "next_valuation": "PA-00513",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ },
+ {
+  "line": "PA-00609-01",
+  "application": "PA-00609",
+  "next_valuation": "PA-00746",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ },
+ {
+  "line": "PA-00613-01",
+  "application": "PA-00613",
+  "next_valuation": "PA-00746",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ },
+ {
+  "line": "PA-00631-10",
+  "application": "PA-00631",
+  "next_valuation": "PA-00126",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ },
+ {
+  "line": "PA-00672-04",
+  "application": "PA-00672",
+  "next_valuation": "PA-00166",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ },
+ {
+  "line": "PA-00678-06",
+  "application": "PA-00678",
+  "next_valuation": "PA-00375",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ },
+ {
+  "line": "PA-00766-12",
+  "application": "PA-00766",
+  "next_valuation": "PA-00253",
+  "status": "not posted",
+  "basis": "Q3 reading A (decided at G3): the item is not payable in its own valuation until its record is delivered (Cl.46), so it was never included in a valuation; P23 deducts only an amount that was (p14). Posting a deduction as well would count the same amount twice."
+ }
+]

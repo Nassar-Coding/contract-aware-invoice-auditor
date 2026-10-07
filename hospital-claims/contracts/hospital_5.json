@@ -1,0 +1,5046 @@
+{
+  "bundles": [
+    {
+      "a": "H5-S026",
+      "a_cents": 172450,
+      "b": "H5-S082",
+      "b_cents": 388450,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L357"
+    },
+    {
+      "a": "H5-S030",
+      "a_cents": 17500,
+      "b": "H5-S074",
+      "b_cents": 3500,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L358"
+    },
+    {
+      "a": "H5-S040",
+      "a_cents": 5925,
+      "b": "H5-S077",
+      "b_cents": 94325,
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L359"
+    }
+  ],
+  "contract_number": "INS-H5-2024-0731",
+  "coverage": [
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "Network Reimbursement Agreement",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L1",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "1. Parties, Term and Network",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L13",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "2. Interpretation",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L29",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "3. Calculating the Effective Unit Rate",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L39",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "4. Table 1 \u2014 Base Rates",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L49",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "Table 2 \u2014 Facility Multipliers",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L138",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "Table 3 \u2014 Plan-Tier Multipliers",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L229",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "5. Threshold Premiums",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L320",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "6. Non-Business-Day Uplifts",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L337",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "7. Bundled Services",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L351",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "8. Cumulative Volume Discounts",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L361",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "9. Exclusion Windows",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L383",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "\u00a71.2/Table2 refer to line facility, absent in CSV. Adopt invoice facility as each line facility from supplied relational shape and \u00a710.1; this is a recorded projection assumption, with confidence capped at .65 when outcome-relevant. \u00a79 direction/equality unresolved. \u00a78 subsequent units interpreted as strictly prior whole-term billed units without facility/tier resets. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "10. Invoicing",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L395",
+      "state": "accepted"
+    },
+    {
+      "qualification": "per hour, per item supplies no independent second quantity dimension; no invented conversion.",
+      "representation": "Routine Psychiatric Telemetry Monitoring",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L122",
+      "state": "unresolved"
+    }
+  ],
+  "exclusions": [
+    {
+      "anchor": "H5-S006",
+      "days": 30,
+      "service": "H5-S018",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L387"
+    },
+    {
+      "anchor": "H5-S027",
+      "days": 30,
+      "service": "H5-S025",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L388"
+    },
+    {
+      "anchor": "H5-S005",
+      "days": 14,
+      "service": "H5-S045",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L389"
+    },
+    {
+      "anchor": "H5-S064",
+      "days": 14,
+      "service": "H5-S050",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L390"
+    },
+    {
+      "anchor": "H5-S023",
+      "days": 10,
+      "service": "H5-S051",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L391"
+    },
+    {
+      "anchor": "H5-S006",
+      "days": 10,
+      "service": "H5-S059",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L392"
+    },
+    {
+      "anchor": "H5-S047",
+      "days": 10,
+      "service": "H5-S072",
+      "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L393"
+    }
+  ],
+  "hospital": "H5",
+  "review_state": "accepted",
+  "schema_version": "2",
+  "semantics": {
+    "adjustment_order": [
+      "bundle",
+      "facility",
+      "tier",
+      "daily_premium",
+      "weekend_uplift",
+      "volume_discount"
+    ],
+    "cap_policy": "single_line_cap_otherwise_abstain",
+    "duplicate_policy": "abstain_repeated_service_day",
+    "exclusion_boundary": "inclusive_at_equal",
+    "exclusion_direction": "uncertain_direction",
+    "facility_source": "invoice_projection_reviewed",
+    "invoice_eligibility": "supplied_invoice_facts",
+    "refs": [
+      "data/source/contracts/hospital_5/network_reimbursement_agreement.md"
+    ],
+    "rounding": "half_up_cent",
+    "service_date_not_after_invoice": true,
+    "service_day": "calendar",
+    "version_precedence": "single",
+    "volume_basis": "contract_term_all_patients_strict_prior_billed_units"
+  },
+  "semantics_version": "2",
+  "services": [
+    {
+      "daily_cap": 24,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S001",
+      "name": "Advanced Cardiac Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L53",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L144",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L235"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 3375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L53",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S002",
+      "name": "Advanced Dermatologic Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L54",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L145",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L236"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 8175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L54",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S003",
+      "name": "Ambulatory Hepatic Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L55",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L365",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L146",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L237"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 19775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L55",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 80,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L365"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S004",
+      "name": "Ambulatory Metabolic Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L56",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L341",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L147",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L238"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 3900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L56",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        115,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S005",
+      "name": "Ambulatory Oncology Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L57",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L148",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L239"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 6675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L57",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S006",
+      "name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L58",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L149",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L240"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 126525,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L58",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S007",
+      "name": "Assisted Cardiac Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L59",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L342",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L150",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L241"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 156675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L59",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        120,
+        100
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S008",
+      "name": "Assisted Hepatic Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L60",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L151",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L242"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 19025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L60",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L326"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S009",
+      "name": "Assisted Immunologic Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L61",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L326",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L152",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L243"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 24500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L61",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S010",
+      "name": "Assisted Metabolic Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L62",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L153",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L244"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 110150,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L62",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S011",
+      "name": "Assisted Renal Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L63",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L154",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L245"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 161650,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L63",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S012",
+      "name": "Bedside Oncology Transfusion Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L64",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L155",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L246"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 3025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L64",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S013",
+      "name": "Bedside Paediatric Consultation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L65",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L156",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L247"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 421875,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L65",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S014",
+      "name": "Comprehensive Gastrointestinal Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L66",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L157",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L248"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 141500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L66",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S015",
+      "name": "Comprehensive Geriatric Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L67",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L158",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L249"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 11725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L67",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S016",
+      "name": "Comprehensive Metabolic Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L68",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L159",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L250"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 47650,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L68",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S017",
+      "name": "Comprehensive Oncology Transfusion Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L69",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L160",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L251"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 414475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L69",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S018",
+      "name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L70",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L161",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L252"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 105950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L70",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L327"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S019",
+      "name": "Comprehensive Palliative Consultation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L71",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L327",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L162",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L253"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 35050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L71",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S020",
+      "name": "Continuous Immunologic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L72",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L163",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L254"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 7025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L72",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S021",
+      "name": "Continuous Metabolic Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L73",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L366",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L164",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L255"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 550750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L73",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 80,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L366"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S022",
+      "name": "Continuous Otolaryngologic Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L74",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L165",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L256"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 14675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L74",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S023",
+      "name": "Continuous Pulmonary Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L75",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L166",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L257"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 4300,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L75",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S024",
+      "name": "Elective Metabolic Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L76",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L367",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L368",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L167",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L258"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 28450,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L76",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L367"
+        },
+        {
+          "exceeds": 300,
+          "multiplier": [
+            75,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L368"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S025",
+      "name": "Elective Ophthalmic Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L77",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L168",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L259"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 94300,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L77",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S026",
+      "name": "Elective Ophthalmic Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L78",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L169",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L260"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 195975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L78",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S027",
+      "name": "Elective Pulmonary Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L79",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L170",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L261"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 353625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L79",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S028",
+      "name": "Elective Vascular Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L80",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L343",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L171",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L262"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 284175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L80",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        112,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S029",
+      "name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L81",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L344",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L172",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L263"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 707500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L81",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        120,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S030",
+      "name": "Emergency Metabolic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L82",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L173",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L264"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 20575,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L82",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S031",
+      "name": "Emergency Neurological Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L83",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L174",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L265"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 440750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L83",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S032",
+      "name": "Emergency Oncology Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L84",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L175",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L266"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 441250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L84",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          120,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L328"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S033",
+      "name": "Emergency Pulmonary Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L85",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L328",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L176",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L267"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 5850,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L85",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S034",
+      "name": "Emergency Urologic Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L86",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L177",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L268"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 17325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L86",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S035",
+      "name": "Extended Dermatologic Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L87",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L178",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L269"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 14475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L87",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S036",
+      "name": "Extended Endocrine Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L88",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L369",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L370",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L179",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L270"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 15700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L88",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L369"
+        },
+        {
+          "exceeds": 300,
+          "multiplier": [
+            70,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L370"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S037",
+      "name": "Extended Neurological Consultation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L89",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L345",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L180",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L271"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 17100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L89",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        125,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S038",
+      "name": "Extended Ophthalmic Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L90",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L181",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L272"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 27750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L90",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S039",
+      "name": "Extended Psychiatric Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L91",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L182",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L273"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 145200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L91",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S040",
+      "name": "Extended Urologic Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L92",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L183",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L274"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 7400,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L92",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S041",
+      "name": "Focused Endocrine Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L93",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L184",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L275"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 3925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L93",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S042",
+      "name": "Focused Neurological Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L94",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L185",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L276"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 1950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L94",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L329"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S043",
+      "name": "Focused Urologic Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L95",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L329",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L186",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L277"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 7700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L95",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S044",
+      "name": "Inpatient Dermatologic Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L96",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L371",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L372",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L187",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L278"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 132400,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L96",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L371"
+        },
+        {
+          "exceeds": 300,
+          "multiplier": [
+            80,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L372"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S045",
+      "name": "Inpatient Immunologic Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L97",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L188",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L279"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 9500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L97",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S046",
+      "name": "Inpatient Psychiatric Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L98",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L189",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L280"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 12175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L98",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S047",
+      "name": "Inpatient Pulmonary Critical Care Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L99",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L190",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L281"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 57800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L99",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S048",
+      "name": "Intensive Hepatic Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L100",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L191",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L282"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 21375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L100",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S049",
+      "name": "Intensive Oncology Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L101",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L373",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L192",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L283"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 247750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L101",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 120,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L373"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S050",
+      "name": "Intermittent Orthopaedic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L102",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L193",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L284"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 37375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L102",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S051",
+      "name": "Intermittent Urologic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L103",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L194",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L285"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 12125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L103",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S052",
+      "name": "Intermittent Vascular Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L104",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L195",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L286"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 3850,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L104",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S053",
+      "name": "Outpatient Dermatologic Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L105",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L196",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L287"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 19375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L105",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S054",
+      "name": "Outpatient Haematology Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L106",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L346",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L197",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L288"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 19050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L106",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        120,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S055",
+      "name": "Outpatient Metabolic Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L107",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L347",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L198",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L289"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 16725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L107",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        110,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S056",
+      "name": "Outpatient Neurological Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L108",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L199",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L290"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 111475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L108",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L330"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S057",
+      "name": "Outpatient Psychiatric Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L109",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L330",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L200",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L291"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 19300,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L109",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S058",
+      "name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L110",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L348",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L201",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L292"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 431375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L110",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        120,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S059",
+      "name": "Preoperative Endocrine Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L111",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L202",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L293"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 33725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L111",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S060",
+      "name": "Preoperative Gastrointestinal Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L112",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L374",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L375",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L203",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L294"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 3750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L112",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 120,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L374"
+        },
+        {
+          "exceeds": 360,
+          "multiplier": [
+            75,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L375"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S061",
+      "name": "Preoperative Immunologic Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L113",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L349",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L204",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L295"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 142550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L113",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        112,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L331"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S062",
+      "name": "Preoperative Musculoskeletal Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L114",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L331",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L205",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L296"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 6675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L114",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 6,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          21,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S063",
+      "name": "Preoperative Ophthalmic Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L115",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L206",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L297"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 13975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L115",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S064",
+      "name": "Preoperative Paediatric Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L116",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L207",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L298"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 15675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L116",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L332"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S065",
+      "name": "Routine Dermatologic Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L117",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L332",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L208",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L299"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 96875,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L117",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 16,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L333"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S066",
+      "name": "Routine Geriatric Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L118",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L333",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L209",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L300"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 126725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L118",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 24,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S067",
+      "name": "Routine Infectious Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L119",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L210",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L301"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 7150,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L119",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S068",
+      "name": "Routine Neurological Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L120",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L211",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L302"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 18625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L120",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L334"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S069",
+      "name": "Routine Psychiatric Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L121",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L334",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L212",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L303"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 30950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L121",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S070",
+      "name": "Routine Psychiatric Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L122",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L213",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L304"
+      ],
+      "support": "composite_dimension_unobserved",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour_per_item",
+      "versions": [
+        {
+          "cents": 2950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L122",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S071",
+      "name": "Routine Urologic Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L123",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L214",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L305"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 5100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L123",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S072",
+      "name": "Routine Urologic Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L124",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L215",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L306"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 15250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L124",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S073",
+      "name": "Specialist Dermatologic Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L125",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L216",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L307"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 10450,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L125",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S074",
+      "name": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L126",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L217",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L308"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 4125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L126",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L335"
+      },
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S075",
+      "name": "Specialist Metabolic Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L127",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L335",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L218",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L309"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 19825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L127",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S076",
+      "name": "Standard Infectious Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L128",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L219",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L310"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 19225,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L128",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          11,
+          10
+        ]
+      },
+      "id": "H5-S077",
+      "name": "Standard Paediatric Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L129",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L220",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L311"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 117900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L129",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S078",
+      "name": "Standard Psychiatric Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L130",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L221",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L312"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 5200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L130",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          23,
+          25
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          6,
+          5
+        ]
+      },
+      "id": "H5-S079",
+      "name": "Supervised Immunologic Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L131",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L376",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L377",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L222",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L313"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          9,
+          10
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 268575,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L131",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            85,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L376"
+        },
+        {
+          "exceeds": 300,
+          "multiplier": [
+            75,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L377"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          27,
+          25
+        ]
+      },
+      "id": "H5-S080",
+      "name": "Supervised Metabolic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L132",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L223",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L314"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 16775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L132",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          19,
+          20
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S081",
+      "name": "Supervised Otolaryngologic Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L133",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L378",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L379",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L224",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L315"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          21,
+          20
+        ],
+        "GOLD": [
+          19,
+          20
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 28300,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L133",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 60,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L378"
+        },
+        {
+          "exceeds": 180,
+          "multiplier": [
+            80,
+            100
+          ],
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L379"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          9,
+          10
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          23,
+          20
+        ]
+      },
+      "id": "H5-S082",
+      "name": "Supervised Palliative Consultation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L134",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L225",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L316"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          23,
+          25
+        ],
+        "SILVER": [
+          49,
+          50
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 441425,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L134",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S083",
+      "name": "Supervised Vascular Consultation",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L135",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L226",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L317"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 156100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L135",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {
+        "F-COAST": [
+          1,
+          1
+        ],
+        "F-MAIN": [
+          1,
+          1
+        ],
+        "F-NORTH": [
+          1,
+          1
+        ]
+      },
+      "id": "H5-S084",
+      "name": "Supervised Vascular Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L136",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L227",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L318"
+      ],
+      "support": "supported",
+      "tier_multipliers": {
+        "BRONZE": [
+          1,
+          1
+        ],
+        "GOLD": [
+          1,
+          1
+        ],
+        "SILVER": [
+          1,
+          1
+        ]
+      },
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 20175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L136",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    }
+  ],
+  "source_hashes": {
+    "data/source/contracts/hospital_5/network_reimbursement_agreement.md": "cbdd2f9c2bc3b31e6ba8f3ae1c4910e6e9aba79970df333500d886b0e5f83ffa"
+  },
+  "term": [
+    "2024-01-01",
+    "2025-12-31"
+  ]
+}

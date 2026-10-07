@@ -1,0 +1,41 @@
+rn ,
+DDS-2025-118 | Directional Drilling Services
+PART III — PRICING
+17. Rounding
+Every amount is ascertained in cents. Where a step of the build-up in Clause 18 produces a fraction of a
+cent, the result of that step is rounded to the nearest cent before the next step is applied, and a result exactly
+half way between two cents is rounded to the even cent.
+18. Build-up of rates .
+The rate for a charge is the Schedule | rate, or for item PD-210 the Schedule 2 rate, to which is applied, in ~
+this order and no other: first the hole section factor in Schedule 3 Part 1, where the service is section-rated;
+then the well class factor in Schedule 3 Part 2, where the service is class-rated; then the standby percentage
+in Schedule 3 Part 3, where the day is a Standby day. Each step is rounded under Clause 17. The amount
+for the charge is the quantity multiplied by the rate so built up.
+19. Status of a day
+The status of a day, Operating or Standby, and the hole section for that day are as recorded on the Daily
+Drilling Report for that day. A charge shall state the status and the hole section of the day it is for.
+20. Standby
+On a Standby day a service is charged at the percentage of its operating rate stated in Schedule 3 Part 3. A
+service Schedule 3 Part 3 marks as not chargeable is not charged on a Standby day in any quantity. -
+21. Circulating hours
+Item DD-120 is charged per circulating hour recorded on the Daily Drilling Report for an Operating day,
+subject to a minimum of 6 hours on any Operating day on which the tool is in the hole. On a Standby day
+item DD-120 is not charged and item DD-121 is charged instead.
+22. Personnel and daily limits
+Personnel are charged per person-day for the persons recorded on the rig on the Daily Drilling Report. No
+service is charged on any day in a quantity above the daily limit in Schedule 3 Part 5.
+23. Performance drilling footage
+Item PD-210 is charged for the metres drilled on the day, taken from the measured depths on the Daily
+Drilling Report, at the rate of the Schedule 2 depth band in which the metres lie. Where the metres drilled
+on a day cross a band boundary, the metres in each band are charged as a separate charge stating the depths
+at which that part starts and ends. A boundary depth belongs to the shallower band. Bands end at 1,500 m,
+3,000 m and 4,500 m. Item PD-210 is charged only on the performance-drilled sections nominated in the
+call-off.
+24. Metres legged
+Items LW-410, LW-411 and LW-412 are charged for the metres drilled on an Operating day while the tool
+is in the hole, which are the metres logged.
+25. Metres reamed
+Item RM-510 is charged for the metres drilled on an Operating day while the underreamer is in the hole,
+which are the metres reamed.
+Page 6
+TN _

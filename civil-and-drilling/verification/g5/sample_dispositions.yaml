@@ -1,0 +1,20 @@
+about: >-
+  Settlement of every disagreement between the G5 engine and the isolated readers (tools/g5_sample_compare.py), settled
+  against the scan. settled: engine (the reader's outcome is not what the contract says; page cited), reader (engine
+  defect, fixed), both (a reading the register leaves open; the engine applies the ambiguity rule Q9-2), presentation.
+dispositions:
+  "PA-00735|cw_a_r2|flag: engine 0 reader 1":
+    settled: engine
+    basis: >-
+      Line PA-00735-03 bills 7 against a joint survey of 8. 33A (p32): 'a measured quantity not exceeding the surveyed
+      quantity by more than 2 per cent is payable as measured' - 7 does not exceed 8, so it is payable as measured; 33A is
+      the clause that states the consequence of a measured quantity differing from the survey. Claiming less than the survey supports is not a breach (Q10 A: nothing obliges a charge).
+      The other reader of the packet (r1) reached 0 on the same text; r2 itself gave the 33A reading as an alternative.
+  "PA-00443|cw_a_r2|flag: engine 1 reader 0":
+    settled: both
+    basis: >-
+      PA-00443 is the A3 recipient under A3's own 'after' (p43) and not under 31A's 'on or after' (p32), where the
+      recipient is one of three applications submitted on 12 May 2026. The register keeps Q1 open (spec/g5_decisions.yaml
+      Q1); the reader adopted 31A and gave the A3 reading (flag 1) as its alternative. Under the ambiguity rule (Q9-2)
+      readings that disagree on whether the invoice is wrong give flag 1 at confidence 0.50, which is the engine's
+      outcome; the other reader (r1) flagged it 1.

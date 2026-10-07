@@ -1,0 +1,508 @@
+=== PAGE 17 ===
+TITLE: SCHEDULE 1 — BILL OF QUANTITIES
+TEXT: The rates below are base rates and are subject to the build-up described in Clause 27. They are exclusive of Value Added Tax.
+TABLE 1: Series A — Site Clearance and Earthworks
+COLUMNS: Code | Description | Unit | Est. qty | Rate (SAR)
+ROW: A.11.010 | Site clearance, vegetation and topsoil strip | m2 | 3,360 | 3.85
+ROW: A.11.020 | Removal of existing hardstanding, broken out | m2 | 3,880 | 12.40
+ROW: A.12.010 | General excavation to reduce level | m3 | 2,350 | 21.50
+ROW: A.12.020 | Excavation in trench, depth not exceeding 2 m | m3 | 2,675 | 34.80
+ROW: A.12.030 | Excavation in trench, depth 2 m to 4 m | m3 | 575 | 47.60
+ROW: A.13.010 | Disposal of excavated material off site | m3 | 2,600 | 18.90
+ROW: A.13.020 | Retention of excavated material on site, stockpiled | m3 | 500 | 6.40
+ROW: A.14.010 | Imported granular fill, placed and compacted | m3 | 425 | 53.20
+ROW: A.14.020 | Backfilling to trenches with selected arisings | m3 | 750 | 22.40
+ROW: A.11.030 | Grubbing up tree roots, girth exceeding 600 mm | no. | 52 | 148.00
+ROW: A.12.040 | Excavation in trench, depth exceeding 4 m | m3 | 900 | 69.20
+ROW: A.12.050 | Excavation for manholes and chambers | m3 | 1,225 | 52.40
+ROW: A.12.060 | Trimming of formation to level and gradient | m2 | 2,480 | 6.90
+ROW: A.13.030 | Double handling of stockpiled material | m3 | 825 | 9.80
+ROW: A.14.030 | Geotextile separation membrane, laid and lapped | m2 | 1,720 | 14.60
+ROW: A.15.010 | Earthwork support to trenches, depth to 2 m | m2 | 1,080 | 31.80
+ROW: A.15.020 | Earthwork support to trenches, depth exceeding 2 m | m2 | 1,600 | 49.50
+ROW: A.16.010 | Dewatering by wellpoint, per week in operation | week | 74 | 1,480.00
+TABLE 2: Series B — Concrete Works
+COLUMNS: Code | Description | Unit | Est. qty | Rate (SAR)
+ROW: B.21.010 | Blinding concrete, C15/20, thickness 75 mm | m2 | 4,000 | 29.60
+ROW: B.21.020 | Reinforced concrete to foundations, C32/40 | m3 | 400 | 415.00
+ROW: B.21.030 | Reinforced concrete to slabs, C32/40 | m3 | 725 | 389.00
+ROW: B.22.010 | Formwork to vertical faces, basic finish | m2 | 520 | 74.50
+ROW: B.22.020 | Formwork to soffits, propped, height to 3.5 m | m2 | 1,040 | 91.80
+ROW: B.23.010 | High-yield reinforcement bar, cut, bent and fixed | tonne | 46 | 4,120.00
+ROW: B.24.010 | Waterstop to construction joints, 230 mm | lm | 990 | 67.40
+ROW: B.21.040 | Reinforced concrete to walls, C32/40 | m3 | 1,050 | 448.00
+NOTE: Series A codes are not in numeric order as printed (A.11.030 appears after A.14.020; A.12.040-A.16.010 follow). Series B: B.21.040 printed last, after B.24.010. Header: "CW-2025-0417-CIV | Civil and Earthworks Package". Footer: "Page 17". Scan has scattered noise specks (not read as characters).
+
+=== PAGE 18 ===
+TITLE: (no page heading; continuation of Series B table from page 17)
+TABLE 1: (Series B — Concrete Works, continued; no heading printed)
+COLUMNS: Code | Description | Unit | Est. qty | Rate (SAR)
+ROW: B.21.050 | Mass concrete fill to voids, C20/25 | m3 | 1,375 | 296.00
+ROW: B.22.030 | Formwork to edges and risers, height to 500 mm | lm | 1,170 | 42.60
+ROW: B.23.020 | Mesh reinforcement, A393, laid and lapped | m2 | 1,440 | 38.40
+ROW: B.25.010 | Cast-in sockets and holding-down bolt assemblies | no. | 172 | 219.00
+ROW: B.26.010 | Surface treatment, power float to slabs | m2 | 2,120 | 17.20
+ROW: B.27.010 | Movement joint, 20 mm, sealed both faces | lm | 1,890 | 89.50
+TABLE 2: Series C — Drainage and Ducting
+COLUMNS: Code | Description | Unit | Est. qty | Rate (SAR)
+ROW: C.31.010 | uPVC drainage pipe, 225 mm, laid and jointed | lm | 570 | 86.20
+ROW: C.31.020 | Ductile iron pipe, 400 mm, laid and jointed | lm | 960 | 214.00
+ROW: C.32.010 | Precast manhole, 1200 mm diameter, depth to 3 m | no. | 116 | 1,860.00
+ROW: C.32.020 | Gully pot and connection to carrier drain | no. | 168 | 287.00
+ROW: C.33.010 | Ducting, 4-way 110 mm, bedded in sand | lm | 1,170 | 59.10
+ROW: C.31.030 | uPVC drainage pipe, 150 mm, laid and jointed | lm | 1,350 | 54.80
+ROW: C.31.040 | Concrete surround to pipe, Class A bedding | lm | 1,740 | 73.10
+ROW: C.32.030 | Precast manhole, 1800 mm diameter, depth to 5 m | no. | 220 | 3,120.00
+ROW: C.32.040 | Manhole cover and frame, Class D400, bedded | no. | 272 | 423.00
+ROW: C.34.010 | Headwall to outfall, precast, bedded | no. | 196 | 965.00
+ROW: C.35.010 | CCTV survey of completed drainage run | lm | 1,770 | 9.40
+TABLE 3: Series D — Pavements
+COLUMNS: Code | Description | Unit | Est. qty | Rate (SAR)
+ROW: D.41.010 | Sub-base, Type 1 granular, 250 mm compacted | m2 | 1,400 | 41.80
+ROW: D.41.020 | Dense bitumen macadam binder course, 60 mm | m2 | 1,920 | 63.50
+ROW: D.41.030 | Stone mastic asphalt surface course, 40 mm | m2 | 2,440 | 89.40
+ROW: D.42.010 | Precast concrete kerb, bedded and haunched | lm | 1,350 | 71.20
+ROW: D.43.010 | Road marking, thermoplastic, 100 mm line | lm | 1,650 | 14.80
+ROW: D.41.040 | Capping layer, 300 mm compacted | m2 | 2,960 | 32.60
+ROW: D.41.050 | Bitumen tack coat between courses | m2 | 3,480 | 6.20
+ROW: D.42.020 | Precast concrete channel, bedded and haunched | lm | 1,740 | 64.80
+ROW: D.42.030 | Edging to footway, flat top, bedded | lm | 2,130 | 39.40
+ROW: D.43.020 | Road marking, thermoplastic, hatched area | m2 | 2,720 | 42.60
+ROW: D.44.010 | Road stud, reflective, bedded in resin | no. | 260 | 31.80
+NOTE: Codes out of numeric order as printed (C.31.030/C.31.040 after C.33.010; D.41.040/D.41.050 after D.43.010). Footer: "Page 18". Noise specks on scan ignored.
+
+=== PAGE 19 ===
+TITLE: (no page heading; Schedule 1 continued)
+TABLE 1: Series E — Ancillary Items and Standing Time
+COLUMNS: Code | Description | Unit | Est. qty | Rate (SAR)
+ROW: E.51.010 | Wet weather standby, plant and operator | hour | 612 | 246.00
+ROW: E.51.020 | Traffic management, two-way signals, per day | day | 192 | 684.00
+ROW: E.52.010 | Joint survey and setting out, chainage band | no. | 244 | 478.00
+ROW: E.51.030 | Standing time, tracked excavator and operator | hour | 924 | 312.00
+ROW: E.53.010 | Attendance on statutory undertaker | day | 213 | 389.00
+ROW: E.54.010 | Temporary haul road, maintained, per week | week | 162 | 876.00
+NOTE: Rates are per unit stated. No item may be measured in a unit other than the one shown (Clause 26). Quantities are estimates and do not limit the quantity that may be measured (Clause 34); they are given for tendering purposes only and are not a measurement.
+NOTE: E.51.030 printed after E.52.010 (out of numeric order). Remainder of page blank. Footer: "Page 19".
+
+=== PAGE 20 ===
+TITLE: SCHEDULE 2 — SITE ZONE FACTORS AND WORK AREAS
+TEXT: The factors below apply to every item in Series A, B, C and D. They do not apply to Series E, which is measured at the base rate in every zone.
+TABLE 1: (zone factors; no separate heading)
+COLUMNS: Zone | Description | Factor
+ROW: Z1 Compound | Within 500 m of the site compound | 1
+ROW: Z2 North Spur | North spur, 500 m to 2 km from the compound | 1.06
+ROW: Z3 Wadi Crossing | Wadi crossing and approaches, restricted access | 1.145
+ROW: Z4 Escarpment | Escarpment platform, single-track haul only | 1.28
+NOTE: The zone applicable is the zone in which the work is physically executed (Clause 4). The factor is applied first in the build-up (Clause 27).
+TABLE 2: Work areas
+TEXT: For Clauses 19, 31, 32, 44 and P6 the Site is divided into the work areas below. A work area may extend into more than one zone.
+COLUMNS: Work area | Extent
+ROW: S-01 Platform North | Northern half of the industrial platform
+ROW: S-02 Platform South | Southern half of the industrial platform
+ROW: S-03 Access Road | Access road, chainage 0+000 to 6+400
+ROW: S-04 Drainage Corridor | Carrier drain corridor and outfall
+ROW: S-05 Compound Extension | Extension to the site compound
+NOTE: Z1 factor printed as "1" (no decimals); Z3 factor printed with three decimals "1.145" (confirmed on zoom). Footer: "Page 20".
+
+=== PAGE 21 ===
+TITLE: SCHEDULE 2A — INDEXED RATES
+TEXT: The items below are priced by reference to the Site Materials Index, base 100.00 at 5 January 2025 (Clause 29A). The rate stated in Schedule 1 for these items is a base rate and is not payable as it stands.
+TABLE 1: (indexed items; no separate heading)
+COLUMNS: Code | Description | Base rate | Unit
+ROW: C.31.010 | uPVC drainage pipe, 225 mm, laid and jointed | 86.20 | lm
+ROW: D.41.030 | Stone mastic asphalt surface course, 40 mm | 89.40 | m2
+TABLE 2: Site Materials Index, as published:
+COLUMNS: Month | Index | Month | Index
+ROW: 2025-01 | 100.00 | 2026-01 | 109.60
+ROW: 2025-02 | 100.40 | 2026-02 | 110.20
+ROW: 2025-03 | 101.10 | 2026-03 | 109.80
+ROW: 2025-04 | 101.80 | 2026-04 | 111.50
+ROW: 2025-05 | 102.60 | 2026-05 | 112.30
+ROW: 2025-06 | 103.90 | 2026-06 | 113.10
+ROW: 2025-07 | 104.70 | 2026-07 | 112.40
+ROW: 2025-08 | 104.20 | 2026-08 | 113.80
+ROW: 2025-09 | 105.30 | 2026-09 | 114.60
+ROW: 2025-10 | 106.80 | 2026-10 | 115.20
+ROW: 2025-11 | 107.40 | 2026-11 | 115.90
+ROW: 2025-12 | 108.10 | 2026-12 | 116.50
+NOTE: Index values confirmed on zoom. Index is not monotonic as printed (2025-08 104.20 < 2025-07 104.70; 2026-03 109.80 < 2026-02 110.20; 2026-07 112.40 < 2026-06 113.10) — recorded, not corrected. Footer: "Page 21".
+
+=== PAGE 22 ===
+TITLE: SCHEDULE 2B — RATES IN UNITED STATES DOLLARS
+TEXT: The rate stated in Schedule 1 for the items below is in USD and is converted under Clause 26A at the rate published for the month in which the work was executed.
+TABLE 1: (USD items; no separate heading)
+COLUMNS: Code | Description | Rate (USD) | Unit
+ROW: B.23.020 | Mesh reinforcement, A393, laid and lapped | 38.40 | m2
+ROW: B.25.010 | Cast-in sockets and holding-down bolt assemblies | 219.00 | no.
+ROW: C.32.040 | Manhole cover and frame, Class D400, bedded | 423.00 | no.
+TABLE 2: Rate of exchange, as published:
+COLUMNS: Month | Halalas per USD | Month | Halalas per USD
+ROW: 2025-01 | 375.00 | 2026-01 | 376.00
+ROW: 2025-02 | 375.10 | 2026-02 | 375.80
+ROW: 2025-03 | 375.00 | 2026-03 | 375.90
+ROW: 2025-04 | 374.90 | 2026-04 | 376.20
+ROW: 2025-05 | 375.20 | 2026-05 | 376.40
+ROW: 2025-06 | 375.30 | 2026-06 | 376.10
+ROW: 2025-07 | 375.10 | 2026-07 | 375.70
+ROW: 2025-08 | 375.00 | 2026-08 | 376.30
+ROW: 2025-09 | 374.80 | 2026-09 | 376.60
+ROW: 2025-10 | 375.40 | 2026-10 | 376.80
+ROW: 2025-11 | 375.60 | 2026-11 | 377.00
+ROW: 2025-12 | 375.50 | 2026-12 | 376.50
+NOTE: Exchange values confirmed on zoom. The three USD rates are numerically identical to the figures printed for the same codes in Schedule 1 (page 18), whose column is headed "Rate (SAR)" — recorded, not reconciled. Footer: "Page 22".
+
+=== PAGE 23 ===
+TITLE: SCHEDULE 3 — GROUND CLASSIFICATION FACTORS
+TEXT: The factors below apply only to the items listed beneath the table. An item not listed is measured without regard to the ground classification (Clause 29).
+TABLE 1: (ground classes; no separate heading)
+COLUMNS: Class | Description | Factor
+ROW: G1 Loose Sand | Loose windblown sand, no excavation support required | 0.94
+ROW: G2 Firm Sabkha | Firm sabkha, the datum classification | 1
+ROW: G3 Cemented Fill | Cemented fill and demolition arisings | 1.12
+ROW: G4 Weathered Rock | Weathered rock, rippable by tracked plant | 1.375
+ROW: G5 Sound Rock | Sound rock requiring breaking or hydraulic splitting | 1.63
+TEXT: Items to which Schedule 3 applies
+TEXT: A.11.020, A.12.010, A.12.020, A.12.030, A.12.040, A.12.050, A.14.020, A.15.010, A.15.020, C.31.010, C.31.020, C.31.030, C.32.010, C.32.030, C.33.010.
+NOTE: G2 Firm Sabkha is the datum and carries a factor of 1. The ground factor is applied after the zone factor and before any uplift (Clause 27).
+NOTE: Factors and item list confirmed on zoom (15 codes listed). Footer: "Page 23".
+
+=== PAGE 24 ===
+TITLE: SCHEDULE 4 — UPLIFTS, REBATES AND LIMITATIONS
+TABLE 1: Part 1 — Night working uplift
+TEXT: The following items, and no others, attract an uplift where the work is executed between 18:00 and 06:00.
+COLUMNS: Code | Description | Uplift
+ROW: A.12.020 | Excavation in trench, depth not exceeding 2 m | 18%
+ROW: A.12.030 | Excavation in trench, depth 2 m to 4 m | 18%
+ROW: A.14.010 | Imported granular fill, placed and compacted | 18%
+ROW: B.21.020 | Reinforced concrete to foundations, C32/40 | 22%
+ROW: B.21.030 | Reinforced concrete to slabs, C32/40 | 22%
+ROW: C.31.010 | uPVC drainage pipe, 225 mm, laid and jointed | 18%
+ROW: D.41.020 | Dense bitumen macadam binder course, 60 mm | 25%
+ROW: D.41.030 | Stone mastic asphalt surface course, 40 mm | 25%
+ROW: D.43.010 | Road marking, thermoplastic, 100 mm line | 25%
+ROW: A.12.040 | Excavation in trench, depth exceeding 4 m | 18%
+ROW: B.21.040 | Reinforced concrete to walls, C32/40 | 22%
+ROW: C.31.030 | uPVC drainage pipe, 150 mm, laid and jointed | 18%
+ROW: D.43.020 | Road marking, thermoplastic, hatched area | 25%
+TABLE 2: Part 2 — Rest-day uplift
+TEXT: The following items attract an uplift where the work is executed on Friday and Saturday.
+COLUMNS: Code | Description | Uplift
+ROW: B.21.020 | Reinforced concrete to foundations, C32/40 | 35%
+ROW: B.21.030 | Reinforced concrete to slabs, C32/40 | 35%
+ROW: D.41.030 | Stone mastic asphalt surface course, 40 mm | 35%
+ROW: B.21.040 | Reinforced concrete to walls, C32/40 | 35%
+TABLE 3: Part 3 — Banded quantities
+TEXT: Clause 30 is substituted. The quantity measured for an item in a Contract Year is taken in the bands below, each part of it at the percentage of the rate shown against its band. The bands are counted from zero at the start of each Contract Year (Clause 3A), and a measurement that crosses a band is divided at the band.
+COLUMNS: Code | Description | Band | Unit | Per cent of rate
+ROW: A.12.010 | General excavation to reduce level | 1 to 4,000 | m3 | 100%
+ROW: A.12.010 | General excavation to reduce level | 4,001 to 16,000 | m3 | 96%
+ROW: A.12.010 | General excavation to reduce level | above 16,000 | m3 | 93%
+ROW: A.12.020 | Excavation in trench, depth not exceeding 2 m | 1 to 1,500 | m3 | 100%
+NOTE: Part 3 table continues on next page (A.12.020 only first band on this page). In "1 to 1,500" a noise speck sits between "1" and "to" (read as "1 to 1,500", not a decimal). Part 1 text says "and no others"; Part 2 text lacks that phrase. Percentages confirmed on zoom. Footer: "Page 24".
+
+=== PAGE 25 ===
+TITLE: (no page heading; Schedule 4 Part 3 — Banded quantities, continued)
+TABLE 1: (Part 3 — Banded quantities, continued; no heading printed)
+COLUMNS: Code | Description | Band | Unit | Per cent of rate
+ROW: A.12.020 | Excavation in trench, depth not exceeding 2 m | 1,501 to 6,000 | m3 | 97%
+ROW: A.12.020 | Excavation in trench, depth not exceeding 2 m | above 6,000 | m3 | 94%
+ROW: A.13.010 | Disposal of excavated material off site | 1 to 5,000 | m3 | 100%
+ROW: A.13.010 | Disposal of excavated material off site | 5,001 to 20,000 | m3 | 94%
+ROW: A.13.010 | Disposal of excavated material off site | above 20,000 | m3 | 90%
+ROW: A.14.010 | Imported granular fill, placed and compacted | 1 to 2,000 | m3 | 100%
+ROW: A.14.010 | Imported granular fill, placed and compacted | 2,001 to 8,000 | m3 | 95%
+ROW: A.14.010 | Imported granular fill, placed and compacted | above 8,000 | m3 | 91%
+ROW: B.22.010 | Formwork to vertical faces, basic finish | 1 to 1,200 | m2 | 100%
+ROW: B.22.010 | Formwork to vertical faces, basic finish | 1,201 to 4,800 | m2 | 96%
+ROW: B.22.010 | Formwork to vertical faces, basic finish | above 4,800 | m2 | 93%
+ROW: B.23.010 | High-yield reinforcement bar, cut, bent and fixed | 1 to 60 | tonne | 100%
+ROW: B.23.010 | High-yield reinforcement bar, cut, bent and fixed | 61 to 240 | tonne | 97%
+ROW: B.23.010 | High-yield reinforcement bar, cut, bent and fixed | above 240 | tonne | 94%
+ROW: D.41.010 | Sub-base, Type 1 granular, 250 mm compacted | 1 to 4,500 | m2 | 100%
+ROW: D.41.010 | Sub-base, Type 1 granular, 250 mm compacted | 4,501 to 18,000 | m2 | 95%
+ROW: D.41.010 | Sub-base, Type 1 granular, 250 mm compacted | above 18,000 | m2 | 92%
+ROW: D.41.040 | Capping layer, 300 mm compacted | 1 to 3,500 | m2 | 100%
+ROW: D.41.040 | Capping layer, 300 mm compacted | 3,501 to 14,500 | m2 | 95%
+ROW: D.41.040 | Capping layer, 300 mm compacted | above 14,500 | m2 | 92%
+TABLE 2: Part 4 — Daily limitations
+TEXT: Not more than the quantity below is measurable for the item, per work area, per day (Clause 31).
+NOTE: Part 4 table itself continues on the next page (only heading and sentence on this page). Band/percent values confirmed on zoom; specks near "5,001", "4,501", "92%." are scan noise. Footer: "Page 25".
+
+=== PAGE 26 ===
+TITLE: (no page heading; Schedule 4 Part 4 — Daily limitations table, continued from page 25)
+TABLE 1: (Part 4 — Daily limitations; heading on page 25)
+COLUMNS: Code | Description | Limit | Unit
+ROW: A.11.010 | Site clearance, vegetation and topsoil strip | 4,500 | m2
+ROW: A.12.010 | General excavation to reduce level | 1,200 | m3
+ROW: B.21.020 | Reinforced concrete to foundations, C32/40 | 140 | m3
+ROW: C.32.010 | Precast manhole, 1200 mm diameter, depth to 3 m | 6 | no.
+ROW: D.41.030 | Stone mastic asphalt surface course, 40 mm | 3,200 | m2
+ROW: E.51.020 | Traffic management, two-way signals, per day | 1 | day
+ROW: A.13.030 | Double handling of stockpiled material | 800 | m3
+ROW: C.32.030 | Precast manhole, 1800 mm diameter, depth to 5 m | 3 | no.
+ROW: E.53.010 | Attendance on statutory undertaker | 2 | day
+TABLE 2: Part 5 — Mutually exclusive items
+TEXT: The item in the first column is not measurable within the stated period following measurement of the item in the second column on the same work area (Clause 32).
+COLUMNS: Excluded item | Excluded by | Period
+ROW: A.14.020 | A.14.010 | 2 days
+TABLE 3: Part 6 — Surveyed items
+TEXT: The following items are measured only against a joint survey sheet signed by both parties (Clause 33).
+COLUMNS: Code | Description | Unit
+ROW: B.23.010 | High-yield reinforcement bar, cut, bent and fixed | tonne
+ROW: E.52.010 | Joint survey and setting out, chainage band | no.
+ROW: B.23.020 | Mesh reinforcement, A393, laid and lapped | m2
+NOTE: Nothing in this Schedule permits both the night uplift and the rest-day uplift to be applied to the same measurement save on the written instruction of the Engineer (Clause 8).
+NOTE: Limits confirmed on zoom. Footer: "Page 26".
+
+=== PAGE 27 ===
+TITLE: SCHEDULE 5 — RECORDS REQUIRED AS A CONDITION OF PAYMENT
+TEXT: The items listed below are not payable in any valuation until the record named against them has been delivered to the Engineer. Each record bears a reference from the series shown, and that reference is quoted against the line in the Application (Clause 47A). The record is written in the words of the person who did the work and does not repeat the description in Schedule 1.
+TABLE 1: (records; no separate heading)
+COLUMNS: Code | Description | Record required | Reference series
+ROW: A.12.030 | Excavation in trench, depth 2 m to 4 m | Daily Excavation Record | DX
+ROW: A.14.010 | Imported granular fill, placed and compacted | Compaction Test Certificate | CT
+ROW: B.21.020 | Reinforced concrete to foundations, C32/40 | Concrete Pour Record | PR
+ROW: B.21.030 | Reinforced concrete to slabs, C32/40 | Concrete Pour Record | PR
+ROW: C.31.020 | Ductile iron pipe, 400 mm, laid and jointed | Pressure Test Certificate | PT
+ROW: D.41.010 | Sub-base, Type 1 granular, 250 mm compacted | Compaction Test Certificate | CT
+ROW: E.51.010 | Wet weather standby, plant and operator | Meteorological Record | MO
+ROW: A.12.040 | Excavation in trench, depth exceeding 4 m | Daily Excavation Record | DX
+ROW: A.16.010 | Dewatering by wellpoint, per week in operation | Dewatering Log | DW
+ROW: B.21.040 | Reinforced concrete to walls, C32/40 | Concrete Pour Record | PR
+ROW: C.32.030 | Precast manhole, 1800 mm diameter, depth to 5 m | Pressure Test Certificate | PT
+ROW: C.35.010 | CCTV survey of completed drainage run | CCTV Survey Report | CV
+ROW: D.41.040 | Capping layer, 300 mm compacted | Compaction Test Certificate | CT
+ROW: E.51.030 | Standing time, tracked excavator and operator | Plant Standing Record | PS
+ROW: B.23.010 | High-yield reinforcement bar, cut, bent and fixed | Joint Survey Sheet | JS
+ROW: E.52.010 | Joint survey and setting out, chainage band | Joint Survey Sheet | JS
+ROW: B.23.020 | Mesh reinforcement, A393, laid and lapped | Joint Survey Sheet | JS
+NOTE: A record covering a week records each day worked. A week is measurable only where the record shows work on not fewer than five days of that week (Clause 47A).
+NOTE: Reference series codes confirmed on zoom ("MO" read as letters M-O). Footer: "Page 27".
+
+=== PAGE 28 ===
+TITLE: SCHEDULE 6 — DAYWORK RATES
+TEXT: The rates below apply only to work instructed to be executed on a daywork basis under Clause 17, and to work for which no rate appears in Schedule 1 (Clause P24). Daywork sheets shall be signed on the day of the work.
+TABLE 1: Part 1 — Labour
+COLUMNS: Grade | Unit | Rate (SAR)
+ROW: Ganger | hour | 78.50
+ROW: Skilled operative | hour | 64.20
+ROW: Semi-skilled operative | hour | 51.80
+ROW: General operative | hour | 43.60
+ROW: Banksman | hour | 46.90
+ROW: Steel fixer | hour | 71.40
+ROW: Carpenter, formwork | hour | 73.10
+ROW: Pipelayer | hour | 66.30
+ROW: Site engineer | hour | 118.00
+ROW: Foreman | hour | 96.50
+TABLE 2: Part 2 — Plant
+COLUMNS: Plant | Unit | Rate (SAR)
+ROW: Tracked excavator, 21 tonne, with operator | hour | 246.00
+ROW: Tracked excavator, 13 tonne, with operator | hour | 188.00
+ROW: Wheeled loader, 12 tonne, with operator | hour | 174.00
+ROW: Articulated dump truck, 25 tonne, with operator | hour | 212.00
+ROW: Tipper lorry, 8 wheel, with driver | hour | 156.00
+ROW: Vibrating roller, 12 tonne, with operator | hour | 138.00
+ROW: Plate compactor | hour | 34.00
+ROW: Concrete pump, boom, with operator | hour | 398.00
+ROW: Mobile crane, 50 tonne, with operator | hour | 472.00
+ROW: Dewatering pump, 100 mm, with hoses | week | 1,240.00
+ROW: Wellpoint system, 30 m run | week | 3,860.00
+ROW: Site dumper, 6 tonne, with operator | hour | 98.00
+TABLE 3: Part 3 — Percentage additions
+COLUMNS: Category | Addition
+ROW: Labour, to cover supervision and overheads | 68%
+ROW: Plant, to cover fuel, maintenance and overheads | 22%
+NOTE: Part 3 table has no closing rule on this page (may continue on page 29). "188.00" has a noise speck inside ("188.0.0" look) — read as 188.00. Values confirmed on zoom. Footer: "Page 28".
+
+=== PAGE 29 ===
+TITLE: (no page heading; Schedule 6 Part 3 — Percentage additions, continued)
+TABLE 1: (Part 3 — Percentage additions, continued)
+COLUMNS: Category | Addition
+ROW: Materials, to cover handling and overheads | 14%
+ROW: Subcontracted daywork | 10%
+NOTE: The percentage additions are applied to the net cost and are the only additions allowable. No profit is added separately.
+NOTE: Remainder of page blank. Footer: "Page 29".
+
+=== PAGE 30 ===
+TITLE: SCHEDULE 7 — PROVISIONAL AND PRIME COST SUMS
+TEXT: The sums below are included in the Subcontract Sum and shall be expended only on the written instruction of the Engineer (Clause 16). A sum not so instructed shall be omitted.
+TABLE 1: (provisional and prime cost sums; no separate heading)
+COLUMNS: Reference | Description | Sum (SAR)
+ROW: PS.01 | Diversion of 11 kV overhead line by the utility | 420,000.00
+ROW: PS.02 | Ground investigation, additional boreholes | 185,000.00
+ROW: PS.03 | Archaeological watching brief | 96,000.00
+ROW: PS.04 | Landscaping to the northern boundary | 310,000.00
+ROW: PS.05 | Street lighting columns and connections | 268,000.00
+ROW: PC.01 | Precast concrete headwalls, supply only | 142,000.00
+ROW: PC.02 | Manhole covers and frames, supply only | 88,500.00
+ROW: PC.03 | Drainage pipework, supply only | 515,000.00
+NOTE: A provisional sum (PS) covers work not yet defined. A prime cost sum (PC) covers materials to be supplied by others. Neither is measured under Schedule 1.
+NOTE: Sums confirmed on zoom (speck under "420,000.00" is noise). Footer: "Page 30".
+
+=== PAGE 31 ===
+TITLE: SCHEDULE 8 — PRELIMINARIES AND GENERAL ITEMS
+TEXT: The items below are measured as stated. An item priced against the unit "item" is a fixed charge and is valued once, in the valuation in which the obligation is discharged. An item priced by the week is a time-related charge and is valued for each week in which the Works are in progress.
+TABLE 1: (preliminaries; no separate heading)
+COLUMNS: Reference | Description | Unit | Amount (SAR)
+ROW: PR.01 | Site establishment, offices and welfare | item | 486,000.00
+ROW: PR.02 | Site accommodation, maintained, per week | week | 14,200.00
+ROW: PR.03 | Temporary fencing and hoarding, erected | lm | 218.00
+ROW: PR.04 | Site signage and safety notices | item | 38,500.00
+ROW: PR.05 | Temporary power supply and distribution | item | 164,000.00
+ROW: PR.06 | Temporary water supply | item | 92,000.00
+ROW: PR.07 | Setting-out equipment and survey instruments | item | 78,000.00
+ROW: PR.08 | Safety officer, full time | week | 9,800.00
+ROW: PR.09 | First aid facilities and trained personnel | week | 2,400.00
+ROW: PR.10 | Site cleaning and waste removal | week | 6,700.00
+ROW: PR.11 | Progress photographs, monthly | month | 1,900.00
+ROW: PR.12 | As-built records and O&M manuals | item | 142,000.00
+ROW: PR.13 | Testing and commissioning attendance | item | 88,000.00
+ROW: PR.14 | Demobilisation and reinstatement of the compound | item | 214,000.00
+NOTE: Preliminaries are not subject to the zone factor, the ground factor, or any uplift or rebate. They are valued at the amounts stated (Clause 29).
+TEXT: Valuation of time-related preliminaries
+TEXT: A week in which the Works are suspended under Clause 23 or Clause H15 is a week in which the Works are in progress for the purposes of this Schedule, save that no time-related preliminary is valued for a week in which no work whatever was executed on the Site.
+NOTE: Amounts confirmed on zoom. Intro text defines only "item" and "week" units, but PR.03 is priced per "lm" and PR.11 per "month" — recorded, not reconciled. Footer: "Page 31".
+
+=== PAGE 32 ===
+TITLE: PART VII — PARTICULAR CONDITIONS (SECOND SERIES)
+TEXT: 3A. Contract Years — The first Contract Year runs from the Commencement Date to the day before its first anniversary. Each following Contract Year runs from that anniversary. The final Contract Year ends on the Date for Completion as extended by any Amendment, however long that leaves it; an extension of time does not begin a new Contract Year.
+TEXT: 6A. Chargeable Hour — Where an item is measured by the hour, a Chargeable Hour is an hour of attendance other than the first hour of that attendance. The site record states the hours attended; the quantity measured is one hour fewer.
+TEXT: 26A. Rates stated in another currency — Where Schedule 1 states a rate in USD, the rate is converted at the rate of exchange published in Schedule 2B for the calendar month in which the work was executed, and the converted figure is rounded to the nearest halala with a half rounded to the nearer even halala. The conversion is made before any factor or uplift is applied.
+TEXT: 27A. Conditions on the uplifts and factors — The night-working uplift is not payable on an item priced at a zone factor exceeding 1.1, the allowance for working away from the compound being taken to include it. In any period of extension of time granted by an Amendment, that is to say for work executed after 27 September 2025, the ground classification is taken as G2 Firm Sabkha whatever the Engineer recorded on the day.
+TEXT: 29A. Indexed rates — The rate for an item listed in Schedule 2A is the base rate stated in Schedule 1 multiplied by the Site Materials Index published for the calendar month in which the work was executed and divided by the base index, and rounded to the nearest halala with a half rounded to the nearer even halala. That figure is then treated as the rate for the purposes of Clause 27, and Clause 28 applies to the build-up as usual.
+TEXT: 31A. Instruments taking effect before their date of issue — Where an Amendment substitutes a rate with effect from a date before the date on which it was issued, an Application for Payment submitted before that date of issue is not thereby incorrect: it was valued at the rate then in force. The difference between the rates on work already valued shall be shown as a single adjustment on the first Application for Payment submitted on or after the date of issue, and on no other.
+TEXT: 33A. Tolerance on measurement — Where an item is measured against a joint survey, a measured quantity not exceeding the surveyed quantity by more than 2 per cent is payable as measured. A measured quantity exceeding the surveyed quantity by more than that is payable at the surveyed quantity only.
+TEXT: 45A. Release of retention — On the first Application for Payment submitted after the Date for Completion as extended, one half of the retention held on all earlier Applications is released, rounded down to the halala. The amount payable on an Application is the measured total, plus any adjustment under Clause 31A, less the retention deducted on it, plus any retention released under this Clause.
+NOTE: Clause headings printed in bold, body text follows (joined here with " — "). "1.1", "27 September 2025", "2 per cent" confirmed on zoom. Footer: "Page 32".
+
+=== PAGE 33 ===
+TITLE: (no page heading; Part VII — Particular Conditions (Second Series), continued)
+TEXT: 47A. Site records and their references — A site record is written by the person who carried out the work and is not required to adopt the wording of the Bill of Quantities. Each record bears a reference from the series stated in Schedule 5 against the item it evidences, and that reference is quoted against the line in the Application. A record that evidences a week records each day worked; a week is measurable only where the record shows work on not fewer than five days of that week.
+NOTE: Only clause 47A on this page; remainder blank. Footer: "Page 33".
+
+=== PAGE 36 ===
+TITLE: APPENDIX B — FORM OF PAYMENT APPLICATION
+TEXT: Every application shall be in the form below. The example assumes no earlier quantity of any item has been measured.
+TABLE 1: (application header; no heading)
+COLUMNS: Field | Value
+ROW: Application number | PA-000xx
+ROW: Period covered | from 06/05/2025 to 13/05/2025
+ROW: Date of submission | 22/05/2025
+ROW: Work area | S-03 Access Road
+ROW: Site zone | Z2 North Spur
+TABLE 2: Measured items
+COLUMNS: Item | Date | Zone | Ground | Qty | Unit | Rate | Amount
+ROW: A.12.020 | 06/05/2025 | Z2 | G4 | 180 | m3 | 50.72 | 9,129.60
+ROW: A.14.020 | 07/05/2025 | Z2 | G2 | 96 | m3 | 23.74 | 2,279.04
+ROW: C.31.010 | 13/05/2025 | Z2 | G2 | 48 | lm | 91.37 | 4,385.76
+TABLE 3: (totals; no heading)
+COLUMNS: Line | Amount
+ROW: Total of measured items | 15,794.40
+ROW: Less retention at 5 per cent | 789.72
+ROW: Net amount of this application | 15,004.68
+NOTE: The total of the measured items shall equal the sum of the amounts listed (Clause 43). Retention is calculated on that total and rounded down to the halala (Clause 45).
+NOTE: "PA-000xx" printed literally with lowercase "xx" (template placeholder). Values confirmed on zoom. Footer: "Page 36".
+
+=== PAGE 38 ===
+TITLE: SCHEDULE OF VARIATIONS
+TEXT: The Subcontract is to be read with the instruments below, in the order issued. Each takes effect on its own effective date and governs work executed on or after it; nothing in an instrument reopens work already measured at the rate then payable.
+TABLE 1: (instruments; no separate heading)
+COLUMNS: Instrument | Issued | Effective | What it changes
+ROW: Supplement No. 1 | 2025-03-24 | 2025-05-01 | rates: B.23.010, B.21.020, A.16.010; monthly rate: D.41.020
+ROW: Amendment No. 1 | 2025-08-18 | 2025-09-28 | completion to 2026-03-31; rates: E.54.010, B.23.010
+ROW: Supplement No. 2 | 2025-11-12 | 2025-12-01 | rates: D.41.020; 5 per cent on C.32.030, C.32.010, D.41.020, B.23.010
+ROW: Amendment No. 2 | 2026-02-16 | 2026-04-01 | completion to 2026-09-30; monthly rate: E.54.010; 8 per cent on C.32.030, C.32.010, D.41.020, B.23.010
+ROW: Amendment No. 3 | 2026-05-12 | 2025-11-01 | rates: C.32.010, A.14.010
+TEXT: The Term as let ran from 5 January 2025 to 27 September 2025. As twice extended it runs from 5 January 2025 to 30 September 2026.
+NOTE: A rate stated in the Bill of Quantities is the rate payable only until an instrument substitutes another for it. Pricing a measured quantity therefore requires the date on which the work was executed, not the date of the payment application.
+NOTE: Amendment No. 3 effective date (2025-11-01) is earlier than its issue date (2026-05-12) and earlier than the effective dates of Supplement No. 2 and Amendment No. 2 — printed as such, confirmed on zoom. Speck in "2025-11-12" (Supplement No. 2 issued) is noise. Footer: "Page 38".
+
+=== PAGE 39 ===
+TITLE: SUPPLEMENT NO. 1 TO SUBCONTRACT CW-2025-0417-CIV
+TEXT: Reference CW-2025-0417-CIV/S1. Issued 24 March 2025 and taking effect 1 May 2025.
+TEXT: Indexation of material-led rates under Clause 26.4, the parties having agreed that the reinforcement and concrete rates in the Bill of Quantities no longer reflect delivered cost.
+TABLE 1: 1.1 Substituted rates
+TEXT: The rates below are substituted for the rates in the Bill of Quantities for work executed on or after the effective date stated against each. Work executed before that date is measured at the rate previously payable.
+COLUMNS: Item | Description | Unit | Rate previously payable | Rate payable | Effective
+ROW: B.23.010 | High-yield reinforcement bar, cut, | tonne | 4,120.00 | 4,385.00 | 2025-05-01
+ROW: B.21.020 | Reinforced concrete to foundations | m3 | 415.00 | 431.50 | 2025-05-01
+ROW: A.16.010 | Dewatering by wellpoint, per week | week | 1,480.00 | 1,524.00 | 2025-05-01
+TABLE 2: 1.2 Monthly re-measurement, item D.41.020
+TEXT: Item D.41.020 (Dense bitumen macadam binder course, 60 mm) is re-published monthly against the Bitumen Index (Kingdom, per tonne). The rate payable for a measured quantity is the rate published for the calendar month in which the work was executed. Where work is executed in a month later than the last month stated below, the rate last published applies until it is superseded.
+COLUMNS: Month of execution | Rate payable
+ROW: May 2025 | 214.50
+ROW: June 2025 | 219.80
+ROW: July 2025 | 226.40
+ROW: August 2025 | 223.10
+ROW: September 2025 | 220.50
+NOTE: Save as stated above, the Subcontract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same item, the later governs work executed on or after its effective date, and the earlier governs work executed before it.
+NOTE: B.23.010 description printed truncated ("High-yield reinforcement bar, cut,"). Recital speaks of "reinforcement and concrete rates" but table also includes A.16.010 (dewatering). Monthly D.41.020 table gives no unit column; text mentions Bitumen Index "per tonne" while Schedule 1 unit for D.41.020 is m2 (page 18) — recorded, not reconciled. Values confirmed on zoom. Footer: "Page 39".
+
+=== PAGE 40 ===
+TITLE: AMENDMENT NO. 1 TO SUBCONTRACT CW-2025-0417-CIV
+TEXT: Reference CW-2025-0417-CIV/A1. Issued 18 August 2025 and taking effect 28 September 2025.
+TEXT: Extension of time under Clause 14.2 for the drainage corridor and the compound extension, together with the rates payable in the extended period.
+TEXT: 1.1 Extension of time — The Date for Completion stated in the Form of Subcontract is extended to 31 March 2026 (extension of time, 185 days). The Date of Possession is unchanged. Work executed on or before the extended Date for Completion is measurable and payable under this Subcontract; work executed after it is not.
+TABLE 1: 1.2 Substituted rates
+TEXT: The rates below are substituted for the rates in the Bill of Quantities for work executed on or after the effective date stated against each. Work executed before that date is measured at the rate previously payable.
+COLUMNS: Item | Description | Unit | Rate previously payable | Rate payable | Effective
+ROW: E.54.010 | Temporary haul road, maintained, p | week | 876.00 | 948.00 | 2025-10-01
+ROW: B.23.010 | High-yield reinforcement bar, cut, | tonne | 4,385.00 | 4,450.00 | 2025-10-01
+NOTE: Save as stated above, the Subcontract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same item, the later governs work executed on or after its effective date, and the earlier governs work executed before it.
+NOTE: Descriptions printed truncated ("maintained, p"; "cut,"). Instrument says it takes effect 28 September 2025, but the rate rows carry Effective 2025-10-01 — printed as such. Recital limits EOT to "the drainage corridor and the compound extension" while 1.1 extends the Date for Completion without area limitation — recorded, not reconciled. Values confirmed on zoom. Footer: "Page 40".
+
+=== PAGE 41 ===
+TITLE: SUPPLEMENT NO. 2 TO SUBCONTRACT CW-2025-0417-CIV
+TEXT: Reference CW-2025-0417-CIV/S2. Issued 12 November 2025 and taking effect 1 December 2025.
+TEXT: Volume discount on the principal measured items, the Employer having committed the second platform to this Subcontract.
+TABLE 1: 2.1 Substituted rates
+TEXT: The rates below are substituted for the rates in the Bill of Quantities for work executed on or after the effective date stated against each. Work executed before that date is measured at the rate previously payable.
+COLUMNS: Item | Description | Unit | Rate previously payable | Rate payable | Effective
+ROW: D.41.020 | Dense bitumen macadam binder cours | m2 | 220.50 | 228.00 | 2025-12-01
+TABLE 2: 2.2 Discount on principal items
+TEXT: A discount of 5 per cent is allowed on the items listed below for work executed on or after 1 December 2025. The discount is applied as the final factor in the build-up required by Clause 27, before the rounding required by Clause 28, and after any rebate under Clause 30. Work executed before that date carries no discount.
+COLUMNS: Item | Description
+ROW: C.32.030 | Precast manhole, 1800 mm diameter, depth to 5 m
+ROW: C.32.010 | Precast manhole, 1200 mm diameter, depth to 3 m
+ROW: D.41.020 | Dense bitumen macadam binder course, 60 mm
+ROW: B.23.010 | High-yield reinforcement bar, cut, bent and fixed
+NOTE: Save as stated above, the Subcontract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same item, the later governs work executed on or after its effective date, and the earlier governs work executed before it.
+NOTE: D.41.020 description in 2.1 printed truncated ("binder cours"). Recital calls it a "Volume discount" yet 2.1 raises the D.41.020 rate (220.50 to 228.00) — printed as such. "Rate previously payable" 220.50 for D.41.020 matches the September 2025 monthly figure on page 39, while unit here is m2 — recorded, not reconciled. Footer: "Page 41".
+
+=== PAGE 42 ===
+TITLE: AMENDMENT NO. 2 TO SUBCONTRACT CW-2025-0417-CIV
+TEXT: Reference CW-2025-0417-CIV/A2. Issued 16 February 2026 and taking effect 1 April 2026.
+TEXT: Second extension of time, deepening of the Supplement No. 2 discount, and monthly indexation of the haul road rate.
+TEXT: 2.1 Extension of time — The Date for Completion stated in the Form of Subcontract is extended to 30 September 2026 (second extension of time, 183 days). The Date of Possession is unchanged. Work executed on or before the extended Date for Completion is measurable and payable under this Subcontract; work executed after it is not.
+TABLE 1: 2.2 Monthly re-measurement, item E.54.010
+TEXT: Item E.54.010 (Temporary haul road, maintained, per week) is re-published monthly against the Plant Hire Index (Eastern Province, per week). The rate payable for a measured quantity is the rate published for the calendar month in which the work was executed. Where work is executed in a month later than the last month stated below, the rate last published applies until it is superseded.
+COLUMNS: Month of execution | Rate payable
+ROW: April 2026 | 976.00
+ROW: May 2026 | 991.00
+ROW: June 2026 | 1,013.00
+ROW: July 2026 | 1,038.00
+ROW: August 2026 | 1,038.00
+ROW: September 2026 | 1,052.00
+TABLE 2: 2.3 Discount on principal items
+TEXT: A discount of 8 per cent is allowed on the items listed below for work executed on or after 1 April 2026. The discount is applied as the final factor in the build-up required by Clause 27, before the rounding required by Clause 28, and after any rebate under Clause 30. Work executed before that date carries no discount.
+COLUMNS: Item | Description
+ROW: C.32.030 | Precast manhole, 1800 mm diameter, depth to 5 m
+ROW: C.32.010 | Precast manhole, 1200 mm diameter, depth to 3 m
+ROW: D.41.020 | Dense bitumen macadam binder course, 60 mm
+ROW: B.23.010 | High-yield reinforcement bar, cut, bent and fixed
+NOTE: Save as stated above, the Subcontract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same item, the later governs work executed on or after its effective date, and the earlier governs work executed before it.
+NOTE: July 2026 and August 2026 both printed 1,038.00 (confirmed on zoom). Footer: "Page 42".
+
+=== PAGE 43 ===
+TITLE: AMENDMENT NO. 3 TO SUBCONTRACT CW-2025-0417-CIV
+TEXT: Reference CW-2025-0417-CIV/A3. Issued 12 May 2026 and taking effect 1 November 2025.
+TEXT: Settlement of the Subcontractor's claim under Clause 26.6. The rates below are substituted with effect from 1 November 2025, which is before the date of this Amendment. Work executed on or after that date and already certified shall be re-measured at the substituted rates, and the difference shown as a single adjustment on the first Application for Payment submitted after the date of issue (Clause 31A).
+TABLE 1: 3.1 Substituted rates
+TEXT: The rates below are substituted for the rates in the Bill of Quantities for work executed on or after the effective date stated against each. Work executed before that date is measured at the rate previously payable.
+COLUMNS: Item | Description | Unit | Rate previously payable | Rate payable | Effective
+ROW: C.32.010 | Precast manhole, 1200 mm diameter, | no. | 1,860.00 | 1,984.00 | 2025-11-01
+ROW: A.14.010 | Imported granular fill, placed and | m3 | 53.20 | 56.80 | 2025-11-01
+NOTE: Save as stated above, the Subcontract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same item, the later governs work executed on or after its effective date, and the earlier governs work executed before it.
+NOTE: Descriptions printed truncated ("1200 mm diameter,"; "placed and"). A noise speck sits on the "6" of 56.80 (read as 56.80 on 5x zoom). Wording: this page says adjustment on first Application "submitted after the date of issue", whereas Clause 31A (page 32) says "submitted on or after the date of issue"; and this page's re-measurement of already-certified work sits against the Schedule of Variations statement (page 38) that "nothing in an instrument reopens work already measured at the rate then payable" — recorded, not reconciled. Footer: "Page 43".
+
+=== DONE ===

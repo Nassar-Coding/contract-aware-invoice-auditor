@@ -1,0 +1,172 @@
+{
+  "boundary_reading": "\"Not billable within N days of this Service\" covers a Service Date exactly N days away. That is the ordinary meaning of \"within\", and it makes the boundary day the last day the window covers rather than the first day outside it.",
+  "contract_number": "INS-H2-2024-1183",
+  "contract_term": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "daily_caps": [
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 24,
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L57"
+      ],
+      "service_id": "H2-S001",
+      "service_name": "Advanced Infectious Isolation Room Occupancy"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 24,
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L113"
+      ],
+      "service_id": "H2-S012",
+      "service_name": "Advanced Dermatologic Specimen Analysis"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L155"
+      ],
+      "service_id": "H2-S016",
+      "service_name": "Focused Cardiac Dialysis Session"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L287"
+      ],
+      "service_id": "H2-S031",
+      "service_name": "Preoperative Obstetric Physiotherapy Session"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L427"
+      ],
+      "service_id": "H2-S050",
+      "service_name": "Intensive Neurological Rehabilitation Programme"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L435"
+      ],
+      "service_id": "H2-S054",
+      "service_name": "Standard Paediatric Infusion Therapy"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L527"
+      ],
+      "service_id": "H2-S066",
+      "service_name": "Supervised Neurological Imaging Interpretation"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L609"
+      ],
+      "service_id": "H2-S073",
+      "service_name": "Postoperative Paediatric Theatre Time"
+    }
+  ],
+  "direction_reading": "The clause states the window is measured in either direction.",
+  "exclusion_boundary": "inclusive_at_equal",
+  "exclusion_direction": "both",
+  "exclusion_windows": [
+    {
+      "anchor_service_id": "H2-S058",
+      "anchor_service_name": "Emergency Pulmonary Ventilation Support",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L159"
+      ],
+      "service_id": "H2-S018",
+      "service_name": "Intermittent Psychiatric Laboratory Panel",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H2-S053",
+      "anchor_service_name": "Routine Ophthalmic Laboratory Panel",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L337"
+      ],
+      "service_id": "H2-S039",
+      "service_name": "Intensive Infectious Physiotherapy Session",
+      "window_days": 10
+    },
+    {
+      "anchor_service_id": "H2-S042",
+      "anchor_service_name": "Routine Geriatric Physiotherapy Session",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L379"
+      ],
+      "service_id": "H2-S043",
+      "service_name": "Standard Metabolic Telemetry Monitoring",
+      "window_days": 14
+    },
+    {
+      "anchor_service_id": "H2-S045",
+      "anchor_service_name": "Advanced Endocrine Case Conference",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L389"
+      ],
+      "service_id": "H2-S048",
+      "service_name": "Extended Dermatologic Specimen Analysis",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H2-S046",
+      "anchor_service_name": "Bedside Ophthalmic Radiotherapy Fraction",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L429"
+      ],
+      "service_id": "H2-S051",
+      "service_name": "Postoperative Neurological Rehabilitation Programme",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H2-S042",
+      "anchor_service_name": "Routine Geriatric Physiotherapy Session",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L567"
+      ],
+      "service_id": "H2-S069",
+      "service_name": "Emergency Paediatric Theatre Time",
+      "window_days": 7
+    }
+  ],
+  "hospital": "H2",
+  "review_state": "accepted",
+  "schema_version": "1",
+  "scope": "Caps and exclusion windows read from this hospital's agreement, with the clause each comes from. Effective dates span the whole contract term unless a clause narrows them.",
+  "service_day": "seven_am_unobserved"
+}

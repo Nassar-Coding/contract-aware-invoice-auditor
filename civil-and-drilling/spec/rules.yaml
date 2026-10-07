@@ -1,0 +1,594 @@
+# Rule index (G0/G1). Stable IDs; each rule names its guideline check(s), scope, prerequisites, consequence
+# (spec/consequences.yaml), source provisions (page/clause, all second-read — see verification/), tables used,
+# overridden provisions (spec/overrides.yaml), open questions (spec/open_questions.yaml) and the validation
+# cases later gates must build (G3/G4; independent expected values, not production output).
+# status: settled = operative reading fixed by the cited text; open = depends on a listed question.
+# pricing: true = the rule feeds a monetary value; its tables must pass the G1 verification gate.
+
+rules:
+  # ------------------------------------------------------------------ CIVIL (CW-2025-0417-CIV)
+  - id: CW-R01
+    title: Application belongs to this subcontract (reference, issuer, work areas)
+    checks: [1]
+    scope: every application header
+    prerequisites: []
+    consequence: C-PROC
+    sources: ["p1 particulars", "Cl.40 (p8)", "Cl.42 (p8)", "Sch 2 work areas (p20)"]
+    tables: [CW.T03_WORK_AREAS]
+    questions: [Q9]
+    status: settled
+    pricing: false
+    validation: ["reference variant CW-2024-0417-CIV kept as discrepancy, not rewritten", "issuer name exact match"]
+  - id: CW-R02
+    title: Period is the first-to-last execution day of included items; every line inside it
+    checks: [1, 3]
+    scope: every application and line
+    prerequisites: [CW-R01]
+    consequence: C-PROC
+    sources: ["Cl.40 (p8)", "Cl.41 (p8)", "App A Period (p34)"]
+    tables: []
+    questions: [Q9]
+    status: settled
+    pricing: false
+    validation: ["line on period_from/period_to boundary", "line one day outside", "period wider than first/last executed day"]
+  - id: CW-R03
+    title: Work within the term as extended (5 Jan 2025 - 30 Sep 2026); work after the extended Date for Completion not measurable
+    checks: [2]
+    scope: every line by work date
+    prerequisites: []
+    consequence: C-REJECT
+    sources: ["p1 particulars", "A1 1.1 (p40)", "A2 2.1 (p42)", "SoV term (p38)"]
+    tables: []
+    parameters: [CW.P.commencement, CW.P.completion_A2]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["2026-09-30 measurable", "2026-10-01 not measurable", "2025-01-04 not measurable"]
+  - id: CW-R04
+    title: Submission window - not before the period's last day; within 21 days after it
+    checks: [3]
+    scope: every application
+    prerequisites: [CW-R02]
+    consequence: C-PROC
+    sources: ["Cl.41 (p8)"]
+    parameters: [CW.P.submission_window_days]
+    tables: []
+    questions: [Q9]
+    status: settled
+    pricing: false
+    validation: ["day 21 inside", "day 22 outside", "same day as period end allowed", "day before period end not allowed"]
+  - id: CW-R05
+    title: Schedule 5 record of the named series, delivered, quoted against the line, signed by foreman and countersigned by the Engineer's representative
+    checks: [4]
+    scope: lines for the 17 Schedule 5 items
+    prerequisites: []
+    consequence: C-COND
+    sources: ["Sch 5 (p27)", "Cl.46 (p8)", "Cl.47 (p8)", "47A (p33)", "P22 (p14)", "P23 (p14)", "Cl.13, S13 (pp4, 11)"]
+    tables: [CW.T16_RECORDS]
+    overrides: [OV-CW-08]
+    questions: [Q3]
+    status: settled
+    pricing: true
+    validation: ["blank ref on Sch 5 item", "ref with no file", "ref of wrong series", "underscore placeholder signature", "non-Sch 5 item with blank ref is not a breach"]
+  - id: CW-R06
+    title: The record identifies what the line claims - work area, date (a weekly record lists each day worked), item and quantity; the line is compared with it
+    checks: [4, 5, 6]
+    scope: lines with a record
+    prerequisites: [CW-R05]
+    consequence: C-CORR
+    sources: ["Cl.47 (p8)", "47A (p33)", "Sch 5 note (p27)", "guideline check 4"]
+    tables: [CW.T16_RECORDS]
+    questions: [Q7]
+    status: settled
+    pricing: true
+    validation: ["weekly record whose week crosses a month boundary: each day worked is still identified (47A)", "record date differs from line date: a mismatch fact, kept separate from reuse and duplication (Q7)", "record wording differs from the Bill of Quantities description: not a mismatch by itself (Sch 5 introduction p27; 47A p33)"]
+  - id: CW-R07
+    title: Measured quantity - record quantity; hourly items one hour fewer; weekly items need >= 5 days; survey tolerance 2%
+    checks: [5]
+    scope: all measured lines
+    prerequisites: [CW-R05, CW-R06]
+    consequence: C-CORR
+    sources: ["6A (p32)", "47A (p33)", "33A (p32)", "Cl.33 (p7)", "Sch 4 Part 6 (p26)", "Cl.11 (p4)", "P18 (p13)", "guideline check 5"]
+    tables: [CW.T15_SURVEYED]
+    parameters: [CW.P.first_hour_excluded, CW.P.weekly_min_days, CW.P.survey_tolerance_pct]
+    overrides: [OV-CW-03, OV-CW-09]
+    questions: [Q6, Q10]
+    status: settled
+    pricing: true
+    validation: ["102.00% payable as measured", "102.01% -> surveyed quantity", "4 days worked -> week not measurable", "1 hour attended -> 0 chargeable", "billed above the record: payable up to the record (guideline check 5)", "billed below the record: payable as billed, never raised to the record (underbilling is Q10)"]
+  - id: CW-R08
+    title: Scheduled unit only; a quantity in another unit is rejected in its entirety, not converted
+    checks: [6]
+    scope: every line
+    prerequisites: []
+    consequence: C-REJECT
+    sources: ["Cl.26 (p6)", "Sch 1 note (p19)"]
+    tables: [CW.T01_SCH1]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["A.14.020 billed in 'no.' rejected in full", "record synonym 'cube' does not change a correct invoice unit"]
+  - id: CW-R09
+    title: Line identified against the correct item; trench depth decides A.12.020/030/040; unresolvable identification stays unresolved
+    checks: [6]
+    scope: every line
+    prerequisites: [CW-R06]
+    consequence: C-UNKNOWN
+    sources: ["P13 (p13)", "Sch 1 (pp17-19)", "guideline check 6"]
+    tables: [CW.T01_SCH1]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["trench spanning two depth bands measured in parts", "two candidate items -> unresolved, never cheapest"]
+  - id: CW-R10
+    title: Rate in force on the work date - Sch 1 base, S1/A1/S2/A2/A3 substitutions and monthly tables in issue order, carry-forward
+    checks: [7]
+    scope: every priced line
+    prerequisites: [CW-R09]
+    consequence: C-CORR
+    sources: ["SoV (p38)", "S1 (p39)", "A1 (p40)", "S2 (p41)", "A2 (p42)", "A3 (p43)", "instrument footers"]
+    tables: [CW.T01_SCH1]
+    instruments: [CW.S1, CW.A1, CW.S2, CW.A2, CW.A3]
+    overrides: [OV-CW-05, OV-CW-06]
+    questions: [Q1, Q2]
+    status: settled
+    pricing: true
+    validation: ["B.23.010 on 2025-04-30/2025-05-01/2025-09-30/2025-10-01", "D.41.020 Oct-2025 carries Sep 220.50", "E.54.010 Mar-2026 948.00, Apr-2026 976.00, Oct-2026 n/a (after term)"]
+  - id: CW-R11
+    title: Indexed items - base x Site Materials Index(month)/100, half-even to the halala, before the build-up
+    checks: [7, 8]
+    scope: C.31.010, D.41.030
+    prerequisites: [CW-R10]
+    consequence: C-CORR
+    sources: ["Sch 2A (p21)", "29A (p32)"]
+    tables: [CW.T04_SMI_ITEMS, CW.T05_SMI]
+    overrides: [OV-CW-07]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["C.31.010 May-2025: 86.20 x 102.60/100 = 88.4412 -> 88.44"]
+  - id: CW-R12
+    title: USD items - Schedule 1 figure is USD, converted at halalas-per-USD of the work month / 100, half-even, before any factor
+    checks: [7, 8]
+    scope: B.23.020, B.25.010, C.32.040
+    prerequisites: [CW-R10]
+    consequence: C-CORR
+    sources: ["Sch 2B (p22)", "26A (p32)"]
+    tables: [CW.T06_USD_ITEMS, CW.T07_FX]
+    overrides: [OV-CW-02]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["C.32.040 Jan-2025: 423.00 x 3.75 = 1586.25", "half-even at an exact half halala"]
+  - id: CW-R13
+    title: Build-up zone -> ground -> night -> rest-day -> band % -> S2/A2 discount; rounded once, half up
+    checks: [8]
+    scope: every priced line
+    prerequisites: [CW-R10, CW-R11, CW-R12]
+    consequence: C-CORR
+    sources: ["Cl.27 (p6)", "Cl.28 (p6)", "Cl.29 (p6)", "Sch 2 (p20)", "Sch 3 (p23)", "Sch 4 Parts 1-2 (p24)", "27A (p32)", "S4 (p10)", "P4, P10, P11 (pp12-13)", "S2 2.2 (p41)", "A2 2.3 (p42)"]
+    tables: [CW.T02_ZONES, CW.T08_GROUND_FACTORS, CW.T09_GROUND_ITEMS, CW.T10_NIGHT, CW.T11_REST]
+    instruments: [CW.S2, CW.A2]
+    parameters: [CW.P.rounding, CW.P.g2_after, CW.P.night_suppressed_zone_factor_above, CW.P.unrecorded_ground]
+    overrides: [OV-CW-01, OV-CW-04, OV-CW-10]
+    questions: [Q8]
+    status: settled
+    pricing: true
+    validation: ["App B A.12.020 34.80x1.06x1.375 = 50.721 -> 50.72", "Z3 night item: no night uplift", "night on Friday without written instruction -> rest-day alone", "work 2025-09-28 in G4 -> G2", "series E: no zone factor", "2025-11-30 no discount / 2025-12-01 5% / 2026-04-01 8%"]
+  - id: CW-R14
+    title: Annual quantity bands per Contract Year; a measurement crossing a band is divided; each part at its own rounded rate
+    checks: [8, 9]
+    scope: 8 banded items
+    prerequisites: [CW-R07, CW-R13]
+    consequence: C-CORR
+    sources: ["Sch 4 Part 3 (pp24-25)", "3A (p32)", "Cl.28 (p6)", "P12 (p13)"]
+    tables: [CW.T12_BANDS]
+    overrides: [OV-CW-03]
+    questions: [Q6, Q12]
+    status: open
+    pricing: true
+    validation: ["unit 4,000/4,001 of A.12.010", "one line crossing 1,500 of A.12.020", "reset on 2026-01-05 vs no reset (Q12)"]
+  - id: CW-R15
+    title: Daily limits per item per work area per day, across applications; excess not payable, not carried forward
+    checks: [9]
+    scope: 9 capped items
+    prerequisites: [CW-R07]
+    consequence: C-CORR
+    sources: ["Cl.31 (p6)", "Sch 4 Part 4 (pp25-26)", "Cl.19 (p4)", "P6 (p12)"]
+    tables: [CW.T13_DAILY_LIMITS, CW.T03_WORK_AREAS]
+    questions: [Q6]
+    status: open
+    pricing: true
+    validation: ["same item/day in two work areas in one zone", "limit split across two applications"]
+  - id: CW-R16
+    title: Exclusions - A.14.020 within 2 days after A.14.010 on the same work area; E.51.020 on a day a listed D item is measured there
+    checks: [9]
+    scope: A.14.020, E.51.020
+    prerequisites: [CW-R07]
+    consequence: C-REJECT
+    sources: ["Cl.32 (p6)", "Sch 4 Part 5 (p26)", "P19 (p13)", "P21 (p13)"]
+    tables: [CW.T14_EXCLUSIONS]
+    questions: [Q6]
+    status: open
+    pricing: true
+    validation: ["day 0/1/2/3 after A.14.010", "E.51.020 same day as D.41.050 in another work area"]
+  - id: CW-R17
+    title: Duplicate measurement - same item, work area and date more than once; the later measurement disallowed in full
+    checks: [10]
+    scope: all lines, within and across applications
+    prerequisites: [CW-R06]
+    consequence: C-REJECT
+    sources: ["Cl.44 (p8)"]
+    tables: [CW.T03_WORK_AREAS]
+    questions: [Q6, Q7]
+    status: open
+    pricing: true
+    validation: ["repeat in a later application", "same-day tie", "weekly ticket reused on another date is not automatically a duplicate"]
+  - id: CW-R18
+    title: Standing time only as the contract allows (recorded weather hours >5 mm/h; plant standing; flood watch -> E.51.010; heat, safety and delivery-programme suspensions excluded)
+    checks: [5, 6, 9]
+    scope: E.51.010, E.51.030
+    prerequisites: [CW-R05]
+    consequence: C-REJECT
+    sources: ["Cl.18 (p4)", "S20 (p11)", "P2, P3, P8, P9 (p12)", "H15 (p16)"]
+    tables: []
+    parameters: [CW.P.standby_rain_threshold_mm_per_hour]
+    questions: [Q8]
+    status: settled
+    pricing: true
+    validation: ["flood-watch standby billed as E.51.030", "midday heat suspension", "safety suspension"]
+  - id: CW-R19
+    title: Non-measurable work (temporary works, dewatering below classified table, own waste, defects, unapproved fill, rejected concrete, no method statement)
+    checks: [5, 6]
+    scope: record narratives
+    prerequisites: [CW-R06]
+    consequence: C-REJECT
+    sources: ["Cl.14, Cl.35 (pp4, 7)", "S2, S3 (p10)", "P15, P17 (p13)", "H2 (p15)"]
+    tables: []
+    questions: [Q8]
+    status: settled
+    pricing: true
+    validation: ["record narrative states concrete rejected at delivery"]
+  - id: CW-R20
+    title: Arithmetic - amount = quantity x rounded rate (segments summed); total = sum of amounts
+    checks: [11]
+    scope: every line and header
+    prerequisites: []
+    consequence: C-CORR
+    sources: ["Cl.28 (p6)", "Cl.43 (p8)", "Cl.39 (p7)", "App B (p36)"]
+    tables: [CW.T22_APPB_EXAMPLE]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["App B total 15,794.40", "split band line with two rates"]
+  - id: CW-R21
+    title: Retention 5% of the total rounded down; 45A release of half on the first application after the extended completion; payable amount formula
+    checks: [11]
+    scope: headers (payment fields, not the judged total)
+    prerequisites: [CW-R20]
+    consequence: C-PAY
+    sources: ["Cl.45 (p8)", "45A (p32)", "Cl.51 (p9)", "P23 (p14)"]
+    parameters: [CW.P.retention_pct, CW.P.retention_release_fraction]
+    overrides: [OV-CW-11]
+    questions: [Q2, Q9]
+    status: open
+    pricing: false
+    validation: ["App B retention 789.72", "floor at x.xx5 boundaries"]
+  - id: CW-R22
+    title: A3 retrospective rates - pre-issue submissions protected; single adjustment on the first application submitted on/after (31A) or after (A3) issue
+    checks: [7, 11]
+    scope: C.32.010, A.14.010 work from 2025-11-01
+    prerequisites: [CW-R10]
+    consequence: C-PAY
+    sources: ["A3 (p43)", "31A (p32)", "SoV (p38)"]
+    instruments: [CW.A3]
+    overrides: [OV-CW-05]
+    questions: [Q1, Q2]
+    status: open
+    pricing: true
+    validation: ["submission before/at/after 2026-05-12", "adjustment posted exactly once"]
+  - id: CW-R23
+    title: Codes outside Sch 1 (daywork, provisional and prime cost sums, preliminaries, unrated work) are valued only by their own route and its conditions; a condition the supplied data cannot evidence leaves the line an unresolved query, never priced by default
+    checks: [6]
+    scope: every line
+    prerequisites: []
+    consequence: C-UNKNOWN
+    sources: ["Sch 6-8 (pp28-31)", "Cl.16, Cl.17 (p4)", "P24 (p14)", "guideline principle 3"]
+    tables: [CW.T17_DAYWORK_LABOUR, CW.T18_DAYWORK_PLANT, CW.T19_DAYWORK_ADDITIONS, CW.T20_PROVISIONAL_SUMS, CW.T21_PRELIMINARIES]
+    questions: [Q8]
+    status: settled
+    pricing: false
+    validation: ["daywork line: Sch 6 rates plus Part 3 additions only with a daywork sheet signed on the day (Cl.17); none supplied -> query", "provisional sum line: only on the Engineer's written instruction (Cl.16); none supplied (Q8) -> query", "synthetic PR.01 line: a fixed item 486,000.00 valued once when the obligation is discharged (Sch 8); discharge not evidenced -> query"]
+  - id: CW-R24
+    title: Outcome recorded per application - pass, query or part-reject, with the clause relied on, the figure payable, and anything that could not be determined
+    checks: [12]
+    scope: every application
+    prerequisites: []
+    consequence: C-PROC
+    sources: ["guideline check 12", "guideline principle 3", "README Task"]
+    tables: []
+    questions: [Q9]
+    status: settled
+    pricing: false
+    validation: ["unpriceable application stays a query; what is missing is recorded rather than a guessed figure (guideline principle 3); the unknown-total encoding is Q9"]
+
+  # ------------------------------------------------------------------ DRILLING (DDS-2025-118)
+  - id: DDS-R01
+    title: Invoice belongs to this contract (reference, contractor, one well, rig/field/class per call-off)
+    checks: [1]
+    scope: every invoice header
+    prerequisites: []
+    consequence: C-PROC
+    sources: ["p1 particulars", "Cl.4 (p3)", "Cl.32 (p8)", "P2, P3 (p11)"]
+    tables: []
+    questions: [Q8, Q9]
+    status: settled
+    pricing: false
+    validation: ["DSS-2025-118 / DDS-2025-181 kept as discrepancies", "line well differs from header well"]
+  - id: DDS-R02
+    title: Period of consecutive days on the well; every charge within it
+    checks: [1, 3]
+    scope: every invoice and line
+    prerequisites: [DDS-R01]
+    consequence: C-PROC
+    sources: ["Cl.32 (p8)"]
+    tables: []
+    questions: [Q9]
+    status: settled
+    pricing: false
+    validation: ["DS-900 blank date is not a missing report"]
+  - id: DDS-R03
+    title: Services within the term as extended (1 Jan 2025 - 31 Dec 2026); after the extended Expiry Date not chargeable
+    checks: [2]
+    scope: every line by service date
+    prerequisites: []
+    consequence: C-REJECT
+    sources: ["p1 particulars", "A1 1.1 (p39)", "A2 2.1 (p41)", "SoV (p37)"]
+    parameters: [DDS.P.commencement, DDS.P.expiry_A2]
+    tables: []
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["2026-12-31 chargeable", "2027-01-01 not chargeable"]
+  - id: DDS-R04
+    title: Submission window - not before the last day of the period; within 30 days after it
+    checks: [3]
+    scope: every invoice
+    prerequisites: [DDS-R02]
+    consequence: C-PROC
+    sources: ["Cl.33 (p8)"]
+    parameters: [DDS.P.submission_window_days]
+    tables: []
+    questions: [Q9]
+    status: settled
+    pricing: false
+    validation: ["day 30 inside, day 31 outside"]
+  - id: DDS-R05
+    title: DDR for the well-day, DDR number quoted, signed by Company Representative and lead directional driller; Sch 5 part completed for listed services
+    checks: [4]
+    scope: every service line; Sch 5 codes need their part
+    prerequisites: []
+    consequence: C-COND
+    sources: ["Cl.15 (p5)", "Cl.37 (p8)", "Sch 5 (p24)", "19A (p35)", "R7, R8 (p14)"]
+    tables: [DDS.T17_SCH5_PARTS, DDS.T18_SCH5_CODES]
+    overrides: [OV-DDS-05]
+    questions: [Q3]
+    status: settled
+    pricing: true
+    validation: ["placeholder signature", "Part B absent on a run-day", "report number of another day (mismatch, not duplicate)"]
+  - id: DDS-R06
+    title: Service identified from report wording via Appendix G; tool in hole / person recorded on the day
+    checks: [4, 5, 6]
+    scope: every service line
+    prerequisites: [DDS-R05]
+    consequence: C-CORR
+    sources: ["App G (p36)", "19A (p35)", "Cl.22, Cl.28 (pp6-7)", "P6, P7 (p11)", "Sch 8 (pp27-28)"]
+    tables: [DDS.T20_GLOSSARY, DDS.T23_SCH8]
+    questions: [Q5]
+    status: settled
+    pricing: true
+    validation: ["'night man' -> DD-102", "'gamma tool' -> LW-410 or LH-714 in a loss context", "'float sub' -> HC-640", "crew-change day counted once"]
+  - id: DDS-R07
+    title: Quantities - hourly services one hour fewer per period in the hole; DD-120 six-hour minimum per Operating day; metres from Part A depths with 1% tolerance; counts as recorded
+    checks: [5]
+    scope: DD-120, RM-530, metre and count services
+    prerequisites: [DDS-R05, DDS-R06]
+    consequence: C-CORR
+    sources: ["Cl.21 (p6)", "21A (p35)", "Cl.23-25 (p6)", "25A (p35)", "Cl.30 (p7)", "Sch 3 Part 7 (p22)", "P10 (p11)", "R4 (p14)"]
+    tables: [DDS.T15_STANDBY_SUBSTITUTE_AND_MINIMUM, DDS.T23_SCH8]
+    parameters: [DDS.P.dd120_min_hours, DDS.P.first_hour_excluded, DDS.P.metre_tolerance_pct]
+    questions: [Q4, Q11]
+    status: open
+    pricing: true
+    validation: ["metres exactly +1% and +1.01%", "hours run 7 -> 6 chargeable", "minimum before/after the rig-up deduction (Q4)"]
+  - id: DDS-R08
+    title: Scheduled unit only
+    checks: [6]
+    scope: every line
+    prerequisites: []
+    consequence: C-UNKNOWN
+    sources: ["Cl.35 (p8)"]
+    tables: [DDS.T01_SCH1]
+    questions: [Q11]
+    status: open
+    pricing: true
+    validation: ["wrong unit -> breach recorded; monetary remedy per Q11, CW Cl.26 not imported"]
+  - id: DDS-R09
+    title: Rate in force on the service date - Sch 1, S1/A1/S2/A2/A3 and monthly tables in issue order
+    checks: [7]
+    scope: every priced line
+    prerequisites: [DDS-R06]
+    consequence: C-CORR
+    sources: ["SoV (p37)", "S1 (p38)", "A1 (p39)", "S2 (p40)", "A2 (p41)", "A3 (p42)", "36A (p35)"]
+    tables: [DDS.T01_SCH1]
+    instruments: [DDS.S1, DDS.A1, DDS.S2, DDS.A2, DDS.A3]
+    overrides: [OV-DDS-06, OV-DDS-07]
+    questions: [Q1, Q2]
+    status: settled
+    pricing: true
+    validation: ["DD-120 2025-06-30/2025-07-01", "HC-601 Jan-2026 carries Dec-2025 736.40", "DD-120 Apr-2026: the rate in force once A3 is issued is 416.00 (A3; D2), not 406.00 (S2); an invoice submitted before A3's issue (2026-08-17) was correct at 406.00 (36A) and the difference is carried only by the single adjustment (DDS-R21, Q1)"]
+  - id: DDS-R10
+    title: Indexed services - base x Rig Services Index(month)/100, half-even, before the build-up
+    checks: [7, 8]
+    scope: MW-310, HC-620
+    prerequisites: [DDS-R09]
+    consequence: C-CORR
+    sources: ["Sch 2C (p18)", "17A (p35)"]
+    tables: [DDS.T04_RSI_ITEMS, DDS.T05_RSI]
+    overrides: [OV-DDS-03]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["MW-310 Jun-2025: 2245.85 x 1.036 = 2326.7006 -> 2326.70"]
+  - id: DDS-R11
+    title: Build-up section -> class -> standby -> service discount, half-even at every step
+    checks: [8]
+    scope: every priced line
+    prerequisites: [DDS-R09, DDS-R10]
+    consequence: C-CORR
+    sources: ["Cl.17, Cl.18 (p6)", "17B (p35)", "Sch 3 Parts 1-3 (pp20-21)", "Cl.20 (p6)", "P13 (p11)", "S2 2.2 (p40)", "A2 2.3 (p41)"]
+    tables: [DDS.T08_SECTION_FACTORS, DDS.T09_SECTION_RATED, DDS.T10_CLASS_FACTORS, DDS.T11_CLASS_RATED, DDS.T12_STANDBY]
+    instruments: [DDS.S2, DDS.A2]
+    parameters: [DDS.P.rounding]
+    overrides: [OV-DDS-01, OV-DDS-02]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["App B DD-101 standby 1847.35 x 0.80 = 1477.88", "App B DD-120 HPHT 384.15 x 1.325 = 509.00 (508.99875)", "8-1/2in 423 x 0.945 = 399.735 -> 399.74 (Decimal, not float)", "no section factor on Standby", "4% from 2026-04-01, 7% from 2026-07-01"]
+  - id: DDS-R12
+    title: PD-210 depth bands (boundary to the shallower band) and per-well Contract Year footage bands
+    checks: [7, 9]
+    scope: PD-210
+    prerequisites: [DDS-R07]
+    consequence: C-CORR
+    sources: ["Cl.23 (p6)", "Sch 2 and Part 2 (p17)", "3A (p35)", "17B (p35)"]
+    tables: [DDS.T02_DEPTH_BANDS, DDS.T03_ANNUAL_BANDS]
+    overrides: [OV-DDS-02]
+    questions: [Q11, Q12]
+    status: settled
+    pricing: true
+    validation: ["App B 2,930-3,000 at 58.15 and 3,000-3,085 at 76.45", "depth exactly 1,500 in band 1", "no class factor on an HPHT well"]
+  - id: DDS-R13
+    title: Standby - NC services not charged on a Standby day; DD-121 replaces DD-120; per-well and loss services in full
+    checks: [9]
+    scope: Standby days
+    prerequisites: [DDS-R05]
+    consequence: C-REJECT
+    sources: ["Cl.20, Cl.21 (p6)", "Sch 3 Parts 3-4 (pp20-21)", "Cl.13 (p4)", "P5 (p11)"]
+    tables: [DDS.T12_STANDBY, DDS.T15_STANDBY_SUBSTITUTE_AND_MINIMUM]
+    questions: []
+    status: settled
+    pricing: true
+    validation: ["DD-120 on a Standby day", "DD-121 on an Operating day"]
+  - id: DDS-R14
+    title: Daily limits - no service is charged on any day above its Sch 3 Part 5 limit (Cl.22), whichever invoice carries it; counted per well-day (D6)
+    checks: [9]
+    scope: 22 limited services
+    prerequisites: [DDS-R07]
+    consequence: C-CORR
+    sources: ["Cl.22 (p6)", "Sch 3 Part 5 (pp21-22)", "Cl.32 (p8)"]
+    tables: [DDS.T13_DAILY_LIMITS]
+    questions: [Q7]
+    status: settled
+    pricing: true
+    validation: ["DD-101 x3 on one day", "limit split across two invoices of one well"]
+  - id: DDS-R15
+    title: Run and well events - DD-111 last day of a PDM run; LW-420 first day of a source run; MB-701/DD-140 first day; MB-702/LW-430 last day (LW-430 only where LWD run)
+    checks: [9, 10]
+    scope: DD-111, LW-420, MB-701, MB-702, DD-140, LW-430 (and HC-630 per Q5)
+    prerequisites: [DDS-R05]
+    consequence: C-CORR
+    sources: ["Cl.26, Cl.27 (p7)", "Sch 3 Part 6 (p22)", "Sch 8 (pp27-28)", "Sch 5 Parts B, D (p24)"]
+    tables: [DDS.T14_ONCE_PER_WELL, DDS.T23_SCH8]
+    questions: [Q5, Q8, Q10]
+    status: open
+    pricing: true
+    validation: ["repeated Part B metadata does not create a second DD-111", "LW-420 without Part D certification"]
+  - id: DDS-R16
+    title: No service twice for the same well and day, except PD-210 split by depth interval
+    checks: [10]
+    scope: all service lines
+    prerequisites: [DDS-R06]
+    consequence: C-REJECT
+    sources: ["Cl.29 (p7)", "Cl.23 (p6)"]
+    tables: []
+    questions: [Q7]
+    status: open
+    pricing: true
+    validation: ["MDS-00164-050 wrong-day report is not a duplicate", "non-overlapping PD-210 intervals allowed", "overlapping intervals flagged"]
+  - id: DDS-R17
+    title: Lost in hole - Sch 2D SAR / month-of-loss FX, half-even, less 1% per complete 25 circulating hours on the well (incl. day of loss), max 50%; once on the day of loss
+    checks: [7, 8, 9]
+    scope: LH-711..714
+    prerequisites: [DDS-R05]
+    consequence: C-CORR
+    sources: ["Cl.31 (p7)", "31A (p35)", "Sch 2D (p19)", "Sch 6 (p25)", "P12 (p11)", "App F (p34)"]
+    tables: [DDS.T06_SAR_VALUES, DDS.T07_FX, DDS.T19_SCH6_USD, DDS.T22_APPF_EXAMPLE]
+    parameters: [DDS.P.lih_depreciation]
+    overrides: [OV-DDS-04]
+    questions: [Q13]
+    status: settled
+    pricing: true
+    validation: ["412 h -> 16%", "24 h -> 0%, 25 h -> 1%", "1,250 h -> 50% cap", "month-of-loss FX at a half cent"]
+  - id: DDS-R18
+    title: Days not chargeable or not uplifted - rig move, no night or holiday uplift, weather day as Standby, tool failure
+    checks: [6, 9]
+    scope: record narratives
+    prerequisites: [DDS-R05]
+    consequence: C-REJECT
+    sources: ["P4, P5, P6, P8, P9 (p11)"]
+    tables: []
+    questions: [Q8]
+    status: settled
+    pricing: true
+    validation: ["service on a rig-move day"]
+  - id: DDS-R19
+    title: PD-210 only on performance-drilled sections nominated in the call-off
+    checks: [6]
+    scope: PD-210
+    prerequisites: []
+    consequence: C-UNKNOWN
+    sources: ["Cl.23 (p6)", "App A Performance-drilled section (p29)"]
+    tables: []
+    questions: [Q8]
+    status: open
+    pricing: true
+    validation: ["PD-210 outside 12-1/4 / 8-1/2 sections"]
+  - id: DDS-R20
+    title: Invoice totals - net = services + DS-900; DS-900 = -4% of the excess over 250,000 (per invoice); VAT 15% of net; total = net + VAT; all half-even
+    checks: [11]
+    scope: every invoice
+    prerequisites: []
+    consequence: C-CORR
+    sources: ["Cl.36-40 (p8)", "P11 (p11)", "App B (p30)"]
+    tables: [DDS.T21_APPB_EXAMPLE]
+    parameters: [DDS.P.invoice_discount_threshold, DDS.P.invoice_discount_pct, DDS.P.vat_pct]
+    questions: [Q10]
+    status: settled
+    pricing: true
+    validation: ["App B net 25,662.26 VAT 3,849.34 total 29,511.60", "312,400.00 -> -2,496.00", "exactly 250,000.00 -> no discount", "correction crossing the threshold"]
+  - id: DDS-R21
+    title: A3 retrospective rates - pre-issue invoices protected; single adjustment on the first invoice submitted on/after (36A) or after (A3) issue
+    checks: [7, 11]
+    scope: DD-120, DD-101 services from 2026-02-01
+    prerequisites: [DDS-R09]
+    consequence: C-PAY
+    sources: ["A3 (p42)", "36A (p35)", "SoV (p37)", "Cl.32 (p8)"]
+    instruments: [DDS.A3]
+    overrides: [OV-DDS-06, OV-DDS-07]
+    questions: [Q1, Q2]
+    status: open
+    pricing: true
+    validation: ["invoice 2026-08-17 vs 2026-08-18", "per-well vs contract-wide recipient", "adjustment and DS-900/VAT interaction"]
+  - id: DDS-R22
+    title: Outcome recorded per invoice - pass, query or part-reject, with the clause relied on, the figure payable, and anything that could not be determined
+    checks: [12]
+    scope: every invoice
+    prerequisites: []
+    consequence: C-PROC
+    sources: ["guideline check 12", "guideline principle 3", "README Task", "Cl.41 (p8)"]
+    tables: []
+    questions: [Q9]
+    status: settled
+    pricing: false
+    validation: ["disputed charge withheld; undisputed balance still valued (Cl.41)", "unpriceable invoice stays a query with what is missing recorded (guideline principle 3); the unknown-total encoding is Q9"]

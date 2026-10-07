@@ -1,0 +1,2988 @@
+{
+  "bundles": [
+    {
+      "a": "H2-S008",
+      "a_cents": 90350,
+      "b": "H2-S035",
+      "b_cents": 5200,
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L105; data/source/contracts/hospital_2/master_services_agreement.md#L295"
+    },
+    {
+      "a": "H2-S032",
+      "a_cents": 27275,
+      "b": "H2-S040",
+      "b_cents": 73625,
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L289; data/source/contracts/hospital_2/master_services_agreement.md#L339"
+    },
+    {
+      "a": "H2-S057",
+      "a_cents": 5875,
+      "b": "H2-S068",
+      "b_cents": 14150,
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L475; data/source/contracts/hospital_2/master_services_agreement.md#L565"
+    }
+  ],
+  "contract_number": "INS-H2-2024-1183",
+  "coverage": [
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article I \u2014 Recitals and Term \u2014 Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L13",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article II \u2014 Definitions and Interpretation \u2014 07:00 Service Day and single-calendar-day qualification lack timestamps/duration; clinical episode/leave and actual submission deadline effectiveness lack observations.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L23",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article III \u2014 Calculation Conventions \u2014 Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L41",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article IV \u2014 Contracted Services (One Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L55",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article V \u2014 Notices and Communications \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L69",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article VI \u2014 Contracted Services (Two Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L101",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article VII \u2014 Records and Retention \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L115",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article VIII \u2014 Contracted Services (Three Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L147",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article IX \u2014 Audit Rights \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L161",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article X \u2014 Contracted Services (Four Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L193",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XI \u2014 Recovery of Overpayments \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L207",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XII \u2014 Contracted Services (Five Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L239",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XIII \u2014 Invoice Submission \u2014 07:00 Service Day and single-calendar-day qualification lack timestamps/duration; clinical episode/leave and actual submission deadline effectiveness lack observations.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L253",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XIV \u2014 Contracted Services (Six Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L285",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XV \u2014 Disputed Amounts \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L299",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XVI \u2014 Contracted Services (Seven Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L331",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XVII \u2014 Confidentiality \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L345",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XVIII \u2014 Contracted Services (Eight Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L377",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XIX \u2014 Data Protection \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L391",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XX \u2014 Contracted Services (Nine Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L423",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXI \u2014 Clinical Governance \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L437",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXII \u2014 Contracted Services (Ten Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L469",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXIII \u2014 Coding and Description Practice \u2014 Term, identity facility/tier, exact calculation, explicit prior utilisation and bidirectional Service Date exclusions, service identification.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L483",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXIV \u2014 Contracted Services (Eleven Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L515",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXV \u2014 Change Control \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L529",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXVI \u2014 Contracted Services (Twelve Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L561",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXVII \u2014 Assignment and Subcontracting \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L575",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXVIII \u2014 Contracted Services (Thirteen Group) \u2014 Each rate/rule sentence transcribed with clause references; repeated unit/description/inclusive-cost requirements retained in reading ledger.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L607",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXIX \u2014 Force Majeure \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L617",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXX \u2014 Insurance \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L649",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXXI \u2014 Termination \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L681",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXXII \u2014 Governing Law and Jurisdiction \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L713",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXXIII \u2014 Entire Agreement \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L745",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXXIV \u2014 Severance and Waiver \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L777",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Entire H2 invoice opinions withheld by Article XIII eligibility uncertainty; line-level calculations are diagnostic. No H1 service-date-after-invoice or repeated-service prohibition is imported into H2. No episode index is fabricated from dates without leave evidence.",
+      "representation": "Article XXXV \u2014 Execution \u2014 Administrative workflow/records/legal governance; no supplied evidence of event activation or calculable alternative rate. No claim of contractual workflow compliance.",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L809",
+      "state": "outside_scope"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "4.1 Advanced Infectious Isolation Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L57",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "4.2 Assisted Infectious Telemetry Monitoring",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L59",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "4.3 Comprehensive Otolaryngologic Case Conference",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L61",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "4.4 Emergency Renal Infusion Therapy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L63",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "4.5 Focused Palliative Recovery Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L65",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "4.6 Intensive Otolaryngologic Rehabilitation Programme",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L67",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "6.1 Intermittent Ophthalmic Anaesthesia Administration",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L103",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "6.2 Postoperative Orthopaedic Isolation Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L105",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "6.3 Preoperative Vascular Imaging Interpretation",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L107",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "6.4 Specialist Psychiatric Sterilisation Service",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L109",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "6.5 Supervised Haematology Biopsy Procedure",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L111",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "6.6 Advanced Dermatologic Specimen Analysis",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L113",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "8.1 Assisted Musculoskeletal Diagnostic Imaging",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L149",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "8.2 Continuous Renal Ventilation Support",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L151",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "8.3 Emergency Haematology Transport Service",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L153",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "8.4 Focused Cardiac Dialysis Session",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L155",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "8.5 Intensive Palliative Ward Bed Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L157",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "8.6 Intermittent Psychiatric Laboratory Panel",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L159",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "10.1 Postoperative Pulmonary Infusion Therapy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L195",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "10.2 Preoperative Obstetric Home Visit",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L197",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "10.3 Standard Neurological Isolation Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L199",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "10.4 Supervised Metabolic Laboratory Panel",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L201",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "10.5 Advanced Rheumatologic Isolation Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L203",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "10.6 Assisted Gastrointestinal Biopsy Procedure",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L205",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "12.1 Continuous Otolaryngologic Discharge Planning",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L241",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "12.2 Extended Orthopaedic Radiotherapy Fraction",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L243",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "12.3 Focused Vascular Transfusion Service",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L245",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "12.4 Intensive Paediatric Infusion Therapy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L247",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "12.5 Intermittent Otolaryngologic Rehabilitation Programme",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L249",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "12.6 Postoperative Cardiac Physiotherapy Session",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L251",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "14.1 Preoperative Obstetric Physiotherapy Session",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L287",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "14.2 Standard Orthopaedic Isolation Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L289",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "14.3 Supervised Rheumatologic Critical Care Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L291",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "14.4 Advanced Gastrointestinal Endoscopic Procedure",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L293",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "14.5 Bedside Obstetric Physiotherapy Session",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L295",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "14.6 Elective Cardiac Nursing Observation",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L297",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "16.1 Extended Otolaryngologic Nutritional Support",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L333",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "16.2 Focused Ophthalmic Laboratory Panel",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L335",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "16.3 Intensive Infectious Physiotherapy Session",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L337",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "16.4 Outpatient Haematology Biopsy Procedure",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L339",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "16.5 Postoperative Vascular Transport Service",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L341",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "16.6 Routine Geriatric Physiotherapy Session",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L343",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "18.1 Standard Metabolic Telemetry Monitoring",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L379",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "18.2 Supervised Hepatic Endoscopic Procedure",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L381",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "18.3 Advanced Endocrine Case Conference",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L383",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "18.4 Bedside Ophthalmic Radiotherapy Fraction",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L385",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "18.5 Elective Cardiac Transport Service",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L387",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "18.6 Extended Dermatologic Specimen Analysis",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L389",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "20.1 Inpatient Ophthalmic Recovery Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L425",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "20.2 Intensive Neurological Rehabilitation Programme",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L427",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "20.3 Postoperative Neurological Rehabilitation Programme",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L429",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "20.4 Preoperative Neurological Isolation Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L431",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "20.5 Routine Ophthalmic Laboratory Panel",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L433",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "20.6 Standard Paediatric Infusion Therapy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L435",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "22.1 Supervised Musculoskeletal Diagnostic Imaging",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L471",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "22.2 Ambulatory Vascular Infusion Therapy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L473",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "22.3 Bedside Pulmonary Pharmaceutical Dispensing",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L475",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "22.4 Emergency Pulmonary Ventilation Support",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L477",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "22.5 Extended Vascular Home Visit",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L479",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "22.6 Inpatient Orthopaedic Recovery Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L481",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "24.1 Intermittent Orthopaedic Recovery Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L517",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "24.2 Postoperative Ophthalmic Anaesthesia Administration",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L519",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "24.3 Preoperative Orthopaedic Ventilation Support",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L521",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "24.4 Routine Infectious Isolation Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L523",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "24.5 Standard Musculoskeletal Recovery Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L525",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "24.6 Supervised Neurological Imaging Interpretation",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L527",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "26.1 Ambulatory Haematology Nutritional Support",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L563",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "26.2 Comprehensive Haematology Transport Service",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L565",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "26.3 Emergency Paediatric Theatre Time",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L567",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "26.4 Focused Pulmonary Pharmaceutical Dispensing",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L569",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "26.5 Inpatient Paediatric Isolation Room Occupancy",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L571",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "26.6 Intermittent Cardiac Specimen Analysis",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L573",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "28.1 Postoperative Paediatric Theatre Time",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L609",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "28.2 Preoperative Cardiac Specimen Analysis",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L611",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "28.3 Routine Neurological Imaging Interpretation",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L613",
+      "state": "accepted"
+    },
+    {
+      "qualification": "Dependent day rules use uncertainty envelopes, not invented times; per-hour/per-item is unsupported without a second dimension.",
+      "representation": "28.4 Standard Psychiatric Transfusion Service",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L615",
+      "state": "accepted"
+    }
+  ],
+  "exclusions": [
+    {
+      "anchor": "H2-S058",
+      "days": 7,
+      "service": "H2-S018",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L159"
+    },
+    {
+      "anchor": "H2-S053",
+      "days": 10,
+      "service": "H2-S039",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L337"
+    },
+    {
+      "anchor": "H2-S042",
+      "days": 14,
+      "service": "H2-S043",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L379"
+    },
+    {
+      "anchor": "H2-S045",
+      "days": 7,
+      "service": "H2-S048",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L389"
+    },
+    {
+      "anchor": "H2-S046",
+      "days": 7,
+      "service": "H2-S051",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L429"
+    },
+    {
+      "anchor": "H2-S042",
+      "days": 7,
+      "service": "H2-S069",
+      "source": "data/source/contracts/hospital_2/master_services_agreement.md#L567"
+    }
+  ],
+  "hospital": "H2",
+  "review_state": "candidate",
+  "schema_version": "2",
+  "semantics": {
+    "adjustment_order": [
+      "bundle",
+      "facility",
+      "tier",
+      "daily_premium",
+      "weekend_uplift",
+      "volume_discount"
+    ],
+    "cap_policy": "single_line_cap_otherwise_abstain",
+    "duplicate_policy": "no_explicit_service_date_prohibition",
+    "exclusion_boundary": "inclusive_at_equal",
+    "exclusion_direction": "both",
+    "facility_source": "none",
+    "invoice_eligibility": "unobserved_submission_deadline_and_waiver",
+    "refs": [
+      "data/source/contracts/hospital_2/master_services_agreement.md Articles I\u2013III, XIII, XXIII"
+    ],
+    "rounding": "half_up_cent",
+    "service_date_not_after_invoice": false,
+    "service_day": "seven_am_unobserved",
+    "version_precedence": "single",
+    "volume_basis": "contract_term_all_patients_strict_prior_billed_units"
+  },
+  "semantics_version": "2",
+  "services": [
+    {
+      "daily_cap": 24,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S001",
+      "name": "Advanced Infectious Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L57"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 164825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L57",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S002",
+      "name": "Assisted Infectious Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L59"
+      ],
+      "support": "composite_dimension_unobserved",
+      "tier_multipliers": {},
+      "unit": "per_hour_per_item",
+      "versions": [
+        {
+          "cents": 10625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L59",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S003",
+      "name": "Comprehensive Otolaryngologic Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L61"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 16525,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L61",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S004",
+      "name": "Emergency Renal Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L63"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 5925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L63",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        112,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L65"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S005",
+      "name": "Focused Palliative Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L65"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 52775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L65",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S006",
+      "name": "Intensive Otolaryngologic Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L67"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 97200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L67",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S007",
+      "name": "Intermittent Ophthalmic Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L103"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 391950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L103",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        120,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S008",
+      "name": "Postoperative Orthopaedic Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L105"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 120475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L105",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S009",
+      "name": "Preoperative Vascular Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L107"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 9100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L107",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S010",
+      "name": "Specialist Psychiatric Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L109"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 213700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L109",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S011",
+      "name": "Supervised Haematology Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L111"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 20800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L111",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        120,
+        100
+      ]
+    },
+    {
+      "daily_cap": 24,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S012",
+      "name": "Advanced Dermatologic Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L113"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 22150,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L113",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S013",
+      "name": "Assisted Musculoskeletal Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L149"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 18050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L149",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S014",
+      "name": "Continuous Renal Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L151"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 54325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L151",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        125,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S015",
+      "name": "Emergency Haematology Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L153"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 9675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L153",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 60,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L153"
+        },
+        {
+          "exceeds": 180,
+          "multiplier": [
+            80,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L153"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 6,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S016",
+      "name": "Focused Cardiac Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L155"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 237000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L155",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S017",
+      "name": "Intensive Palliative Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L157"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 136725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L157",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S018",
+      "name": "Intermittent Psychiatric Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L159"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 50475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L159",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S019",
+      "name": "Postoperative Pulmonary Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L195"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 6725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L195",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S020",
+      "name": "Preoperative Obstetric Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L197"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 18475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L197",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            85,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L197"
+        },
+        {
+          "exceeds": 300,
+          "multiplier": [
+            75,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L197"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S021",
+      "name": "Standard Neurological Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L199"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 78075,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L199",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        115,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 16,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L201"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S022",
+      "name": "Supervised Metabolic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L201"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 7925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L201",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S023",
+      "name": "Advanced Rheumatologic Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L203"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 141675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L203",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S024",
+      "name": "Assisted Gastrointestinal Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L205"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 379625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L205",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S025",
+      "name": "Continuous Otolaryngologic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L241"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 19325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L241",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S026",
+      "name": "Extended Orthopaedic Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L243"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 27900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L243",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        125,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L245"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S027",
+      "name": "Focused Vascular Transfusion Service",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L245"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 450700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L245",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S028",
+      "name": "Intensive Paediatric Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L247"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 2900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L247",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S029",
+      "name": "Intermittent Otolaryngologic Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L249"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 30775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L249",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S030",
+      "name": "Postoperative Cardiac Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L251"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 33775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L251",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S031",
+      "name": "Preoperative Obstetric Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L287"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 12800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L287",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S032",
+      "name": "Standard Orthopaedic Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L289"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 33275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L289",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S033",
+      "name": "Supervised Rheumatologic Critical Care Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L291"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 72800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L291",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S034",
+      "name": "Advanced Gastrointestinal Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L293"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 377750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L293",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 120,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L293"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S035",
+      "name": "Bedside Obstetric Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L295"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 6950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L295",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L297"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S036",
+      "name": "Elective Cardiac Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L297"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 6775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L297",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S037",
+      "name": "Extended Otolaryngologic Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L333"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 54975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L333",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        115,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S038",
+      "name": "Focused Ophthalmic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L335"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 26800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L335",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S039",
+      "name": "Intensive Infectious Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L337"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 34475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L337",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S040",
+      "name": "Outpatient Haematology Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L339"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 89775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L339",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S041",
+      "name": "Postoperative Vascular Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L341"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 15025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L341",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S042",
+      "name": "Routine Geriatric Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L343"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 21250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L343",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S043",
+      "name": "Standard Metabolic Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L379"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 16400,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L379",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S044",
+      "name": "Supervised Hepatic Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L381"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 249825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L381",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S045",
+      "name": "Advanced Endocrine Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L383"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 17400,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L383",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S046",
+      "name": "Bedside Ophthalmic Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L385"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 123550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L385",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S047",
+      "name": "Elective Cardiac Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L387"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 9125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L387",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 120,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L387"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S048",
+      "name": "Extended Dermatologic Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L389"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 35200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L389",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S049",
+      "name": "Inpatient Ophthalmic Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L425"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 7725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L425",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S050",
+      "name": "Intensive Neurological Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L427"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 14125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L427",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S051",
+      "name": "Postoperative Neurological Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L429"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 52250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L429",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L431"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S052",
+      "name": "Preoperative Neurological Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L431"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 170475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L431",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S053",
+      "name": "Routine Ophthalmic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L433"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 23100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L433",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S054",
+      "name": "Standard Paediatric Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L435"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 12750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L435",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S055",
+      "name": "Supervised Musculoskeletal Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L471"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 424475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L471",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L473"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S056",
+      "name": "Ambulatory Vascular Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L473"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 4225,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L473",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S057",
+      "name": "Bedside Pulmonary Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L475"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 6900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L475",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S058",
+      "name": "Emergency Pulmonary Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L477"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 54675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L477",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S059",
+      "name": "Extended Vascular Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L479"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 43200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L479",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S060",
+      "name": "Inpatient Orthopaedic Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L481"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 52100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L481",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L481"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S061",
+      "name": "Intermittent Orthopaedic Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L517"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 12600,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L517",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S062",
+      "name": "Postoperative Ophthalmic Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L519"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 20625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L519",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 80,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L519"
+        },
+        {
+          "exceeds": 240,
+          "multiplier": [
+            70,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L519"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S063",
+      "name": "Preoperative Orthopaedic Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L521"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 84325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L521",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        110,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S064",
+      "name": "Routine Infectious Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L523"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 191325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L523",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L525"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S065",
+      "name": "Standard Musculoskeletal Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L525"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 87050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L525",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 6,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S066",
+      "name": "Supervised Neurological Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L527"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 77200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L527",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L563"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S067",
+      "name": "Ambulatory Haematology Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L563"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 8675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L563",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S068",
+      "name": "Comprehensive Haematology Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L565"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 16650,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L565",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S069",
+      "name": "Emergency Paediatric Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L567"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 8500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L567",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S070",
+      "name": "Focused Pulmonary Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L569"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 10050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L569",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            85,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L569"
+        },
+        {
+          "exceeds": 300,
+          "multiplier": [
+            75,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L569"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_2/master_services_agreement.md#L571"
+      },
+      "facility_multipliers": {},
+      "id": "H2-S071",
+      "name": "Inpatient Paediatric Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L571"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 148400,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L571",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S072",
+      "name": "Intermittent Cardiac Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L573"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 26675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L573",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 6,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S073",
+      "name": "Postoperative Paediatric Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L609"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 34000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L609",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S074",
+      "name": "Preoperative Cardiac Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L611"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 5375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L611",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S075",
+      "name": "Routine Neurological Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L613"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 11375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L613",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 120,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L613"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H2-S076",
+      "name": "Standard Psychiatric Transfusion Service",
+      "refs": [
+        "data/source/contracts/hospital_2/master_services_agreement.md#L615"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 7025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_2/master_services_agreement.md#L615",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    }
+  ],
+  "source_hashes": {
+    "data/source/contracts/hospital_2/master_services_agreement.md": "c18ef5741215e525b211a141ea4bc66c6319e799d00f1a61d0b6c8a621c88db4"
+  },
+  "term": [
+    "2024-01-01",
+    "2025-12-31"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "boundary_reading": "\"Not billable within N days of this Service\" covers a Service Date exactly N days away. That is the ordinary meaning of \"within\", and it makes the boundary day the last day the window covers rather than the first day outside it.",
+  "contract_number": "INS-H1-2024-0417",
+  "contract_term": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "daily_caps": [
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L51",
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L207"
+      ],
+      "service_id": "H1-S005",
+      "service_name": "Advanced Metabolic Nursing Observation"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L53",
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L208"
+      ],
+      "service_id": "H1-S007",
+      "service_name": "Advanced Rheumatologic Laboratory Panel"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L73",
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L209"
+      ],
+      "service_id": "H1-S027",
+      "service_name": "Comprehensive Oncology Nursing Observation"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L106",
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L210"
+      ],
+      "service_id": "H1-S060",
+      "service_name": "Inpatient Palliative Specimen Analysis"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L134",
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L211"
+      ],
+      "service_id": "H1-S088",
+      "service_name": "Routine Infectious Critical Care Occupancy"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L138",
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L212"
+      ],
+      "service_id": "H1-S092",
+      "service_name": "Routine Urologic Biopsy Procedure"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L145",
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L213"
+      ],
+      "service_id": "H1-S099",
+      "service_name": "Standard Endocrine Dialysis Session"
+    }
+  ],
+  "direction_reading": "The clause states the window is measured in either direction.",
+  "exclusion_boundary": "inclusive_at_equal",
+  "exclusion_direction": "both",
+  "exclusion_windows": [
+    {
+      "anchor_service_id": "H1-S100",
+      "anchor_service_name": "Standard Endocrine Endoscopic Procedure",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L229"
+      ],
+      "service_id": "H1-S004",
+      "service_name": "Advanced Metabolic Anaesthesia Administration",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H1-S107",
+      "anchor_service_name": "Supervised Otolaryngologic Sterilisation Service",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L230"
+      ],
+      "service_id": "H1-S033",
+      "service_name": "Continuous Immunologic Theatre Time",
+      "window_days": 21
+    },
+    {
+      "anchor_service_id": "H1-S036",
+      "anchor_service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L231"
+      ],
+      "service_id": "H1-S065",
+      "service_name": "Intensive Ophthalmic Case Conference",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H1-S059",
+      "anchor_service_name": "Inpatient Palliative Isolation Room Occupancy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L232"
+      ],
+      "service_id": "H1-S074",
+      "service_name": "Postoperative Ophthalmic Radiotherapy Fraction",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H1-S029",
+      "anchor_service_name": "Comprehensive Otolaryngologic Theatre Time",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L233"
+      ],
+      "service_id": "H1-S087",
+      "service_name": "Routine Immunologic Ward Bed Occupancy",
+      "window_days": 10
+    },
+    {
+      "anchor_service_id": "H1-S003",
+      "anchor_service_name": "Advanced Infectious Critical Care Occupancy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_1/provider_services_agreement.md#L234"
+      ],
+      "service_id": "H1-S103",
+      "service_name": "Standard Paediatric Biopsy Procedure",
+      "window_days": 10
+    }
+  ],
+  "hospital": "H1",
+  "review_state": "accepted",
+  "schema_version": "1",
+  "scope": "Caps and exclusion windows read from this hospital's agreement, with the clause each comes from. Effective dates span the whole contract term unless a clause narrows them.",
+  "service_day": "calendar"
+}

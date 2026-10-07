@@ -1,0 +1,90 @@
+{
+ "run_context": "0a6df141723a1f95",
+ "template_rows": 2806,
+ "contracts": {
+  "CW": {
+   "invoices": 900,
+   "flagged": 85,
+   "flag_rate": "0.0944",
+   "categories": {
+    "rate": 31,
+    "duplicate": 18,
+    "arithmetic": 7,
+    "timing": 5,
+    "adjustment": 4,
+    "evidence": 3,
+    "unit": 2,
+    "identity": 2,
+    "evidence; duplicate": 1,
+    "evidence; evidence_mismatch": 1,
+    "quantity; limit": 1,
+    "quantity; rate": 1,
+    "term; rate": 1,
+    "unit; rate": 1,
+    "duplicate; rate": 1,
+    "timing; signature": 1,
+    "evidence; arithmetic": 1,
+    "term; evidence; adjustment": 1,
+    "eligibility": 1,
+    "unit; duplicate": 1,
+    "limit": 1
+   },
+   "confidence": {
+    "0@0.80": 301,
+    "0@0.95": 514,
+    "1@0.50": 13,
+    "1@0.60": 27,
+    "1@0.80": 5,
+    "1@0.95": 40
+   },
+   "flag_basis": {
+    "readings disagree (Q9-2)": 13,
+    "wrong under every reading": 72
+   },
+   "judged_total_changed": 66,
+   "unpriceable": 0,
+   "fact_dependent": 335
+  },
+  "DDS": {
+   "invoices": 1906,
+   "flagged": 125,
+   "flag_rate": "0.0656",
+   "categories": {
+    "rate": 51,
+    "quantity": 21,
+    "eligibility": 7,
+    "timing": 6,
+    "arithmetic": 6,
+    "adjustment": 4,
+    "eligibility; rate": 4,
+    "discount": 3,
+    "timing; evidence_mismatch": 3,
+    "signature": 3,
+    "duplicate": 3,
+    "identity": 3,
+    "evidence": 3,
+    "term; evidence_mismatch": 3,
+    "evidence_mismatch": 2,
+    "duplicate; eligibility; rate": 2,
+    "duplicate; eligibility": 1
+   },
+   "confidence": {
+    "0@0.80": 1781,
+    "1@0.50": 8,
+    "1@0.60": 117
+   },
+   "flag_basis": {
+    "wrong under every reading": 117,
+    "readings disagree (Q9-2)": 8
+   },
+   "judged_total_changed": 110,
+   "unpriceable": 0,
+   "fact_dependent": 1906
+  }
+ },
+ "template_coverage": {
+  "outcomes": 2806,
+  "missing_from_outcomes": [],
+  "outcomes_not_in_template": []
+ }
+}

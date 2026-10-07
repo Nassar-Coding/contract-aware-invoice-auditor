@@ -1,0 +1,292 @@
+# Ambiguity and decision register (G0 index, G1 content). Q1-Q11 were identified before implementation; the later
+# entries were found while implementing.
+# Each open question has bounded alternatives, the rules it touches, an affected scope computed from the data
+# (spec/question_scopes.json via tools/question_scopes.py; populations a reading CAN affect, not findings),
+# and the gate that must close it. None is silently assumed: rules depending on an open question carry
+# `status: open` in spec/rules.yaml and cannot produce a final outcome until it is closed or disclosed.
+# D-entries are settled readings that keep a recorded alternative because a clause points the other way.
+
+questions:
+  - id: Q1
+    title: A3 adjustment recipient - "after" (A3) vs "on or after" (31A/36A); same-day ties; DDS per-well invoicing vs a single first invoice
+    sources: ["CW A3 (p43)", "CW 31A (p32)", "DDS A3 (p42)", "DDS 36A (p35)", "DDS Cl.32 (p8)"]
+    alternatives:
+      - {id: A, reading: "Incorporated clause governs: first submission ON OR AFTER issue (CW 2026-05-12: PA-00006/PA-00023/PA-00380 tie; DDS 2026-08-17: MDS-01625)"}
+      - {id: B, reading: "Amendment's own words govern: first submission strictly AFTER issue (CW 2026-05-14: PA-00443; DDS 2026-08-18: MDS-01585/01631/01645 tie)"}
+      - {id: C, reading: "DDS only: per-well first invoice (each well's own first invoice on/after issue), because each well is invoiced separately (Cl.32)"}
+    tie_rule: "No contractual tie-breaker; ties stay visible. Never post to every candidate or pick the smallest ID."
+    rules: [CW-R22, DDS-R21]
+    scope_ref: [Q1_Q2_CW, Q1_Q2_DDS]
+    status: resolved by rule (G5)
+    blocks: G7
+    originally_blocks: G4
+    g4_disposition: "Kept open (G4). The text does not settle it: 31A/36A 'on or after' vs A3 'after', and no tie-breaker for same-day submissions. G4 computes the difference once per protected line and the single recipient under each reading (CW A: tie PA-00006/PA-00023/PA-00380, B: PA-00443; DDS A: MDS-01625, B: tie MDS-01585/01631/01645, C: each well's own first invoice on or after issue, 56 of 68 wells have none); never posted to every candidate. verification/g4/ledgers/adjustments.json; spec/g4_decisions.yaml G4-Q1"
+    g5_disposition: 'Kept open (both readings live, spec/g5_decisions.yaml Q1): each candidate recipient is wrong only in its own scenario (adjustment omitted - every adjustment column is 0.00), so by the ambiguity rule (Q9-2) it is flagged at 0.50: CW PA-00006, PA-00023, PA-00380 (A), PA-00443 (B); DDS MDS-01625 (A), MDS-01585, MDS-01631, MDS-01645 (B). Reading C (per well) rejected from source (36A singular). Flags under A only: CW 87 / DDS 122; B only: CW 85 / DDS 124 (verification/g5/decision_effects.json Q1).'
+  - id: Q2
+    title: Adjustment financial basis and placement - certified vs submitted CW work; application_total vs 45A payment; DDS adjustment vs DS-900 and VAT
+    sources: ["CW Cl.8/45A (pp8, 32)", "CW A3 (p43)", "DDS Cl.36-40 (p8)", "DDS 36A, A3 (pp35, 42)", "README Data"]
+    alternatives:
+      - {id: A, reading: "Judged totals exclude the adjustment (CW: measured total; 45A payable carries it). DDS: adjustment column only"}
+      - {id: B, reading: "Receiving invoice's judged total includes the adjustment (DDS: inside net before DS-900/VAT)"}
+      - {id: C, reading: "DDS: adjustment added after DS-900 and before VAT"}
+    rules: [CW-R21, CW-R22, DDS-R21]
+    scope_ref: [Q1_Q2_CW, Q1_Q2_DDS]
+    status: decided
+    decided_at: G5
+    originally_blocks: G5
+    g5_disposition: 'A from source: CW 45A (p32) adds the 31A adjustment to the measured total; DDS Cl.36-40 (p8) define net and total without it. An omitted adjustment is a payment-only defect of the recipient (Q9-1). Under B the recipients'' judged totals change (8 invoices) and no flag changes.'
+  - id: Q3
+    title: Missing Schedule 5 record - current exclusion vs P23 next-valuation recovery; no delivery/certification timestamps
+    sources: ["CW Cl.46 (p8)", "CW P23 (p14)", "CW Sch 5 (p27)", "DDS Cl.37 (p8)"]
+    alternatives:
+      - {id: A, reading: "Line not payable now: excluded from the expected total of its own application (Cl.46)"}
+      - {id: B, reading: "Line stays in its application's measured value; P23 deducts it from the next valuation (with retention released on it)"}
+    rules: [CW-R05, DDS-R05]
+    scope_ref: [Q3_CW]
+    status: decided
+    decided_at: G3
+    decision: "A (Cl.46 'not payable in any valuation until that record has been delivered'; DDS Cl.37; P23 governs recovery of an item already paid, a G4 event)"
+    decision_ref: spec/g3_decisions.yaml#Q3
+    blocks: G3
+  - id: Q4
+    title: DDS hourly quantity - first hour of each "period in the hole", daily 6-hour minimum, DD-120 vs RM-530 hour scope
+    sources: ["DDS Cl.21 (p6)", "21A (p35)", "Sch 3 Part 7 (p22)", "P10 (p11)", "Sch 8 DD-120/RM-530 (pp27-28)"]
+    alternatives:
+      - {id: A, reading: "Deduct one hour per period in the hole, then apply the 6-hour minimum"}
+      - {id: B, reading: "Apply the minimum to hours run, then deduct one hour"}
+      - {id: C, reading: "Period = BHA run (one deduction per run, on its first day) rather than per day"}
+    observation: "No DD-120 line is billed at 6 hours or fewer, so the minimum/deduction order changes nothing billed at or below 6; period definition still matters."
+    g3_disposition: "Kept open at G3 (no clause decides 'period in the hole' or the order). The G3 engine computes every reading on every hourly line; where they differ (verification/g3/decision_scopes.json Q4) the line carries all alternatives and no single amount. Ownership of those final amounts moves to G5."
+    decision_ref: spec/g3_decisions.yaml#Q4
+    rules: [DDS-R07]
+    scope_ref: [Q4_DDS]
+    status: open
+    blocks: G7
+    originally_blocks: G3
+    g5_disposition: 'Resolved by the ambiguity rule (Q9-2) at G5; working reading A. 7 DDS invoices carry Q4 alternatives; flags under C only: DDS 122, under ''counts'' only: DDS 123 (decision_effects Q4).'
+  - id: Q5
+    title: Schedule 8 conflicts, service by service (DD-102 coordinator vs tool-in-hole row; HC-630 per BHA run vs clean-out runs; DD-120/RM-530 'circulating or back-reaming')
+    sources: ["Sch 8 (pp27-28)", "Cl.2 (p3)", "Cl.26, Cl.30 (p7)", "App G (p36)", "Sch 4 (p23)"]
+    alternatives:
+      - {id: A, reading: "DD-102: per coordinator recorded per day (Sch 8 intro, Sch 4, App G 'night man')"}
+      - {id: B, reading: "DD-102: per day the tool is in the hole (Sch 8 row)"}
+      - {id: C, reading: "HC-630: per BHA run (Sch 8) vs per clean-out run recorded (Cl.30); RM-530/DD-120: whether back-reaming hours count for DD-120"}
+    rules: [DDS-R06, DDS-R07, DDS-R15]
+    scope_ref: [Q5_DDS]
+    status: decided in part
+    decided_at: G3
+    decision: "DD-102 decided A (per coordinator recorded; B is unestablishable: no tool term exists for DD-102). Residual kept open: DD-120 / RM-530 hours (Sch 8 rows vs Cl.21, Cl.30, Sch 1) and HC-630 (Sch 8 'each BHA run' vs Cl.30 count) - every reading computed on every line; 3 lines differ; Cl.2's precedence sentence does not settle it under either reading of its scope (D8-I1)"
+    decision_ref: spec/g3_decisions.yaml#Q5
+    blocks: G7
+    originally_blocks: G3
+    g5_disposition: Residual resolved by the ambiguity rule (Q9-2) at G5; working reading Sch 1 / Cl.21 / Cl.30. 1 DDS invoice (DD-120) and 2 (RM-530) change under the Sch 8 reading; no HC-630 run has two charges.
+  - id: Q6
+    title: Civil state basis - which quantity advances bands (measured vs claimed vs payable), cap/duplicate allocation, exclusion day counting
+    sources: ["CW Cl.30-32, 44 (pp6, 8)", "Sch 4 Parts 3-5 (pp24-26)", "Cl.46, P23"]
+    alternatives:
+      - {id: A, reading: "Bands advance by accepted measured quantity (rejected/duplicate quantities excluded); unpaid-for-want-of-record quantity included"}
+      - {id: B, reading: "Bands advance by payable quantity only"}
+      - {id: C, reading: "Exclusion 'within two days following': day+1 and day+2 excluded vs day+1 only"}
+      - {id: D, reading: "Whether A.14.020 is excluded on the SAME day as the A.14.010 measurement: yes under P19 (p13) 'within two days of the measurement'; no under Cl.32 (p6) and Sch 4 Part 5 (p26) 'within the stated period following'"}
+    ordering_convention: "execution date, then application number, then line number (Cl.30 wording kept as a documented convention after substitution)"
+    rules: [CW-R07, CW-R14, CW-R15, CW-R16, CW-R17]
+    scope_ref: [Q6_CW]
+    status: decided
+    decided_at: G5
+    originally_blocks: G4
+    g4_disposition: "A/B kept open (every band ledger is computed under both; on the pinned data they give the same amounts: no unpaid-for-want-of-record quantity of a banded item precedes a band edge it would move). C decided: day+1 and day+2 (the two days following D are D+1 and D+2; all four readers). D kept open (1 line on the pinned data, PA-00801-05). Cap allocation: a daily limit applies per item, work area and day to the quantity that stands after Cl.44 (2 lines over, each a single line). Ordering: execution date, then every order of same-date measurements where the order changes a value (8 lines), the Cl.30 wording labelled as one alternative. spec/g4_decisions.yaml G4-Q6"
+    g5_disposition: 'A/B decided A from source (Sch 4 Part 3 ''the quantity measured''; no line changes). C decided at G4 (D+1, D+2). D kept (policy): PA-00801-05 resolved by the ambiguity rule, flagged at 0.50 (wrong under A, right under B).'
+  - id: Q7
+    title: Weekly evidence reuse (CW) and drilling duplicate allocation
+    sources: ["CW Cl.44 (p8)", "Sch 5 note, 47A (pp27, 33)", "DDS Cl.29 (p7)", "Sch 5 (p24)"]
+    alternatives:
+      - {id: A, reading: "Reuse of a DW week record on other dates is evidence of the same week, not a duplicate, unless the same item/area/date repeats"}
+      - {id: B, reading: "A week record supports one weekly charge; further charges citing it are unsupported (C-COND/C-CORR), not Cl.44 duplicates"}
+      - {id: C, reading: "DDS repeat on a well-day: which line is disallowed has no contractual allocation rule (CW's later-copy rule not imported)"}
+    rules: [CW-R06, CW-R17, DDS-R14, DDS-R16]
+    scope_ref: [Q7]
+    status: decided
+    decided_at: G5
+    decided_by: policy (2026-09-28)
+    originally_blocks: G4
+    g4_disposition: "CW decided (A and B converge): a weekly item is measured by the week, so lines citing one week's dewatering log are the same item, work area and week; Cl.44 disallows the later-submitted ones in full (19 week groups on the pinned data). C kept open: of two admissible drilling charges for one well-day, run, well or loss, each is carried as the one that stands ('stands' alternatives, owner G5): 3 pairs on the pinned data (MDS-00476 MW-301, MDS-00580 LW-401, MDS-01654 LW-401). The independent readers took the charge on the earlier invoice as standing where the invoices differ; that reading was then adopted as policy at G5. spec/g4_decisions.yaml G4-Q7"
+    g5_disposition: 'C decided as policy (2026-09-28): the charge on the earlier-submitted invoice stands. On the pinned data the 3 pairs are within one invoice each (MDS-00476, MDS-00580, MDS-01654): the invoice carries one charge whichever line is the repeat; flags unchanged under ''either stands''.'
+  - id: Q8
+    title: Background documents not supplied (call-offs, performance-section nominations, written uplift instructions, permits, well endpoints)
+    sources: ["CW Cl.5, 9 (p3)", "P11 (p13)", "H3 (p15)", "DDS Cl.3-4 (p3)", "Cl.23 (p6)", "App A (p29)"]
+    alternatives:
+      - {id: A, reading: "Use explicit contractual defaults (rest-day alone; class from header; section from DDR) and disclose proxies"}
+      - {id: B, reading: "Treat every charge depending on an unsupplied document as unresolved"}
+    rules: [CW-R13, CW-R18, CW-R19, CW-R23, DDS-R01, DDS-R15, DDS-R18, DDS-R19]
+    scope_ref: [Q8]
+    status: decided in part
+    decided_at: G3
+    decision: "Settled at G3: explicit contractual defaults applied (CW P11 rest-day alone; section/status from the report); the claim's own class is never taken for a document the contract names - DDS well class (Cl.4, P2/P3: the call-off) and CW ground class (S4, Cl.5: the excavation record / the Engineer) are carried under every admissible class, and PD-210 stays conditional on the unsupplied nomination; all owned through G5 (DDS-R19 stays open)"
+    decision_ref: spec/g3_decisions.yaml#Q8
+    blocks: G7
+    originally_blocks: G3
+    g5_disposition: 'Resolved at G5 by the missing-evidence rule Q9-3 (class, ground, nomination; spec/g5_decisions.yaml): the invoice''s own statement of the fact never selects a value, and an invoice is wrong only when no admissible value of the unsupplied document makes it right. Alternatives: B query-all flags CW 386 / DDS 1,906; C contractual defaults flags CW 359 / DDS 1,241 (decision_effects Q8-class).'
+  - id: Q9
+    title: Reporting semantics - binary flag for payment-only or procedural defects; unknown-total encoding; confidence meaning; undefined severity
+    sources: ["dataset README (output format)", "guidelines principle 3, check 12"]
+    alternatives:
+      - {id: A, reading: "Flag any breach of the twelve checks, including procedural and payment-only defects; expected total unchanged where the breach has no monetary effect"}
+      - {id: B, reading: "Flag only defects that change the judged total"}
+      - {id: C, reading: "Unknown total: export billed total with low confidence vs a disclosed best-supported value - decide before G7"}
+    rules: [CW-R01, CW-R02, CW-R04, CW-R21, CW-R24, DDS-R01, DDS-R02, DDS-R04, DDS-R22]
+    scope_ref: [Q9]
+    status: decided
+    decided_at: G5
+    originally_blocks: G7
+    g5_disposition: 'Decided at G5 from the dataset''s output format and template (spec/g5_decisions.yaml q9_rule Q9-1..Q9-7): flag any breach of the twelve checks; open readings -> ambiguity rule; unsupplied facts -> Q9-3; unknown total -> flagged only when a check fails, exported at its lower bound at 0.30 (none on the pinned data); confidence rubric Q9-5. Alternative B (only a changed judged total) flags CW 74 / DDS 110.'
+  - id: Q10
+    title: Omitted charges and underbilling vs acceptable partial claiming
+    sources: ["CW Cl.28, 30 (p6)", "DDS Cl.21, 27, 38 (pp6-8)"]
+    alternatives:
+      - {id: A, reading: "Add only contractually required items (DS-900 discount, minimums, correct rates in both directions)"}
+      - {id: B, reading: "Also add unbilled chargeable events evidenced by records"}
+    rules: [CW-R07, DDS-R15, DDS-R20]
+    scope_ref: [Q10_DDS]
+    status: decided
+    decided_at: G5
+    originally_blocks: G5
+    g5_disposition: 'A from source: only what the contract requires is added (DS-900, minimums, both-direction rate corrections); no clause obliges a charge for an unbilled event.'
+  - id: Q11
+    title: DDS quantity details - which metres enter the per-well annual accumulator; tolerance vs depth intervals; wrong-unit remedy under Cl.35
+    sources: ["DDS Sch 2 Part 2 (p17)", "Cl.23-25, 35 (pp6, 8)", "25A (p35)"]
+    alternatives:
+      - {id: A, reading: "Accumulator = performance-chargeable PD-210 metres only; wrong unit = unit breach with value per supported quantity"}
+      - {id: B, reading: "Accumulator = all metres drilled on the well; wrong unit = charge unsupported"}
+    observation: "Records-based bound (replaces a bound taken from billed PD-210 metres, which cannot bound reading B): the sum of the daily physical depth increments (Part A depth end - depth start) on any well over ALL supplied dates is at most 6,026 m (NGP-BD-027), and drilled + logged + reamed metres at most 10,002 m per well - far below the 40,000 m band edge, so neither accumulator reading can change a band on the pinned data (scope_ref Q11_DDS)."
+    rules: [DDS-R07, DDS-R08, DDS-R12]
+    scope_ref: [Q11_DDS]
+    status: decided in part
+    decided_at: G3
+    decision: "Accumulator: no effect on the pinned data (records bound). Tolerance: 25A per charge against the metres the report supports for its interval. Wrong-unit remedy (Cl.35 states none): kept open with alternatives A/B above; 0 DDS lines are billed in another unit (verification/g3/decision_scopes.json Q11), so it decides no line. DDS-R08 stays open."
+    decision_ref: spec/g3_decisions.yaml#Q11
+    blocks: G7
+    originally_blocks: G3
+    g5_disposition: 'Accumulator and wrong-unit remedy: working reading A at G5; no line changes under B (decision_effects Q11).'
+  - id: Q12
+    title: "CW Contract Year for the Sch 4 Part 3 bands: does the count reset on 5 January 2026?"
+    sources: ["CW 3A (p32, verbatim in verification/second_pass_visual_log.txt)", "Sch 4 Part 3 (p24)", "A1, A2 (pp40, 42)"]
+    alternatives:
+      - {id: A, reading: "Anniversary reset: CY1 2025-01-05..2026-01-04; CY2 2026-01-05..2026-09-30 ('each following Contract Year runs from that anniversary'; the final CY is short, 'however long that leaves it')"}
+      - {id: B, reading: "No reset: CY1 was the final CY under the as-let completion (27 Sep 2025); 'an extension of time does not begin a new Contract Year', so CY1 runs to 2026-09-30 'however long that leaves it'"}
+    working_reading: "A; B retained because 3A's last sentence supports it"
+    rules: [CW-R14]
+    scope_ref: [Q12_CW_contract_year]
+    status: decided
+    decided_at: G5
+    originally_blocks: G4
+    g4_disposition: "Kept open (G4): every civil band ledger is computed under A and B; 270 lines carry both values; A3 totals and 45A release are reported per reading. spec/g4_decisions.yaml G4-Q12"
+    g5_disposition: 'A from source (CW 3A p32: ''each following Contract Year runs from that anniversary'' is unconditional; the extension sentence says the extension is not itself a boundary). B would flag CW 245 instead of 85, repricing 181 applications that reconcile under A.'
+  - id: Q13
+    title: "Lost in hole - accumulated circulating hours: the Part E figure vs the well's daily history through the day of loss"
+    sources: ["DDS Cl.31 (p7)", "31A (p35)", "P12 (p11)", "Sch 5 Part E (p24)", "Sch 6 (p25)"]
+    alternatives:
+      - {id: A, reading: "Part E 'Circulating hours accumulated on the well' as recorded governs: it is the Schedule 5 record of the loss"}
+      - {id: B, reading: "The hours are the circulating hours accumulated on the well through the day of loss, i.e. the sum of Part A daily circulating hours on that well (P12; Cl.31 'accumulated on the well'); Part E is corroborated against it"}
+      - {id: C, reading: "Where Part E and the daily history disagree the depreciation cannot be fixed from the records: the LH line is a query valued only within the A/B bounds"}
+    observation: "An earlier G2 version compared Part E with the whole-well daily sum and found 27 of 54 losses differing (CI-01). G3 corrected the corroboration to P12's own words, 'the tool accumulated on the well': Part E equals the LOST TOOL's own daily circulating hours on the well through the day of loss in 54 of 54 losses (spec/question_scopes.json Q13_DDS part_e_equals_tool_daily_sum); the whole-well sum still differs in 27, which is why reading B is rejected."
+    rules: [DDS-R17]
+    scope_ref: [Q13_DDS]
+    status: decided
+    decided_at: G3
+    decision: "A (Cl.31 'as stated on the Lost in Hole Report'), corroborated by P12 on every loss; CI-01 resolved"
+    decision_ref: spec/g3_decisions.yaml#Q13
+    blocks: G3
+
+  - id: Q14
+    title: "DDS Contract Year for the Sch 2 Part 2 annual footage: does the per-well count restart on 1 January 2026?"
+    sources: ["DDS 3A (p35)", "Sch 2 Part 2 (p17)", "A1, A2 (pp39, 41)"]
+    alternatives:
+      - {id: A, reading: "Anniversary reset: the second Contract Year runs from the first anniversary of the Commencement Date"}
+      - {id: B, reading: "No reset: 'an extension does not begin a new Contract Year', so the first Contract Year runs to the Expiry Date as extended"}
+    rules: [DDS-R12]
+    scope_ref: [Q11_DDS]
+    status: decided
+    decided_at: G5
+    g4_disposition: "Kept open (G4): every footage accumulator is computed under A and B (x Q11 A/B). On the pinned data no well reaches 40,000 m in a Contract Year under any reading, so no line changes (2,390 PD-210 lines at 100%). spec/g4_decisions.yaml G4-Q14"
+    originally_blocks: G5
+    g5_disposition: A from source (DDS 3A p35, same structure as CW 3A); no line changes.
+
+decisions:
+  - id: D1
+    title: PD-210 takes no well-class factor
+    settled_reading: "17B (p35) governs: class factor not applied to PD-210"
+    alternative: "Sch 2 note (p17) and Sch 3 Part 2 list (p20) class-rate PD-210, and Cl.2 says a Schedule prevails over a Part"
+    reason: "17B addresses PD-210 by name with a reason; App B's HPHT example (p30) prices PD-210 without the factor"
+    override: OV-DDS-02
+    scope_ref: [D_scopes]
+    scope_key: dds_pd210_lines_on_non_standard_wells
+  - id: D2
+    title: DDS A3 DD-120 416.00 supersedes S2 monthly rates from 2026-02-01
+    settled_reading: "A3, issued later, governs DD-120 from 2026-02-01 subject to pre-issue protection; 4%/7% discounts still apply by service date"
+    alternative: "S2 monthly table governs April-December 2026 because its months are later than A3's effective date"
+    reason: "Instruments read in the order issued; later instrument governs from its effective date (pp37, 42)"
+    override: OV-DDS-07
+    scope_ref: [Q1_Q2_DDS]
+    scope_key: dd120_lines_apr_dec_2026_where_s2_monthly_rate_exists
+  - id: D3
+    title: Illustrative worked examples do not displace operative indexation
+    settled_reading: "CW 29A and DDS 17A index C.31.010/D.41.030 and MW-310/HC-620 even though App B examples do not"
+    alternative: "Examples show the parties' intended practice (no indexation)"
+    reason: "Operative clauses are explicit; examples are illustrative forms"
+    override: [OV-CW-07, OV-DDS-03]
+    scope_ref: [D_scopes]
+    scope_key: cw_c31010_lines
+  - id: D4
+    title: DDS annual footage bands are per well and Contract Year
+    settled_reading: "Schedule 2 Part 2 'metres already drilled on the well in the Contract Year' (p17)"
+    alternative: "Contract-wide accumulation (rejected: contradicts explicit wording)"
+    reason: "Explicit text"
+    scope_ref: [Q11_DDS]
+    scope_key: max_physical_depth_increment_per_well_all_dates
+  - id: D5
+    title: CW retention release timing follows 45A, not Cl.51
+    settled_reading: "Half of earlier retention released on the first application submitted after 30 Sep 2026, rounded down"
+    alternative: "Release on a Taking-Over Certificate (Cl.51), which is not supplied"
+    reason: "45A is the specific second-series payment formula"
+    override: OV-CW-11
+    scope_ref: [Q9]
+    scope_key: cw_applications_after_extended_completion_candidates_for_45A_release
+  - id: D6
+    title: DDS daily limits (Cl.22) are counted per well-day
+    settled_reading: "A service's Sch 3 Part 5 limit applies to the quantity charged for one well on one day: each well is invoiced separately (Cl.32, p8) and each Daily Drilling Report is for one well and one day (Cl.15, p5; Sch 5, p24)"
+    alternative: "Cl.22 'No service is charged on any day in a quantity above the daily limit in Schedule 3 Part 5' read literally: all wells together on a calendar day"
+    reason: "The literal reading would cap the whole contract at one well's crew and tools (e.g. DD-101 2 person-day) although the contract runs several rigs at once (S2 p40: 'the Operator having committed a second rig to this Contract'); the text does not say 'per well', so the reading is recorded with its alternative (second-reading finding)"
+    scope_ref: [D_scopes]
+    scope_key: dds_service_days_over_limit_only_when_wells_are_summed
+  - id: D7
+    title: A stated trench depth of exactly 2 m belongs to A.12.020
+    settled_reading: "A.12.020 'depth not exceeding 2 m' includes 2 m; A.12.030 '2 m to 4 m' covers above 2 m up to and including 4 m; A.12.040 'exceeding 4 m' (Sch 1 p17; P13 p13)"
+    alternative: "2 m read into A.12.030 ('2 m to 4 m' read inclusively at its lower end)"
+    reason: "'not exceeding' is the explicit bound and makes the bands contiguous without overlap, as the drilling contract states for its depth bands (boundary belongs to the shallower band, DDS Cl.23); no supplied record states 2 m or 4 m (scope), so the reading changes nothing on the pinned data"
+    scope_ref: [D_scopes]
+    scope_key: cw_dx_records_with_stated_depth_exactly_2_or_4_m
+  - id: D8
+    title: "Documents bound in each contract but outside its Cl.2 list are operative; whether DDS Cl.2's 'A Schedule prevails over a Part' reaches the unlisted Schedules is an open interpretation (D8-I1)"
+    settled_reading: "Every document bound in the contract under its reference is operative. CW Cl.2 (p3) lists only 'this Agreement, the General Conditions, Schedules 1 to 5 and Appendix A'; DDS Cl.2 (p3) lists 'Parts I to VII, Schedules 1 to 6 and Appendices A to C'. The lists are incomplete. This settles operability only. The scope of DDS Cl.2's separate sentence 'A Schedule prevails over a Part' is not expressly limited to the listed Schedules, nor expressly extended to the unlisted ones: that is an interpretation, recorded as D8-I1 with both readings live and weighted, not a consequence of the list"
+    alternative: "Only the listed documents are operative: the civil contract would lose Parts II-V (incl. Cl.26 units, Cl.28 rounding, Cl.46 records, S4, P11, P23) and the drilling contract Parts VIII-IX (17A, 17B, 21A, 25A, 31A), Schedules 7-8 and Appendices D-G"
+    reason: "Both contracts rely throughout on the unlisted documents (their contents pages list them; charges are built on Part II/III rules; Appendix G is how every report is read); the listed-only reading leaves no measurement, rounding or record rule and is not a workable contract. (Revised: the earlier text drew from the list that Cl.2's precedence sentence 'does not by its own terms rank Schedule 8'; review found that an interpretation stated as a textual consequence. It is now D8-I1.)"
+    interpretations:
+      - id: D8-I1
+        question: "Does DDS Cl.2's 'A Schedule prevails over a Part' (p3) rank a Schedule bound in the contract but outside Cl.2's list - Schedule 8, whose rows state how each service is counted - over the Parts (Cl.21, Cl.30 in Part III, pp6-7)?"
+        status: open
+        kind: interpretation
+        readings:
+          - id: broader
+            reading: "The sentence is general: Schedule 8 is a Schedule, so its rows prevail over Cl.21 and Cl.30 where they differ"
+            weight: "greater - it follows the words of the sentence, which name no list; and D8's settled reading already treats Schedule 8 as an operative Schedule"
+            effect: "Schedule 8 over Cl.21/Cl.30: DD-120 and RM-530 count 'each circulating or back-reaming hour recorded' (pp27-28), HC-630 'each BHA run, as Clause 26 describes' (p28). It still does not settle Q5: Cl.2 does not rank Schedule 8 against Schedule 1, whose descriptions are narrower ('Rotary steerable system, circulating'; 'Back-reaming while tripping', pp15-16), and the HC-630 row cites Cl.26, which describes only DD-111 and LW-420 (p7)"
+          - id: narrower
+            reading: "The sentence ranks the documents the same clause lists (Parts I to VII, Schedules 1 to 6): Schedule 8 is not ranked by Cl.2, and each conflict is decided on its own text"
+            weight: "lesser - it rests on context only (the sentence follows the list in the same clause); nothing in the text limits it"
+            effect: "no ranking of Schedule 8 over Cl.21/Cl.30 or Schedule 1: the Part-based and Schedule-8-based readings stand level"
+        consequence: "Under either reading Cl.2 does not settle the Q5 residual, so it stays as scoped alternatives computed on every line (spec/g3_decisions.yaml Q5): 3 lines differ - MDS-01651-025 (DD-120) and MDS-00856-039, MDS-01338-026 (RM-530) - and the 428 HC-630 lines agree. The weights are recorded for G5, which owns the choice; they select no value at G3"
+        owner: G5
+        applies_to: [Q5]
+        sources: ["DDS Cl.2 (p3)", "Cl.21, Cl.26, Cl.30 (pp6-7)", "Sch 1 (pp15-16)", "Sch 8 (pp27-28)"]
+    scope_ref: [D_scopes]
+    scope_key: lines_relying_on_documents_outside_cl2_lists

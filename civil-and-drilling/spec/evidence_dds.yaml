@@ -1,0 +1,72 @@
+# G2 evidence-mapping specification, daily drilling reports (evidence mappings, drilling reports).
+# One DDR per well-day, carrying every condition-of-payment record as numbered parts (Sch 5 p24; 19A p35).
+# Rig words map to services through Appendix G (verified table DDS.T20_GLOSSARY in spec/terms_dds.yaml).
+# A term used for two codes (mud motor, rotary steerable, MWD collar, gamma tool) resolves by the part it
+# appears in: the LH-7xx code only in Part E (loss context), otherwise the non-loss code. Never by price.
+# The corpus survey found exactly the keys and vocabularies below in 8,151 reports; anything else is unresolved.
+version: 1
+
+header: {title: DAILY DRILLING REPORT, keys: [Report, Contract, Well, Rig, Date], date_format: "%d-%b-%Y",
+         join_key: Report, source: "19A (p35); the internal Report number is the index"}
+parts:
+  A: {title: "PART A — OPERATIONS SUMMARY", present: "every day",
+      int_keys: ["Depth start (m MD)", "Depth end (m MD)", "Circulating hours", "BHA run", "Gyro surveys", "Pressure points", "Wiper trips", "Back-reaming hours", "Clean-out runs"],
+      enum_keys: {"Hole section": hole_sections, "Status": statuses}, list_keys: {"In the hole": tool_terms, "Crew on tour": crew_terms},
+      meaning: "daily facts for the well-day: section, status, depths (whole metres, R3), circulating hours (whole hours, R4), counts",
+      source: "Cl.15 (p5); Sch 5 Part A (p24); R3, R4 (p14)"}
+  B: {title: "PART B — BHA RUN RECORD", present: "every day of a run",
+      int_keys: [Run, "Run circulating hours", "Metres logged", "Metres reamed"], date_keys: ["Run first day", "Run last day"],
+      bool_keys: ["Radioactive source carried"], list_keys: {"Tools in run": tool_terms},
+      meaning: "RUN-LEVEL metadata repeated unchanged on every day of the run; circulating hours and metres logged/reamed are run totals (one fact per run, never summed per report)",
+      source: "Cl.16 (p5); Sch 5 Part B"}
+  C: {title: "PART C — GYRO SURVEY RECORD", present: "a day on which surveys were taken",
+      int_keys: ["Gyro surveys taken"], enum_keys: {"Surveyed section": hole_sections}, source: "Sch 5 Part C"}
+  D: {title: "PART D — RADIOACTIVE SOURCE HANDLING", present: "a day on which a source was run",
+      int_keys: ["Source run"], text_keys: ["Sources handled"], bool_keys: ["Source handling certified"], source: "Sch 5 Part D; H6 (p13)"}
+  E: {title: "PART E — LOST IN HOLE", present: "a day on which a tool was lost",
+      int_keys: ["Lost in hole run", "Circulating hours accumulated on the well"], term_keys: {"Lost in hole tool": tool_terms},
+      source: "Sch 5 Part E; Cl.31 (p7); P12 (p11)"}
+signatures:
+  keys: {company: "Signed (Company Representative)", driller: "Signed (lead directional driller)"}
+  placement: "after the last part"
+  placeholder: "a value made only of underscores/spaces is not a signature"
+  states: "signed = a personal name (initials and surname, or given name and surname); unsigned = missing line, placeholder, or words saying nobody signed; unknown = any other text ('??', 'illegible'): queued, never approval (FD01; Cl.15 p5, Cl.37 p8, Sch 5 p24)"
+  source: "Cl.15 (p5); R8 (p14)"
+statuses: [Operating, Standby]
+hole_sections: ['26"', '17-1/2"', '12-1/4"', '8-1/2"', '6"']
+tool_terms: "Appendix G report terms (DDS.T20_GLOSSARY) that name tools; personnel terms are crew_terms"
+crew_terms:
+  "directional hands": DD-101
+  "night man": DD-102
+  "MWD engineers": MW-301
+  "logging engineers": LW-401
+  "performance engineer": PD-201
+crew_terms_source: "App G (p36) report terms for personnel services; count = number recorded (Cl.22; Sch 4 note p23)"
+tool_presence:
+  rule: >-
+    A Schedule 8 service charged for "each day the Daily Drilling Report records the tool in the hole" (Sch 8 pp27-28)
+    is evidenced by its tool's Appendix G term (DDS.T20_GLOSSARY) in Part A "In the hole". The tool is identified by
+    the service's own Appendix G term. A service with no Appendix G term of its own must be declared below with the
+    contract text that names its tool (substitutes) or says it has none (no_tool); an undeclared one fails the G2 check.
+  substitutes:
+    DD-121:
+      tool_code: DD-120
+      meaning: Standby-day charge for the rotary steerable system, charged in place of DD-120
+      source: >-
+        Cl.21 (p6) 'On a Standby day item DD-120 is not charged and item DD-121 is charged instead.';
+        Sch 3 Part 4 (p21) 'DD-121 is charged only on a Standby day, in place of item DD-120 (Clause 21).';
+        Sch 1 (p15) DD-121 'Rotary steerable system on standby'; DDS.T15
+  no_tool:
+    DD-102:
+      question: Q5
+      meaning: >-
+        Appendix G gives DD-102 the report term 'night man', a person recorded under crew, not a tool; Sch 8 nevertheless
+        words DD-102 as 'each day the Daily Drilling Report records the tool in the hole'. The conflict is Q5; the G2
+        fact is tool_in_hole = null (no tool term exists) and the person count is crew_recorded.
+      source: >-
+        Sch 8 intro (p27) 'Item DD-102 is office based and is charged per day for each coordinator the Daily Drilling
+        Report records.'; Sch 8 (p27) DD-102 row 'each day the Daily Drilling Report records the tool in the hole';
+        App G (p36) DD-102 'night man'; Sch 1 (p15) DD-102 'Directional coordinator, office based'
+  population_check: >-
+    For every tool-day service, the share of resolved lines whose report does not establish the tool (tool_in_hole
+    false or null) is reported; a share of 90% or more must be explained by a no_tool entry, otherwise G2 fails.

@@ -1,0 +1,2 @@
+# Runtime and tests use Python >=3.12,<3.13 standard library only.
+# No third-party package installation is required.

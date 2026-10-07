@@ -1,0 +1,1130 @@
+{
+ "CW-H01": {
+  "engine": {
+   "PA-91001-01": {
+    "alternatives": {},
+    "amount": "36356.00",
+    "open": [],
+    "state": [
+     "band_divided"
+    ],
+    "status": "determined"
+   },
+   "PA-91002-01": {
+    "alternatives": {},
+    "amount": "44700.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-91002-02": {
+    "alternatives": {},
+    "amount": "29800.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-91003-01": {
+    "alternatives": {},
+    "amount": "263732.00",
+    "open": [],
+    "state": [
+     "band_divided"
+    ],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r1": [],
+   "r2": []
+  }
+ },
+ "CW-H02": {
+  "engine": {
+   "PA-92001-01": {
+    "alternatives": {},
+    "amount": "92610.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-92002-01": {
+    "alternatives": {
+     "order@A.13.010/2025-02-10:Cl.30 wording (application number, then line)": "1134.00",
+     "order@A.13.010/2025-02-10:PA-92002-01 then PA-92003-01 then PA-92002-02": "1134.00",
+     "order@A.13.010/2025-02-10:PA-92002-02 then PA-92002-01 then PA-92003-01": "1134.00",
+     "order@A.13.010/2025-02-10:PA-92002-02 then PA-92003-01 then PA-92002-01": "1066.20",
+     "order@A.13.010/2025-02-10:PA-92003-01 then PA-92002-01 then PA-92002-02": "1088.80",
+     "order@A.13.010/2025-02-10:PA-92003-01 then PA-92002-02 then PA-92002-01": "1066.20"
+    },
+    "amount": null,
+    "open": [
+     "band_divided",
+     "rate_differs"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "PA-92002-02": {
+    "alternatives": {
+     "order@A.13.010/2025-02-10:Cl.30 wording (application number, then line)": "567.00",
+     "order@A.13.010/2025-02-10:PA-92002-01 then PA-92003-01 then PA-92002-02": "533.10",
+     "order@A.13.010/2025-02-10:PA-92002-02 then PA-92002-01 then PA-92003-01": "567.00",
+     "order@A.13.010/2025-02-10:PA-92002-02 then PA-92003-01 then PA-92002-01": "567.00",
+     "order@A.13.010/2025-02-10:PA-92003-01 then PA-92002-01 then PA-92002-02": "533.10",
+     "order@A.13.010/2025-02-10:PA-92003-01 then PA-92002-02 then PA-92002-01": "555.70"
+    },
+    "amount": null,
+    "open": [
+     "band_divided",
+     "rate_differs"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "PA-92003-01": {
+    "alternatives": {
+     "order@A.13.010/2025-02-10:Cl.30 wording (application number, then line)": "1432.90",
+     "order@A.13.010/2025-02-10:PA-92002-01 then PA-92003-01 then PA-92002-02": "1466.80",
+     "order@A.13.010/2025-02-10:PA-92002-02 then PA-92002-01 then PA-92003-01": "1432.90",
+     "order@A.13.010/2025-02-10:PA-92002-02 then PA-92003-01 then PA-92002-01": "1500.70",
+     "order@A.13.010/2025-02-10:PA-92003-01 then PA-92002-01 then PA-92002-02": "1512.00",
+     "order@A.13.010/2025-02-10:PA-92003-01 then PA-92002-02 then PA-92002-01": "1512.00"
+    },
+    "amount": null,
+    "open": [
+     "band_divided"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r1": [
+    "PA-92003-01: amount: engine ['1432.90', '1466.80', '1500.70', '1512.00'] reader ['1432.90', '1512.00']",
+    "PA-92002-01: amount: engine ['1066.20', '1088.80', '1134.00'] reader ['1088.80', '1134.00']",
+    "PA-92002-02: amount: engine ['533.10', '555.70', '567.00'] reader ['533.10', '567.00']"
+   ],
+   "r2": []
+  }
+ },
+ "CW-H03": {
+  "engine": {
+   "PA-93001-01": {
+    "alternatives": {},
+    "amount": "357496.00",
+    "open": [],
+    "state": [
+     "band_divided"
+    ],
+    "status": "determined"
+   },
+   "PA-93002-01": {
+    "alternatives": {},
+    "amount": "5255.00",
+    "open": [],
+    "state": [
+     "band_divided"
+    ],
+    "status": "determined"
+   },
+   "PA-93002-02": {
+    "alternatives": {
+     "Q12:A": "4725.00",
+     "Q12:B": "4252.50"
+    },
+    "amount": null,
+    "open": [
+     "rate_differs"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r1": [
+    "PA-93002-02: amount: engine ['4252.50', '4725.00'] reader ['4725.00']"
+   ],
+   "r2": []
+  }
+ },
+ "CW-H04": {
+  "engine": {
+   "PA-94001-01": {
+    "alternatives": {},
+    "amount": "167200.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-94001-02": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [],
+    "status": "not_payable"
+   },
+   "PA-94001-03": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [],
+    "status": "not_payable"
+   },
+   "PA-94002-01": {
+    "alternatives": {
+     "Q6:A": "24035.00",
+     "Q6:B": "24871.00"
+    },
+    "amount": null,
+    "open": [],
+    "state": [
+     "band_divided"
+    ],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r1": [
+    "PA-94002-01: amount: engine ['24035.00', '24871.00'] reader ['24871.00']"
+   ],
+   "r2": [
+    "PA-94002-01: amount: engine ['24035.00', '24871.00'] reader ['24871.00']"
+   ]
+  }
+ },
+ "CW-H05": {
+  "engine": {
+   "PA-95001-01": {
+    "alternatives": {},
+    "amount": "11550.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-95001-02": {
+    "alternatives": {},
+    "amount": "7700.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-95001-03": {
+    "alternatives": {},
+    "amount": "3850.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-95002-01": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "duplicate_measurement"
+    ],
+    "status": "not_payable"
+   },
+   "PA-95003-01": {
+    "alternatives": {},
+    "amount": "17325.00",
+    "open": [],
+    "state": [
+     "above_daily_limit"
+    ],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r1": [],
+   "r2": []
+  }
+ },
+ "CW-H06": {
+  "engine": {
+   "PA-96001-01": {
+    "alternatives": {},
+    "amount": "5320.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-96001-02": {
+    "alternatives": {
+     "Q6-day0:A": "0.00",
+     "Q6-day0:B": "1120.00"
+    },
+    "amount": null,
+    "open": [
+     "excluded_by_other_item"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "PA-96001-03": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "excluded_by_other_item"
+    ],
+    "status": "not_payable"
+   },
+   "PA-96001-04": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "excluded_by_other_item"
+    ],
+    "status": "not_payable"
+   },
+   "PA-96001-05": {
+    "alternatives": {},
+    "amount": "448.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-96001-06": {
+    "alternatives": {},
+    "amount": "1344.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r1": [],
+   "r2": []
+  }
+ },
+ "CW-H07": {
+  "engine": {
+   "PA-97001-01": {
+    "alternatives": {},
+    "amount": "3100.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-97001-02": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "excluded_by_other_item"
+    ],
+    "status": "not_payable"
+   },
+   "PA-97001-03": {
+    "alternatives": {},
+    "amount": "684.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-97001-04": {
+    "alternatives": {},
+    "amount": "684.00",
+    "open": [],
+    "state": [
+     "above_daily_limit"
+    ],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r3": [],
+   "r4": []
+  }
+ },
+ "CW-H08": {
+  "engine": {
+   "PA-98001-01": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "duplicate_measurement"
+    ],
+    "status": "not_payable"
+   },
+   "PA-98001-02": {
+    "alternatives": {},
+    "amount": "389.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-98002-01": {
+    "alternatives": {},
+    "amount": "389.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-98002-02": {
+    "alternatives": {},
+    "amount": "389.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-98003-01": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "duplicate_measurement"
+    ],
+    "status": "not_payable"
+   },
+   "PA-98003-02": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "duplicate_measurement"
+    ],
+    "status": "not_payable"
+   },
+   "PA-98004-01": {
+    "alternatives": {},
+    "amount": "1524.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-98005-01": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "duplicate_measurement"
+    ],
+    "status": "not_payable"
+   }
+  },
+  "readers": {
+   "r3": [],
+   "r4": [
+    "PA-98002-01: amount: engine ['389.00'] reader ['0.00', '389.00']",
+    "PA-98001-01: amount: engine ['0.00'] reader ['0.00', '389.00']",
+    "PA-98001-01: state findings: engine ['duplicate_measurement'] (open []) reader []"
+   ]
+  }
+ },
+ "CW-H09": {
+  "engine": {
+   "PA-99001-01": {
+    "alternatives": {},
+    "amount": "3720.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-99001-02": {
+    "alternatives": {},
+    "amount": "5580.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-99002-01": {
+    "alternatives": {},
+    "amount": "1767.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-99003-01": {
+    "alternatives": {},
+    "amount": "3650.56",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-99004-01": {
+    "alternatives": {},
+    "amount": "1825.28",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-99005-01": {
+    "alternatives": {},
+    "amount": "1825.28",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r3": [],
+   "r4": []
+  }
+ },
+ "CW-H10": {
+  "engine": {
+   "PA-9A001-01": {
+    "alternatives": {},
+    "amount": "3853.85",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-9A002-01": {
+    "alternatives": {},
+    "amount": "3846.15",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-9A003-01": {
+    "alternatives": {},
+    "amount": "385.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-9A004-01": {
+    "alternatives": {},
+    "amount": "385.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r3": [],
+   "r4": []
+  }
+ },
+ "CW-H11": {
+  "engine": {
+   "PA-9B001-01": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [],
+    "status": "not_payable"
+   },
+   "PA-9B002-01": {
+    "alternatives": {},
+    "amount": "25080.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r3": [],
+   "r4": []
+  }
+ },
+ "CW-H12": {
+  "engine": {
+   "PA-9C001-01": {
+    "alternatives": {},
+    "amount": "101080.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-9C001-02": {
+    "alternatives": {},
+    "amount": "15428.00",
+    "open": [],
+    "state": [
+     "band_divided"
+    ],
+    "status": "determined"
+   },
+   "PA-9C002-01": {
+    "alternatives": {
+     "Q12:A": "5680.00",
+     "Q12:B": "5396.00"
+    },
+    "amount": null,
+    "open": [
+     "rate_differs"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r3": [],
+   "r4": [
+    "PA-9C002-01: amount: engine ['5396.00', '5680.00'] reader ['5680.00']"
+   ]
+  }
+ },
+ "CW-R01": {
+  "engine": {
+   "PA-00111-03": {
+    "alternatives": {},
+    "amount": "1912.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "PA-00111-12": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "duplicate_measurement"
+    ],
+    "status": "not_payable"
+   }
+  },
+  "readers": {
+   "r1": [],
+   "r2": []
+  }
+ },
+ "CW-R02": {
+  "engine": {
+   "PA-00059-01": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "duplicate_measurement"
+    ],
+    "status": "not_payable"
+   },
+   "PA-00309-05": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "duplicate_measurement"
+    ],
+    "status": "not_payable"
+   },
+   "PA-00431-07": {
+    "alternatives": {},
+    "amount": "1568.80",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r1": [
+    "PA-00059-01: amount: engine ['0.00'] reader ['0.00', '1480.00']",
+    "PA-00059-01: state findings: engine ['duplicate_measurement'] (open []) reader []",
+    "PA-00309-05: amount: engine ['0.00'] reader ['0.00', '1480.00']",
+    "PA-00309-05: state findings: engine ['duplicate_measurement'] (open []) reader []",
+    "PA-00431-07: amount: engine ['1568.80'] reader ['0.00', '1568.80']"
+   ],
+   "r2": [
+    "PA-00059-01: amount: engine ['0.00'] reader ['0.00', '1480.00']",
+    "PA-00059-01: state findings: engine ['duplicate_measurement'] (open []) reader []",
+    "PA-00309-05: amount: engine ['0.00'] reader ['0.00', '1480.00']",
+    "PA-00309-05: state findings: engine ['duplicate_measurement'] (open []) reader []",
+    "PA-00431-07: amount: engine ['1568.80'] reader ['0.00', '1568.80']"
+   ]
+  }
+ },
+ "CW-R03": {
+  "engine": {
+   "PA-00801-02": {
+    "alternatives": {},
+    "amount": "23389.98",
+    "open": [],
+    "state": [
+     "rate_differs"
+    ],
+    "status": "determined"
+   },
+   "PA-00801-05": {
+    "alternatives": {
+     "Q6-day0:A": "0.00",
+     "Q6-day0:B": "5555.20"
+    },
+    "amount": null,
+    "open": [
+     "excluded_by_other_item"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r3": [
+    "PA-00801-05: amount: engine ['0.00', '5555.20'] reader ['0.00']",
+    "PA-00801-05: payable: engine True reader False"
+   ],
+   "r4": [
+    "PA-00801-05: amount: engine ['0.00', '5555.20'] reader ['0.00']",
+    "PA-00801-05: payable: engine True reader False"
+   ]
+  }
+ },
+ "DDS-H01": {
+  "engine": {
+   "MDS-90001-001": {
+    "alternatives": {},
+    "amount": "3694.70",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90001-002": {
+    "alternatives": {
+     "stands@DDS-ONCE-DD-101/NGP-ZZ-901/2025-03-04:MDS-90001-002": "3694.70",
+     "stands@DDS-ONCE-DD-101/NGP-ZZ-901/2025-03-04:MDS-90002-001": "0.00"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90002-001": {
+    "alternatives": {
+     "stands@DDS-ONCE-DD-101/NGP-ZZ-901/2025-03-04:MDS-90001-002": "0.00",
+     "stands@DDS-ONCE-DD-101/NGP-ZZ-901/2025-03-04:MDS-90002-001": "1847.35"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90002-002": {
+    "alternatives": {},
+    "amount": "3694.70",
+    "open": [],
+    "state": [
+     "above_daily_limit"
+    ],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r5": [
+    "MDS-90001-002: amount: engine ['0.00', '3694.70'] reader ['3694.70']",
+    "MDS-90002-001: amount: engine ['0.00', '1847.35'] reader ['0.00']",
+    "MDS-90002-001: payable: engine True reader False",
+    "MDS-90002-001: state findings: engine [] (open ['charged_twice']) reader ['above_daily_limit', 'charged_twice']"
+   ],
+   "r6": [
+    "MDS-90001-002: amount: engine ['0.00', '3694.70'] reader ['3694.70']",
+    "MDS-90002-001: amount: engine ['0.00', '1847.35'] reader ['0.00']",
+    "MDS-90002-001: payable: engine True reader False",
+    "MDS-90002-001: state findings: engine [] (open ['charged_twice']) reader ['above_daily_limit', 'charged_twice']"
+   ]
+  }
+ },
+ "DDS-H02": {
+  "engine": {
+   "MDS-90011-001": {
+    "alternatives": {},
+    "amount": "2117.50",
+    "open": [],
+    "state": [],
+    "status": "conditional"
+   },
+   "MDS-90011-002": {
+    "alternatives": {
+     "alloc@NGP-ZZ-902/2025-04-10:1550-1600>MDS-90011-002": "5815.00",
+     "alloc@NGP-ZZ-902/2025-04-10:1550-1600>MDS-90012-001": "2907.50"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90012-001": {
+    "alternatives": {
+     "alloc@NGP-ZZ-902/2025-04-10:1550-1600>MDS-90011-002": "0.00",
+     "alloc@NGP-ZZ-902/2025-04-10:1550-1600>MDS-90012-001": "2907.50"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r5": [
+    "MDS-90011-002: amount: engine ['2907.50', '5815.00'] reader ['5815.00']",
+    "MDS-90012-001: amount: engine ['0.00', '2907.50'] reader ['0.00']",
+    "MDS-90012-001: payable: engine True reader False"
+   ],
+   "r6": [
+    "MDS-90011-002: amount: engine ['2907.50', '5815.00'] reader ['5815.00']",
+    "MDS-90012-001: amount: engine ['0.00', '2907.50'] reader ['0.00']",
+    "MDS-90012-001: payable: engine True reader False"
+   ]
+  }
+ },
+ "DDS-H03": {
+  "engine": {
+   "MDS-90021-001": {
+    "alternatives": {
+     "stands@DDS-ONCE-DD-111/NGP-ZZ-903/2025-05-03:MDS-90021-001": "3589.45",
+     "stands@DDS-ONCE-DD-111/NGP-ZZ-903/2025-05-03:MDS-90022-001": "0.00"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice",
+     "run_event_repeated"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90021-002": {
+    "alternatives": {
+     "Q5-HC630:count (Cl.30)": "4295.85",
+     "Q5-HC630:per BHA run (Sch 8)|stands-run@DDS-HC630-RUN-NGP-ZZ-903/run 2:MDS-90021-002": "4295.85",
+     "Q5-HC630:per BHA run (Sch 8)|stands-run@DDS-HC630-RUN-NGP-ZZ-903/run 2:MDS-90021-003": "0.00"
+    },
+    "amount": null,
+    "open": [
+     "run_event_repeated"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90021-003": {
+    "alternatives": {
+     "Q5-HC630:count (Cl.30)": "4295.85",
+     "Q5-HC630:per BHA run (Sch 8)|stands-run@DDS-HC630-RUN-NGP-ZZ-903/run 2:MDS-90021-002": "0.00",
+     "Q5-HC630:per BHA run (Sch 8)|stands-run@DDS-HC630-RUN-NGP-ZZ-903/run 2:MDS-90021-003": "4295.85"
+    },
+    "amount": null,
+    "open": [
+     "run_event_repeated"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90021-004": {
+    "alternatives": {
+     "stands@DDS-ONCE-LW-420/NGP-ZZ-903/2025-05-04:MDS-90021-004": "2746.55",
+     "stands@DDS-ONCE-LW-420/NGP-ZZ-903/2025-05-04:MDS-90022-002": "0.00"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice",
+     "run_event_repeated"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90022-001": {
+    "alternatives": {
+     "stands@DDS-ONCE-DD-111/NGP-ZZ-903/2025-05-03:MDS-90021-001": "0.00",
+     "stands@DDS-ONCE-DD-111/NGP-ZZ-903/2025-05-03:MDS-90022-001": "3589.45"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice",
+     "run_event_repeated"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90022-002": {
+    "alternatives": {
+     "stands@DDS-ONCE-LW-420/NGP-ZZ-903/2025-05-04:MDS-90021-004": "0.00",
+     "stands@DDS-ONCE-LW-420/NGP-ZZ-903/2025-05-04:MDS-90022-002": "2746.55"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice",
+     "run_event_repeated"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r5": [
+    "MDS-90021-001: amount: engine ['0.00', '3589.45'] reader ['3589.45']",
+    "MDS-90021-004: amount: engine ['0.00', '2746.55'] reader ['2746.55']",
+    "MDS-90022-001: amount: engine ['0.00', '3589.45'] reader ['0.00']",
+    "MDS-90022-001: payable: engine True reader False",
+    "MDS-90022-002: amount: engine ['0.00', '2746.55'] reader ['0.00']",
+    "MDS-90022-002: payable: engine True reader False"
+   ],
+   "r6": [
+    "MDS-90021-001: amount: engine ['0.00', '3589.45'] reader ['3589.45']",
+    "MDS-90021-002: amount: engine ['0.00', '4295.85'] reader ['4295.85']",
+    "MDS-90021-004: amount: engine ['0.00', '2746.55'] reader ['2746.55']",
+    "MDS-90022-001: amount: engine ['0.00', '3589.45'] reader ['0.00']",
+    "MDS-90022-001: payable: engine True reader False",
+    "MDS-90022-002: amount: engine ['0.00', '2746.55'] reader ['0.00']",
+    "MDS-90022-002: payable: engine True reader False"
+   ]
+  }
+ },
+ "DDS-H04": {
+  "engine": {
+   "MDS-90031-001": {
+    "alternatives": {},
+    "amount": "18497.50",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90031-002": {
+    "alternatives": {},
+    "amount": "12489.50",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90031-003": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "well_event_not_on_its_day",
+     "well_event_repeated"
+    ],
+    "status": "not_payable"
+   },
+   "MDS-90032-001": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "well_event_not_on_its_day"
+    ],
+    "status": "not_payable"
+   },
+   "MDS-90032-002": {
+    "alternatives": {},
+    "amount": "14196.25",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90032-003": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "lwd_not_run"
+    ],
+    "status": "not_payable"
+   }
+  },
+  "readers": {
+   "r5": [],
+   "r6": []
+  }
+ },
+ "DDS-H05": {
+  "engine": {
+   "MDS-90041-001": {
+    "alternatives": {},
+    "amount": "3833.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90041-002": {
+    "alternatives": {},
+    "amount": "3833.00",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90042-001": {
+    "alternatives": {},
+    "amount": "3679.68",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90043-001": {
+    "alternatives": {},
+    "amount": "1817.22",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90044-001": {
+    "alternatives": {},
+    "amount": "1817.22",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-90045-001": {
+    "alternatives": {},
+    "amount": "1817.22",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   }
+  },
+  "readers": {
+   "r5": [],
+   "r6": []
+  }
+ },
+ "DDS-H06": {
+  "engine": {
+   "MDS-90051-001": {
+    "alternatives": {},
+    "amount": "3898650.00",
+    "open": [],
+    "state": [],
+    "status": "conditional"
+   },
+   "MDS-90051-002": {
+    "alternatives": {
+     "Q11:A": "9870.00",
+     "Q11:B": "9475.00"
+    },
+    "amount": null,
+    "open": [
+     "footage_band_divided"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90052-001": {
+    "alternatives": {},
+    "amount": "3947013.00",
+    "open": [],
+    "state": [],
+    "status": "conditional"
+   },
+   "MDS-90053-001": {
+    "alternatives": {
+     "Q14:A": "1974.00",
+     "Q14:B": "1934.50"
+    },
+    "amount": null,
+    "open": [
+     "footage_band_divided"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r5": [
+    "MDS-90051-002: amount: engine ['9475.00', '9870.00'] reader ['9475.00']"
+   ],
+   "r6": [
+    "MDS-90053-001: amount: engine ['1934.50', '1974.00'] reader ['1974.00']"
+   ]
+  }
+ },
+ "DDS-H07": {
+  "engine": {
+   "MDS-90061-001": {
+    "alternatives": {
+     "stands@DDS-ONCE-LH-713/NGP-ZZ-909/2025-08-05:MDS-90061-001": "377300.00",
+     "stands@DDS-ONCE-LH-713/NGP-ZZ-909/2025-08-05:MDS-90062-001": "0.00"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice",
+     "loss_repeated"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-90062-001": {
+    "alternatives": {
+     "stands@DDS-ONCE-LH-713/NGP-ZZ-909/2025-08-05:MDS-90061-001": "0.00",
+     "stands@DDS-ONCE-LH-713/NGP-ZZ-909/2025-08-05:MDS-90062-001": "377300.00"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice",
+     "loss_repeated"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r5": [
+    "MDS-90061-001: amount: engine ['0.00', '377300.00'] reader ['377300.00']",
+    "MDS-90062-001: amount: engine ['0.00', '377300.00'] reader ['0.00']",
+    "MDS-90062-001: payable: engine True reader False"
+   ],
+   "r6": [
+    "MDS-90061-001: amount: engine ['0.00', '377300.00'] reader ['377300.00']",
+    "MDS-90062-001: amount: engine ['0.00', '377300.00'] reader ['0.00']",
+    "MDS-90062-001: payable: engine True reader False"
+   ]
+  }
+ },
+ "DDS-R01": {
+  "engine": {
+   "MDS-01380-006": {
+    "alternatives": {},
+    "amount": "17757.60",
+    "open": [],
+    "state": [],
+    "status": "determined"
+   },
+   "MDS-01438-039": {
+    "alternatives": {},
+    "amount": "0.00",
+    "open": [],
+    "state": [
+     "well_event_not_on_its_day",
+     "well_event_repeated"
+    ],
+    "status": "not_payable"
+   }
+  },
+  "readers": {
+   "r5": [],
+   "r6": []
+  }
+ },
+ "DDS-R02": {
+  "engine": {
+   "MDS-00476-045": {
+    "alternatives": {
+     "stands@DDS-ONCE-MW-301/NGP-QA-074/2025-06-22:MDS-00476-045": "3293.10",
+     "stands@DDS-ONCE-MW-301/NGP-QA-074/2025-06-22:MDS-00476-051": "0.00"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice"
+    ],
+    "state": [],
+    "status": "alternatives"
+   },
+   "MDS-00476-051": {
+    "alternatives": {
+     "stands@DDS-ONCE-MW-301/NGP-QA-074/2025-06-22:MDS-00476-045": "0.00",
+     "stands@DDS-ONCE-MW-301/NGP-QA-074/2025-06-22:MDS-00476-051": "3293.10"
+    },
+    "amount": null,
+    "open": [
+     "charged_twice"
+    ],
+    "state": [],
+    "status": "alternatives"
+   }
+  },
+  "readers": {
+   "r5": [],
+   "r6": []
+  }
+ }
+}

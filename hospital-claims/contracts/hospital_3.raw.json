@@ -1,0 +1,3880 @@
+{
+  "bundles": [
+    {
+      "a": "H3-S020",
+      "a_cents": 12025,
+      "b": "H3-S068",
+      "b_cents": 235000,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L128"
+    },
+    {
+      "a": "H3-S030",
+      "a_cents": 15550,
+      "b": "H3-S107",
+      "b_cents": 24350,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L129"
+    },
+    {
+      "a": "H3-S035",
+      "a_cents": 351150,
+      "b": "H3-S049",
+      "b_cents": 9800,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L130"
+    },
+    {
+      "a": "H3-S046",
+      "a_cents": 363250,
+      "b": "H3-S050",
+      "b_cents": 5675,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L131"
+    },
+    {
+      "a": "H3-S054",
+      "a_cents": 2925,
+      "b": "H3-S103",
+      "b_cents": 42275,
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L132"
+    }
+  ],
+  "contract_number": "INS-H3-2024-0562",
+  "coverage": [
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "Base Agreement",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L1",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "1. Parties, Term and Structure",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L13",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "2. Interpretation",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L25",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "3. Calculation Conventions",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L35",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "4. Threshold Premiums",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L43",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "5. Non-Business-Day Uplifts",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L64",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "6. Cumulative Volume Discounts",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L81",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "7. Daily Quantity Caps",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L107",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "8. Bundled Services",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L124",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "9. Exclusion Windows",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L136",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "10. Invoicing",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L151",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "Appendix B \u2014 Rate Schedule",
+      "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L1",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "B.1 Rates",
+      "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L13",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "B.2 Application",
+      "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L138",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "Amendment No. 1",
+      "source": "data/source/contracts/hospital_3/amendment_no_1.md#L1",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "A1.1 Effective Date",
+      "source": "data/source/contracts/hospital_3/amendment_no_1.md#L13",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "A1.2 Substituted Rates",
+      "source": "data/source/contracts/hospital_3/amendment_no_1.md#L19",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "A1.3 Additional Services",
+      "source": "data/source/contracts/hospital_3/amendment_no_1.md#L33",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a79 temporal direction and boundary are not explicit: only same-day definite anchors or proven no reachable anchor permit a result; absent compound-unit dimension is withheld. A1.4.2 settlement is unobserved, but valid pre-effective service is unchanged and valid post-effective service cannot be on an invoice issued/settled before that service. This chronological interpretation is recorded, not a measured settlement fact. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "A1.4 Other Terms Unaffected",
+      "source": "data/source/contracts/hospital_3/amendment_no_1.md#L42",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "per hour, per item supplies no independent second quantity dimension; no invented conversion.",
+      "representation": "Focused Urologic Telemetry Monitoring",
+      "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L69",
+      "state": "unresolved"
+    }
+  ],
+  "exclusions": [
+    {
+      "anchor": "H3-S002",
+      "days": 7,
+      "service": "H3-S001",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L140"
+    },
+    {
+      "anchor": "H3-S102",
+      "days": 14,
+      "service": "H3-S014",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L141"
+    },
+    {
+      "anchor": "H3-S081",
+      "days": 7,
+      "service": "H3-S018",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L142"
+    },
+    {
+      "anchor": "H3-S091",
+      "days": 30,
+      "service": "H3-S040",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L143"
+    },
+    {
+      "anchor": "H3-S060",
+      "days": 14,
+      "service": "H3-S043",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L144"
+    },
+    {
+      "anchor": "H3-S070",
+      "days": 21,
+      "service": "H3-S058",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L145"
+    },
+    {
+      "anchor": "H3-S011",
+      "days": 30,
+      "service": "H3-S064",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L146"
+    },
+    {
+      "anchor": "H3-S060",
+      "days": 30,
+      "service": "H3-S073",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L147"
+    },
+    {
+      "anchor": "H3-S041",
+      "days": 30,
+      "service": "H3-S089",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L148"
+    },
+    {
+      "anchor": "H3-S072",
+      "days": 10,
+      "service": "H3-S090",
+      "source": "data/source/contracts/hospital_3/base_agreement.md#L149"
+    }
+  ],
+  "hospital": "H3",
+  "review_state": "candidate",
+  "schema_version": "2",
+  "semantics": {
+    "adjustment_order": [
+      "bundle",
+      "facility",
+      "tier",
+      "daily_premium",
+      "weekend_uplift",
+      "volume_discount"
+    ],
+    "cap_policy": "single_line_cap_otherwise_abstain",
+    "duplicate_policy": "abstain_repeated_service_day",
+    "exclusion_boundary": "inclusive_at_equal",
+    "exclusion_direction": "uncertain_direction",
+    "facility_source": "none",
+    "invoice_eligibility": "supplied_invoice_facts",
+    "refs": [
+      "data/source/contracts/hospital_3/base_agreement.md",
+      "data/source/contracts/hospital_3/appendix_b_rate_schedule.md",
+      "data/source/contracts/hospital_3/amendment_no_1.md"
+    ],
+    "rounding": "half_up_cent",
+    "service_date_not_after_invoice": true,
+    "service_day": "calendar",
+    "version_precedence": "amendment_over_base",
+    "volume_basis": "contract_term_all_patients_strict_prior_billed_units"
+  },
+  "semantics_version": "2",
+  "services": [
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S001",
+      "name": "Advanced Gastrointestinal Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L19"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 128100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L19",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S002",
+      "name": "Advanced Geriatric Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L20"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 1250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L20",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S003",
+      "name": "Advanced Metabolic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L21"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 21075,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L21",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S004",
+      "name": "Advanced Musculoskeletal Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L22"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 348975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L22",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S005",
+      "name": "Advanced Paediatric Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L23"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 41000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L23",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L49"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S006",
+      "name": "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L24",
+        "data/source/contracts/hospital_3/base_agreement.md#L49"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 27875,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L24",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S007",
+      "name": "Ambulatory Metabolic Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L25",
+        "data/source/contracts/hospital_3/base_agreement.md#L68"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 159725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L25",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        112,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S008",
+      "name": "Ambulatory Ophthalmic Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L26",
+        "data/source/contracts/hospital_3/base_agreement.md#L85"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 414850,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L26",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L85"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S009",
+      "name": "Ambulatory Otolaryngologic Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L27",
+        "data/source/contracts/hospital_3/base_agreement.md#L111",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L25"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 182625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L27",
+          "start": "2024-01-01"
+        },
+        {
+          "cents": 208200,
+          "end": "2025-12-31",
+          "priority": 1,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L25",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L50"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S010",
+      "name": "Ambulatory Renal Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L28",
+        "data/source/contracts/hospital_3/base_agreement.md#L50"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 8775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L28",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S011",
+      "name": "Assisted Ophthalmic Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L29"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 8775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L29",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S012",
+      "name": "Assisted Paediatric Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L30",
+        "data/source/contracts/hospital_3/base_agreement.md#L112"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 372800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L30",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S013",
+      "name": "Assisted Urologic Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L31",
+        "data/source/contracts/hospital_3/base_agreement.md#L86",
+        "data/source/contracts/hospital_3/base_agreement.md#L87",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L26"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 94250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L31",
+          "start": "2024-01-01"
+        },
+        {
+          "cents": 111225,
+          "end": "2025-12-31",
+          "priority": 1,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L26",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L86"
+        },
+        {
+          "exceeds": 300,
+          "multiplier": [
+            80,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L87"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S014",
+      "name": "Bedside Cardiac Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L32"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 167750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L32",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S015",
+      "name": "Bedside Geriatric Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L33"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 131100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L33",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L51"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S016",
+      "name": "Bedside Metabolic Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L34",
+        "data/source/contracts/hospital_3/base_agreement.md#L51"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 1850,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L34",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S017",
+      "name": "Bedside Neurological Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L35"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 9675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L35",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S018",
+      "name": "Bedside Neurological Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L36",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L27"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 2575,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L36",
+          "start": "2024-01-01"
+        },
+        {
+          "cents": 3050,
+          "end": "2025-12-31",
+          "priority": 1,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L27",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S019",
+      "name": "Bedside Oncology Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L37"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 11400,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L37",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S020",
+      "name": "Bedside Palliative Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L38"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 14150,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L38",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S021",
+      "name": "Bedside Pulmonary Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L39"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 381825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L39",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S022",
+      "name": "Bedside Renal Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L40"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 59250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L40",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S023",
+      "name": "Bedside Urologic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L41",
+        "data/source/contracts/hospital_3/base_agreement.md#L88",
+        "data/source/contracts/hospital_3/base_agreement.md#L89"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 2000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L41",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 80,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L88"
+        },
+        {
+          "exceeds": 240,
+          "multiplier": [
+            80,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L89"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S024",
+      "name": "Bedside Urologic Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L42",
+        "data/source/contracts/hospital_3/base_agreement.md#L90",
+        "data/source/contracts/hospital_3/base_agreement.md#L91"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 168975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L42",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 80,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L90"
+        },
+        {
+          "exceeds": 240,
+          "multiplier": [
+            70,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L91"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S025",
+      "name": "Bedside Vascular Critical Care Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L43",
+        "data/source/contracts/hospital_3/base_agreement.md#L113"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 144425,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L43",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S026",
+      "name": "Comprehensive Haematology Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L44"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 156925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L44",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S027",
+      "name": "Comprehensive Orthopaedic Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L45"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 16600,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L45",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S028",
+      "name": "Comprehensive Palliative Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L46"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 163525,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L46",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S029",
+      "name": "Continuous Gastrointestinal Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L47"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 56000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L47",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S030",
+      "name": "Continuous Immunologic Critical Care Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L48"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 20725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L48",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 24,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S031",
+      "name": "Continuous Immunologic Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L49",
+        "data/source/contracts/hospital_3/base_agreement.md#L114"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 116275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L49",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S032",
+      "name": "Continuous Pulmonary Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L50"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 27625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L50",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S033",
+      "name": "Continuous Renal Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L51",
+        "data/source/contracts/hospital_3/base_agreement.md#L69"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 50125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L51",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        110,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S034",
+      "name": "Elective Palliative Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L52",
+        "data/source/contracts/hospital_3/base_agreement.md#L92",
+        "data/source/contracts/hospital_3/base_agreement.md#L93"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 18800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L52",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 60,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L92"
+        },
+        {
+          "exceeds": 180,
+          "multiplier": [
+            80,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L93"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S035",
+      "name": "Elective Pulmonary Consultation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L53"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 399025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L53",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L52"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S036",
+      "name": "Emergency Dermatologic Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L54",
+        "data/source/contracts/hospital_3/base_agreement.md#L52"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 23025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L54",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L53"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S037",
+      "name": "Emergency Oncology Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L55",
+        "data/source/contracts/hospital_3/base_agreement.md#L53"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 20375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L55",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S038",
+      "name": "Emergency Pulmonary Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L56"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 26350,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L56",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S039",
+      "name": "Emergency Renal Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L57"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 49050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L57",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S040",
+      "name": "Emergency Vascular Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L58"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 215625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L58",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S041",
+      "name": "Extended Dermatologic Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L59"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 3475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L59",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S042",
+      "name": "Extended Dermatologic Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L60"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 161525,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L60",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S043",
+      "name": "Extended Geriatric Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L61"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 6100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L61",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S044",
+      "name": "Extended Haematology Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L62",
+        "data/source/contracts/hospital_3/base_agreement.md#L70"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 27575,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L62",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        115,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S045",
+      "name": "Extended Infectious Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L63",
+        "data/source/contracts/hospital_3/base_agreement.md#L94",
+        "data/source/contracts/hospital_3/base_agreement.md#L95"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 82675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L63",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L94"
+        },
+        {
+          "exceeds": 300,
+          "multiplier": [
+            75,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L95"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S046",
+      "name": "Extended Musculoskeletal Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L64"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 442975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L64",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S047",
+      "name": "Extended Neurological Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L65"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 3700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L65",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S048",
+      "name": "Focused Metabolic Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L66",
+        "data/source/contracts/hospital_3/base_agreement.md#L115"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 4200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L66",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S049",
+      "name": "Focused Neurological Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L67"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 11125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L67",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S050",
+      "name": "Focused Obstetric Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L68"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 6925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L68",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S051",
+      "name": "Focused Urologic Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L69"
+      ],
+      "support": "composite_dimension_unobserved",
+      "tier_multipliers": {},
+      "unit": "per_hour_per_item",
+      "versions": [
+        {
+          "cents": 5225,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L69",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S052",
+      "name": "Inpatient Gastrointestinal Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L70",
+        "data/source/contracts/hospital_3/base_agreement.md#L116"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 23550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L70",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S053",
+      "name": "Inpatient Haematology Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L71"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 123075,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L71",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S054",
+      "name": "Inpatient Hepatic Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L72"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 3650,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L72",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S055",
+      "name": "Inpatient Infectious Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L73",
+        "data/source/contracts/hospital_3/base_agreement.md#L96",
+        "data/source/contracts/hospital_3/base_agreement.md#L97"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 34775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L73",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 80,
+          "multiplier": [
+            85,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L96"
+        },
+        {
+          "exceeds": 240,
+          "multiplier": [
+            75,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L97"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 16,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L54"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S056",
+      "name": "Inpatient Metabolic Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L74",
+        "data/source/contracts/hospital_3/base_agreement.md#L54"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 14850,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L74",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S057",
+      "name": "Inpatient Metabolic Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L75",
+        "data/source/contracts/hospital_3/base_agreement.md#L117"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 21000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L75",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S058",
+      "name": "Inpatient Musculoskeletal Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L76"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 9250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L76",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S059",
+      "name": "Inpatient Obstetric Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L77",
+        "data/source/contracts/hospital_3/base_agreement.md#L118"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 327325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L77",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S060",
+      "name": "Inpatient Obstetric Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L78"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 34175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L78",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S061",
+      "name": "Intensive Immunologic Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L79"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 13275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L79",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S062",
+      "name": "Intensive Infectious Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L80",
+        "data/source/contracts/hospital_3/base_agreement.md#L119",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L28"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 294675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L80",
+          "start": "2024-01-01"
+        },
+        {
+          "cents": 312350,
+          "end": "2025-12-31",
+          "priority": 1,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L28",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S063",
+      "name": "Intensive Oncology Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L81",
+        "data/source/contracts/hospital_3/base_agreement.md#L71"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 62675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L81",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        125,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S064",
+      "name": "Intensive Ophthalmic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L82",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L29"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 41825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L82",
+          "start": "2024-01-01"
+        },
+        {
+          "cents": 39725,
+          "end": "2025-12-31",
+          "priority": 1,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L29",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S065",
+      "name": "Intensive Otolaryngologic Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L83",
+        "data/source/contracts/hospital_3/base_agreement.md#L98",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L30"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 68025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L83",
+          "start": "2024-01-01"
+        },
+        {
+          "cents": 80275,
+          "end": "2025-12-31",
+          "priority": 1,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L30",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 60,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L98"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S066",
+      "name": "Intensive Paediatric Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L84"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 399700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L84",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S067",
+      "name": "Intermittent Dermatologic Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L85",
+        "data/source/contracts/hospital_3/base_agreement.md#L99",
+        "data/source/contracts/hospital_3/base_agreement.md#L100"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 35175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L85",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 60,
+          "multiplier": [
+            88,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L99"
+        },
+        {
+          "exceeds": 180,
+          "multiplier": [
+            70,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L100"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S068",
+      "name": "Intermittent Gastrointestinal Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L86"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 276475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L86",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S069",
+      "name": "Intermittent Immunologic Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L87"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 110525,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L87",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S070",
+      "name": "Intermittent Infectious Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L88"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 13900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L88",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S071",
+      "name": "Intermittent Otolaryngologic Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L89"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 28500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L89",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S072",
+      "name": "Outpatient Gastrointestinal Isolation Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L90"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 57050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L90",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S073",
+      "name": "Outpatient Haematology Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L91"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 13375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L91",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S074",
+      "name": "Outpatient Infectious Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L92"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 11950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L92",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S075",
+      "name": "Outpatient Metabolic Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L93"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 18975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L93",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L55"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S076",
+      "name": "Outpatient Pulmonary Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L94",
+        "data/source/contracts/hospital_3/base_agreement.md#L55"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 18125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L94",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S077",
+      "name": "Outpatient Renal Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L95",
+        "data/source/contracts/hospital_3/base_agreement.md#L101"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 20700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L95",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 60,
+          "multiplier": [
+            85,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L101"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L56"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S078",
+      "name": "Outpatient Rheumatologic Pharmaceutical Dispensing",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L96",
+        "data/source/contracts/hospital_3/base_agreement.md#L56"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 8050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L96",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S079",
+      "name": "Postoperative Cardiac Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L97",
+        "data/source/contracts/hospital_3/base_agreement.md#L102"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 134325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L97",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 100,
+          "multiplier": [
+            85,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L102"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S080",
+      "name": "Postoperative Dermatologic Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L98",
+        "data/source/contracts/hospital_3/base_agreement.md#L120"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 20200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L98",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S081",
+      "name": "Postoperative Geriatric Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L99"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 108675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L99",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          120,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L57"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S082",
+      "name": "Postoperative Haematology Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L100",
+        "data/source/contracts/hospital_3/base_agreement.md#L57"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 140975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L100",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S083",
+      "name": "Postoperative Neurological Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L101"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 53550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L101",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S084",
+      "name": "Postoperative Otolaryngologic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L102"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 24475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L102",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S085",
+      "name": "Postoperative Otolaryngologic Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L103",
+        "data/source/contracts/hospital_3/base_agreement.md#L72"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 147875,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L103",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        110,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S086",
+      "name": "Postoperative Psychiatric Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L104"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 368575,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L104",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S087",
+      "name": "Postoperative Pulmonary Consultation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L105",
+        "data/source/contracts/hospital_3/base_agreement.md#L73"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 26750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L105",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        125,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S088",
+      "name": "Postoperative Rheumatologic Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L106",
+        "data/source/contracts/hospital_3/base_agreement.md#L74"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 8725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L106",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        120,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S089",
+      "name": "Preoperative Cardiac Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L107"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 5675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L107",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S090",
+      "name": "Preoperative Dermatologic Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L108"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 439850,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L108",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S091",
+      "name": "Preoperative Endocrine Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L109"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 400300,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L109",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S092",
+      "name": "Preoperative Gastrointestinal Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L110",
+        "data/source/contracts/hospital_3/base_agreement.md#L75"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 26025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L110",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        120,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 16,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L58"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S093",
+      "name": "Preoperative Ophthalmic Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L111",
+        "data/source/contracts/hospital_3/base_agreement.md#L58"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 23275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L111",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S094",
+      "name": "Preoperative Paediatric Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L112"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 44500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L112",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S095",
+      "name": "Preoperative Psychiatric Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L113",
+        "data/source/contracts/hospital_3/base_agreement.md#L76"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 32825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L113",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        115,
+        100
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S096",
+      "name": "Preoperative Psychiatric Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L114",
+        "data/source/contracts/hospital_3/base_agreement.md#L121"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 3450,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L114",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S097",
+      "name": "Preoperative Rheumatologic Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L115"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 15075,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L115",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S098",
+      "name": "Routine Endocrine Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L116"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 8725,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L116",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S099",
+      "name": "Routine Obstetric Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L117",
+        "data/source/contracts/hospital_3/base_agreement.md#L77"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 26375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L117",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        110,
+        100
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S100",
+      "name": "Routine Psychiatric Consultation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L118",
+        "data/source/contracts/hospital_3/base_agreement.md#L122"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 282975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L118",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S101",
+      "name": "Routine Vascular Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L119",
+        "data/source/contracts/hospital_3/base_agreement.md#L78"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 37575,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L119",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        110,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S102",
+      "name": "Specialist Dermatologic Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L120"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 17400,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L120",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S103",
+      "name": "Specialist Gastrointestinal Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L121"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 52850,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L121",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L59"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S104",
+      "name": "Specialist Haematology Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L122",
+        "data/source/contracts/hospital_3/base_agreement.md#L59"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 101900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L122",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S105",
+      "name": "Specialist Hepatic Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L123"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 35275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L123",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S106",
+      "name": "Specialist Obstetric Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L124"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 62925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L124",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S107",
+      "name": "Specialist Ophthalmic Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L125"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 32475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L125",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L60"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S108",
+      "name": "Specialist Paediatric Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L126",
+        "data/source/contracts/hospital_3/base_agreement.md#L60"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 14225,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L126",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S109",
+      "name": "Specialist Psychiatric Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L127",
+        "data/source/contracts/hospital_3/base_agreement.md#L79",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L31"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 38650,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L127",
+          "start": "2024-01-01"
+        },
+        {
+          "cents": 44050,
+          "end": "2025-12-31",
+          "priority": 1,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L31",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        110,
+        100
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S110",
+      "name": "Specialist Pulmonary Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L128"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 385550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L128",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S111",
+      "name": "Specialist Pulmonary Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L129"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 12500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L129",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S112",
+      "name": "Standard Orthopaedic Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L130"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 6025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L130",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S113",
+      "name": "Standard Otolaryngologic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L131"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 30600,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L131",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L61"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S114",
+      "name": "Standard Rheumatologic Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L132",
+        "data/source/contracts/hospital_3/base_agreement.md#L61"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 383550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L132",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S115",
+      "name": "Supervised Hepatic Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L133",
+        "data/source/contracts/hospital_3/base_agreement.md#L103"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 26625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L133",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 80,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_3/base_agreement.md#L103"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S116",
+      "name": "Supervised Neurological Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L134"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 23125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L134",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 16,
+        "multiplier": [
+          120,
+          100
+        ],
+        "source": "data/source/contracts/hospital_3/base_agreement.md#L62"
+      },
+      "facility_multipliers": {},
+      "id": "H3-S117",
+      "name": "Supervised Ophthalmic Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L135",
+        "data/source/contracts/hospital_3/base_agreement.md#L62"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 5950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L135",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S118",
+      "name": "Supervised Otolaryngologic Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L136"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 24025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L136",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S119",
+      "name": "Advanced Dermatologic Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_3/amendment_no_1.md#L39"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 86525,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L39",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H3-S120",
+      "name": "Elective Pulmonary Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_3/amendment_no_1.md#L40"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 456000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_3/amendment_no_1.md#L40",
+          "start": "2025-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    }
+  ],
+  "source_hashes": {
+    "data/source/contracts/hospital_3/amendment_no_1.md": "29d072052cbb33e9eec4fef238d0462070d353bc7b183dfc80d33e8e148e2f1c",
+    "data/source/contracts/hospital_3/appendix_b_rate_schedule.md": "a584918c6222a75c45a7188132a7bb5aff87f374a4ac20ed6a7324a8c8a593d0",
+    "data/source/contracts/hospital_3/base_agreement.md": "47240db1f9867a166700db86fb444908ddb9c244d9f28e9868418ee989334264"
+  },
+  "term": [
+    "2024-01-01",
+    "2025-12-31"
+  ]
+}

@@ -1,0 +1,208 @@
+# Instruments register (G1): both Schedules of Variations and all ten instruments.
+# Dates ISO. Rates/percentages as printed. `relationship` records what each row replaces or supplements.
+# General provisions governing all instruments are in `schedule_of_variations`; decisions that interpret
+# them (A3 recipient, A3 vs S2) live in spec/overrides.yaml and spec/open_questions.yaml.
+
+schedule_of_variations:
+  CW:
+    page: 38
+    read_in_order_issued: true
+    text_effect: "Each takes effect on its own effective date and governs work executed on or after it; nothing in an instrument reopens work already measured at the rate then payable."
+    term_as_let: ["2025-01-05", "2025-09-27"]
+    term_as_extended: ["2025-01-05", "2026-09-30"]
+    pricing_date: "date of execution (not application date)"
+  DDS:
+    page: 37
+    read_in_order_issued: true
+    text_effect: "Each governs services performed on or after its effective date; nothing in an instrument reopens a service already charged at the rate then chargeable."
+    term_as_let: ["2025-01-01", "2025-12-31"]
+    term_as_extended: ["2025-01-01", "2026-12-31"]
+    pricing_date: "service date (not invoice date)"
+  footer_all_instruments: "Where this and an earlier instrument both state a rate or discount for the same item, the later governs work/services on or after its effective date and the earlier governs before it."
+
+instruments:
+  - id: CW.S1
+    contract: CW
+    title: "Supplement No.1 (CW-2025-0417-CIV/S1)"
+    page: 39
+    issued: "2025-03-24"
+    effective: "2025-05-01"
+    cross_reference_as_printed: "Clause 26.4 (does not exist)"
+    rate_rows:
+      - {code: B.23.010, from: "4,120.00", to: "4,385.00", row_effective: "2025-05-01", relationship: "substitutes Sch 1 base rate"}
+      - {code: B.21.020, from: "415.00", to: "431.50", row_effective: "2025-05-01", relationship: "substitutes Sch 1 base rate"}
+      - {code: A.16.010, from: "1,480.00", to: "1,524.00", row_effective: "2025-05-01", relationship: "substitutes Sch 1 base rate"}
+    monthly_rows:
+      code: D.41.020
+      relationship: "published monthly rate replaces the Sch 1 base rate (not an index multiplier); a later month takes the rate last published until superseded"
+      carry_forward: true
+      rows:
+        - ["2025-05", "214.50"]
+        - ["2025-06", "219.80"]
+        - ["2025-07", "226.40"]
+        - ["2025-08", "223.10"]
+        - ["2025-09", "220.50"]
+
+  - id: CW.A1
+    contract: CW
+    title: "Amendment No.1 (CW-2025-0417-CIV/A1)"
+    page: 40
+    issued: "2025-08-18"
+    effective: "2025-09-28"
+    cross_reference_as_printed: "Clause 14.2 (does not exist)"
+    completion_extended_to: "2026-03-31"
+    extension_days_as_printed: "185"
+    after_completion: "work executed after the extended Date for Completion is not measurable"
+    rate_rows:
+      - {code: E.54.010, from: "876.00", to: "948.00", row_effective: "2025-10-01", relationship: "substitutes Sch 1 base rate; row date differs from instrument effective date"}
+      - {code: B.23.010, from: "4,385.00", to: "4,450.00", row_effective: "2025-10-01", relationship: "substitutes S1 rate"}
+
+  - id: CW.S2
+    contract: CW
+    title: "Supplement No.2 (CW-2025-0417-CIV/S2)"
+    page: 41
+    issued: "2025-11-12"
+    effective: "2025-12-01"
+    rate_rows:
+      - {code: D.41.020, from: "220.50", to: "228.00", row_effective: "2025-12-01", relationship: "ends the S1 monthly table; 'from' is the Sep-2025 rate carried forward"}
+    discount:
+      pct: "5"
+      codes: [C.32.030, C.32.010, D.41.020, B.23.010]
+      from: "2025-12-01"
+      placement: "final factor in the Cl.27 build-up, after any Cl.30 (Sch 4 Part 3) rebate, before the Cl.28 rounding; work before that date carries no discount"
+
+  - id: CW.A2
+    contract: CW
+    title: "Amendment No.2 (CW-2025-0417-CIV/A2)"
+    page: 42
+    issued: "2026-02-16"
+    effective: "2026-04-01"
+    completion_extended_to: "2026-09-30"
+    extension_days_as_printed: "183"
+    after_completion: "work executed after the extended Date for Completion is not measurable or payable"
+    monthly_rows:
+      code: E.54.010
+      relationship: "published monthly rate replaces A1's 948.00 from April 2026; later months take the rate last published"
+      carry_forward: true
+      rows:
+        - ["2026-04", "976.00"]
+        - ["2026-05", "991.00"]
+        - ["2026-06", "1,013.00"]
+        - ["2026-07", "1,038.00"]
+        - ["2026-08", "1,038.00"]
+        - ["2026-09", "1,052.00"]
+    discount:
+      pct: "8"
+      codes: [C.32.030, C.32.010, D.41.020, B.23.010]
+      from: "2026-04-01"
+      placement: "same mechanics as S2; replaces the 5% for work on or after 2026-04-01; S2's 5% continues to govern 2025-12-01..2026-03-31"
+
+  - id: CW.A3
+    contract: CW
+    title: "Amendment No.3 (CW-2025-0417-CIV/A3)"
+    page: 43
+    issued: "2026-05-12"
+    effective: "2025-11-01"
+    retrospective: true
+    cross_reference_as_printed: "Clause 26.6 (does not exist)"
+    rate_rows:
+      - {code: C.32.010, from: "1,860.00", to: "1,984.00", row_effective: "2025-11-01", relationship: "substitutes Sch 1 base rate retrospectively; S2/A2 discounts still apply by work date"}
+      - {code: A.14.010, from: "53.20", to: "56.80", row_effective: "2025-11-01", relationship: "substitutes Sch 1 base rate retrospectively"}
+    adjustment_wording: "work already certified re-measured at the substituted rates; difference shown as a single adjustment on the first Application submitted after the date of issue (Clause 31A)"
+    incorporated_clause: {id: 31A, page: 32, wording: "first Application submitted on or after the date of issue, and on no other"}
+
+  - id: DDS.S1
+    contract: DDS
+    title: "Supplement No.1 (DDS-2025-118/S1)"
+    page: 38
+    issued: "2025-05-19"
+    effective: "2025-07-01"
+    cross_reference_as_printed: "Clause 19.3 (does not exist)"
+    rate_rows:
+      - {code: DD-120, from: "384.15", to: "398.50", row_effective: "2025-07-01", relationship: "substitutes Sch 1 base rate"}
+      - {code: DD-121, from: "2,893.65", to: "2,984.00", row_effective: "2025-07-01", relationship: "substitutes Sch 1 base rate"}
+    monthly_rows:
+      code: HC-601
+      relationship: "published monthly rate (Circulating Equipment Index) replaces the Sch 1 base rate; later months take the rate last published"
+      carry_forward: true
+      rows:
+        - ["2025-07", "701.50"]
+        - ["2025-08", "714.00"]
+        - ["2025-09", "722.60"]
+        - ["2025-10", "719.80"]
+        - ["2025-11", "731.00"]
+        - ["2025-12", "736.40"]
+
+  - id: DDS.A1
+    contract: DDS
+    title: "Amendment No.1 (DDS-2025-118/A1)"
+    page: 39
+    issued: "2025-11-07"
+    effective: "2026-01-01"
+    cross_reference_as_printed: "Clause 19.1 (does not exist)"
+    expiry_extended_to: "2026-06-30"
+    extension_days_as_printed: "181"
+    after_expiry: "services after the extended Expiry Date are not chargeable"
+    rate_rows:
+      - {code: DD-101, from: "1,847.35", to: "1,916.50", row_effective: "2026-01-01", relationship: "substitutes Sch 1 base rate"}
+      - {code: MW-301, from: "1,646.55", to: "1,708.00", row_effective: "2026-01-01", relationship: "substitutes Sch 1 base rate"}
+      - {code: LW-401, from: "1,898.45", to: "1,969.00", row_effective: "2026-01-01", relationship: "substitutes Sch 1 base rate"}
+
+  - id: DDS.S2
+    contract: DDS
+    title: "Supplement No.2 (DDS-2025-118/S2)"
+    page: 40
+    issued: "2026-02-24"
+    effective: "2026-04-01"
+    monthly_rows:
+      code: DD-120
+      relationship: "published monthly rate (Steerable Tool Index) replaces S1's 398.50 from April 2026; superseded within A3's scope by A3's 416.00 (see spec/overrides.yaml OV-DDS-07)"
+      carry_forward: true
+      rows:
+        - ["2026-04", "406.00"]
+        - ["2026-05", "411.50"]
+        - ["2026-06", "411.50"]
+        - ["2026-07", "423.00"]
+        - ["2026-08", "429.50"]
+        - ["2026-09", "434.00"]
+        - ["2026-10", "434.00"]
+        - ["2026-11", "441.00"]
+        - ["2026-12", "447.50"]
+    discount:
+      pct: "4"
+      codes: [DD-101, MW-301, LW-401, DD-120, MB-701]
+      from: "2026-04-01"
+      placement: "applied to the rate as the last factor in the build-up, before the rounding it requires; separate from and taken before the Clause 38 discount"
+
+  - id: DDS.A2
+    contract: DDS
+    title: "Amendment No.2 (DDS-2025-118/A2)"
+    page: 41
+    issued: "2026-05-21"
+    effective: "2026-07-01"
+    expiry_extended_to: "2026-12-31"
+    extension_days_as_printed: "184"
+    after_expiry: "services after the extended Expiry Date are not chargeable"
+    rate_rows:
+      - {code: MW-301, from: "1,708.00", to: "1,763.00", row_effective: "2026-07-01", relationship: "substitutes A1 rate"}
+      - {code: MB-701, from: "18,497.50", to: "19,237.00", row_effective: "2026-07-01", relationship: "substitutes Sch 1 base rate"}
+    discount:
+      pct: "7"
+      codes: [DD-101, MW-301, LW-401, DD-120, MB-701]
+      from: "2026-07-01"
+      placement: "same mechanics as S2; replaces the 4% for services on or after 2026-07-01; S2's 4% continues to govern 2026-04-01..2026-06-30"
+
+  - id: DDS.A3
+    contract: DDS
+    title: "Amendment No.3 (DDS-2025-118/A3)"
+    page: 42
+    issued: "2026-08-17"
+    effective: "2026-02-01"
+    retrospective: true
+    cross_reference_as_printed: "Clause 16.4 (does not exist)"
+    rate_rows:
+      - {code: DD-120, from: "398.50", to: "416.00", row_effective: "2026-02-01", relationship: "substitutes the S1 rate retrospectively and, issued later, governs over S2's monthly table within its scope"}
+      - {code: DD-101, from: "1,916.50", to: "1,954.00", row_effective: "2026-02-01", relationship: "substitutes the A1 rate retrospectively"}
+    unaffected: "Schedule 2 footage rates are unaffected"
+    adjustment_wording: "services already invoiced re-priced; difference as a single adjustment on the first invoice submitted after the date of issue (Clause 36A)"
+    incorporated_clause: {id: 36A, page: 35, wording: "first invoice submitted on or after the date of issue, and on no other"}

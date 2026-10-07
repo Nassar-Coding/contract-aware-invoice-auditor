@@ -1,0 +1,26 @@
+purpose:
+  CW-H01: 'bands: execution-date order across applications (not application number or submission); one line crossing both edges'
+  CW-H02: 'bands: same-date lines of one item in different work areas at a band edge (tie order)'
+  CW-H03: 'bands: Contract Year boundary 2026-01-04/05 (Q12 reset vs no reset); a line crossing the top edge'
+  CW-H04: 'bands: which quantities advance the count - a rejected wrong-unit line and an unpaid-for-want-of-record line (Q6)'
+  CW-H05: duplicate measurement across applications (Cl.44) before the daily limit (Cl.31); other area; next day; single line over the limit
+  CW-H06: 'exclusion A.14.020 within two days of A.14.010 on the same work area: day 0/1/2/3 and another area (Cl.32, Sch 4 Part 5, P19)'
+  CW-H07: exclusion E.51.020 on a surfacing day (P21), other area, and the one-day limit (Cl.19; Sch 4 Part 4)
+  CW-H08: 'duplicate measurement: ''later'' by submission when the application numbers run the other way; two in one application; weekly record
+    reused (Q7)'
+  CW-H09: A3 retrospective difference on protected work; issue-day submissions; recipient under 'on or after' (31A) vs 'after' (A3) (Q1)
+  CW-H10: retention 5% rounded down per application; 45A release of half the earlier retention on the first application after 2026-09-30, once
+  CW-H11: 'P23 after a missing record under Q3 A: the amount is never both excluded and deducted'
+  CW-H12: A3 difference on a band item that crosses a band edge; Contract Year for a later line (Q12); recipient
+  DDS-H01: Cl.29 service charged twice for a well-day across invoices; Cl.22 daily limit across invoices
+  DDS-H02: PD-210 split by depth interval (allowed) and an overlapping interval charged again (Cl.23, Cl.29)
+  DDS-H03: run events once per run across invoices (DD-111 last day, LW-420 first day); HC-630 per BHA run vs count (Q5 residual)
+  DDS-H04: 'well events: first day, last day, once per well, LW-430 only where LWD was run (Cl.27)'
+  DDS-H05: 'A3 difference on protected invoices (incl. S2 discount); recipient: contract-wide on/after (36A), after (A3), per well (Q1 C)'
+  DDS-H06: 'annual footage per well and Contract Year: 40,000 m edge, which metres count (Q11), reset on 1 January'
+  DDS-H07: loss charged twice for one tool lost (Cl.31 once, Cl.29)
+  CW-R01: 'population: E.52.010 twice for S-01 on 2025-03-21 in PA-00111 (Cl.44 within one application)'
+  CW-R02: 'population: one weekly dewatering record (DW-00004) cited by three A.16.010 lines in three applications (Q7)'
+  CW-R03: 'population: A.14.020 measured the same day as A.14.010 on the same work area (P19 ''within two days of'')'
+  DDS-R01: 'population: MB-701 charged on the well''s first day and again on a later day (Cl.27 once, first day)'
+  DDS-R02: 'population: MW-301 charged twice for one well-day in one invoice (Cl.29, Cl.22)'

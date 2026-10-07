@@ -1,0 +1,25 @@
+[
+ {
+  "line": "PA-00801-05",
+  "item": "A.14.020",
+  "area": "S-04",
+  "date": "2026-08-11",
+  "by": {
+   "Q6:A|Q6-day0:A": [
+    "PA-00801-02"
+   ],
+   "Q6:A|Q6-day0:B": [],
+   "Q6:B|Q6-day0:A": [
+    "PA-00801-02"
+   ],
+   "Q6:B|Q6-day0:B": []
+  },
+  "excluded": {
+   "Q6:A|Q6-day0:A": true,
+   "Q6:A|Q6-day0:B": false,
+   "Q6:B|Q6-day0:A": true,
+   "Q6:B|Q6-day0:B": false
+  },
+  "rule": "Cl.32 (p6); Sch 4 Part 5 (p26); P19 (p13)"
+ }
+]

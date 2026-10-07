@@ -1,0 +1,115 @@
+# Explicit overrides register (G1). Each entry records the provision displaced, the provision that governs,
+# the textual basis (pages second-read, see verification/), and any recorded alternative. No universal
+# precedence ranking is used: each conflict is decided on its own text.
+# status: settled = decided on explicit wording; decision = settled with a recorded alternative and scope
+# (see spec/open_questions.yaml D-entries).
+
+overrides:
+  - id: OV-CW-01
+    displaced: "Cl.29 (p6): a factor applies only where Sch 2/Sch 3 lists the item's SERIES"
+    governs: "Sch 3 (p23): ground factor applies only to the 15 listed ITEMS; Sch 2 (p20): zone factor to Series A-D, not E"
+    basis: "Cl.2 (p3): a Schedule prevails over the General Conditions; Sch 3 says 'An item not listed is measured without regard to the ground classification (Clause 29)'."
+    status: settled
+  - id: OV-CW-02
+    displaced: "Sch 1 column heading 'Rate (SAR)' for B.23.020, B.25.010, C.32.040 (p18)"
+    governs: "Sch 2B (p22) + 26A (p32): those figures are USD, converted at the work-month rate, half-even, before any factor"
+    basis: "Later-numbered Schedule prevails (Cl.2, p3); 26A is specific and operative."
+    status: settled
+  - id: OV-CW-03
+    displaced: "Cl.30 (p6): cumulative rebate from Commencement, never reset"
+    governs: "Sch 4 Part 3 (pp24-25): 'Clause 30 is substituted'; bands per Contract Year (3A)"
+    basis: "Express substitution. Cl.30's same-date ordering (application no., then line no.) is kept only as a documented working convention."
+    status: settled
+    open_question: Q12
+  - id: OV-CW-04
+    displaced: "Engineer's recorded ground classification for work after 27 Sep 2025"
+    governs: "27A (p32): ground taken as G2 for work executed after 27 September 2025"
+    basis: "Express second-series condition."
+    status: settled
+  - id: OV-CW-05
+    displaced: "Schedule of Variations (p38): 'nothing in an instrument reopens work already measured at the rate then payable'"
+    governs: "A3 (p43) + 31A (p32): retrospective substitution; pre-issue applications not incorrect; single adjustment on one later application"
+    basis: "A3 expressly re-measures certified work; 31A governs how. The SoV sentence still protects pre-issue submissions from being judged wrong."
+    status: settled
+    open_question: Q1
+  - id: OV-CW-06
+    displaced: "Earlier instrument rates for the same item"
+    governs: "Later instrument for work on/after its row effective date (instrument footers pp39-43); A1 rows effective 2025-10-01 not the instrument's 2025-09-28"
+    basis: "Footer wording; row dates as printed."
+    status: settled
+  - id: OV-CW-07
+    displaced: "App B example (p36): C.31.010 in May 2025 priced 86.20 x 1.06 = 91.37 without indexation"
+    governs: "29A (p32) + Sch 2A (p21): indexed rate 88.44 for May 2025 before the build-up"
+    basis: "Illustrative example vs operative clause: illustrative examples do not invalidate explicit operative text."
+    status: decision
+    decision: D3
+  - id: OV-CW-08
+    displaced: "Cl.47 (p8): record identifies the ITEM CODE"
+    governs: "47A (p33): record need not adopt BoQ wording; Sch 5 note (p27): does not repeat the Sch 1 description"
+    basis: "Later specific relaxation; the reference series still quoted against the line."
+    status: settled
+  - id: OV-CW-09
+    displaced: "Cl.33 (p7): surveyed quantity measured exactly"
+    governs: "33A (p32): up to 2% above survey payable as measured; above that, at the surveyed quantity"
+    basis: "Specific second-series tolerance on the same subject; 'surveyed' items are those in Sch 4 Part 6 (p26), not marked in Sch 1 as Cl.33 says."
+    status: settled
+  - id: OV-CW-10
+    displaced: "Concurrent night and rest-day uplift"
+    governs: "P11 (pp12-13) + Sch 4 note (p26): rest-day uplift alone unless the Engineer instructed both in writing (Cl.9)"
+    basis: "Express default; no written instructions are supplied (Q8)."
+    status: settled
+  - id: OV-CW-11
+    displaced: "Cl.51 (p9): half of retention released on the Taking-Over Certificate"
+    governs: "45A (p32): half released on the first application submitted after the Date for Completion as extended, rounded down"
+    basis: "Second-series specific timing; no Taking-Over Certificate is supplied."
+    status: decision
+    decision: D5
+  - id: OV-CW-12
+    displaced: "Broken cross-references: Cl.21, Cl.24, P25 -> App A (content is in App C); P18 '(Clause 33)'; S1 'Clause 26.4'; A1 'Clause 14.2'; A3 'Clause 26.6'"
+    governs: "Operative text of each provision"
+    basis: "Broken cross-references do not invalidate otherwise explicit operative text."
+    status: settled
+  - id: OV-DDS-01
+    displaced: "Sch 3 Part 1 section factor on every day for section-rated services"
+    governs: "17B (p35): no hole-section factor on a Standby day"
+    basis: "Explicit exception."
+    status: settled
+  - id: OV-DDS-02
+    displaced: "Sch 2 note (p17) 'class-rated under Schedule 3 Part 2' and PD-210 in the Sch 3 Part 2 class-rated list (p20)"
+    governs: "17B (p35): well-class factor not applied to PD-210"
+    basis: "17B names PD-210 and gives the reason (Sch 2 already prices by depth); App B's HPHT example (p30) applies no class factor to PD-210. Counter-argument recorded: Cl.2 (p3) says a Schedule prevails over a Part."
+    status: decision
+    decision: D1
+  - id: OV-DDS-03
+    displaced: "App B example (p30): MW-310 in June 2025 at 2,245.85 x 1.325 = 2,975.75 without indexation"
+    governs: "17A (p35) + Sch 2C (p18): indexed base before the build-up"
+    basis: "Illustrative example vs operative clause."
+    status: decision
+    decision: D3
+  - id: OV-DDS-04
+    displaced: "Sch 6 USD values (p25) and App G footnote 'replacement value Schedule 6 states' (p36)"
+    governs: "31A (p35) + Sch 2D (p19): SAR value converted at the month-of-loss rate; 'Schedule 2D governs'"
+    basis: "Express statement in 31A."
+    status: settled
+  - id: OV-DDS-05
+    displaced: "R5/R6 (p14): report lists tools and personnel by service code"
+    governs: "19A (p35) + App G (p36): report in rig words, no service codes; App G maps the words"
+    basis: "Later second-series provision; supplied DDRs use rig words. Sch 5 Part E still records 'its service code' for a lost tool (p24): Part E may carry codes."
+    status: settled
+  - id: OV-DDS-06
+    displaced: "Schedule of Variations (p37): 'nothing in an instrument reopens a service already charged'"
+    governs: "A3 (p42) + 36A (p35): retrospective re-pricing; pre-issue invoices correct; single adjustment"
+    basis: "As OV-CW-05."
+    status: settled
+    open_question: Q1
+  - id: OV-DDS-07
+    displaced: "S2 (p40) monthly DD-120 table for April-December 2026"
+    governs: "A3 (p42) DD-120 416.00 from 2026-02-01, subject to pre-issue protection; S2/A2 discounts still apply"
+    basis: "Instruments are read in the order issued (p37); A3 was issued after S2 and its footer makes the later instrument govern from its effective date. A3's 'rate previously chargeable' 398.50 ignores S2's monthly rates (observation)."
+    status: decision
+    decision: D2
+  - id: OV-DDS-08
+    displaced: "Broken cross-references: S1 'Clause 19.3', A1 'Clause 19.1', A3 'Clause 16.4'; S2/A2 'build-up required by Clause 17' (the build-up is Cl.18)"
+    governs: "Operative text of each instrument"
+    basis: "Broken cross-references do not invalidate otherwise explicit operative text."
+    status: settled

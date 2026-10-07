@@ -1,0 +1,10 @@
+note: Reviewer dispositions of section second readings (implementer). Each is bound to the section's classification as corrected.
+dispositions:
+  DDS|Part VIII Reporting R1-R12:
+    classification: owned by ['DDS-R05', 'DDS-R06', 'DDS-R07', 'DDS-R15', 'OV-DDS-05', 'DDS.P.circulating_hour_rounding']
+    reading_classification: owned by ['DDS-R05', 'OV-DDS-05', 'DDS.P.circulating_hour_rounding']
+    disposition: 'The second reader found R3, R5-R9 with a valuation effect not evidently covered by the named owners. Corrected:
+      owners now name each provision''s rule (R3/R4 DDS-R07 whose sources cite R4 and whose title takes metres from Part A
+      depths; R5/R6 DDS-R06 + OV-DDS-05; R7/R8 DDS-R05, whose sources cite ''R7, R8 (p14)''; R9 DDS-R15 and the G2 run-total
+      check). The reader''s verbatim quotes of R1-R12 (verification/section_readings.jsonl) are the evidence; R1, R2, R10-R12
+      were read as having no valuation effect.'

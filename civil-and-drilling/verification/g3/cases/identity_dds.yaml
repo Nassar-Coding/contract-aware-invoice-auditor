@@ -1,0 +1,23 @@
+# G3 reference cases, drilling contract, IDENTITY and report evidence: INPUTS ONLY (no expected values).
+# Added during G3 after the first case set was found to have no identity case and no case of a report for another
+# day or well, or of no report (gaps in coverage of the G3 scope "identity and period" and "evidence"). Read by
+# independent readers with the v2 reader instructions. Same defaults as synthetic_dds.yaml. The
+# contract-reference variants are the two that occur in the supplied invoices (DSS-2025-118, DDS-2025-181).
+# report.well / report.date override the report's own header; report.absent: true supplies no report for the number.
+defaults:
+  invoice: {contract_ref: DDS-2025-118, contractor: Meridian Downhole Services Ltd, well_name: NGP-SY-001, rig: NG-Rig 44, field: Harran, well_class: Standard, submit_after_days: 5}
+  report:
+    signed: both
+    A: {"Hole section": '12-1/4"', Status: Operating, "Depth start (m MD)": "2000", "Depth end (m MD)": "2100", "Circulating hours": "20", "BHA run": "1",
+        "In the hole": "MWD collar, drilling jars, real-time link, rotary steerable, survey package", "Crew on tour": "2 directional hands, 1 night man, 2 MWD engineers",
+        "Gyro surveys": "0", "Pressure points": "0", "Wiper trips": "0", "Back-reaming hours": "0", "Clean-out runs": "0"}
+    B: {Run: "1", "Run first day": "<service date>", "Run last day": "<service date + 3>", "Tools in run": "<as In the hole>", "Run circulating hours": "80", "Metres logged": "0", "Metres reamed": "0", "Radioactive source carried": "No"}
+  state: {annual_footage_pct: "100", note: "annual footage-band state is supplied as an input (G4 owns it); no other lines or invoices exist"}
+cases:
+  - {id: DDS-S57, tests: "invoice quotes contract reference DSS-2025-118 (letters transposed)", invoice: {contract_ref: DSS-2025-118}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S58, tests: "invoice quotes contract reference DDS-2025-181 (digits transposed)", invoice: {contract_ref: DDS-2025-181}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S59, tests: "invoice names a contractor other than the contract's", invoice: {contractor: Meridian Drilling Services Ltd}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S60, tests: "line is for well NGP-SY-002 on an invoice for well NGP-SY-001; the report is for NGP-SY-002", report: {well: NGP-SY-002}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10", well_name: NGP-SY-002}}
+  - {id: DDS-S61, tests: "the quoted report is for another well (NGP-SY-002)", report: {well: NGP-SY-002}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S62, tests: "the quoted report is for the previous day", report: {date: "2025-06-09"}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S63, tests: "no report exists with the quoted number", report: {absent: true}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}

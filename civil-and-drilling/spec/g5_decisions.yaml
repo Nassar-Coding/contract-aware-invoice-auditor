@@ -1,0 +1,227 @@
+# G5 decision register: how G5 turns G3 line results and G4 state into one outcome per invoice, and how it closes or
+# resolves every question the registers leave to G5. Each entry: the reading or rule applied, its source (read on the
+# scan or in the dataset's documentation and output template), the alternatives and their effect (computed by audit/g5_run.py into
+# verification/g5/decision_effects.json: lines, invoices and flags under each alternative), and who decided it.
+# A reading is never adopted because it matches billing. tools/verify_g5.py (Z8) checks every entry against the effects.
+version: 1
+
+q9_rule:
+  id: Q9
+  status: decided (G5)
+  sources:
+    - "Output format (dataset documentation): flagged is 1 when the invoice is wrong and 0 when it is correct; a 0 states that the invoice was audited and nothing was found; rows that cannot be priced are still reported, flagged when believed wrong, with a confidence"
+    - "Dataset description: wrong invoices include 'a rate that was superseded, a quantity beyond what the record supports, an uplift where the contract suspends it, an adjustment omitted or taken early, a charge billed twice'"
+    - "Dataset documentation: a confidently wrong answer is worse than a flagged uncertainty; confidence is read per band"
+    - "Dataset documentation, data section: judged figure = application_total (civil) / invoice_total (drilling); minor units = x100"
+    - "Guidelines (both): the twelve checks; principle 3 'Say when you do not know'; check 12 'pass, query, or part-reject'"
+    - "G1 consequence table (spec/consequences.yaml): no automatic zero, billed copy or midpoint for an unknown total"
+  rule:
+    Q9-1_flag_semantics: >-
+      An invoice is wrong when any of the twelve checks fails on it under the adopted readings: a line whose contract
+      value differs from its billed value (rate, quantity, unit, eligibility, duplicate, limit, band, discount), a
+      header whose arithmetic does not reconcile (civil application_total = sum of lines; drilling DS-900, net, VAT,
+      total), an established breach with no monetary effect (identity or contract reference, term, period, submission
+      window, missing/unsigned/mismatched evidence), or a payment-only defect the contract makes this invoice carry (the
+      A3 adjustment omitted from its recipient, the 45A release omitted). Flag = 1 when wrong, 0 when every check passes.
+      Alternative B (flag only when the judged total changes) is counted in decision_effects.
+    Q9-2_open_readings: >-
+      Where a question of contract meaning stays open after the source decisions below, every admissible reading is a
+      scenario. Wrong under every scenario: flag 1 with the confidence its evidence supports. Correct under every
+      scenario: flag 0. Readings disagree on whether the invoice is wrong: flag 1 (a flagged uncertainty;
+      never the reading that matches the bill) with confidence 0.50. Readings agree it is wrong but disagree
+      on its total: flag 1 with confidence at most 0.60. The expected total is always the total under the working
+      reading named per question below (chosen from source before any comparison with the bill); where the working
+      reading leaves the invoice correct, the expected total equals the billed total and the flag carries the doubt.
+    Q9-3_unsupplied_facts: >-
+      Rule E (missing-evidence rule, G5-B01; it rejects the alternative under which the invoice's own statement of the
+      fact selects its scenario and is tested as a breach). Where the contract assigns
+      a pricing input to a document that is not supplied (DDS well class - the call-off, Cl.4; CW ground class - the
+      excavation record/Engineer, S4, Cl.5; PD-210 nomination - the call-off, Cl.23), every admissible value is an
+      EVIDENCE scenario, separate from the readings of Q9-2. The invoice's statement of the input (DDS header well_class, CW
+      line ground_class) never selects a value and is never itself a breach: without the document it cannot be shown
+      wrong, and the claim is not authority (G5-B01). Missing evidence is not a breach: under a reading the invoice
+      is right when SOME admissible value of every unsupplied document makes it right (a civil line's ground is its own
+      fact; a well's class is one fact for all its services; a section's nomination one fact for its PD-210 charges), and
+      wrong only when NO admissible value does - an established breach whatever the document says (the flag never
+      depends on which value is exported or reported, Q9-7). Cl.4 'the well class stated in the call-off governs the
+      whole well': where the invoices of one well can be right only under different classes, no single call-off makes
+      them all right, and the class is one open fact shared by those invoices (Q9-2, working value Standard). Reported
+      findings and the exported total (review findings B-3, B-4, C-2; it rejects the alternative that exports a flagged row at the absent-document
+      values and reports only the (finding, line) pairs common to every value, which leaves exports that no finding
+      explains and drops breaches present under every value): both
+      are those of ONE admissible evidence scenario, the export scenario of Q9-7 (EXPORT-E) - the same values of a shared
+      document for every invoice sharing it; the findings common to every admissible value are disclosed separately
+      (findings_every_value). A breach that exists only through an unsupplied document's value (section_not_nominated)
+      is never preferred as the explanation of a defect. Confidence: 0.80 unflagged fact-dependent (the governing
+      document is not supplied); 0.60 flagged where the total depends on it. Invariant (verify_g5 Z4): changing only a
+      stated class or unrecorded ground changes no flag, category, exported total, contract total or confidence.
+      Alternatives counted: B every fact-dependent invoice flagged as a query; C the absent-document values alone decide
+      the flag.
+    Q9-4_unknown_total: >-
+      An invoice whose total cannot be formed under the working reading (some admissible scenario leaves a line with no
+      value) is flagged only when a check fails, confidence 0.30, expected_status 'bounded'. No billed amount and no zero is
+      substituted for a value (G5-B02; no 'best-supported' fallback that copies the
+      billed amount). expected_bounds: each valued line at its value, each unvalued line between the least and greatest of
+      its admissible values consistent with the scenario, or [0, not bounded] where none is established; drilling bounds
+      through DS-900 (Cl.38) and VAT (Cl.40). Numeric export EXPORT-U (owned by G5): expected_total_cents is the LOWER
+      BOUND - the amount established as payable on the supplied evidence - stated in expected_basis as a bound, not as a
+      contract calculation of the total. On the pinned data no invoice falls here (verification/g5/summary.json
+      'unpriceable'); verify_g5 Z4 executes the branch on the review's raw input.
+    Q9-5_confidence: >-
+      Row confidence (the output's confidence column: how sure the audit is of the row, the amount included): 0.95 when the outcome and
+      the amount are the same under every admissible reading and input and every applicable check was made; 0.80 when
+      they rest on a stated fact the contract assigns to a document not supplied (Q9-3), on the Q7 C policy allocation,
+      or on a reporting interpretation (a flag resting only on procedural or payment-only findings, Q9-1); 0.60 when
+      readings agree the invoice is wrong but disagree on its total; 0.50 when readings disagree on
+      whether it is wrong; 0.30 when the total cannot be formed (Q9-4). A check whose account or input is not established
+      (a payment account not established, review finding B-1) is not a check made: an unflagged row
+      is then at most 0.50 (whether it is right is not established), a flagged row at most 0.80. Judgment conventions,
+      not calibrated probabilities.
+    Q9-6_category: >-
+      error_category = the ordered, de-duplicated root categories of the invoice's established findings (identity,
+      term, timing, evidence, signature, evidence_mismatch, unit, quantity, duplicate, eligibility, limit, rate,
+      discount, arithmetic, adjustment), joined with '; '; blank when flag = 0. A finding is attributed to the obligation
+      the line violates (G5-B06): a value changed by an established consequence keeps that
+      consequence's cause (out-of-term work is not payable - 'term', a monetary term consequence, never also 'rate');
+      otherwise what actually differs - the quantity (quantity_above_record), the displayed rate against the scenario's
+      rate (rate_differs), the displayed arithmetic (amount_arithmetic), a division at a band edge
+      (band_crossing_not_split), else value_differs - never 'rate' by default. Each dimension that differs is named
+      unless a breach already on the line explains it (review finding C-2: a quantity breach is not
+      hidden by a rate breach of the same line); a value removed by an established finding needs no other cause.
+      Procedural breaches with no monetary consequence of their own are identity and timing only.
+    Q9-7_export_policies: >-
+      Named numeric export policies for expected_total_cents, owned by G5 (the template needs one number per row; a
+      number is never presented as more than it is - expected_basis states which policy produced it).
+      EXPORT-E (admissible export scenario; extended to flagged rows after review findings B-3/B-4/C-2):
+      a row that depends on an unsupplied document (DDS well class - Cl.4 call-off; PD-210 section nomination - Cl.23;
+      CW ground class of an unrecorded line - S4) is exported, and its findings reported, under one admissible value of
+      each: (i) a civil line's ground is its own fact: the ground under which the line is right, else the one leaving it
+      the fewest breaches, then the value nearest its bill, then G2; (ii) a well's class and a section's nomination are
+      shared facts (Cl.4, Cl.23): one value for every invoice sharing it - among the values that keep every invoice that
+      can be right right, the one under which the fewest of those invoices are at less than their most favourable
+      scenario (right, else no strict superset of another scenario's breaches, then fewest breaches resting only on an
+      unsupplied document's value); ties to Standard first for the class and to 'nominated' first for a nomination (the
+      value under which a PD-210 charge exists at all; missing evidence is not a breach); where the class is one open
+      shared fact (Cl.4 conflict) the open reading's value. An unflagged row is thereby exported at its own total, an
+      admissible total; a flagged row at the contract total under those values, every difference from its bill named by
+      a finding on the line (verify_g5 Z4 export_errors: each exported line value is one of the line's admissible
+      contract values under the export values, never a billed amount the contract does not give; one class per well,
+      one nomination per section). SCOPE: this chooses only the exported number and which admissible value the reported
+      findings are stated under. The flag is existential (right when SOME admissible value makes the invoice right,
+      Q9-3 E) and the confidence follows it, so re-billing a well's invoices together exactly at a different admissible
+      class leaves every flag and confidence unchanged - verified over the population by verify_g5 Z4 (every eligible
+      unflagged fact-dependent invoice re-billed at another well class, jointly per well, or another ground class,
+      through G3/G4/G5 again: flag, confidence and contract_total unchanged, export = its own total), and shown to fail on the first G5 code (tests/test_g4g5_regressions.py).
+      Re-billing ONE invoice of a well alone at another class can change its sister invoices' flags through Cl.4 (the
+      well's invoices then no longer admit one class) - that is the Cl.4 rule, not a dependence on the export choice.
+      EXPORT-D (absent-document values; disclosure only): contract_total, the judged total under the working reading on
+      the values the supplied evidence establishes where a governing document is not supplied (CW S4 G2; DDS P2/P3
+      Standard; Cl.23 not nominated). Independent of the bill and of the invoice's statements; reported beside the
+      export, and exported by every row that depends on no unsupplied document (there it is simply the contract value).
+      EXPORT-U (unformed total): the lower bound of the admissible total (Q9-4), with the bounds disclosed.
+  alternatives: {Q9_A: "flag any breach (adopted, Q9-1)", Q9_B: "flag only a changed judged total", Q9_C_unknown: "export billed total at low confidence (rejected: G5-B02)"}
+
+decisions:
+  - id: Q2
+    status: decided (source)
+    reading: "A: the judged totals exclude the A3 adjustment. CW 45A (p32): 'The amount payable on an Application is the measured total, plus any adjustment under Clause 31A, less the retention ... plus any retention released' - the adjustment is added to the measured total, not part of it, and application_total is the measured total (retention is computed on it, Cl.45). DDS Cl.36 (p8): net = the sum of the amounts of its charges, including DS-900; Cl.40: total = net + VAT; 36A (p35) shows the difference 'as a single adjustment', not as a charge. Omitting the adjustment is therefore a payment-only defect of the recipient (Q9-1), not a change of its judged total."
+    alternatives: {B: "adjustment inside the recipient's judged total (DDS inside net before DS-900/VAT)", C: "DDS: after DS-900, before VAT"}
+    effect_key: Q2
+  - id: Q1
+    status: open (ambiguity rule)
+    reading: "The recipient is the first application/invoice submitted on or after (31A/36A, A) or after (A3, B) the date of issue - both kept: A3 states 'after' and cites 31A/36A, which say 'on or after'; no clause ranks the amendment's paraphrase against the clause it cites. Same-day ties have no tie-breaker (each tied document is the recipient in one scenario). Drilling per-well reading (C) rejected from source: 36A 'a single adjustment on the first invoice ... and on no other' is singular and contract-wide; Cl.32 (separate invoice per well) does not make the adjustment per well. Every candidate recipient is wrong (adjustment omitted - all adjustment columns are 0.00) only in its own scenario: Q9-2 flag 1 at 0.50. Working reading for totals: not needed (Q2: no judged-total effect)."
+    alternatives: {A: "CW tie PA-00006/PA-00023/PA-00380; DDS MDS-01625", B: "CW PA-00443; DDS tie MDS-01585/MDS-01631/MDS-01645", C: "DDS per well (rejected)"}
+    effect_key: Q1
+  - id: Q7C
+    status: decided (policy, 2026-09-28)
+    reading: "Of two admissible charges of one service for one well-day, run, well or loss, the charge on the earlier-submitted invoice stands and the later one is the repeat (Cl.29 p7; both independent G4 readers). Within one invoice the lines are the same charge on the same invoice: the invoice carries one charge and the repeat line is wrong whichever line is taken as the repeat; the judged total is the same."
+    decided_by: policy
+    alternatives: {stands_either: "each charge carried as the one that stands (G4)"}
+    effect_key: Q7C
+  - id: Q6D
+    status: "open (policy: ambiguity rule)"
+    reading: "Both readings kept (policy). PA-00801-05 is decided by the ambiguity rule (Q9-2). Working reading for its total: A (P19 'within two days of': the specific provision on A.14.020)."
+    decided_by: policy
+    alternatives: {A: "the day of the A.14.010 measurement is excluded (P19)", B: "only the days following (Cl.32, Sch 4 Part 5)"}
+    effect_key: Q6-day0
+  - id: Q6AB
+    status: decided (source)
+    reading: "A: Sch 4 Part 3 (p24) counts 'the quantity measured'; a measurement not payable for want of its record (Cl.46: 'not payable ... until that record has been delivered') is measured. No line of the pinned data changes between A and B."
+    alternatives: {B: "payable quantity only"}
+    effect_key: Q6
+  - id: Q12
+    status: decided (source)
+    reading: "A: CW 3A (p32) 'Each following Contract Year runs from that anniversary' is unconditional; 'an extension of time does not begin a new Contract Year' says the extension is not itself a boundary; 'the final Contract Year ends on the Date for Completion as extended, however long that leaves it' fixes the END of whichever Contract Year is final - the one running from 5 January 2026 - and allows it to be short or long. Reading B needs 'final' to mean the Contract Year final under the as-let completion, which the clause does not say."
+    alternatives: {B: "no new Contract Year in the extension"}
+    effect_key: Q12
+  - id: Q14
+    status: decided (source)
+    reading: "A: DDS 3A (p35), the same structure as CW 3A ('each following Contract Year from that anniversary'; 'an extension does not begin a new Contract Year'). No line changes."
+    alternatives: {B: "no new Contract Year in the extension"}
+    effect_key: Q14
+  - id: Q11
+    status: decided (source)
+    reading: "Accumulator: A - Sch 2 Part 2 (p17) prices 'performance-drilled' metres by the metres already drilled on the well in the Contract Year; no line changes under either reading (records bound, G3). Wrong-unit remedy: A (breach, value per supported quantity) - 0 lines."
+    alternatives: {B: "every metre drilled on the well; wrong unit = charge unsupported"}
+    effect_key: Q11
+  - id: Q4
+    status: open (ambiguity rule)
+    reading: "Kept (G3): 21A 'period in the hole' is undefined and nothing orders the rig-up deduction against the P10 minimum. Q9-2 applies. Working reading: A (21A's second sentence 'The report states the hours run; the invoice charges one fewer' reads per report)."
+    alternatives: {A: "deduct per day, then minimum", B: "minimum, then deduct", C: "deduct once per BHA run", counts: "RM-530 as recorded"}
+    effect_key: Q4
+  - id: Q5
+    status: open (ambiguity rule)
+    reading: "Residual kept (G3; D8-I1 does not settle it under either reading). Q9-2 applies. Working reading: Schedule 1 descriptions and Cl.21/Cl.30 (DD-120 circulating hours; RM-530 back-reaming hours; HC-630 per clean-out run recorded) - the pricing schedule's own item descriptions."
+    alternatives: {sch8: "Sch 8 rows: circulating or back-reaming hours; HC-630 once per BHA run"}
+    effect_key: Q5
+  - id: D8-I1
+    status: resolved by rule
+    reading: "Its only consequence is Q5 (3 lines); resolved through Q5 above."
+    effect_key: Q5
+  - id: order
+    status: open (ambiguity rule)
+    reading: "No order is stated for civil measurements of one date at a band edge (Sch 4 Part 3 substitutes Cl.30). Q9-2 applies. Working reading: Cl.30's former wording (application number, then line) - the only order the contract ever stated."
+    effect_key: order
+  - id: Q8-class
+    status: resolved by rule (Q9-3)
+    reading: "DDS well class: the call-off (Cl.4) is not supplied and no report states a class; every class is computed; the invoice is right when some class makes it right (Q9-3 E); the header's statement plays no part; one class per well across its invoices (Cl.4)."
+    alternatives: {B: "flag every class-dependent invoice as a query", C: "Standard (no call-off states HPHT/Extended Reach: P2, P3)"}
+    effect_key: Q8-class
+  - id: Q8-ground
+    status: resolved by rule (Q9-3)
+    reading: "CW ground class of the 649 lines no supplied record classifies: every class computed; each line right when some class makes it right (Q9-3 E); the line's ground_class statement plays no part; export on S4 G2 (EXPORT-D)."
+    alternatives: {B: "flag every ground-dependent application as a query", C: "G2 ('a classification not recorded on the day ... taken to be G2', S4)"}
+    effect_key: Q8-ground
+  - id: PD210-nomination
+    status: resolved by rule (Q9-3)
+    reading: "The call-off nomination of a performance-drilled section is not supplied: nominated and not nominated are both evidence scenarios (Q9-3 E); the invoice is right when some nomination makes it right; export on 'not nominated' (EXPORT-D, Cl.23)."
+    alternatives: {B: "every PD-210 invoice flagged as a query", C: "no nomination: PD-210 not chargeable"}
+    effect_key: PD210-nomination
+  - id: G3-D1
+    status: decided (G3), effect listed
+    reading: "Procedural breaches keep the line's contract value; the breach is a finding (flag under Q9-1)."
+    alternatives: {not_payable_now: "the line valued 0.00 on the non-compliant submission"}
+    effect_key: G3-D1
+  - id: G3-D2
+    status: decided (G3), effect listed
+    reading: "An unsigned report makes its Schedule 5 services not payable (Cl.37); other lines keep their value."
+    alternatives: {all_lines: "every line on an unsigned report not payable"}
+    effect_key: G3-D2
+  - id: G3-D3
+    status: decided (G3), effect listed
+    reading: "Civil zone of execution and night working accepted as stated (no other evidence named by the contract)."
+    alternatives: {unverified_zone: "every zone", unverified_night: "no night uplift"}
+    effect_key: G3-D3
+  - id: Q10
+    status: decided (source)
+    reading: "A: only what the contract itself requires is added (DS-900, minimums, correct rates in both directions); an unbilled service is the contractor's choice not to charge (no clause obliges a charge)."
+    alternatives: {B: "add unbilled chargeable events evidenced by records"}
+    effect_key: Q10
+  - id: DS-900-VAT
+    status: decided (source)
+    reading: "DDS Cl.38 (p8): discount = 4% of the excess of the services sum over 250,000.00, rounded half-even (Cl.17), one negative DS-900 charge, per invoice (P11); Cl.36 net = charges incl. DS-900; Cl.39 VAT 15% of net rounded half-even; Cl.40 total = net + VAT. Recomputed from the expected services sum. The invoice's own DS-900 content (G5-B05) is checked explicitly: a single charge (discount_split), negative (discount_sign), the amount on its own services above the threshold with half-even rounding, none at or below it (discount), a zero DS-900 line being no charge; the line's well (line_well_differs_from_invoice); its contribution to net and VAT through the header check. Not imposed on it: service date, report, unit, section, quantity x rate - ordinary-service obligations; Cl.38 is a special amount rule, not a Schedule 1 service (the review's quantity-7 / rate -1 probe is not made an obligation)."
+    effect_key: totals
+  - id: retention
+    status: decided (source)
+    reading: "CW Cl.45 (p8) retention and 45A (p32) release are payment fields outside application_total; the release omitted from its recipient (PA-00678, first application after 30 September 2026) is a payment-only defect (Q9-1). Retention is recomputed on the expected total for the record; a retention that only follows a wrong total is a symptom, not a separate finding."
+    effect_key: retention

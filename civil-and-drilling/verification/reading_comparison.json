@@ -1,0 +1,1486 @@
+{
+ "ocr": {
+  "CW.T01_SCH1": {
+   "cells": 120,
+   "agree": 110,
+   "disagree": [
+    {
+     "row": "B.21.010",
+     "column": "est_qty",
+     "first_pass": "4,000",
+     "reading_lines": [
+      "\"B.21.010 \u2014 Blinding concrete, C15/20, thickness 75mm -m2.~\u2014=\u2014\u2014\u2014\u00ab4,000.-\u2014S\u2014\u00ab29.60"
+     ]
+    },
+    {
+     "row": "B.21.010",
+     "column": "rate",
+     "first_pass": "29.60",
+     "reading_lines": [
+      "\"B.21.010 \u2014 Blinding concrete, C15/20, thickness 75mm -m2.~\u2014=\u2014\u2014\u2014\u00ab4,000.-\u2014S\u2014\u00ab29.60"
+     ]
+    },
+    {
+     "row": "B.21.030",
+     "column": "est_qty",
+     "first_pass": "725",
+     "reading_lines": [
+      "B.21.030 Reinforced concrete to slabs, C32/40 m3 7125 389.00"
+     ]
+    },
+    {
+     "row": "C.33.010",
+     "column": "est_qty",
+     "first_pass": "1,170",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    },
+    {
+     "row": "C.33.010",
+     "column": "rate",
+     "first_pass": "59.10",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    },
+    {
+     "row": "C.32.040",
+     "column": "est_qty",
+     "first_pass": "272",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    },
+    {
+     "row": "C.32.040",
+     "column": "rate",
+     "first_pass": "423.00",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    },
+    {
+     "row": "D.41.030",
+     "column": "est_qty",
+     "first_pass": "2,440",
+     "reading_lines": [
+      "D.41.030 Stone mastic asphalt surface course, 40 mm m2 \u201c2,440 89.40"
+     ]
+    },
+    {
+     "row": "D.42.030",
+     "column": "est_qty",
+     "first_pass": "2,130",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    },
+    {
+     "row": "D.42.030",
+     "column": "rate",
+     "first_pass": "39.40",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    }
+   ],
+   "status": "10 to review"
+  },
+  "CW.T02_ZONES": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T03_WORK_AREAS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T04_SMI_ITEMS": {
+   "cells": 2,
+   "agree": 2,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T05_SMI": {
+   "cells": 24,
+   "agree": 24,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 12,
+     "column": "index",
+     "first_pass": "109.60"
+    },
+    {
+     "row": 13,
+     "column": "index",
+     "first_pass": "110.20"
+    },
+    {
+     "row": 14,
+     "column": "index",
+     "first_pass": "109.80"
+    },
+    {
+     "row": 15,
+     "column": "index",
+     "first_pass": "111.50"
+    },
+    {
+     "row": 16,
+     "column": "index",
+     "first_pass": "112.30"
+    },
+    {
+     "row": 17,
+     "column": "index",
+     "first_pass": "113.10"
+    },
+    {
+     "row": 18,
+     "column": "index",
+     "first_pass": "112.40"
+    },
+    {
+     "row": 19,
+     "column": "index",
+     "first_pass": "113.80"
+    },
+    {
+     "row": 20,
+     "column": "index",
+     "first_pass": "114.60"
+    },
+    {
+     "row": 21,
+     "column": "index",
+     "first_pass": "115.20"
+    },
+    {
+     "row": 22,
+     "column": "index",
+     "first_pass": "115.90"
+    }
+   ],
+   "status": "all agree"
+  },
+  "CW.T06_USD_ITEMS": {
+   "cells": 3,
+   "agree": 3,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T07_FX": {
+   "cells": 24,
+   "agree": 24,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 12,
+     "column": "halalas_per_usd",
+     "first_pass": "376.00"
+    },
+    {
+     "row": 13,
+     "column": "halalas_per_usd",
+     "first_pass": "375.80"
+    },
+    {
+     "row": 14,
+     "column": "halalas_per_usd",
+     "first_pass": "375.90"
+    },
+    {
+     "row": 15,
+     "column": "halalas_per_usd",
+     "first_pass": "376.20"
+    },
+    {
+     "row": 16,
+     "column": "halalas_per_usd",
+     "first_pass": "376.40"
+    },
+    {
+     "row": 17,
+     "column": "halalas_per_usd",
+     "first_pass": "376.10"
+    },
+    {
+     "row": 18,
+     "column": "halalas_per_usd",
+     "first_pass": "375.70"
+    },
+    {
+     "row": 19,
+     "column": "halalas_per_usd",
+     "first_pass": "376.30"
+    },
+    {
+     "row": 20,
+     "column": "halalas_per_usd",
+     "first_pass": "376.60"
+    },
+    {
+     "row": 21,
+     "column": "halalas_per_usd",
+     "first_pass": "376.80"
+    },
+    {
+     "row": 22,
+     "column": "halalas_per_usd",
+     "first_pass": "377.00"
+    }
+   ],
+   "status": "all agree"
+  },
+  "CW.T08_GROUND_FACTORS": {
+   "cells": 5,
+   "agree": 5,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T09_GROUND_ITEMS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T10_NIGHT": {
+   "cells": 13,
+   "agree": 13,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T11_REST": {
+   "cells": 4,
+   "agree": 3,
+   "disagree": [
+    {
+     "row": "B.21.040",
+     "column": "uplift_pct",
+     "first_pass": "35",
+     "reading_lines": [
+      "B.21.040 Reinforced concrete to walls, C32/40 : ; 22%",
+      "B.21.040 Reinforced concrete to walls, C32/40 \u2018 \u201c35%"
+     ]
+    }
+   ],
+   "status": "1 to review"
+  },
+  "CW.T12_BANDS": {
+   "cells": 40,
+   "agree": 34,
+   "disagree": [
+    {
+     "row": "A.12.010",
+     "column": "band1_to",
+     "first_pass": "4,000",
+     "reading_lines": [
+      "A.12.010 General excavation to reduce level 1to4,000 m3 100%",
+      "A.12.010 General excavation to reduce level 4,001 to 16,000 = m3 96%"
+     ]
+    },
+    {
+     "row": "A.13.010",
+     "column": "band1_to",
+     "first_pass": "5,000",
+     "reading_lines": [
+      "A.13.010 Disposal of excavated material off site 1to5,000 m3 . 100%",
+      "; A.13.010 Disposal of excavated material off site 5,001 to 20,000 m3 94%"
+     ]
+    },
+    {
+     "row": "A.14.010",
+     "column": "band1_to",
+     "first_pass": "2,000",
+     "reading_lines": [
+      "A.14.010 Imported granular fill, placed and compacted : 18% : :",
+      "A.14.010 Imported granular fill, placed and ~1to2,000 m3 100%"
+     ]
+    },
+    {
+     "row": "B.23.010",
+     "column": "band1_to",
+     "first_pass": "60",
+     "reading_lines": [
+      "B.23.010 High-yield reinforcement bar, cut, bent 1to60 tonne 100%",
+      "B.23.010 High-yield reinforcement bar, cut, bent 61 to 240 tonne 97%"
+     ]
+    },
+    {
+     "row": "D.41.010",
+     "column": "band1_to",
+     "first_pass": "4,500",
+     "reading_lines": [
+      "D.41.010 Sub-base, Type | granular, 250 mm 1to4,500 m2 100% ;",
+      "D.41.010 Sub-base, Type | granular, 250 mm 4,501 to 18,000 m2 95%"
+     ]
+    },
+    {
+     "row": "D.41.040",
+     "column": "band1_to",
+     "first_pass": "3,500",
+     "reading_lines": [
+      "D.41.040 Capping layer, 300 mm compacted 1to3,500 m2 100%",
+      "; D.41.040 Capping layer, 300 mm compacted 3,501 to 14,500 m2 95%"
+     ]
+    }
+   ],
+   "status": "6 to review"
+  },
+  "CW.T13_DAILY_LIMITS": {
+   "cells": 9,
+   "agree": 9,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T14_EXCLUSIONS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T15_SURVEYED": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T16_RECORDS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T17_DAYWORK_LABOUR": {
+   "cells": 10,
+   "agree": 10,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T18_DAYWORK_PLANT": {
+   "cells": 12,
+   "agree": 12,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T19_DAYWORK_ADDITIONS": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T20_PROVISIONAL_SUMS": {
+   "cells": 8,
+   "agree": 8,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T21_PRELIMINARIES": {
+   "cells": 14,
+   "agree": 13,
+   "disagree": [
+    {
+     "row": "PR.01",
+     "column": "rate",
+     "first_pass": "486,000.00",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    }
+   ],
+   "status": "1 to review"
+  },
+  "CW.T22_APPB_EXAMPLE": {
+   "cells": 9,
+   "agree": 9,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.S1.rates": {
+   "cells": 6,
+   "agree": 6,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.S1.monthly": {
+   "cells": 5,
+   "agree": 5,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.A1.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.S2.rates": {
+   "cells": 2,
+   "agree": 2,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.S2.discount": {
+   "cells": 1,
+   "agree": 1,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.A2.monthly": {
+   "cells": 6,
+   "agree": 6,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.A2.discount": {
+   "cells": 1,
+   "agree": 1,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.A3.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T01_SCH1": {
+   "cells": 33,
+   "agree": 31,
+   "disagree": [
+    {
+     "row": "MW-301",
+     "column": "rate",
+     "first_pass": "1,646.55",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    },
+    {
+     "row": "RM-511",
+     "column": "rate",
+     "first_pass": "1,379.15",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    }
+   ],
+   "status": "2 to review"
+  },
+  "DDS.T02_DEPTH_BANDS": {
+   "cells": 15,
+   "agree": 14,
+   "disagree": [
+    {
+     "row": 0,
+     "column": "from_m",
+     "first_pass": "0",
+     "reading_lines": [
+      "<not in page tokens>"
+     ]
+    }
+   ],
+   "out_of_order": [
+    {
+     "row": 0,
+     "column": "rate",
+     "first_pass": "42.35"
+    },
+    {
+     "row": 1,
+     "column": "from_m",
+     "first_pass": "1,500"
+    },
+    {
+     "row": 1,
+     "column": "to_m",
+     "first_pass": "3,000"
+    },
+    {
+     "row": 1,
+     "column": "rate",
+     "first_pass": "58.15"
+    },
+    {
+     "row": 2,
+     "column": "from_m",
+     "first_pass": "3,000"
+    },
+    {
+     "row": 2,
+     "column": "to_m",
+     "first_pass": "4,500"
+    },
+    {
+     "row": 2,
+     "column": "rate",
+     "first_pass": "76.45"
+    },
+    {
+     "row": 3,
+     "column": "band",
+     "first_pass": "4"
+    },
+    {
+     "row": 3,
+     "column": "from_m",
+     "first_pass": "4,500"
+    },
+    {
+     "row": 3,
+     "column": "rate",
+     "first_pass": "98.70"
+    }
+   ],
+   "status": "1 to review"
+  },
+  "DDS.T03_ANNUAL_BANDS": {
+   "cells": 7,
+   "agree": 7,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T04_RSI_ITEMS": {
+   "cells": 2,
+   "agree": 2,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T05_RSI": {
+   "cells": 24,
+   "agree": 24,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 12,
+     "column": "index",
+     "first_pass": "109.30"
+    },
+    {
+     "row": 13,
+     "column": "index",
+     "first_pass": "110.00"
+    },
+    {
+     "row": 14,
+     "column": "index",
+     "first_pass": "110.60"
+    },
+    {
+     "row": 15,
+     "column": "index",
+     "first_pass": "111.40"
+    },
+    {
+     "row": 16,
+     "column": "index",
+     "first_pass": "110.90"
+    },
+    {
+     "row": 17,
+     "column": "index",
+     "first_pass": "112.20"
+    },
+    {
+     "row": 18,
+     "column": "index",
+     "first_pass": "113.00"
+    },
+    {
+     "row": 19,
+     "column": "index",
+     "first_pass": "112.60"
+    },
+    {
+     "row": 20,
+     "column": "index",
+     "first_pass": "113.90"
+    },
+    {
+     "row": 21,
+     "column": "index",
+     "first_pass": "114.70"
+    },
+    {
+     "row": 22,
+     "column": "index",
+     "first_pass": "115.30"
+    }
+   ],
+   "status": "all agree"
+  },
+  "DDS.T06_SAR_VALUES": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T07_FX": {
+   "cells": 24,
+   "agree": 24,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 12,
+     "column": "halalas_per_usd",
+     "first_pass": "376.00"
+    },
+    {
+     "row": 13,
+     "column": "halalas_per_usd",
+     "first_pass": "375.80"
+    },
+    {
+     "row": 14,
+     "column": "halalas_per_usd",
+     "first_pass": "375.90"
+    },
+    {
+     "row": 15,
+     "column": "halalas_per_usd",
+     "first_pass": "376.20"
+    },
+    {
+     "row": 16,
+     "column": "halalas_per_usd",
+     "first_pass": "376.40"
+    },
+    {
+     "row": 17,
+     "column": "halalas_per_usd",
+     "first_pass": "376.10"
+    },
+    {
+     "row": 18,
+     "column": "halalas_per_usd",
+     "first_pass": "375.70"
+    },
+    {
+     "row": 19,
+     "column": "halalas_per_usd",
+     "first_pass": "376.30"
+    },
+    {
+     "row": 20,
+     "column": "halalas_per_usd",
+     "first_pass": "376.60"
+    },
+    {
+     "row": 21,
+     "column": "halalas_per_usd",
+     "first_pass": "376.80"
+    },
+    {
+     "row": 22,
+     "column": "halalas_per_usd",
+     "first_pass": "377.00"
+    }
+   ],
+   "status": "all agree"
+  },
+  "DDS.T08_SECTION_FACTORS": {
+   "cells": 5,
+   "agree": 5,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T09_SECTION_RATED": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T10_CLASS_FACTORS": {
+   "cells": 3,
+   "agree": 3,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T11_CLASS_RATED": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T12_STANDBY": {
+   "cells": 17,
+   "agree": 17,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T13_DAILY_LIMITS": {
+   "cells": 22,
+   "agree": 22,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T14_ONCE_PER_WELL": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T15_STANDBY_SUBSTITUTE_AND_MINIMUM": {
+   "cells": 1,
+   "agree": 0,
+   "disagree": [
+    {
+     "row": "DD-120 minimum hours on an Operating day with the tool in the hole",
+     "column": "value",
+     "first_pass": "6",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    }
+   ],
+   "status": "1 to review"
+  },
+  "DDS.T16_PERSONNEL": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T17_SCH5_PARTS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T18_SCH5_CODES": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T19_SCH6_USD": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T20_GLOSSARY": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T21_APPB_EXAMPLE": {
+   "cells": 15,
+   "agree": 15,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 1,
+     "column": "amount",
+     "first_pass": "2,975.75"
+    }
+   ],
+   "status": "all agree"
+  },
+  "DDS.T22_APPF_EXAMPLE": {
+   "cells": 2,
+   "agree": 0,
+   "disagree": [
+    {
+     "row": "LH-713",
+     "column": "circulating_hours",
+     "first_pass": "412",
+     "reading_lines": [
+      "Service code LH-713"
+     ]
+    },
+    {
+     "row": "LH-713",
+     "column": "depreciation_pct",
+     "first_pass": "16",
+     "reading_lines": [
+      "Service code LH-713"
+     ]
+    }
+   ],
+   "status": "2 to review"
+  },
+  "DDS.T23_SCH8": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.S1.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.S1.monthly": {
+   "cells": 6,
+   "agree": 6,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.A1.rates": {
+   "cells": 6,
+   "agree": 6,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.S2.monthly": {
+   "cells": 9,
+   "agree": 9,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.S2.discount": {
+   "cells": 1,
+   "agree": 1,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.A2.rates": {
+   "cells": 4,
+   "agree": 3,
+   "disagree": [
+    {
+     "row": "MB-701",
+     "column": "to",
+     "first_pass": "19,237.00",
+     "reading_lines": [
+      "MB-701 Mobilisation to rig site well 18,497.50 19,237:00 2026-07-01",
+      "MB-701 Mobilisation to rig site :"
+     ]
+    }
+   ],
+   "status": "1 to review"
+  },
+  "DDS.A2.discount": {
+   "cells": 1,
+   "agree": 1,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.A3.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  }
+ },
+ "blind": {
+  "CW.T01_SCH1": {
+   "cells": 120,
+   "agree": 120,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T02_ZONES": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T03_WORK_AREAS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T04_SMI_ITEMS": {
+   "cells": 2,
+   "agree": 2,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T05_SMI": {
+   "cells": 24,
+   "agree": 24,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 12,
+     "column": "index",
+     "first_pass": "109.60"
+    },
+    {
+     "row": 14,
+     "column": "index",
+     "first_pass": "109.80"
+    },
+    {
+     "row": 15,
+     "column": "index",
+     "first_pass": "111.50"
+    },
+    {
+     "row": 16,
+     "column": "index",
+     "first_pass": "112.30"
+    },
+    {
+     "row": 18,
+     "column": "index",
+     "first_pass": "112.40"
+    },
+    {
+     "row": 19,
+     "column": "index",
+     "first_pass": "113.80"
+    },
+    {
+     "row": 20,
+     "column": "index",
+     "first_pass": "114.60"
+    },
+    {
+     "row": 21,
+     "column": "index",
+     "first_pass": "115.20"
+    },
+    {
+     "row": 22,
+     "column": "index",
+     "first_pass": "115.90"
+    },
+    {
+     "row": 23,
+     "column": "index",
+     "first_pass": "116.50"
+    }
+   ],
+   "status": "all agree"
+  },
+  "CW.T06_USD_ITEMS": {
+   "cells": 3,
+   "agree": 3,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T07_FX": {
+   "cells": 24,
+   "agree": 24,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 12,
+     "column": "halalas_per_usd",
+     "first_pass": "376.00"
+    },
+    {
+     "row": 13,
+     "column": "halalas_per_usd",
+     "first_pass": "375.80"
+    },
+    {
+     "row": 14,
+     "column": "halalas_per_usd",
+     "first_pass": "375.90"
+    },
+    {
+     "row": 15,
+     "column": "halalas_per_usd",
+     "first_pass": "376.20"
+    },
+    {
+     "row": 16,
+     "column": "halalas_per_usd",
+     "first_pass": "376.40"
+    },
+    {
+     "row": 17,
+     "column": "halalas_per_usd",
+     "first_pass": "376.10"
+    },
+    {
+     "row": 18,
+     "column": "halalas_per_usd",
+     "first_pass": "375.70"
+    },
+    {
+     "row": 19,
+     "column": "halalas_per_usd",
+     "first_pass": "376.30"
+    },
+    {
+     "row": 20,
+     "column": "halalas_per_usd",
+     "first_pass": "376.60"
+    },
+    {
+     "row": 21,
+     "column": "halalas_per_usd",
+     "first_pass": "376.80"
+    },
+    {
+     "row": 22,
+     "column": "halalas_per_usd",
+     "first_pass": "377.00"
+    }
+   ],
+   "status": "all agree"
+  },
+  "CW.T08_GROUND_FACTORS": {
+   "cells": 5,
+   "agree": 5,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T09_GROUND_ITEMS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T10_NIGHT": {
+   "cells": 13,
+   "agree": 13,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T11_REST": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T12_BANDS": {
+   "cells": 40,
+   "agree": 40,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T13_DAILY_LIMITS": {
+   "cells": 9,
+   "agree": 9,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T14_EXCLUSIONS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T15_SURVEYED": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T16_RECORDS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T17_DAYWORK_LABOUR": {
+   "cells": 10,
+   "agree": 10,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T18_DAYWORK_PLANT": {
+   "cells": 12,
+   "agree": 12,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T19_DAYWORK_ADDITIONS": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T20_PROVISIONAL_SUMS": {
+   "cells": 8,
+   "agree": 8,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T21_PRELIMINARIES": {
+   "cells": 14,
+   "agree": 14,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.T22_APPB_EXAMPLE": {
+   "cells": 9,
+   "agree": 9,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.S1.rates": {
+   "cells": 6,
+   "agree": 6,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.S1.monthly": {
+   "cells": 5,
+   "agree": 5,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.A1.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.S2.rates": {
+   "cells": 2,
+   "agree": 2,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.S2.discount": {
+   "cells": 1,
+   "agree": 1,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.A2.monthly": {
+   "cells": 6,
+   "agree": 6,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.A2.discount": {
+   "cells": 1,
+   "agree": 1,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "CW.A3.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T01_SCH1": {
+   "cells": 33,
+   "agree": 33,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T02_DEPTH_BANDS": {
+   "cells": 15,
+   "agree": 15,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T03_ANNUAL_BANDS": {
+   "cells": 7,
+   "agree": 7,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T04_RSI_ITEMS": {
+   "cells": 2,
+   "agree": 2,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T05_RSI": {
+   "cells": 24,
+   "agree": 24,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 12,
+     "column": "index",
+     "first_pass": "109.30"
+    },
+    {
+     "row": 13,
+     "column": "index",
+     "first_pass": "110.00"
+    },
+    {
+     "row": 14,
+     "column": "index",
+     "first_pass": "110.60"
+    },
+    {
+     "row": 16,
+     "column": "index",
+     "first_pass": "110.90"
+    },
+    {
+     "row": 17,
+     "column": "index",
+     "first_pass": "112.20"
+    },
+    {
+     "row": 19,
+     "column": "index",
+     "first_pass": "112.60"
+    },
+    {
+     "row": 20,
+     "column": "index",
+     "first_pass": "113.90"
+    },
+    {
+     "row": 21,
+     "column": "index",
+     "first_pass": "114.70"
+    },
+    {
+     "row": 22,
+     "column": "index",
+     "first_pass": "115.30"
+    },
+    {
+     "row": 23,
+     "column": "index",
+     "first_pass": "116.10"
+    }
+   ],
+   "status": "all agree"
+  },
+  "DDS.T06_SAR_VALUES": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T07_FX": {
+   "cells": 24,
+   "agree": 24,
+   "disagree": [],
+   "out_of_order": [
+    {
+     "row": 12,
+     "column": "halalas_per_usd",
+     "first_pass": "376.00"
+    },
+    {
+     "row": 14,
+     "column": "halalas_per_usd",
+     "first_pass": "375.90"
+    },
+    {
+     "row": 15,
+     "column": "halalas_per_usd",
+     "first_pass": "376.20"
+    },
+    {
+     "row": 16,
+     "column": "halalas_per_usd",
+     "first_pass": "376.40"
+    },
+    {
+     "row": 17,
+     "column": "halalas_per_usd",
+     "first_pass": "376.10"
+    },
+    {
+     "row": 18,
+     "column": "halalas_per_usd",
+     "first_pass": "375.70"
+    },
+    {
+     "row": 19,
+     "column": "halalas_per_usd",
+     "first_pass": "376.30"
+    },
+    {
+     "row": 20,
+     "column": "halalas_per_usd",
+     "first_pass": "376.60"
+    },
+    {
+     "row": 21,
+     "column": "halalas_per_usd",
+     "first_pass": "376.80"
+    },
+    {
+     "row": 22,
+     "column": "halalas_per_usd",
+     "first_pass": "377.00"
+    },
+    {
+     "row": 23,
+     "column": "halalas_per_usd",
+     "first_pass": "376.50"
+    }
+   ],
+   "status": "all agree"
+  },
+  "DDS.T08_SECTION_FACTORS": {
+   "cells": 5,
+   "agree": 5,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T09_SECTION_RATED": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T10_CLASS_FACTORS": {
+   "cells": 3,
+   "agree": 3,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T11_CLASS_RATED": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T12_STANDBY": {
+   "cells": 17,
+   "agree": 17,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T13_DAILY_LIMITS": {
+   "cells": 22,
+   "agree": 22,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T14_ONCE_PER_WELL": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T15_STANDBY_SUBSTITUTE_AND_MINIMUM": {
+   "cells": 1,
+   "agree": 0,
+   "disagree": [
+    {
+     "row": "DD-120 minimum hours on an Operating day with the tool in the hole",
+     "column": "value",
+     "first_pass": "6",
+     "reading_lines": [
+      "<code not found>"
+     ]
+    }
+   ],
+   "status": "1 to review"
+  },
+  "DDS.T16_PERSONNEL": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T17_SCH5_PARTS": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T18_SCH5_CODES": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T19_SCH6_USD": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T20_GLOSSARY": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T21_APPB_EXAMPLE": {
+   "cells": 15,
+   "agree": 15,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.T22_APPF_EXAMPLE": {
+   "cells": 2,
+   "agree": 0,
+   "disagree": [
+    {
+     "row": "LH-713",
+     "column": "circulating_hours",
+     "first_pass": "412",
+     "reading_lines": [
+      "ROW: Service code | LH-713"
+     ]
+    },
+    {
+     "row": "LH-713",
+     "column": "depreciation_pct",
+     "first_pass": "16",
+     "reading_lines": [
+      "ROW: Service code | LH-713"
+     ]
+    }
+   ],
+   "status": "2 to review"
+  },
+  "DDS.T23_SCH8": {
+   "cells": 0,
+   "agree": 0,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.S1.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.S1.monthly": {
+   "cells": 6,
+   "agree": 6,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.A1.rates": {
+   "cells": 6,
+   "agree": 6,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.S2.monthly": {
+   "cells": 9,
+   "agree": 9,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.S2.discount": {
+   "cells": 1,
+   "agree": 1,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.A2.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.A2.discount": {
+   "cells": 1,
+   "agree": 1,
+   "disagree": [],
+   "status": "all agree"
+  },
+  "DDS.A3.rates": {
+   "cells": 4,
+   "agree": 4,
+   "disagree": [],
+   "status": "all agree"
+  }
+ }
+}

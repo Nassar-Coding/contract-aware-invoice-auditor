@@ -1,0 +1,442 @@
+# Civil works contract CW-2025-0417-CIV — contractual terms (G1).
+# Numbers are kept exactly as printed (strings, with separators); tools/spec_lib.py parses them to Decimal.
+# Every table names its pages/provision and its `use`. The G1 gate (tools/verify_spec.py) refuses any table
+# whose use is pricing/eligibility/evidence/quantity unless verification/second_pass_log.yaml records a
+# completed second verification of exactly this content (content hash).
+contract: CW
+reference: CW-2025-0417-CIV
+currency: SAR
+minor_unit: halala
+source_pdf: civilwork/contract/CW-2025-0417-CIV.pdf
+
+parameters:
+  - {id: CW.P.commencement, value: "2025-01-05", page: 1, provision: "Agreement particulars (p1); App A Commencement Date (p34)"}
+  - {id: CW.P.completion_as_let, value: "2025-09-27", page: 1, provision: "Agreement particulars (Date for completion)"}
+  - {id: CW.P.completion_A1, value: "2026-03-31", page: 40, provision: "A1 1.1"}
+  - {id: CW.P.completion_A2, value: "2026-09-30", page: 42, provision: "A2 2.1"}
+  - {id: CW.P.retention_pct, value: "5", page: 8, provision: "Cl.45 (also p1 particulars)", note: "on the application total, rounded DOWN to the halala"}
+  - {id: CW.P.submission_window_days, value: "21", page: 8, provision: "Cl.41", note: "not before last day of period; within 21 days of its end"}
+  - {id: CW.P.working_hours, value: "06:00-18:00", page: 3, provision: "Cl.7", note: "18:00-06:00 is Night Work (App A, p34)"}
+  - {id: CW.P.rest_days, value: "Friday, Saturday", page: 3, provision: "Cl.8 (p3); App A Rest day (p34); p1 particulars"}
+  - {id: CW.P.rounding, value: "once, on the built-up rate, to the halala, half up", page: 6, provision: "Cl.28"}
+  - {id: CW.P.rounding_fx_index, value: "converted/indexed rate rounded to the halala half-even, before the build-up", page: 32, provision: "26A; 29A"}
+  - {id: CW.P.first_hour_excluded, value: "1", page: 32, provision: "6A", note: "hourly items: quantity = hours attended less one"}
+  - {id: CW.P.survey_tolerance_pct, value: "2", page: 32, provision: "33A", note: "measured <= surveyed x 1.02 payable as measured; above -> surveyed quantity"}
+  - {id: CW.P.weekly_min_days, value: "5", page: 33, provision: "47A; Sch 5 note (p27)"}
+  - {id: CW.P.g2_after, value: "2025-09-27", page: 32, provision: "27A(ii)", note: "work executed after this date: ground taken as G2 whatever recorded"}
+  - {id: CW.P.night_suppressed_zone_factor_above, value: "1.1", page: 32, provision: "27A(i)"}
+  - {id: CW.P.unrecorded_ground, value: "G2", page: 10, provision: "S4", note: "classification not recorded on the day of excavation is taken to be G2"}
+  - {id: CW.P.retention_release_fraction, value: "1/2", page: 32, provision: "45A", note: "first application submitted AFTER the Date for Completion as extended; rounded down"}
+  - {id: CW.P.standby_rain_threshold_mm_per_hour, value: "5", page: 11, provision: "S20"}
+
+tables:
+  CW.T01_SCH1:
+    title: "Schedule 1 - Bill of Quantities (base rates)"
+    source: {pages: [17, 18, 19], provision: "Schedule 1; Cl.25-28, 34"}
+    use: pricing
+    columns: [code, description, unit, est_qty, rate]
+    rows:
+      - [A.11.010, "Site clearance, vegetation and topsoil strip", m2, "3,360", "3.85"]
+      - [A.11.020, "Removal of existing hardstanding, broken out", m2, "3,880", "12.40"]
+      - [A.12.010, "General excavation to reduce level", m3, "2,350", "21.50"]
+      - [A.12.020, "Excavation in trench, depth not exceeding 2 m", m3, "2,675", "34.80"]
+      - [A.12.030, "Excavation in trench, depth 2 m to 4 m", m3, "575", "47.60"]
+      - [A.13.010, "Disposal of excavated material off site", m3, "2,600", "18.90"]
+      - [A.13.020, "Retention of excavated material on site, stockpiled", m3, "500", "6.40"]
+      - [A.14.010, "Imported granular fill, placed and compacted", m3, "425", "53.20"]
+      - [A.14.020, "Backfilling to trenches with selected arisings", m3, "750", "22.40"]
+      - [A.11.030, "Grubbing up tree roots, girth exceeding 600 mm", no., "52", "148.00"]
+      - [A.12.040, "Excavation in trench, depth exceeding 4 m", m3, "900", "69.20"]
+      - [A.12.050, "Excavation for manholes and chambers", m3, "1,225", "52.40"]
+      - [A.12.060, "Trimming of formation to level and gradient", m2, "2,480", "6.90"]
+      - [A.13.030, "Double handling of stockpiled material", m3, "825", "9.80"]
+      - [A.14.030, "Geotextile separation membrane, laid and lapped", m2, "1,720", "14.60"]
+      - [A.15.010, "Earthwork support to trenches, depth to 2 m", m2, "1,080", "31.80"]
+      - [A.15.020, "Earthwork support to trenches, depth exceeding 2 m", m2, "1,600", "49.50"]
+      - [A.16.010, "Dewatering by wellpoint, per week in operation", week, "74", "1,480.00"]
+      - [B.21.010, "Blinding concrete, C15/20, thickness 75 mm", m2, "4,000", "29.60"]
+      - [B.21.020, "Reinforced concrete to foundations, C32/40", m3, "400", "415.00"]
+      - [B.21.030, "Reinforced concrete to slabs, C32/40", m3, "725", "389.00"]
+      - [B.22.010, "Formwork to vertical faces, basic finish", m2, "520", "74.50"]
+      - [B.22.020, "Formwork to soffits, propped, height to 3.5 m", m2, "1,040", "91.80"]
+      - [B.23.010, "High-yield reinforcement bar, cut, bent and fixed", tonne, "46", "4,120.00"]
+      - [B.24.010, "Waterstop to construction joints, 230 mm", lm, "990", "67.40"]
+      - [B.21.040, "Reinforced concrete to walls, C32/40", m3, "1,050", "448.00"]
+      - [B.21.050, "Mass concrete fill to voids, C20/25", m3, "1,375", "296.00"]
+      - [B.22.030, "Formwork to edges and risers, height to 500 mm", lm, "1,170", "42.60"]
+      - [B.23.020, "Mesh reinforcement, A393, laid and lapped", m2, "1,440", "38.40"]
+      - [B.25.010, "Cast-in sockets and holding-down bolt assemblies", no., "172", "219.00"]
+      - [B.26.010, "Surface treatment, power float to slabs", m2, "2,120", "17.20"]
+      - [B.27.010, "Movement joint, 20 mm, sealed both faces", lm, "1,890", "89.50"]
+      - [C.31.010, "uPVC drainage pipe, 225 mm, laid and jointed", lm, "570", "86.20"]
+      - [C.31.020, "Ductile iron pipe, 400 mm, laid and jointed", lm, "960", "214.00"]
+      - [C.32.010, "Precast manhole, 1200 mm diameter, depth to 3 m", no., "116", "1,860.00"]
+      - [C.32.020, "Gully pot and connection to carrier drain", no., "168", "287.00"]
+      - [C.33.010, "Ducting, 4-way 110 mm, bedded in sand", lm, "1,170", "59.10"]
+      - [C.31.030, "uPVC drainage pipe, 150 mm, laid and jointed", lm, "1,350", "54.80"]
+      - [C.31.040, "Concrete surround to pipe, Class A bedding", lm, "1,740", "73.10"]
+      - [C.32.030, "Precast manhole, 1800 mm diameter, depth to 5 m", no., "220", "3,120.00"]
+      - [C.32.040, "Manhole cover and frame, Class D400, bedded", no., "272", "423.00"]
+      - [C.34.010, "Headwall to outfall, precast, bedded", no., "196", "965.00"]
+      - [C.35.010, "CCTV survey of completed drainage run", lm, "1,770", "9.40"]
+      - [D.41.010, "Sub-base, Type 1 granular, 250 mm compacted", m2, "1,400", "41.80"]
+      - [D.41.020, "Dense bitumen macadam binder course, 60 mm", m2, "1,920", "63.50"]
+      - [D.41.030, "Stone mastic asphalt surface course, 40 mm", m2, "2,440", "89.40"]
+      - [D.42.010, "Precast concrete kerb, bedded and haunched", lm, "1,350", "71.20"]
+      - [D.43.010, "Road marking, thermoplastic, 100 mm line", lm, "1,650", "14.80"]
+      - [D.41.040, "Capping layer, 300 mm compacted", m2, "2,960", "32.60"]
+      - [D.41.050, "Bitumen tack coat between courses", m2, "3,480", "6.20"]
+      - [D.42.020, "Precast concrete channel, bedded and haunched", lm, "1,740", "64.80"]
+      - [D.42.030, "Edging to footway, flat top, bedded", lm, "2,130", "39.40"]
+      - [D.43.020, "Road marking, thermoplastic, hatched area", m2, "2,720", "42.60"]
+      - [D.44.010, "Road stud, reflective, bedded in resin", no., "260", "31.80"]
+      - [E.51.010, "Wet weather standby, plant and operator", hour, "612", "246.00"]
+      - [E.51.020, "Traffic management, two-way signals, per day", day, "192", "684.00"]
+      - [E.52.010, "Joint survey and setting out, chainage band", no., "244", "478.00"]
+      - [E.51.030, "Standing time, tracked excavator and operator", hour, "924", "312.00"]
+      - [E.53.010, "Attendance on statutory undertaker", day, "213", "389.00"]
+      - [E.54.010, "Temporary haul road, maintained, per week", week, "162", "876.00"]
+
+  CW.T02_ZONES:
+    title: "Schedule 2 - Site zone factors"
+    source: {pages: [20], provision: "Schedule 2; Cl.4, 27, 29"}
+    use: pricing
+    applies_to_series: [A, B, C, D]
+    not_applied_to_series: [E]
+    columns: [zone, name, factor]
+    rows:
+      - [Z1, "Compound", "1"]
+      - [Z2, "North Spur", "1.06"]
+      - [Z3, "Wadi Crossing", "1.145"]
+      - [Z4, "Escarpment", "1.28"]
+
+  CW.T03_WORK_AREAS:
+    title: "Schedule 2 - Work areas (unit for Cl.19, 31, 32, 44 and P6)"
+    source: {pages: [20], provision: "Schedule 2; App A 'Work area'"}
+    use: quantity
+    columns: [area, name]
+    rows:
+      - [S-01, "Platform North"]
+      - [S-02, "Platform South"]
+      - [S-03, "Access Road"]
+      - [S-04, "Drainage Corridor"]
+      - [S-05, "Compound Extension"]
+
+  CW.T04_SMI_ITEMS:
+    title: "Schedule 2A - Indexed items (Site Materials Index, base 100.00 at 5 January 2025)"
+    source: {pages: [21], provision: "Schedule 2A; 29A"}
+    use: pricing
+    columns: [code, base_rate, unit]
+    rows:
+      - [C.31.010, "86.20", lm]
+      - [D.41.030, "89.40", m2]
+
+  CW.T05_SMI:
+    title: "Schedule 2A - Site Materials Index by calendar month of execution"
+    source: {pages: [21], provision: "Schedule 2A; 29A"}
+    use: pricing
+    columns: [month, index]
+    rows:
+      - ["2025-01", "100.00"]
+      - ["2025-02", "100.40"]
+      - ["2025-03", "101.10"]
+      - ["2025-04", "101.80"]
+      - ["2025-05", "102.60"]
+      - ["2025-06", "103.90"]
+      - ["2025-07", "104.70"]
+      - ["2025-08", "104.20"]
+      - ["2025-09", "105.30"]
+      - ["2025-10", "106.80"]
+      - ["2025-11", "107.40"]
+      - ["2025-12", "108.10"]
+      - ["2026-01", "109.60"]
+      - ["2026-02", "110.20"]
+      - ["2026-03", "109.80"]
+      - ["2026-04", "111.50"]
+      - ["2026-05", "112.30"]
+      - ["2026-06", "113.10"]
+      - ["2026-07", "112.40"]
+      - ["2026-08", "113.80"]
+      - ["2026-09", "114.60"]
+      - ["2026-10", "115.20"]
+      - ["2026-11", "115.90"]
+      - ["2026-12", "116.50"]
+
+  CW.T06_USD_ITEMS:
+    title: "Schedule 2B - Items whose Schedule 1 rate is in USD"
+    source: {pages: [22], provision: "Schedule 2B; 26A"}
+    use: pricing
+    columns: [code, usd_rate, unit]
+    rows:
+      - [B.23.020, "38.40", m2]
+      - [B.25.010, "219.00", no.]
+      - [C.32.040, "423.00", no.]
+
+  CW.T07_FX:
+    title: "Schedule 2B - Halalas per USD by calendar month of execution"
+    source: {pages: [22], provision: "Schedule 2B; 26A"}
+    use: pricing
+    columns: [month, halalas_per_usd]
+    rows:
+      - ["2025-01", "375.00"]
+      - ["2025-02", "375.10"]
+      - ["2025-03", "375.00"]
+      - ["2025-04", "374.90"]
+      - ["2025-05", "375.20"]
+      - ["2025-06", "375.30"]
+      - ["2025-07", "375.10"]
+      - ["2025-08", "375.00"]
+      - ["2025-09", "374.80"]
+      - ["2025-10", "375.40"]
+      - ["2025-11", "375.60"]
+      - ["2025-12", "375.50"]
+      - ["2026-01", "376.00"]
+      - ["2026-02", "375.80"]
+      - ["2026-03", "375.90"]
+      - ["2026-04", "376.20"]
+      - ["2026-05", "376.40"]
+      - ["2026-06", "376.10"]
+      - ["2026-07", "375.70"]
+      - ["2026-08", "376.30"]
+      - ["2026-09", "376.60"]
+      - ["2026-10", "376.80"]
+      - ["2026-11", "377.00"]
+      - ["2026-12", "376.50"]
+
+  CW.T08_GROUND_FACTORS:
+    title: "Schedule 3 - Ground classification factors"
+    source: {pages: [23], provision: "Schedule 3; Cl.5, 27, 29; 27A(ii); S4"}
+    use: pricing
+    columns: [class, name, factor]
+    rows:
+      - [G1, "Loose Sand", "0.94"]
+      - [G2, "Firm Sabkha", "1"]
+      - [G3, "Cemented Fill", "1.12"]
+      - [G4, "Weathered Rock", "1.375"]
+      - [G5, "Sound Rock", "1.63"]
+
+  CW.T09_GROUND_ITEMS:
+    title: "Schedule 3 - Items to which the ground factor applies (no others)"
+    source: {pages: [23], provision: "Schedule 3"}
+    use: eligibility
+    columns: [code]
+    rows:
+      - [A.11.020]
+      - [A.12.010]
+      - [A.12.020]
+      - [A.12.030]
+      - [A.12.040]
+      - [A.12.050]
+      - [A.14.020]
+      - [A.15.010]
+      - [A.15.020]
+      - [C.31.010]
+      - [C.31.020]
+      - [C.31.030]
+      - [C.32.010]
+      - [C.32.030]
+      - [C.33.010]
+
+  CW.T10_NIGHT:
+    title: "Schedule 4 Part 1 - Night working uplift (18:00-06:00), these items and no others"
+    source: {pages: [24], provision: "Schedule 4 Part 1; Cl.7, 27; 27A(i); P4, P11"}
+    use: pricing
+    columns: [code, uplift_pct]
+    rows:
+      - [A.12.020, "18"]
+      - [A.12.030, "18"]
+      - [A.14.010, "18"]
+      - [B.21.020, "22"]
+      - [B.21.030, "22"]
+      - [C.31.010, "18"]
+      - [D.41.020, "25"]
+      - [D.41.030, "25"]
+      - [D.43.010, "25"]
+      - [A.12.040, "18"]
+      - [B.21.040, "22"]
+      - [C.31.030, "18"]
+      - [D.43.020, "25"]
+
+  CW.T11_REST:
+    title: "Schedule 4 Part 2 - Rest-day uplift (Friday and Saturday)"
+    source: {pages: [24], provision: "Schedule 4 Part 2; Cl.8, 27; P11"}
+    use: pricing
+    columns: [code, uplift_pct]
+    rows:
+      - [B.21.020, "35"]
+      - [B.21.030, "35"]
+      - [D.41.030, "35"]
+      - [B.21.040, "35"]
+
+  CW.T12_BANDS:
+    title: "Schedule 4 Part 3 - Banded quantities per Contract Year (Clause 30 is substituted)"
+    source: {pages: [24, 25], provision: "Schedule 4 Part 3; 3A"}
+    use: pricing
+    columns: [code, unit, band1_to, band2_to, pct_band1, pct_band2, pct_band3]
+    note: "band1 = 1..band1_to; band2 = band1_to+1..band2_to; band3 = above band2_to; a measurement crossing a band is divided at the band"
+    rows:
+      - [A.12.010, m3, "4,000", "16,000", "100", "96", "93"]
+      - [A.12.020, m3, "1,500", "6,000", "100", "97", "94"]
+      - [A.13.010, m3, "5,000", "20,000", "100", "94", "90"]
+      - [A.14.010, m3, "2,000", "8,000", "100", "95", "91"]
+      - [B.22.010, m2, "1,200", "4,800", "100", "96", "93"]
+      - [B.23.010, tonne, "60", "240", "100", "97", "94"]
+      - [D.41.010, m2, "4,500", "18,000", "100", "95", "92"]
+      - [D.41.040, m2, "3,500", "14,500", "100", "95", "92"]
+
+  CW.T13_DAILY_LIMITS:
+    title: "Schedule 4 Part 4 - Daily limitations per work area per day"
+    source: {pages: [26], provision: "Schedule 4 Part 4; Cl.31; Cl.19; P6"}
+    use: quantity
+    columns: [code, limit, unit]
+    rows:
+      - [A.11.010, "4,500", m2]
+      - [A.12.010, "1,200", m3]
+      - [B.21.020, "140", m3]
+      - [C.32.010, "6", no.]
+      - [D.41.030, "3,200", m2]
+      - [E.51.020, "1", day]
+      - [A.13.030, "800", m3]
+      - [C.32.030, "3", no.]
+      - [E.53.010, "2", day]
+
+  CW.T14_EXCLUSIONS:
+    title: "Schedule 4 Part 5 and P21 - Mutually exclusive items (same work area)"
+    source: {pages: [26, 13], provision: "Schedule 4 Part 5; Cl.32; P19; P21"}
+    use: quantity
+    columns: [excluded, excluded_by, window, source]
+    rows:
+      - [A.14.020, A.14.010, "2 days following", "Sch 4 Part 5 (p26); P19 (p13)"]
+      - [E.51.020, D.41.020, "same day", "P21 (p13)"]
+      - [E.51.020, D.41.030, "same day", "P21 (p13)"]
+      - [E.51.020, D.41.050, "same day", "P21 (p13)"]
+      - [E.51.020, D.43.010, "same day", "P21 (p13)"]
+      - [E.51.020, D.43.020, "same day", "P21 (p13)"]
+
+  CW.T15_SURVEYED:
+    title: "Schedule 4 Part 6 - Surveyed items (joint survey sheet signed by both parties)"
+    source: {pages: [26], provision: "Schedule 4 Part 6; Cl.33; 33A; Cl.11"}
+    use: quantity
+    columns: [code, unit]
+    rows:
+      - [B.23.010, tonne]
+      - [E.52.010, no.]
+      - [B.23.020, m2]
+
+  CW.T16_RECORDS:
+    title: "Schedule 5 - Records required as a condition of payment"
+    source: {pages: [27], provision: "Schedule 5; Cl.46, 47, 47A; P22, P23"}
+    use: evidence
+    columns: [code, record, series]
+    rows:
+      - [A.12.030, "Daily Excavation Record", DX]
+      - [A.14.010, "Compaction Test Certificate", CT]
+      - [B.21.020, "Concrete Pour Record", PR]
+      - [B.21.030, "Concrete Pour Record", PR]
+      - [C.31.020, "Pressure Test Certificate", PT]
+      - [D.41.010, "Compaction Test Certificate", CT]
+      - [E.51.010, "Meteorological Record", MO]
+      - [A.12.040, "Daily Excavation Record", DX]
+      - [A.16.010, "Dewatering Log", DW]
+      - [B.21.040, "Concrete Pour Record", PR]
+      - [C.32.030, "Pressure Test Certificate", PT]
+      - [C.35.010, "CCTV Survey Report", CV]
+      - [D.41.040, "Compaction Test Certificate", CT]
+      - [E.51.030, "Plant Standing Record", PS]
+      - [B.23.010, "Joint Survey Sheet", JS]
+      - [E.52.010, "Joint Survey Sheet", JS]
+      - [B.23.020, "Joint Survey Sheet", JS]
+
+  CW.T17_DAYWORK_LABOUR:
+    title: "Schedule 6 Part 1 - Daywork labour (per hour)"
+    source: {pages: [28], provision: "Schedule 6; Cl.17; P24"}
+    use: coverage
+    columns: [grade, rate]
+    rows:
+      - ["Ganger", "78.50"]
+      - ["Skilled operative", "64.20"]
+      - ["Semi-skilled operative", "51.80"]
+      - ["General operative", "43.60"]
+      - ["Banksman", "46.90"]
+      - ["Steel fixer", "71.40"]
+      - ["Carpenter, formwork", "73.10"]
+      - ["Pipelayer", "66.30"]
+      - ["Site engineer", "118.00"]
+      - ["Foreman", "96.50"]
+
+  CW.T18_DAYWORK_PLANT:
+    title: "Schedule 6 Part 2 - Daywork plant"
+    source: {pages: [28], provision: "Schedule 6"}
+    use: coverage
+    columns: [plant, rate, unit]
+    rows:
+      - ["Tracked excavator, 21 tonne, with operator", "246.00", hour]
+      - ["Tracked excavator, 13 tonne, with operator", "188.00", hour]
+      - ["Wheeled loader, 12 tonne, with operator", "174.00", hour]
+      - ["Articulated dump truck, 25 tonne, with operator", "212.00", hour]
+      - ["Tipper lorry, 8 wheel, with driver", "156.00", hour]
+      - ["Vibrating roller, 12 tonne, with operator", "138.00", hour]
+      - ["Plate compactor", "34.00", hour]
+      - ["Concrete pump, boom, with operator", "398.00", hour]
+      - ["Mobile crane, 50 tonne, with operator", "472.00", hour]
+      - ["Dewatering pump, 100 mm, with hoses", "1,240.00", week]
+      - ["Wellpoint system, 30 m run", "3,860.00", week]
+      - ["Site dumper, 6 tonne, with operator", "98.00", hour]
+
+  CW.T19_DAYWORK_ADDITIONS:
+    title: "Schedule 6 Part 3 - Daywork percentage additions on net cost"
+    source: {pages: [28, 29], provision: "Schedule 6 Part 3"}
+    use: coverage
+    columns: [category, pct]
+    rows:
+      - ["Labour, to cover supervision and overheads", "68"]
+      - ["Plant, to cover fuel, maintenance and overheads", "22"]
+      - ["Materials, to cover handling and overheads", "14"]
+      - ["Subcontracted daywork", "10"]
+
+  CW.T20_PROVISIONAL_SUMS:
+    title: "Schedule 7 - Provisional and prime cost sums (expended only on written instruction; not measured under Sch 1)"
+    source: {pages: [30], provision: "Schedule 7; Cl.16"}
+    use: coverage
+    columns: [code, description, amount]
+    rows:
+      - [PS.01, "Diversion of 11 kV overhead line by the utility", "420,000.00"]
+      - [PS.02, "Ground investigation, additional boreholes", "185,000.00"]
+      - [PS.03, "Archaeological watching brief", "96,000.00"]
+      - [PS.04, "Landscaping to the northern boundary", "310,000.00"]
+      - [PS.05, "Street lighting columns and connections", "268,000.00"]
+      - [PC.01, "Precast concrete headwalls, supply only", "142,000.00"]
+      - [PC.02, "Manhole covers and frames, supply only", "88,500.00"]
+      - [PC.03, "Drainage pipework, supply only", "515,000.00"]
+
+  CW.T21_PRELIMINARIES:
+    title: "Schedule 8 - Preliminaries and general items"
+    source: {pages: [31], provision: "Schedule 8"}
+    use: coverage
+    columns: [code, description, unit, rate]
+    rows:
+      - [PR.01, "Site establishment, offices and welfare", item, "486,000.00"]
+      - [PR.02, "Site accommodation, maintained, per week", week, "14,200.00"]
+      - [PR.03, "Temporary fencing and hoarding, erected", lm, "218.00"]
+      - [PR.04, "Site signage and safety notices", item, "38,500.00"]
+      - [PR.05, "Temporary power supply and distribution", item, "164,000.00"]
+      - [PR.06, "Temporary water supply", item, "92,000.00"]
+      - [PR.07, "Setting-out equipment and survey instruments", item, "78,000.00"]
+      - [PR.08, "Safety officer, full time", week, "9,800.00"]
+      - [PR.09, "First aid facilities and trained personnel", week, "2,400.00"]
+      - [PR.10, "Site cleaning and waste removal", week, "6,700.00"]
+      - [PR.11, "Progress photographs, monthly", month, "1,900.00"]
+      - [PR.12, "As-built records and O&M manuals", item, "142,000.00"]
+      - [PR.13, "Testing and commissioning attendance", item, "88,000.00"]
+      - [PR.14, "Demobilisation and reinstatement of the compound", item, "214,000.00"]
+
+  CW.T22_APPB_EXAMPLE:
+    title: "Appendix B - Form of payment application (worked example; assumes no earlier quantity measured)"
+    source: {pages: [36], provision: "Appendix B; Cl.43, 45"}
+    use: example
+    columns: [code, date, zone, ground, qty, unit, rate, amount]
+    rows:
+      - [A.12.020, "06/05/2025", Z2, G4, "180", m3, "50.72", "9,129.60"]
+      - [A.14.020, "07/05/2025", Z2, G2, "96", m3, "23.74", "2,279.04"]
+      - [C.31.010, "13/05/2025", Z2, G2, "48", lm, "91.37", "4,385.76"]
+    totals: {total: "15,794.40", retention: "789.72", net: "15,004.68", period: "06/05/2025-13/05/2025", submitted: "22/05/2025"}

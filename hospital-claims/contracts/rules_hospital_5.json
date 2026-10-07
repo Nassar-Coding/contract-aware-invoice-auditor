@@ -1,0 +1,212 @@
+{
+  "boundary_reading": "\"Not billable within N days of this Service\" covers a Service Date exactly N days away. That is the ordinary meaning of \"within\", and it makes the boundary day the last day the window covers rather than the first day outside it.",
+  "contract_number": "INS-H5-2024-0731",
+  "contract_term": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "daily_caps": [
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 24,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L53",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L144",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L235"
+      ],
+      "service_id": "H5-S001",
+      "service_name": "Advanced Cardiac Ventilation Support"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L54",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L145",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L236"
+      ],
+      "service_id": "H5-S002",
+      "service_name": "Advanced Dermatologic Pharmaceutical Dispensing"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L60",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L151",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L242"
+      ],
+      "service_id": "H5-S008",
+      "service_name": "Assisted Hepatic Physiotherapy Session"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L69",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L160",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L251"
+      ],
+      "service_id": "H5-S017",
+      "service_name": "Comprehensive Oncology Transfusion Service"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L84",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L175",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L266"
+      ],
+      "service_id": "H5-S032",
+      "service_name": "Emergency Oncology Imaging Interpretation"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L87",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L178",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L269"
+      ],
+      "service_id": "H5-S035",
+      "service_name": "Extended Dermatologic Transport Service"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L104",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L195",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L286"
+      ],
+      "service_id": "H5-S052",
+      "service_name": "Intermittent Vascular Telemetry Monitoring"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 6,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L115",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L206",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L297"
+      ],
+      "service_id": "H5-S063",
+      "service_name": "Preoperative Ophthalmic Transport Service"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 24,
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L119",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L210",
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L301"
+      ],
+      "service_id": "H5-S067",
+      "service_name": "Routine Infectious Infusion Therapy"
+    }
+  ],
+  "direction_reading": "The clause does not fix the direction at all, so the line is audited under every reading; only an anchor on the Service Date itself is excluded under all of them.",
+  "exclusion_boundary": "inclusive_at_equal",
+  "exclusion_direction": "uncertain_direction",
+  "exclusion_windows": [
+    {
+      "anchor_service_id": "H5-S006",
+      "anchor_service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L387"
+      ],
+      "service_id": "H5-S018",
+      "service_name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H5-S027",
+      "anchor_service_name": "Elective Pulmonary Radiotherapy Fraction",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L388"
+      ],
+      "service_id": "H5-S025",
+      "service_name": "Elective Ophthalmic Nutritional Support",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H5-S005",
+      "anchor_service_name": "Ambulatory Oncology Imaging Interpretation",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L389"
+      ],
+      "service_id": "H5-S045",
+      "service_name": "Inpatient Immunologic Recovery Room Occupancy",
+      "window_days": 14
+    },
+    {
+      "anchor_service_id": "H5-S064",
+      "anchor_service_name": "Preoperative Paediatric Biopsy Procedure",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L390"
+      ],
+      "service_id": "H5-S050",
+      "service_name": "Intermittent Orthopaedic Discharge Planning",
+      "window_days": 14
+    },
+    {
+      "anchor_service_id": "H5-S023",
+      "anchor_service_name": "Continuous Pulmonary Case Conference",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L391"
+      ],
+      "service_id": "H5-S051",
+      "service_name": "Intermittent Urologic Discharge Planning",
+      "window_days": 10
+    },
+    {
+      "anchor_service_id": "H5-S006",
+      "anchor_service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L392"
+      ],
+      "service_id": "H5-S059",
+      "service_name": "Preoperative Endocrine Rehabilitation Programme",
+      "window_days": 10
+    },
+    {
+      "anchor_service_id": "H5-S047",
+      "anchor_service_name": "Inpatient Pulmonary Critical Care Occupancy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_5/network_reimbursement_agreement.md#L393"
+      ],
+      "service_id": "H5-S072",
+      "service_name": "Routine Urologic Transport Service",
+      "window_days": 10
+    }
+  ],
+  "hospital": "H5",
+  "review_state": "accepted",
+  "schema_version": "1",
+  "scope": "Caps and exclusion windows read from this hospital's agreement, with the clause each comes from. Effective dates span the whole contract term unless a clause narrows them.",
+  "service_day": "calendar"
+}

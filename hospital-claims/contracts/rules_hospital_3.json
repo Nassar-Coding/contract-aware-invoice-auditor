@@ -1,0 +1,275 @@
+{
+  "amendment_note": "Amendment No. 1 clause A1.4.1 states that the caps, exclusion windows and calculation conventions of the Base Agreement are unchanged and apply to the substituted rates in the same way, so every rule here is effective for the whole contract term.",
+  "boundary_reading": "\"Not billable within N days of this Service\" covers a Service Date exactly N days away. That is the ordinary meaning of \"within\", and it makes the boundary day the last day the window covers rather than the first day outside it.",
+  "contract_number": "INS-H3-2024-0562",
+  "contract_term": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "daily_caps": [
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L27",
+        "data/source/contracts/hospital_3/base_agreement.md#L111",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L25"
+      ],
+      "service_id": "H3-S009",
+      "service_name": "Ambulatory Otolaryngologic Imaging Interpretation"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L30",
+        "data/source/contracts/hospital_3/base_agreement.md#L112"
+      ],
+      "service_id": "H3-S012",
+      "service_name": "Assisted Paediatric Dialysis Session"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L43",
+        "data/source/contracts/hospital_3/base_agreement.md#L113"
+      ],
+      "service_id": "H3-S025",
+      "service_name": "Bedside Vascular Critical Care Occupancy"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 24,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L49",
+        "data/source/contracts/hospital_3/base_agreement.md#L114"
+      ],
+      "service_id": "H3-S031",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L66",
+        "data/source/contracts/hospital_3/base_agreement.md#L115"
+      ],
+      "service_id": "H3-S048",
+      "service_name": "Focused Metabolic Theatre Time"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L70",
+        "data/source/contracts/hospital_3/base_agreement.md#L116"
+      ],
+      "service_id": "H3-S052",
+      "service_name": "Inpatient Gastrointestinal Pharmaceutical Dispensing"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 12,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L75",
+        "data/source/contracts/hospital_3/base_agreement.md#L117"
+      ],
+      "service_id": "H3-S057",
+      "service_name": "Inpatient Metabolic Theatre Time"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L77",
+        "data/source/contracts/hospital_3/base_agreement.md#L118"
+      ],
+      "service_id": "H3-S059",
+      "service_name": "Inpatient Obstetric Diagnostic Imaging"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L80",
+        "data/source/contracts/hospital_3/base_agreement.md#L119",
+        "data/source/contracts/hospital_3/amendment_no_1.md#L28"
+      ],
+      "service_id": "H3-S062",
+      "service_name": "Intensive Infectious Anaesthesia Administration"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L98",
+        "data/source/contracts/hospital_3/base_agreement.md#L120"
+      ],
+      "service_id": "H3-S080",
+      "service_name": "Postoperative Dermatologic Physiotherapy Session"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 4,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L114",
+        "data/source/contracts/hospital_3/base_agreement.md#L121"
+      ],
+      "service_id": "H3-S096",
+      "service_name": "Preoperative Psychiatric Radiotherapy Fraction"
+    },
+    {
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "maximum_units_per_patient_per_service_day": 8,
+      "refs": [
+        "data/source/contracts/hospital_3/appendix_b_rate_schedule.md#L118",
+        "data/source/contracts/hospital_3/base_agreement.md#L122"
+      ],
+      "service_id": "H3-S100",
+      "service_name": "Routine Psychiatric Consultation"
+    }
+  ],
+  "direction_reading": "The clause does not fix the direction at all, so the line is audited under every reading; only an anchor on the Service Date itself is excluded under all of them.",
+  "exclusion_boundary": "inclusive_at_equal",
+  "exclusion_direction": "uncertain_direction",
+  "exclusion_windows": [
+    {
+      "anchor_service_id": "H3-S002",
+      "anchor_service_name": "Advanced Geriatric Nutritional Support",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L140"
+      ],
+      "service_id": "H3-S001",
+      "service_name": "Advanced Gastrointestinal Telemetry Monitoring",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H3-S102",
+      "anchor_service_name": "Specialist Dermatologic Infusion Therapy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L141"
+      ],
+      "service_id": "H3-S014",
+      "service_name": "Bedside Cardiac Recovery Room Occupancy",
+      "window_days": 14
+    },
+    {
+      "anchor_service_id": "H3-S081",
+      "anchor_service_name": "Postoperative Geriatric Nutritional Support",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L142"
+      ],
+      "service_id": "H3-S018",
+      "service_name": "Bedside Neurological Radiotherapy Fraction",
+      "window_days": 7
+    },
+    {
+      "anchor_service_id": "H3-S091",
+      "anchor_service_name": "Preoperative Endocrine Dialysis Session",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L143"
+      ],
+      "service_id": "H3-S040",
+      "service_name": "Emergency Vascular Biopsy Procedure",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H3-S060",
+      "anchor_service_name": "Inpatient Obstetric Wound Care",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L144"
+      ],
+      "service_id": "H3-S043",
+      "service_name": "Extended Geriatric Infusion Therapy",
+      "window_days": 14
+    },
+    {
+      "anchor_service_id": "H3-S070",
+      "anchor_service_name": "Intermittent Infectious Theatre Time",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L145"
+      ],
+      "service_id": "H3-S058",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "window_days": 21
+    },
+    {
+      "anchor_service_id": "H3-S011",
+      "anchor_service_name": "Assisted Ophthalmic Recovery Room Occupancy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L146"
+      ],
+      "service_id": "H3-S064",
+      "service_name": "Intensive Ophthalmic Laboratory Panel",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H3-S060",
+      "anchor_service_name": "Inpatient Obstetric Wound Care",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L147"
+      ],
+      "service_id": "H3-S073",
+      "service_name": "Outpatient Haematology Transport Service",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H3-S041",
+      "anchor_service_name": "Extended Dermatologic Infusion Therapy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L148"
+      ],
+      "service_id": "H3-S089",
+      "service_name": "Preoperative Cardiac Discharge Planning",
+      "window_days": 30
+    },
+    {
+      "anchor_service_id": "H3-S072",
+      "anchor_service_name": "Outpatient Gastrointestinal Isolation Room Occupancy",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-12-31",
+      "refs": [
+        "data/source/contracts/hospital_3/base_agreement.md#L149"
+      ],
+      "service_id": "H3-S090",
+      "service_name": "Preoperative Dermatologic Dialysis Session",
+      "window_days": 10
+    }
+  ],
+  "hospital": "H3",
+  "review_state": "accepted",
+  "schema_version": "1",
+  "scope": "Caps and exclusion windows read from this hospital's agreement, with the clause each comes from. Effective dates span the whole contract term unless a clause narrows them.",
+  "service_day": "calendar"
+}

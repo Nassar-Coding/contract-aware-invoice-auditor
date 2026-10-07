@@ -1,0 +1,5 @@
+# Runtime used for G0/G1 (Python 3.11.15). System tool for the optional OCR aid: tesseract 5.3.4.
+pymupdf==1.28.2
+PyYAML==6.0.3
+pytest==9.1.1
+pillow==12.3.0

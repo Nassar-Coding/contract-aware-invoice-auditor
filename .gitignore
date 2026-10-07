@@ -1,0 +1,6 @@
+# Shared virtual environment (make setup) and the civil auditor's externally hosted inputs (make civil-inputs).
+# Each auditor keeps its own .gitignore for what its runs write.
+/.venv/
+/.inputs/
+__pycache__/
+.pytest_cache/

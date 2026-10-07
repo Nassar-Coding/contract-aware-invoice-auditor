@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "contracts/hospital_3.json": "99978f123886de33997dd8cbd922f8bfac8a9fedaa4d60bc1d8712f13cd577f6",
+    "contracts/rules_hospital_3.json": "2451bb7399f777c84c0f855a4fe666a3b3e0182512e13dfb6574ca3d113a182d",
+    "mappings/hospital_3.json": "6743bbe7f4732549b6a329ca99b85ec8dcd1edca459c61c552480aa6d6200e85",
+    "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454"
+  },
+  "contract_path": "contracts/hospital_3.json",
+  "hospital": "H3",
+  "mapping_path": "mappings/hospital_3.json",
+  "review_evidence": [
+    "contracts/README.md"
+  ],
+  "review_state": "accepted",
+  "schema_version": "2",
+  "semantics_version": "2",
+  "source_hashes": {
+    "data/source/contracts/hospital_3/amendment_no_1.md": "29d072052cbb33e9eec4fef238d0462070d353bc7b183dfc80d33e8e148e2f1c",
+    "data/source/contracts/hospital_3/appendix_b_rate_schedule.md": "a584918c6222a75c45a7188132a7bb5aff87f374a4ac20ed6a7324a8c8a593d0",
+    "data/source/contracts/hospital_3/base_agreement.md": "47240db1f9867a166700db86fb444908ddb9c244d9f28e9868418ee989334264"
+  }
+}

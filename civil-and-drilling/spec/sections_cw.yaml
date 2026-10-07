@@ -1,0 +1,97 @@
+# G0 contract-section ownership, CW-2025-0417-CIV (43 pages). Every section has owners (rule, table,
+# instrument, parameter, override or question IDs) or an explicit not_material reason. tools/verify_spec.py
+# checks that pages 1-43 are all covered and that every owner ID exists.
+contract: CW
+page_count: 43
+sections:
+  - {pages: [1], section: "Agreement particulars (parties, commencement, completion, currency, retention, working week)", owners: [CW-R01, CW-R03, CW.P.commencement, CW.P.completion_as_let, CW.P.retention_pct, CW.P.rest_days]}
+  - {pages: [2], section: "Contents", not_material: "navigation only; omits Sch 2A/2B, Part VII, SoV and instruments (recorded in OV-CW-12 context)"}
+  - {pages: [3], section: "Cl.1 Definitions pointer", owners: [CW-R24]}
+  - {pages: [3], section: "Cl.2 Documents and precedence", owners: [OV-CW-01, OV-CW-02]}
+  - {pages: [3], section: "Cl.3 Scope; Cl.6 Programme; Cl.10 Care of Works", not_material: "no valuation effect"}
+  - {pages: [3], section: "Cl.4 Zone where physically executed", owners: [CW-R13, CW.T02_ZONES]}
+  - {pages: [3], section: "Cl.5 Ground classified before the work", owners: [CW-R13, Q8]}
+  - {pages: [3], section: "Cl.7 Working hours / Night Work; Cl.8 Rest days; Cl.9 Instructed out-of-hours working", owners: [CW-R13, OV-CW-10, CW.P.working_hours]}
+  - {pages: [4], section: "Cl.11 Setting out by chainage band against joint survey", owners: [CW-R07, CW.T15_SURVEYED]}
+  - {pages: [4], section: "Cl.12 Materials", not_material: "quality obligation; no valuation effect"}
+  - {pages: [4], section: "Cl.13 Test certificate as condition of payment; Cl.14 Defective work not re-measured", owners: [CW-R05, CW-R19]}
+  - {pages: [4], section: "Cl.15 Variations; Cl.16 Provisional sums; Cl.17 Dayworks", owners: [CW-R23]}
+  - {pages: [4], section: "Cl.18 Standing time", owners: [CW-R18]}
+  - {pages: [4], section: "Cl.19 Traffic management one day per work area per day", owners: [CW-R15, CW.T13_DAILY_LIMITS]}
+  - {pages: [4, 5], section: "Cl.20 H&S; Cl.21 Insurance; Cl.22 Assignment; Cl.23 Suspension; Cl.24 Termination", not_material: "no valuation effect (Cl.23 suspension relevant only to Sch 8 preliminaries, not billed)"}
+  - {pages: [6], section: "Cl.25 Method of measurement", owners: [CW-R07]}
+  - {pages: [6], section: "Cl.26 Units - reject in entirety", owners: [CW-R08]}
+  - {pages: [6], section: "Cl.27 Build-up order; Cl.28 Rounding once half up; Cl.29 Factor eligibility", owners: [CW-R13, CW-R20, CW.P.rounding, OV-CW-01]}
+  - {pages: [6], section: "Cl.30 Cumulative rebates (substituted)", owners: [CW-R14, OV-CW-03]}
+  - {pages: [6], section: "Cl.31 Daily limitations; Cl.32 Mutually exclusive items", owners: [CW-R15, CW-R16]}
+  - {pages: [7], section: "Cl.33 Surveyed items", owners: [CW-R07, OV-CW-09]}
+  - {pages: [7], section: "Cl.34 Estimated quantities", not_material: "estimates do not limit measurement (Sch 1 note)"}
+  - {pages: [7], section: "Cl.35 Not measurable items", owners: [CW-R19]}
+  - {pages: [7], section: "Cl.36 Disputes; Cl.37 Re-measurement", not_material: "procedure; no data"}
+  - {pages: [7], section: "Cl.38 Currency; Cl.39 Bill arithmetic errors", owners: [CW-R20]}
+  - {pages: [8], section: "Cl.40 Monthly application and period; Cl.41 Closed period and 21-day window", owners: [CW-R02, CW-R04]}
+  - {pages: [8], section: "Cl.42 Content of application", owners: [CW-R01, CW-R02]}
+  - {pages: [8], section: "Cl.43 Total = sum of items", owners: [CW-R20]}
+  - {pages: [8], section: "Cl.44 Duplicate measurement", owners: [CW-R17]}
+  - {pages: [8], section: "Cl.45 Retention", owners: [CW-R21]}
+  - {pages: [8], section: "Cl.46 Records as condition of payment; Cl.47 Form and signatures", owners: [CW-R05, CW-R06, OV-CW-08]}
+  - {pages: [8], section: "Cl.48 Payment period; Cl.49 Set-off; Cl.50 Final account", not_material: "no data for payment timing"}
+  - {pages: [9], section: "Cl.51 Release of retention", owners: [CW-R21, OV-CW-11]}
+  - {pages: [9], section: "Cl.52 Interest", not_material: "no payment dates supplied"}
+  - {pages: [10], section: "S1 Control stations; S5-S7, S9-S11 specification", not_material: "specification; no valuation effect"}
+  - {pages: [10], section: "S2 Over-deep topsoil; S3 Over-excavation not measured", owners: [CW-R19]}
+  - {pages: [10], section: "S4 Classification recorded on the day (else G2)", owners: [CW-R13, CW.P.unrecorded_ground]}
+  - {pages: [10], section: "S8 Night placing approval is not a Cl.9 instruction", owners: [CW-R13]}
+  - {pages: [11], section: "S12, S14-S19 specification", not_material: "specification; no valuation effect"}
+  - {pages: [11], section: "S13 Pressure test before valuation", owners: [CW-R05]}
+  - {pages: [11], section: "S20 Adverse weather standby hours", owners: [CW-R18, CW.P.standby_rain_threshold_mm_per_hour]}
+  - {pages: [12], section: "P1 Part V prevails over Parts I-III", owners: [OV-CW-01]}
+  - {pages: [12], section: "P2 Flood watch; P3 Escarpment deliveries; P8 Dust event; P9 Midday suspension", owners: [CW-R18]}
+  - {pages: [12], section: "P4 Night work in Z1; P10 Ramadan hours", owners: [CW-R13]}
+  - {pages: [12], section: "P5 Service scan; P7 Archaeology", not_material: "no valuation effect"}
+  - {pages: [12], section: "P6 Statutory undertakers two days per work area", owners: [CW-R15, CW.T13_DAILY_LIMITS]}
+  - {pages: [12, 13], section: "P11 Concurrent uplifts", owners: [CW-R13, OV-CW-10]}
+  - {pages: [13], section: "P12 Thresholds not adjusted", owners: [CW-R14]}
+  - {pages: [13], section: "P13 Trench depth decides item", owners: [CW-R09]}
+  - {pages: [13], section: "P14 Classification disputes", owners: [Q8]}
+  - {pages: [13], section: "P15 Unapproved fill; P17 Rejected concrete", owners: [CW-R19]}
+  - {pages: [13], section: "P16 Extra tests as variation; P20 Surfacing weather", not_material: "no billed items affected"}
+  - {pages: [13], section: "P18 Reinforcement theoretical mass", owners: [CW-R07]}
+  - {pages: [13], section: "P19 Test before backfill; A.14.020 exclusion; P21 E.51.020 exclusion", owners: [CW-R16, CW.T14_EXCLUSIONS]}
+  - {pages: [14], section: "P22 Electronic records; P23 Missing record recovery", owners: [CW-R05, Q3]}
+  - {pages: [14], section: "P24 Items not in Sch 1 at daywork rates", owners: [CW-R23]}
+  - {pages: [14], section: "P25 Notices", not_material: "no valuation effect"}
+  - {pages: [15, 16], section: "Part VI HSE H1, H3, H5-H14", not_material: "HSE obligations; no valuation effect (H3 permits: Q8 background documents)"}
+  - {pages: [15], section: "H2 No method statement -> not measured; H4 Earthwork support items", owners: [CW-R19, CW-R09]}
+  - {pages: [16], section: "H15 Safety suspension not a standby ground", owners: [CW-R18]}
+  - {pages: [17, 18, 19], section: "Schedule 1 Bill of Quantities", owners: [CW.T01_SCH1, CW-R08, CW-R09, CW-R10]}
+  - {pages: [20], section: "Schedule 2 Zone factors and work areas", owners: [CW.T02_ZONES, CW.T03_WORK_AREAS, CW-R13]}
+  - {pages: [21], section: "Schedule 2A Indexed rates", owners: [CW.T04_SMI_ITEMS, CW.T05_SMI, CW-R11]}
+  - {pages: [22], section: "Schedule 2B USD rates", owners: [CW.T06_USD_ITEMS, CW.T07_FX, CW-R12]}
+  - {pages: [23], section: "Schedule 3 Ground factors and items", owners: [CW.T08_GROUND_FACTORS, CW.T09_GROUND_ITEMS, CW-R13]}
+  - {pages: [24], section: "Schedule 4 Parts 1-2 Night and rest-day uplifts", owners: [CW.T10_NIGHT, CW.T11_REST, CW-R13]}
+  - {pages: [24, 25], section: "Schedule 4 Part 3 Banded quantities", owners: [CW.T12_BANDS, CW-R14]}
+  - {pages: [25, 26], section: "Schedule 4 Part 4 Daily limitations", owners: [CW.T13_DAILY_LIMITS, CW-R15]}
+  - {pages: [26], section: "Schedule 4 Parts 5-6 Exclusions and surveyed items; note on concurrent uplifts", owners: [CW.T14_EXCLUSIONS, CW.T15_SURVEYED, CW-R16, CW-R07, OV-CW-10]}
+  - {pages: [27], section: "Schedule 5 Records required", owners: [CW.T16_RECORDS, CW-R05]}
+  - {pages: [28, 29], section: "Schedule 6 Daywork rates", owners: [CW.T17_DAYWORK_LABOUR, CW.T18_DAYWORK_PLANT, CW.T19_DAYWORK_ADDITIONS, CW-R23]}
+  - {pages: [30], section: "Schedule 7 Provisional and prime cost sums", owners: [CW.T20_PROVISIONAL_SUMS, CW-R23]}
+  - {pages: [31], section: "Schedule 8 Preliminaries", owners: [CW.T21_PRELIMINARIES, CW-R23]}
+  - {pages: [32], section: "Part VII 3A Contract Years", owners: [CW-R14, Q12]}
+  - {pages: [32], section: "Part VII 6A Chargeable Hour", owners: [CW-R07, CW.P.first_hour_excluded]}
+  - {pages: [32], section: "Part VII 26A USD conversion; 29A indexed rates", owners: [CW-R11, CW-R12, CW.P.rounding_fx_index]}
+  - {pages: [32], section: "Part VII 27A Conditions on uplifts and factors", owners: [CW-R13, OV-CW-04, CW.P.g2_after, CW.P.night_suppressed_zone_factor_above]}
+  - {pages: [32], section: "Part VII 31A Instruments effective before issue", owners: [CW-R22, Q1]}
+  - {pages: [32], section: "Part VII 33A Survey tolerance", owners: [CW-R07, OV-CW-09, CW.P.survey_tolerance_pct]}
+  - {pages: [32], section: "Part VII 45A Release of retention and amount payable", owners: [CW-R21, OV-CW-11, Q2]}
+  - {pages: [33], section: "Part VII 47A Site records", owners: [CW-R05, CW-R06, CW-R07, OV-CW-08, CW.P.weekly_min_days]}
+  - {pages: [34], section: "Appendix A Definitions", owners: [CW-R02, CW-R13, CW-R15, CW-R17]}
+  - {pages: [35], section: "Execution page", not_material: "signature blocks blank; no terms"}
+  - {pages: [36], section: "Appendix B Form of payment application (worked example)", owners: [CW.T22_APPB_EXAMPLE, CW-R20, OV-CW-07]}
+  - {pages: [37], section: "Appendix C Insurances and notices", not_material: "no valuation effect"}
+  - {pages: [38], section: "Schedule of Variations", owners: [CW-R10, CW-R03, OV-CW-05, OV-CW-06]}
+  - {pages: [39], section: "Supplement No.1", owners: [CW.S1, CW-R10]}
+  - {pages: [40], section: "Amendment No.1", owners: [CW.A1, CW-R03, CW-R10, CW.P.completion_A1]}
+  - {pages: [41], section: "Supplement No.2", owners: [CW.S2, CW-R10, CW-R13]}
+  - {pages: [42], section: "Amendment No.2", owners: [CW.A2, CW-R03, CW-R10, CW-R13, CW.P.completion_A2]}
+  - {pages: [43], section: "Amendment No.3", owners: [CW.A3, CW-R22, Q1, Q2]}

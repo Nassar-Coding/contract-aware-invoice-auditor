@@ -1,0 +1,30 @@
+{
+ "ddr": {
+  "annotated": 31,
+  "sampled": 31,
+  "fields": 583,
+  "agree": 583,
+  "disposed": 0,
+  "annotations_sha": "e9e55c919d7bba2c",
+  "disagreements": []
+ },
+ "lines": {
+  "annotated": 84,
+  "sampled": 84,
+  "fields": 482,
+  "agree": 482,
+  "disposed": 0,
+  "annotations_sha": "0dba2be5b031107a",
+  "disagreements": []
+ },
+ "civil": {
+  "annotated": 45,
+  "sampled": 45,
+  "fields": 161,
+  "agree": 161,
+  "disposed": 0,
+  "annotations_sha": "25b7ce6d65adb479",
+  "disagreements": []
+ },
+ "failures": []
+}

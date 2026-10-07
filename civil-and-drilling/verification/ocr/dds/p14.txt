@@ -1,0 +1,31 @@
+DDS-2025-118 | Directional Drilling Services a ; : ;
+PART VIII — REPORTING AND DATA
+R1. Reporting responsibility :
+The lead directional driller is responsible for the accuracy of the Contractor's entries on the Daily Drilling
+Report. )
+R2. Time of issue . ; :
+The Daily Drilling Report for a day is issued by 06:00 on the following day. .
+R3. Depths : :
+Measured depths are stated in whole metres from the rotary table. _ :
+R4. Circulating hours _
+- Circulating hours are stated in whole hours, any part hour of thirty minutes or more counting as a whole .
+hour.
+RS. Tools in the hole :
+The report lists by service code every rental tool in the hole at any time during the day.
+R6. Personnel
+The report states, by service code, the number of the Contractor's personnel on the rig during the day.
+R7. Status
+The status of the day is recorded by the Company Representative and is final for the purposes of Clause 19.
+-  _R8. Corrections :
+A report may be corrected only by a revision signed by both signatories before the invoice for the day is __
+submitted. .
+R9. BHA Run Report ,
+The BHA Run Report is issued within two days of the end of the run and totals the circulating hours and
+metres of the Daily Drilling Reports for the run. ‘ .
+R10. Survey data : ;
+Survey data are delivered in the Company's format within twelve hours of each survey.
+R11. Log data ; ; , ; .
+LWD data are delivered in real time where the tools allow and in memory form at the end of each run. ~
+R12. Retention of records .
+The Contractor shall retain all field records for seven years after the end of the Contract.
+Page 14 .

@@ -1,0 +1,32 @@
+{
+  "provenance": "Expected values derived by hand from the H1 clauses before the pricing interpreter was run. No H1 label values were used.",
+  "rounding": [
+    {"amount": 1, "ratio": [1, 2], "expected": 1, "source": "H1 §3.1 exact halves away from zero"},
+    {"amount": -1, "ratio": [1, 2], "expected": -1, "source": "H1 §3.1 exact halves away from zero"},
+    {"amount": 101, "ratios": [[3, 2], [3, 2]], "expected_stages": [152, 228], "source": "H1 §3.1 per-step rounding: 151.5→152; 228 exactly; one final round would incorrectly give 227"}
+  ],
+  "rates": [
+    {"service": "Ambulatory Ophthalmic Case Conference", "daily_quantity": 6, "prior_quantity": 0, "service_date": "2024-01-02", "expected_rate": 16925, "source": "H1 §5: exceeds 6, so equality does not earn 20%"},
+    {"service": "Ambulatory Ophthalmic Case Conference", "daily_quantity": 7, "prior_quantity": 0, "service_date": "2024-01-02", "expected_rate": 20310, "source": "H1 §5: 16925 × 120/100 = 20310"},
+    {"service": "Standard Otolaryngologic Radiotherapy Fraction", "daily_quantity": 1, "prior_quantity": 60, "service_date": "2024-01-02", "expected_rate": 25250, "source": "H1 §7.2: prior 60 is not more than 60"},
+    {"service": "Standard Otolaryngologic Radiotherapy Fraction", "daily_quantity": 1, "prior_quantity": 61, "service_date": "2024-01-02", "expected_rate": 22220, "source": "H1 §7: 25250 × 88/100 = 22220"},
+    {"service": "Standard Otolaryngologic Radiotherapy Fraction", "daily_quantity": 1, "prior_quantity": 180, "service_date": "2024-01-02", "expected_rate": 22220, "source": "H1 §7.2: equality at deeper 180 leaves 12% tier"},
+    {"service": "Standard Otolaryngologic Radiotherapy Fraction", "daily_quantity": 1, "prior_quantity": 181, "service_date": "2024-01-02", "expected_rate": 17675, "source": "H1 §7: deepest 30%; 25250 × 70/100 = 17675; tiers do not stack"},
+    {"service": "Assisted Geriatric Infusion Therapy", "daily_quantity": 2, "prior_quantity": 0, "service_date": "2024-01-06", "expected_rate": 8764, "source": "H1 §6 weekend: 7825 × 112/100 = 8764; line quantity is multiplied afterwards"}
+  ],
+  "invoice_examples": [
+    {"name": "wrong unit with unchanged total", "service": "Advanced Neurological Consultation", "quantity": 2, "date": "2024-01-02", "billed_unit": "per_hour", "billed_rate": 14125, "billed_total": 28250, "expected_total": 28250, "expected_flag": 1, "source": "H1 §§2.3,3.3,4: per visit is required; arithmetic may be unchanged"},
+    {"name": "single line daily cap", "service": "Advanced Rheumatologic Laboratory Panel", "quantity": 5, "date": "2024-01-02", "expected_billable_quantity": 4, "expected_total": 59100, "source": "H1 §§4,8: maximum four tests; 4 × 14775 = 59100, with no competing cap allocation"},
+    {"name": "bundle before further steps", "services": ["Advanced Cardiac Recovery Room Occupancy", "Routine Cardiac Specimen Analysis"], "quantity_each": 1, "date": "2024-01-02", "expected_rates": [16400,19150], "expected_total": 35550, "source": "H1 §9 replaces 20000 and 23350 with 16400 and 19150 for same patient/day"},
+    {"name": "exclusion strict interior", "service": "Advanced Metabolic Anaesthesia Administration", "anchor": "Standard Endocrine Endoscopic Procedure", "absolute_day_distance": 6, "expected_excluded": true, "source": "H1 §10 and §10.1: within seven days in either direction; no equality interpretation needed"},
+    {"name": "exclusion equality unresolved", "service": "Advanced Metabolic Anaesthesia Administration", "anchor": "Standard Endocrine Endoscopic Procedure", "absolute_day_distance": 7, "expected_state": "abstain", "source": "H1 §10: exact-boundary inclusivity not explicit; preserve both readings"}
+  ],
+  "h3_minimal_version_examples": {
+    "source": "H3 Amendment A1.1–A1.3, inspected only for shared version fixtures",
+    "repriced_service": "Ambulatory Otolaryngologic Imaging Interpretation",
+    "dates": ["2024-12-31", "2025-01-01", "2025-01-02"],
+    "expected_rates": [182625,208200,208200],
+    "added_service": "Advanced Dermatologic Nutritional Support",
+    "expected_added_rates": [null,86525,86525]
+  }
+}

@@ -1,0 +1,80 @@
+# G3 reference cases, drilling contract DDS-2025-118: INPUTS ONLY (no expected values).
+# Written before the G3 pricing code. Expected values are computed independently from the contract scans by
+# independent readers (v1 reader instructions) into expected_*.jsonl.
+# Defaults (applied by tools/g3_cases.py): one-line invoice for well NGP-SY-001 (rig NG-Rig 44, field Harran,
+# class Standard) whose period is the service date and which is submitted 5 days later; the billed unit is the
+# Schedule 1 unit and the billed rate is the Schedule 1 figure as printed (amount = quantity x rate), so no input
+# carries an expected built-up rate. The Daily Drilling Report defaults below are overridden per case.
+# Where a case fixes the reading of an open question (question_readings), the reader follows that reading.
+defaults:
+  invoice: {contract_ref: DDS-2025-118, contractor: Meridian Downhole Services Ltd, well_name: NGP-SY-001, rig: NG-Rig 44, field: Harran, well_class: Standard, submit_after_days: 5}
+  report:
+    signed: both
+    A: {"Hole section": '12-1/4"', Status: Operating, "Depth start (m MD)": "2000", "Depth end (m MD)": "2100", "Circulating hours": "20", "BHA run": "1",
+        "In the hole": "MWD collar, drilling jars, real-time link, rotary steerable, survey package", "Crew on tour": "2 directional hands, 1 night man, 2 MWD engineers",
+        "Gyro surveys": "0", "Pressure points": "0", "Wiper trips": "0", "Back-reaming hours": "0", "Clean-out runs": "0"}
+    B: {Run: "1", "Run first day": "<service date>", "Run last day": "<service date + 3>", "Tools in run": "<as In the hole>", "Run circulating hours": "80", "Metres logged": "0", "Metres reamed": "0", "Radioactive source carried": "No"}
+  state: {annual_footage_pct: "100", note: "annual footage-band state is supplied as an input (G4 owns it); no other lines or invoices exist"}
+cases:
+  # ---- rate versions, discounts, A3 ------------------------------------------------------------------------
+  - {id: DDS-S01, tests: "DD-120 day before S1; first day of the run", line: {service_code: DD-120, quantity: "19", service_date: "2025-06-30"}}
+  - {id: DDS-S02, tests: "DD-120 S1 rate from 2025-07-01; first day of the run", line: {service_code: DD-120, quantity: "19", service_date: "2025-07-01"}}
+  - {id: DDS-S03, tests: "DD-101 day before A1", line: {service_code: DD-101, quantity: "2", service_date: "2025-12-31"}}
+  - {id: DDS-S04, tests: "DD-101 A1 rate from 2026-01-01", line: {service_code: DD-101, quantity: "2", service_date: "2026-01-01"}}
+  - {id: DDS-S05, tests: "DD-101 in A3's scope, invoice submitted before A3's issue", invoice: {period_start: "2026-02-10", period_end: "2026-02-10", invoice_date: "2026-03-05"}, line: {service_code: DD-101, quantity: "2", service_date: "2026-02-10"}}
+  - {id: DDS-S06, tests: "DD-101 in A3's scope, invoice submitted on A3's issue date (window breach is separate)", invoice: {period_start: "2026-02-10", period_end: "2026-02-10", invoice_date: "2026-08-17"}, line: {service_code: DD-101, quantity: "2", service_date: "2026-02-10"}}
+  - {id: DDS-S07, tests: "S2 4% discount on DD-101, invoice before A3's issue", line: {service_code: DD-101, quantity: "2", service_date: "2026-04-10"}}
+  - {id: DDS-S08, tests: "A2 7% discount on DD-101 from 2026-07-01, invoice before A3's issue", line: {service_code: DD-101, quantity: "2", service_date: "2026-07-01"}}
+  - {id: DDS-S09, tests: "DD-120 April 2026, invoice before A3's issue (S2 monthly table and 4%)", invoice: {period_start: "2026-04-15", period_end: "2026-04-15", invoice_date: "2026-05-10"}, line: {service_code: DD-120, quantity: "19", service_date: "2026-04-15"}}
+  - {id: DDS-S10, tests: "DD-120 April 2026, invoice after A3's issue (window breach is separate)", invoice: {period_start: "2026-04-15", period_end: "2026-04-15", invoice_date: "2026-08-20"}, line: {service_code: DD-120, quantity: "19", service_date: "2026-04-15"}}
+  - {id: DDS-S11, tests: "HC-601 monthly table carried forward (January 2026)", report: {A: {"In the hole": "MWD collar, circulating sub, drilling jars, real-time link, rotary steerable, survey package"}}, line: {service_code: HC-601, quantity: "1", service_date: "2026-01-10"}}
+  - {id: DDS-S12, tests: "MW-310 indexed by the service month, 12-1/4 section", line: {service_code: MW-310, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S13, tests: "MW-310 indexed, 26 inch section factor after indexation", report: {A: {"Hole section": '26"'}}, line: {service_code: MW-310, quantity: "1", service_date: "2025-06-10", hole_section: '26"'}}
+  # ---- PD-210 depth bands -------------------------------------------------------------------------------------
+  - {id: DDS-S14, tests: "PD-210 interval ending at the 3,000 m boundary, HPHT well", invoice: {well_class: HPHT}, report: {A: {"Depth start (m MD)": "2930", "Depth end (m MD)": "3085"}}, line: {service_code: PD-210, quantity: "70", service_date: "2025-06-10", depth_from_m: "2930", depth_to_m: "3000"}}
+  - {id: DDS-S15, tests: "PD-210 interval starting at the 3,000 m boundary, HPHT well", invoice: {well_class: HPHT}, report: {A: {"Depth start (m MD)": "2930", "Depth end (m MD)": "3085"}}, line: {service_code: PD-210, quantity: "85", service_date: "2025-06-10", depth_from_m: "3000", depth_to_m: "3085"}}
+  - {id: DDS-S16, tests: "PD-210 interval ending exactly at 1,500 m", report: {A: {"Depth start (m MD)": "1400", "Depth end (m MD)": "1500"}}, line: {service_code: PD-210, quantity: "100", service_date: "2025-06-10", depth_from_m: "1400", depth_to_m: "1500"}}
+  - {id: DDS-S17, tests: "PD-210 one charge crossing the 1,500 m boundary", report: {A: {"Depth start (m MD)": "1450", "Depth end (m MD)": "1550"}}, line: {service_code: PD-210, quantity: "100", service_date: "2025-06-10", depth_from_m: "1450", depth_to_m: "1550"}}
+  # ---- factors, standby ---------------------------------------------------------------------------------------
+  - {id: DDS-S18, tests: "DD-101 on a Standby day", report: {A: {Status: Standby, "Depth end (m MD)": "2000", "Circulating hours": "0"}}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-03", day_status: Standby}}
+  - {id: DDS-S19, tests: "section-rated DD-110 on a Standby day in a 26 inch section", report: {A: {Status: Standby, "Hole section": '26"', "Depth end (m MD)": "2000", "Circulating hours": "0", "In the hole": "MWD collar, drilling jars, mud motor, real-time link"}}, line: {service_code: DD-110, quantity: "1", service_date: "2025-06-10", day_status: Standby, hole_section: '26"'}}
+  - {id: DDS-S20, tests: "DD-130 on a Standby day", report: {A: {Status: Standby, "Depth end (m MD)": "2000", "Circulating hours": "0", "Gyro surveys": "1"}, C: {"Gyro surveys taken": "1", "Surveyed section": '12-1/4"'}}, line: {service_code: DD-130, quantity: "1", service_date: "2025-06-10", day_status: Standby}}
+  - {id: DDS-S21, tests: "DD-121 on a Standby day with the rotary steerable in the hole", report: {A: {Status: Standby, "Depth end (m MD)": "2000", "Circulating hours": "0"}}, line: {service_code: DD-121, quantity: "1", service_date: "2025-06-10", day_status: Standby}}
+  - {id: DDS-S22, tests: "DD-121 on an Operating day", line: {service_code: DD-121, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S23, tests: "MB-701 on a Standby day", report: {A: {Status: Standby, "Depth end (m MD)": "2000", "Circulating hours": "0"}}, line: {service_code: MB-701, quantity: "1", service_date: "2025-06-10", day_status: Standby}}
+  - {id: DDS-S24, tests: "DD-120 on an HPHT well (class factor, half-even)", invoice: {well_class: HPHT}, line: {service_code: DD-120, quantity: "19", service_date: "2025-06-10"}}
+  - {id: DDS-S25, tests: "DD-110 in an 8-1/2 inch section (section factor, half-even)", report: {A: {"Hole section": '8-1/2"', "In the hole": "MWD collar, drilling jars, mud motor, real-time link"}}, line: {service_code: DD-110, quantity: "1", service_date: "2025-06-10", hole_section: '8-1/2"'}}
+  - {id: DDS-S26, tests: "MW-320 at the standby percentage (exact half cent)", report: {A: {Status: Standby, "Depth end (m MD)": "2000", "Circulating hours": "0"}}, line: {service_code: MW-320, quantity: "1", service_date: "2025-06-10", day_status: Standby}}
+  - {id: DDS-S27, tests: "RM-520 at the standby percentage (exact half cent)", report: {A: {Status: Standby, "Depth end (m MD)": "2000", "Circulating hours": "0", "In the hole": "MWD collar, drilling jars, real-time link, stabiliser string"}}, line: {service_code: RM-520, quantity: "1", service_date: "2025-06-10", day_status: Standby}}
+  # ---- quantities -------------------------------------------------------------------------------------------
+  - {id: DDS-S28, tests: "DD-120: 7 circulating hours on the first day of the run", report: {A: {"Circulating hours": "7"}}, line: {service_code: DD-120, quantity: "6", service_date: "2025-06-10"}}
+  - {id: DDS-S29, tests: "DD-120: 5 circulating hours on the first day of the run; Q4 reading A (deduct the rig-up hour, then apply the 6-hour minimum)", question_readings: {Q4: A}, report: {A: {"Circulating hours": "5"}}, line: {service_code: DD-120, quantity: "6", service_date: "2025-06-10"}}
+  - {id: DDS-S30, tests: "DD-120: 5 circulating hours on the first day of the run; Q4 reading B (apply the 6-hour minimum to hours run, then deduct the rig-up hour)", question_readings: {Q4: B}, report: {A: {"Circulating hours": "5"}}, line: {service_code: DD-120, quantity: "6", service_date: "2025-06-10"}}
+  - {id: DDS-S31, tests: "DD-120 billed on a Standby day", report: {A: {Status: Standby, "Depth end (m MD)": "2000", "Circulating hours": "0"}}, line: {service_code: DD-120, quantity: "6", service_date: "2025-06-10", day_status: Standby}}
+  - {id: DDS-S32, tests: "LW-410 metres charged at 101% of the metres drilled", report: {A: {"In the hole": "MWD collar, drilling jars, gamma tool, real-time link, rotary steerable, survey package"}}, line: {service_code: LW-410, quantity: "101", service_date: "2025-06-10"}}
+  - {id: DDS-S33, tests: "LW-410 metres charged at 102% of the metres drilled", report: {A: {"In the hole": "MWD collar, drilling jars, gamma tool, real-time link, rotary steerable, survey package"}}, line: {service_code: LW-410, quantity: "102", service_date: "2025-06-10"}}
+  - {id: DDS-S34, tests: "DD-101 billed for 3 persons, 2 recorded", line: {service_code: DD-101, quantity: "3", service_date: "2025-06-10"}}
+  - {id: DDS-S35, tests: "RM-511 day rental without the tool recorded in the hole", line: {service_code: RM-511, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S36, tests: "DD-102 with one 'night man' recorded; Q5 reading A (per coordinator recorded per day)", question_readings: {Q5: A}, line: {service_code: DD-102, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S37, tests: "LH-713 lost with 412 accumulated hours", report: {E: {"Lost in hole run": "1", "Lost in hole tool": "MWD collar", "Circulating hours accumulated on the well": "412"}}, line: {service_code: LH-713, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S38, tests: "LH-713 lost with 24 accumulated hours", report: {E: {"Lost in hole run": "1", "Lost in hole tool": "MWD collar", "Circulating hours accumulated on the well": "24"}}, line: {service_code: LH-713, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S39, tests: "LH-713 lost with 25 accumulated hours", report: {E: {"Lost in hole run": "1", "Lost in hole tool": "MWD collar", "Circulating hours accumulated on the well": "25"}}, line: {service_code: LH-713, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S40, tests: "LH-712 lost with 1,250 accumulated hours (cap)", report: {E: {"Lost in hole run": "1", "Lost in hole tool": "rotary steerable", "Circulating hours accumulated on the well": "1250"}}, line: {service_code: LH-712, quantity: "1", service_date: "2026-03-10"}}
+  # ---- term, window, period -----------------------------------------------------------------------------------
+  - {id: DDS-S41, tests: "last day of the term as extended", line: {service_code: DD-101, quantity: "2", service_date: "2026-12-31"}}
+  - {id: DDS-S42, tests: "day after the term as extended", line: {service_code: DD-101, quantity: "2", service_date: "2027-01-01"}}
+  - {id: DDS-S43, tests: "day before commencement", line: {service_code: DD-101, quantity: "2", service_date: "2024-12-31"}}
+  - {id: DDS-S44, tests: "submitted 30 days after the period end", invoice: {period_start: "2025-06-10", period_end: "2025-06-10", invoice_date: "2025-07-10"}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S45, tests: "submitted 31 days after the period end", invoice: {period_start: "2025-06-10", period_end: "2025-06-10", invoice_date: "2025-07-11"}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S46, tests: "submitted before the period end", invoice: {period_start: "2025-06-10", period_end: "2025-06-14", invoice_date: "2025-06-13"}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S47, tests: "service date outside the invoice period", invoice: {period_start: "2025-06-11", period_end: "2025-06-14", invoice_date: "2025-06-20"}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  # ---- evidence -----------------------------------------------------------------------------------------------
+  - {id: DDS-S48, tests: "DD-130: Part A records a gyro survey but the report has no Part C", report: {A: {"Gyro surveys": "1"}}, line: {service_code: DD-130, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S49, tests: "LW-420 on the run's first day: source carried but no Part D on the report", report: {A: {"In the hole": "MWD collar, drilling jars, real-time link, resistivity tool, rotary steerable, survey package"}, B: {"Radioactive source carried": "Yes"}}, line: {service_code: LW-420, quantity: "1", service_date: "2025-06-10"}}
+  - {id: DDS-S50, tests: "Company Representative's signature is an underscore placeholder", report: {signed: driller_only}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10"}}
+  - {id: DDS-S51, tests: "line states Operating, report records Standby", report: {A: {Status: Standby, "Depth end (m MD)": "2000", "Circulating hours": "0"}}, line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10", day_status: Operating}}
+  - {id: DDS-S52, tests: "line states a 17-1/2 inch section, report records 12-1/4 (section-rated service)", report: {A: {"In the hole": "MWD collar, drilling jars, mud motor, real-time link"}}, line: {service_code: DD-110, quantity: "1", service_date: "2025-06-10", hole_section: '17-1/2"'}}
+  - {id: DDS-S53, tests: "charge stated in a unit other than the Schedule 1 unit", line: {service_code: DD-101, quantity: "48", unit: hour, service_date: "2025-06-10"}}
+  - {id: DDS-S54, tests: "billed rate above the contract rate", line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10", unit_rate: "1900.00", amount: "3800.00"}}
+  - {id: DDS-S55, tests: "billed amount not equal to quantity x billed rate", line: {service_code: DD-101, quantity: "2", service_date: "2025-06-10", unit_rate: "1847.35", amount: "3700.00"}}
+  - {id: DDS-S56, tests: "HC-630: two clean-out runs recorded on an Operating day; Q5 reading: counted as recorded (Cl.30)", question_readings: {Q5_HC630: counts}, report: {A: {"Clean-out runs": "2"}}, line: {service_code: HC-630, quantity: "2", service_date: "2025-06-10"}}

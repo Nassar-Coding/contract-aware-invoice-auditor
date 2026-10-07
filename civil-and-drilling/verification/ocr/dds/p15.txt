@@ -1,0 +1,37 @@
+Cea
+DDS-2025-118 | Directional Drilling Services
+_ SCHEDULE 1 — SERVICE RATES
+Rates are in USD, exclusive of Value Added Tax, and are adjusted under Clause 18. Item PD-210 is rated
+in Schedule 2 and items LH-711 to LH-714 under Clause 31.
+Series 100 — Directional Drilling :
+_ Code Description Unit Rate (USD)
+DD-101 Directional driller, 24-hour coverage person-day 1,847.35
+DD-102 Directional coordinator, office based day 948.60
+DD-110 Positive displacement motor rental day 1,417.75
+DD-111 Motor redress and inspection run 3,589.45
+DD-120 Rotary steerable system, circulating hour 384.15
+DD-121 Rotary steerable system on standby day 2,893.65
+DD-130 Gyro survey aver 2,446.15
+DD-140 Well planning and anti-collision study well 12,489.50
+Series 200 — Performance Drilling _
+Cole Dectipion SSS Rate (USD)
+PD-201 _ Drilling optimisation engineer person-day 2,094.85
+. PD-210 Performance drilling footage metre Schedule 2
+PD-220 Downhole vibration mitigation tool day 1,148.35 —
+- PD-230 Drilling dynamics memory sub day 639.15
+; Series 300 — Measurement While Drilling
+Cole Description OSS nit CR USD)
+MwW-301 MWD engineer person-day 1,646.55
+MW-310 MWD directional and gamma tool _ day. 2,245.85
+‘ MW-320 __ -Pressure while drilling module day 779.65
+, MW-330 Real-time data transmission day 309.75
+Series 400 — Logging While Drilling
+Code Description OOCOCSCSSSSSC nit SCR (USD)
+LW-401 LWD engineer : person-day 1,898.45
+LW-410 LWD resistivity, logged metre 11.37
+LW-411 LWD density and neutron, logged metre 16.83
+LW-412 LWD sonic, logged metre 13.29
+LW-413 Formation pressure tester, per pressure point point : 1,849.65
+LW-420 Radioactive source handling : run ~ 2,746.55
+Page 15
+SS... SSS j=

@@ -1,0 +1,37 @@
+DDS-2025-1 18 | Directional Drilling Services — oe ee _ ee
+Code Seve ~~” ChargedforsssS—S
+LW-411 LWD density and neutron, logged each metre drilled, logged or reamed as
+a Clauses 23 to 25 describe :
+: LW-412 Tew eonie logged each metre drilled, logged or reamed as
+; _ Clauses 23 to 25 describe
+LW-413 "Formation pressure tester, per pressure each formation pressure point recorded on the
+point report
+LW-420 Radioactive source handling each BHA run, as Clause 26 describes ;
+LW-430 LWD data processing and final log once for the well, as Clause 27 describes
+; RM-510 Hydraulic underreaming, reamed each metre drilled, logged or reamed as
+Clauses 23 to 25 describe
+RM-51 1 Underreamer rental each day the Daily Drilling Report records the
+tool in the hole
+RM-520 _ Roller reamer and stabiliser rental each day the Daily Drilling Report records the
+» 8 tool in the hole
+RM-530 Back-reaming while tripping each circulating or back-reaming hour recorded
+: on the report
+HC-601 Hole cleaning circulating sub each day the Daily Drilling Report records the
+: ~ tool in the hole : ;
+: HC-610 Wiper trip supervision each wiper trip recorded on the report :
+HC-620 Drilling jar rental each day the Daily Drilling Report records the
+: ; tool in the hole
+HC-630 Casing drift and clean-out run each BHA run, as Clause 26 describes
+HC-640 Cuttings bed monitoring each day the Daily Drilling Report records the
+tool in the hole
+MB-701 Mobilisation to rig site _ once for the well, as Clause 27 describes
+MB-702 Demobilisation from rig site once for the well, as Clause 27 describes
+LH-711 Lost in hole, positive displacement motor _ each tool lost in the hole, as Clause 31
+describes
+_ LH-712 "Lost in hole, rotary steerable system each tool lost in the hole, as Clause 31
+describes
+: LH-713 Lost in hole, MWD tool each tool lost in the hole, as Clause 31 ?
+' : describes
+. LH-714 Lost in hole, LWD resistivity tool each tool lost in the hole, as Clause 31
+- : describes
+Page 28

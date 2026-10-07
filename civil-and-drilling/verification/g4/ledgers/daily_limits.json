@@ -1,0 +1,15 @@
+{
+ "CW": [
+  {
+   "line": "PA-00243-10",
+   "ledger": "CW-LIM:E.51.020|S-05|2026-06-29",
+   "detail": "daily limitation 1 day per work area per day (Sch 4 Part 4; Cl.31): 2 not payable"
+  },
+  {
+   "line": "PA-00845-03",
+   "ledger": "CW-LIM:D.41.030|S-01|2025-09-14",
+   "detail": "daily limitation 3200 m2 per work area per day (Sch 4 Part 4; Cl.31): 240 not payable"
+  }
+ ],
+ "DDS": []
+}

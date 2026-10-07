@@ -1,0 +1,1594 @@
+generated_by: tools/record_verification.py
+method: Second verification = independent visual re-read of every cell on the scan image, cross-checked against a blind transcription
+  (no access to the first pass) and tesseract OCR. Disagreements were settled on the image; machine readings never override
+  it.
+limitations:
+- The blind rule was instructed to the blind readers, not technically enforced; their transcripts show only page images and
+  their own output were opened.
+- Pages not re-read in the visual pass are listed at the end of the visual log; none holds a pricing table.
+entries:
+  CW.T01_SCH1:
+    contract: CW
+    use: pricing
+    pages:
+    - 17
+    - 18
+    - 19
+    content_sha256: 474d35f0022bb16c4a7ba3f0f935234c5f043b561914927a21a9d837f899c962
+    rows: 60
+    numeric_cells: 120
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 120
+      agree: 120
+      disagree: 0
+    blind_text:
+      cells: 180
+      agree: 180
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 120
+      agree: 110
+      disagree: 10
+    residual_dispositions:
+    - reading: ocr
+      count: 10
+      disposition: OCR noise or layout artifact (e.g. '7125' for 725, '1to4,000', code line not recognised, row split across
+        lines); the cell was read on the scan in the visual second pass and matches the terms file.
+    status: verified
+  CW.T02_ZONES:
+    contract: CW
+    use: pricing
+    pages:
+    - 20
+    content_sha256: e22cf91d195e46856418db09ec9c9fa398da3e50f540a461b5c8f3a02d0198e6
+    rows: 4
+    numeric_cells: 4
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text:
+      cells: 8
+      agree: 8
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T03_WORK_AREAS:
+    contract: CW
+    use: quantity
+    pages:
+    - 20
+    content_sha256: 5d79373a59e533dd4f9a56dff7b7a8788d05aa23f32c2010dfaf7ec3e7b3def3
+    rows: 5
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 10
+      agree: 10
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T04_SMI_ITEMS:
+    contract: CW
+    use: pricing
+    pages:
+    - 21
+    content_sha256: 7364fe9a369ab9f1d4b3f3c6fae77728f9e475e649bffc2f13bb77494f7b85a5
+    rows: 2
+    numeric_cells: 2
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 2
+      agree: 2
+      disagree: 0
+    blind_text:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 2
+      agree: 2
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T05_SMI:
+    contract: CW
+    use: pricing
+    pages:
+    - 21
+    content_sha256: 1ad38adfd49902fa1f8ef5a826b66f4e870e127505aa47cb2858ee8d87bf2b14
+    rows: 24
+    numeric_cells: 24
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 24
+      agree: 24
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T06_USD_ITEMS:
+    contract: CW
+    use: pricing
+    pages:
+    - 22
+    content_sha256: b795ee4c9768dc8fd31867c6631ba1aeb3416febacb37858d6e53708e078797a
+    rows: 3
+    numeric_cells: 3
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 3
+      agree: 3
+      disagree: 0
+    blind_text:
+      cells: 6
+      agree: 6
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 3
+      agree: 3
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T07_FX:
+    contract: CW
+    use: pricing
+    pages:
+    - 22
+    content_sha256: 91ac52d4a5fda6e6cc9e62e5e0dccdf0cfdb4eb6a1c79ffda9a7d536c7475d99
+    rows: 24
+    numeric_cells: 24
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 24
+      agree: 24
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T08_GROUND_FACTORS:
+    contract: CW
+    use: pricing
+    pages:
+    - 23
+    content_sha256: dc90ced6d54faa57e2fe61033afa2ef7a6dc84775edd32431ac69e35c085487b
+    rows: 5
+    numeric_cells: 5
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 5
+      agree: 5
+      disagree: 0
+    blind_text:
+      cells: 10
+      agree: 10
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 5
+      agree: 5
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T09_GROUND_ITEMS:
+    contract: CW
+    use: eligibility
+    pages:
+    - 23
+    content_sha256: 5c30f19eaef1e315dd4f0e0a77b43413c46c73096f37b26f664b314fb65b7be1
+    rows: 15
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 15
+      agree: 15
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T10_NIGHT:
+    contract: CW
+    use: pricing
+    pages:
+    - 24
+    content_sha256: d0b291b3ae3bf4d4890d885a0534197cd50d8371effaaa3b5d9e7a8057bc4596
+    rows: 13
+    numeric_cells: 13
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 13
+      agree: 13
+      disagree: 0
+    blind_text:
+      cells: 13
+      agree: 13
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 13
+      agree: 13
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T11_REST:
+    contract: CW
+    use: pricing
+    pages:
+    - 24
+    content_sha256: 13325e247915ea3404211721dff433b942609fd6bedc82f76e7e28e82917ecdd
+    rows: 4
+    numeric_cells: 4
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 4
+      agree: 3
+      disagree: 1
+    residual_dispositions:
+    - reading: ocr
+      count: 1
+      disposition: OCR noise or layout artifact (e.g. '7125' for 725, '1to4,000', code line not recognised, row split across
+        lines); the cell was read on the scan in the visual second pass and matches the terms file.
+    status: verified
+  CW.T12_BANDS:
+    contract: CW
+    use: pricing
+    pages:
+    - 24
+    - 25
+    content_sha256: 2a5a975cd4d14dd532815bb51d63d4741b0c3544230c19698f233ca88549e330
+    rows: 8
+    numeric_cells: 40
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 40
+      agree: 40
+      disagree: 0
+    blind_text:
+      cells: 16
+      agree: 16
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 40
+      agree: 34
+      disagree: 6
+    residual_dispositions:
+    - reading: ocr
+      count: 6
+      disposition: OCR noise or layout artifact (e.g. '7125' for 725, '1to4,000', code line not recognised, row split across
+        lines); the cell was read on the scan in the visual second pass and matches the terms file.
+    status: verified
+  CW.T13_DAILY_LIMITS:
+    contract: CW
+    use: quantity
+    pages:
+    - 26
+    content_sha256: 9241dedea9564b19507c41c1a6f49cd41fe53df577d785508ec662e943109bb7
+    rows: 9
+    numeric_cells: 9
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 9
+      agree: 9
+      disagree: 0
+    blind_text:
+      cells: 18
+      agree: 18
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 9
+      agree: 9
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T14_EXCLUSIONS:
+    contract: CW
+    use: quantity
+    pages:
+    - 26
+    - 13
+    content_sha256: b53ddadf13ac56489e108d11c3ea6a0e23812301498e4a379fe2562779914291
+    rows: 6
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 24
+      agree: 8
+      disagree: 16
+    blind_text_disagreements:
+    - row: A.14.020
+      column: window
+      first_pass: 2 days following
+    - row: A.14.020
+      column: source
+      first_pass: Sch 4 Part 5 (p26); P19 (p13)
+    - row: E.51.020
+      column: excluded_by
+      first_pass: D.41.020
+    - row: E.51.020
+      column: window
+      first_pass: same day
+    - row: E.51.020
+      column: source
+      first_pass: P21 (p13)
+    - row: E.51.020
+      column: window
+      first_pass: same day
+    - row: E.51.020
+      column: source
+      first_pass: P21 (p13)
+    - row: E.51.020
+      column: excluded_by
+      first_pass: D.41.050
+    - row: E.51.020
+      column: window
+      first_pass: same day
+    - row: E.51.020
+      column: source
+      first_pass: P21 (p13)
+    - row: E.51.020
+      column: excluded_by
+      first_pass: D.43.010
+    - row: E.51.020
+      column: window
+      first_pass: same day
+    - row: E.51.020
+      column: source
+      first_pass: P21 (p13)
+    - row: E.51.020
+      column: excluded_by
+      first_pass: D.43.020
+    - row: E.51.020
+      column: window
+      first_pass: same day
+    - row: E.51.020
+      column: source
+      first_pass: P21 (p13)
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions:
+    - reading: blind_text
+      count: 16
+      disposition: 'Derived cell, not a printed table cell: it restates a clause on a page outside the blind reader''s pages
+        (P19/P21 on CW p13; Cl.27 on DDS p7) or is a rule label summarising Sch 3 Parts 4/7. Checked against the verbatim
+        clause wording in verification/second_pass_visual_log.txt and verification/verbatim_reread/.'
+    status: verified
+  CW.T15_SURVEYED:
+    contract: CW
+    use: quantity
+    pages:
+    - 26
+    content_sha256: e8583eb60cff8981628b96a23df0428319d838a3370a71b3c9eae26d389d08bc
+    rows: 3
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 6
+      agree: 6
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T16_RECORDS:
+    contract: CW
+    use: evidence
+    pages:
+    - 27
+    content_sha256: f63ff1a2727e5b36488747a80898fe1fa04cb9fb0ef553478022a4fd57c37e53
+    rows: 17
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 51
+      agree: 51
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T17_DAYWORK_LABOUR:
+    contract: CW
+    use: coverage
+    pages:
+    - 28
+    content_sha256: fa7c601469a4edf5138346a4d2ee5ed8d7dce174e1913428534fc0909eb94e67
+    rows: 10
+    numeric_cells: 10
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 10
+      agree: 10
+      disagree: 0
+    blind_text:
+      cells: 10
+      agree: 10
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 10
+      agree: 10
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T18_DAYWORK_PLANT:
+    contract: CW
+    use: coverage
+    pages:
+    - 28
+    content_sha256: 4d5ad4dd2f9962935df1f41df699295bc124c9829439cb56fbf7bf87e1024a5a
+    rows: 12
+    numeric_cells: 12
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 12
+      agree: 12
+      disagree: 0
+    blind_text:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 12
+      agree: 12
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T19_DAYWORK_ADDITIONS:
+    contract: CW
+    use: coverage
+    pages:
+    - 28
+    - 29
+    content_sha256: 37a0d2dff49f2e056b2b86d94591539d4ddf6fc4fcfd3280b6839ee8c718ae0e
+    rows: 4
+    numeric_cells: 4
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T20_PROVISIONAL_SUMS:
+    contract: CW
+    use: coverage
+    pages:
+    - 30
+    content_sha256: 22434d5d5eb5fa1572aca07e147619d3fd3d53e9fc23c6d4f850b3d0e9e5f322
+    rows: 8
+    numeric_cells: 8
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 8
+      agree: 8
+      disagree: 0
+    blind_text:
+      cells: 16
+      agree: 16
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 8
+      agree: 8
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.T21_PRELIMINARIES:
+    contract: CW
+    use: coverage
+    pages:
+    - 31
+    content_sha256: 9d0ec68f1f915529e8e353c0c175bd3ed53cc34b04c8e32af719dc19c3552aaf
+    rows: 14
+    numeric_cells: 14
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 14
+      agree: 14
+      disagree: 0
+    blind_text:
+      cells: 42
+      agree: 42
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 14
+      agree: 13
+      disagree: 1
+    residual_dispositions:
+    - reading: ocr
+      count: 1
+      disposition: OCR noise or layout artifact (e.g. '7125' for 725, '1to4,000', code line not recognised, row split across
+        lines); the cell was read on the scan in the visual second pass and matches the terms file.
+    status: verified
+  CW.T22_APPB_EXAMPLE:
+    contract: CW
+    use: example
+    pages:
+    - 36
+    content_sha256: 7de2674fb112939868efc2260b10e3f76c2cbe761619c6ceeae19037ef45fef0
+    rows: 3
+    numeric_cells: 9
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 9
+      agree: 9
+      disagree: 0
+    blind_text:
+      cells: 15
+      agree: 15
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 9
+      agree: 9
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T01_SCH1:
+    contract: DDS
+    use: pricing
+    pages:
+    - 15
+    - 16
+    content_sha256: d5a5e71823516dab92519ea1d13ebcf46ca9bbf40412e258944858cfcc72e1f8
+    rows: 38
+    numeric_cells: 33
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 33
+      agree: 33
+      disagree: 0
+    blind_text:
+      cells: 119
+      agree: 119
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 33
+      agree: 31
+      disagree: 2
+    residual_dispositions:
+    - reading: ocr
+      count: 2
+      disposition: OCR noise or layout artifact (e.g. '7125' for 725, '1to4,000', code line not recognised, row split across
+        lines); the cell was read on the scan in the visual second pass and matches the terms file.
+    status: verified
+  DDS.T02_DEPTH_BANDS:
+    contract: DDS
+    use: pricing
+    pages:
+    - 17
+    content_sha256: f5ab464374a1083f72693bffbdd954fb67f59ee83bf190f1121eead0d0569cd9
+    rows: 4
+    numeric_cells: 15
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 15
+      agree: 15
+      disagree: 0
+    blind_text:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 15
+      agree: 14
+      disagree: 1
+    residual_dispositions:
+    - reading: ocr
+      count: 1
+      disposition: OCR noise or layout artifact (e.g. '7125' for 725, '1to4,000', code line not recognised, row split across
+        lines); the cell was read on the scan in the visual second pass and matches the terms file.
+    status: verified
+  DDS.T03_ANNUAL_BANDS:
+    contract: DDS
+    use: pricing
+    pages:
+    - 17
+    content_sha256: 5a8cfe006e93a93871e476abc4e2c7ea83e46dfebdb21d12eccf93c371f7a720
+    rows: 3
+    numeric_cells: 7
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 7
+      agree: 7
+      disagree: 0
+    blind_text:
+      cells: 1
+      agree: 1
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 7
+      agree: 7
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T04_RSI_ITEMS:
+    contract: DDS
+    use: pricing
+    pages:
+    - 18
+    content_sha256: 4de3e4f2f4941d77fe2b3743629ef60d2deeb167ea06a6c69ef8450662cda9a5
+    rows: 2
+    numeric_cells: 2
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 2
+      agree: 2
+      disagree: 0
+    blind_text:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 2
+      agree: 2
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T05_RSI:
+    contract: DDS
+    use: pricing
+    pages:
+    - 18
+    content_sha256: 0bee269f7b15f91a88037207114cb023d09a185a5efa839d8a35a95f8e06d26a
+    rows: 24
+    numeric_cells: 24
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 24
+      agree: 24
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T06_SAR_VALUES:
+    contract: DDS
+    use: pricing
+    pages:
+    - 19
+    content_sha256: 1d0ff919334167e4b25438b966d8e396dd096e5f82df7ec5dbf42b392c626071
+    rows: 4
+    numeric_cells: 4
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T07_FX:
+    contract: DDS
+    use: pricing
+    pages:
+    - 19
+    content_sha256: 91ac52d4a5fda6e6cc9e62e5e0dccdf0cfdb4eb6a1c79ffda9a7d536c7475d99
+    rows: 24
+    numeric_cells: 24
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 24
+      agree: 24
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T08_SECTION_FACTORS:
+    contract: DDS
+    use: pricing
+    pages:
+    - 20
+    content_sha256: e4c1cc26d6f808b77d709b2094a1e839dfb16652be522044ae092ea174f651da
+    rows: 5
+    numeric_cells: 5
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 5
+      agree: 5
+      disagree: 0
+    blind_text:
+      cells: 5
+      agree: 5
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 5
+      agree: 5
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T09_SECTION_RATED:
+    contract: DDS
+    use: eligibility
+    pages:
+    - 20
+    content_sha256: 1d9b3af365313d4bc6f38d069b2f6848f610aac6395918bca3e2b5a19a9e2f08
+    rows: 6
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 6
+      agree: 6
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T10_CLASS_FACTORS:
+    contract: DDS
+    use: pricing
+    pages:
+    - 20
+    content_sha256: ea9167c747e8015f273962b2f827b0b910f3db191b8e78c31f29b1f13d2585fc
+    rows: 3
+    numeric_cells: 3
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 3
+      agree: 3
+      disagree: 0
+    blind_text:
+      cells: 3
+      agree: 3
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 3
+      agree: 3
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T11_CLASS_RATED:
+    contract: DDS
+    use: eligibility
+    pages:
+    - 20
+    content_sha256: 1dfbef48f0975cedd24f716737f5a9ac32a1a0f43dc33b7e43555dfca519f02b
+    rows: 8
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 8
+      agree: 8
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T12_STANDBY:
+    contract: DDS
+    use: pricing
+    pages:
+    - 20
+    - 21
+    content_sha256: 7f8af5d8b63c216310a66c3707ea68788f86589fc27ce62070c8a9a480f9d109
+    rows: 29
+    numeric_cells: 17
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 17
+      agree: 17
+      disagree: 0
+    blind_text:
+      cells: 41
+      agree: 41
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 17
+      agree: 17
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T13_DAILY_LIMITS:
+    contract: DDS
+    use: quantity
+    pages:
+    - 21
+    - 22
+    content_sha256: 5afbd684044bd772ae9a18aa28ea73231ee36809e94724df819224171867486b
+    rows: 22
+    numeric_cells: 22
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 22
+      agree: 22
+      disagree: 0
+    blind_text:
+      cells: 44
+      agree: 44
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 22
+      agree: 22
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T14_ONCE_PER_WELL:
+    contract: DDS
+    use: quantity
+    pages:
+    - 22
+    content_sha256: 2176e83fb611da635f70e890d0fa17999215bbc92cdc72d06031e955f618c940
+    rows: 4
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 8
+      agree: 4
+      disagree: 4
+    blind_text_disagreements:
+    - row: DD-140
+      column: day
+      first_pass: first day on the well (Cl.27, p7)
+    - row: LW-430
+      column: day
+      first_pass: last day on the well, only where LWD run (Cl.27)
+    - row: MB-701
+      column: day
+      first_pass: first day on the well (Cl.27)
+    - row: MB-702
+      column: day
+      first_pass: last day on the well (Cl.27)
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions:
+    - reading: blind_text
+      count: 4
+      disposition: 'Derived cell, not a printed table cell: it restates a clause on a page outside the blind reader''s pages
+        (P19/P21 on CW p13; Cl.27 on DDS p7) or is a rule label summarising Sch 3 Parts 4/7. Checked against the verbatim
+        clause wording in verification/second_pass_visual_log.txt and verification/verbatim_reread/.'
+    status: verified
+  DDS.T15_STANDBY_SUBSTITUTE_AND_MINIMUM:
+    contract: DDS
+    use: quantity
+    pages:
+    - 21
+    - 22
+    content_sha256: 1f4c12313ecd336d04a09d924cf54853164d699a3b44282e532ade7af6e89151
+    rows: 2
+    numeric_cells: 1
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 1
+      agree: 0
+      disagree: 1
+    blind_text:
+      cells: 3
+      agree: 1
+      disagree: 2
+    blind_text_disagreements:
+    - row: DD-121 only on a Standby day, in place of DD-120
+      column: rule
+      first_pass: DD-121 only on a Standby day, in place of DD-120
+    - row: DD-120 minimum hours on an Operating day with the tool in the hole
+      column: rule
+      first_pass: DD-120 minimum hours on an Operating day with the tool in the hole
+    ocr_numeric:
+      cells: 1
+      agree: 0
+      disagree: 1
+    residual_dispositions:
+    - reading: ocr
+      count: 1
+      disposition: OCR noise or layout artifact (e.g. '7125' for 725, '1to4,000', code line not recognised, row split across
+        lines); the cell was read on the scan in the visual second pass and matches the terms file.
+    - reading: blind
+      count: 1
+      disposition: 'Comparator layout artifact: the blind reader transcribed the value on a TEXT/NOTE line or a row without
+        the code (DD-120 minimum ''6'' on p22; App F ''412'' and ''16 per cent'' on p34). Values agree; confirmed on the scan.'
+    - reading: blind_text
+      count: 2
+      disposition: 'Derived cell, not a printed table cell: it restates a clause on a page outside the blind reader''s pages
+        (P19/P21 on CW p13; Cl.27 on DDS p7) or is a rule label summarising Sch 3 Parts 4/7. Checked against the verbatim
+        clause wording in verification/second_pass_visual_log.txt and verification/verbatim_reread/.'
+    status: verified
+  DDS.T16_PERSONNEL:
+    contract: DDS
+    use: coverage
+    pages:
+    - 23
+    content_sha256: 5bb59f5cff1372295a073aa13641ee8f1538f8108e6425223213924b0deda192
+    rows: 5
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 15
+      agree: 15
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T17_SCH5_PARTS:
+    contract: DDS
+    use: evidence
+    pages:
+    - 24
+    content_sha256: 5f38d2d7d1f0a1a7650f9f73d43384abb1f895295569ff2cb729c2fde54265e7
+    rows: 5
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 15
+      agree: 15
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T18_SCH5_CODES:
+    contract: DDS
+    use: evidence
+    pages:
+    - 24
+    content_sha256: 6db64a07f2846fb91d96dbcf8cba7c1dafcb49a39ea1bd834b6af1b214c0e870
+    rows: 12
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 24
+      agree: 24
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T19_SCH6_USD:
+    contract: DDS
+    use: consistency
+    pages:
+    - 25
+    content_sha256: 2db43a0721b6d0ac79beafe0301a5cd501e504451734543e77c4ceba28cbcac8
+    rows: 4
+    numeric_cells: 4
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text:
+      cells: 4
+      agree: 4
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 4
+      agree: 4
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T20_GLOSSARY:
+    contract: DDS
+    use: evidence
+    pages:
+    - 36
+    content_sha256: 85dccc591dc7b905c1353c60c2ec06fc7fc1fc0803a22850395ad314d1be34c0
+    rows: 24
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 72
+      agree: 72
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T21_APPB_EXAMPLE:
+    contract: DDS
+    use: example
+    pages:
+    - 30
+    content_sha256: 877234e5211af9bdecb3cdf713cf409b19516f8bb46a0a5b4af797e80535436e
+    rows: 5
+    numeric_cells: 15
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 15
+      agree: 15
+      disagree: 0
+    blind_text:
+      cells: 22
+      agree: 22
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 15
+      agree: 15
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  DDS.T22_APPF_EXAMPLE:
+    contract: DDS
+    use: example
+    pages:
+    - 34
+    content_sha256: 5141e14d1beee64e45a97bbb528eba15e62ace010c2df7d31f4da61a8f412c17
+    rows: 1
+    numeric_cells: 2
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 2
+      agree: 0
+      disagree: 2
+    blind_text:
+      cells: 1
+      agree: 1
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 2
+      agree: 0
+      disagree: 2
+    residual_dispositions:
+    - reading: ocr
+      count: 2
+      disposition: OCR noise or layout artifact (e.g. '7125' for 725, '1to4,000', code line not recognised, row split across
+        lines); the cell was read on the scan in the visual second pass and matches the terms file.
+    - reading: blind
+      count: 2
+      disposition: 'Comparator layout artifact: the blind reader transcribed the value on a TEXT/NOTE line or a row without
+        the code (DD-120 minimum ''6'' on p22; App F ''412'' and ''16 per cent'' on p34). Values agree; confirmed on the scan.'
+    status: verified
+  DDS.T23_SCH8:
+    contract: DDS
+    use: quantity
+    pages:
+    - 27
+    - 28
+    content_sha256: 5723e919cb35cf67c468ab9777da2c4323bd0ab914173500d7e1236ccde5ac50
+    rows: 38
+    numeric_cells: 0
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    blind_text:
+      cells: 76
+      agree: 76
+      disagree: 0
+    blind_text_disagreements: []
+    ocr_numeric:
+      cells: 0
+      agree: 0
+      disagree: 0
+    residual_dispositions: []
+    status: verified
+  CW.S1:
+    contract: CW
+    use: pricing
+    pages:
+    - 39
+    content_sha256: dfbf613514c7605a2ec5a9f8a79c8065b9b9a4c49db8e7de15f5d0c1f3da35fe
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      rates:
+        cells: 6
+        agree: 6
+        disagree: 0
+      monthly:
+        cells: 5
+        agree: 5
+        disagree: 0
+    status: verified
+  CW.A1:
+    contract: CW
+    use: pricing
+    pages:
+    - 40
+    content_sha256: a97c092cdcab3d1d8b96694c42373d4c42ef32608d829c824dc417b4d780a856
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      rates:
+        cells: 4
+        agree: 4
+        disagree: 0
+    status: verified
+  CW.S2:
+    contract: CW
+    use: pricing
+    pages:
+    - 41
+    content_sha256: 9c77bf7cdf0684958ca43fa921d8a83a504bfa964b3ba7bdf57ba17675a16a4d
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      rates:
+        cells: 2
+        agree: 2
+        disagree: 0
+      discount:
+        cells: 1
+        agree: 1
+        disagree: 0
+    status: verified
+  CW.A2:
+    contract: CW
+    use: pricing
+    pages:
+    - 42
+    content_sha256: cc7fae7bd1e09f8a000961063d8890239772215e8a1483a0e940e86e2f031001
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      monthly:
+        cells: 6
+        agree: 6
+        disagree: 0
+      discount:
+        cells: 1
+        agree: 1
+        disagree: 0
+    status: verified
+  CW.A3:
+    contract: CW
+    use: pricing
+    pages:
+    - 43
+    content_sha256: 1fc725f852ec613ee433dfad2b4fdd0bf12c8abb749859564cde70bacdcd0534
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      rates:
+        cells: 4
+        agree: 4
+        disagree: 0
+    status: verified
+  DDS.S1:
+    contract: DDS
+    use: pricing
+    pages:
+    - 38
+    content_sha256: 185edf4834d63781d60ffff9b47b7b127eb34504d21e9664c428bc7526595ae1
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      rates:
+        cells: 4
+        agree: 4
+        disagree: 0
+      monthly:
+        cells: 6
+        agree: 6
+        disagree: 0
+    status: verified
+  DDS.A1:
+    contract: DDS
+    use: pricing
+    pages:
+    - 39
+    content_sha256: a213731afcc44f7b845078b38e677e6426ec12474fe2f749147eae8745db1bff
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      rates:
+        cells: 6
+        agree: 6
+        disagree: 0
+    status: verified
+  DDS.S2:
+    contract: DDS
+    use: pricing
+    pages:
+    - 40
+    content_sha256: 867d6441dee11c8bf007a218d88f80d105f6948567f9308a1d8616b41640de09
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      monthly:
+        cells: 9
+        agree: 9
+        disagree: 0
+      discount:
+        cells: 1
+        agree: 1
+        disagree: 0
+    status: verified
+  DDS.A2:
+    contract: DDS
+    use: pricing
+    pages:
+    - 41
+    content_sha256: 34fa812c5ea8be9771036baaf754b338485c5bed2989c12a2a375a70873d6cd2
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      rates:
+        cells: 4
+        agree: 4
+        disagree: 0
+      discount:
+        cells: 1
+        agree: 1
+        disagree: 0
+    status: verified
+  DDS.A3:
+    contract: DDS
+    use: pricing
+    pages:
+    - 42
+    content_sha256: 788013bb7420a09ab6b3321dc708d2cdff84ef5439555e31832b1213ad5fb883
+    visual_second_pass:
+      status: verified
+      reviewer: visual second pass against scan images
+      date: '2026-09-24'
+      log: verification/second_pass_visual_log.txt
+    blind_numeric:
+      rates:
+        cells: 4
+        agree: 4
+        disagree: 0
+    status: verified

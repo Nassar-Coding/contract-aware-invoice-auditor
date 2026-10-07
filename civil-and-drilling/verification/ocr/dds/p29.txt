@@ -1,0 +1,16 @@
+DDS-2025-118 | Directional Drilling Services ee :
+APPENDIX A — DEFINITIONS
+: BHA mun the period from the running of a bottom hole assembly into the hole to its
+recovery.
+Circulating hours hours during which drilling fluid is pumped through the tool, as recorded
+: on the Daily Drilling Report.
+Company Representative the person the Company appoints on the rig.
+Day ; a calendar day from 00:00 to 24:00.
+_ Hole section the part of a well drilled with one bit size, identified by that size.
+Operating day ; a day recorded as Operating on the Daily Drilling Report.
+Standby day a day recorded as Standby on the Daily Drilling Report.
+Well class Standard, Extended Reach or HPHT, as stated in the call-off.
+Performance-drilled section a 12-1/4 inch or 8-1/2 inch section of a well the call-off nominates for
+performance drilling. :
+— CS SS
+Page 29 :

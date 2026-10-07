@@ -1,0 +1,452 @@
+# Drilling services contract DDS-2025-118 — contractual terms (G1).
+# Same conventions as terms_cw.yaml. Money in USD, cents; half-even at every step (Cl.17).
+contract: DDS
+reference: DDS-2025-118
+currency: USD
+minor_unit: cent
+source_pdf: drilling_services/contract/DDS-2025-118.pdf
+
+parameters:
+  - {id: DDS.P.commencement, value: "2025-01-01", page: 1, provision: "Agreement particulars"}
+  - {id: DDS.P.expiry_as_let, value: "2025-12-31", page: 1, provision: "Agreement particulars"}
+  - {id: DDS.P.expiry_A1, value: "2026-06-30", page: 39, provision: "A1"}
+  - {id: DDS.P.expiry_A2, value: "2026-12-31", page: 41, provision: "A2"}
+  - {id: DDS.P.vat_pct, value: "15", page: 8, provision: "Cl.39 (also p1 particulars)", note: "of the net amount, rounded under Cl.17"}
+  - {id: DDS.P.submission_window_days, value: "30", page: 8, provision: "Cl.33", note: "not before the last day of the period; within 30 days after it"}
+  - {id: DDS.P.rounding, value: "each step to the cent; exact half to the even cent", page: 6, provision: "Cl.17 (p6); 17A (p35); p1 particulars"}
+  - {id: DDS.P.invoice_discount_threshold, value: "250,000.00", page: 8, provision: "Cl.38 (p8); P11 (p11)", note: "sum of services on the invoice above threshold"}
+  - {id: DDS.P.invoice_discount_pct, value: "4", page: 8, provision: "Cl.38 (p8); P11 (p11)", note: "of the EXCESS over the threshold, rounded Cl.17, single negative charge DS-900; per invoice alone (P11)"}
+  - {id: DDS.P.dd120_min_hours, value: "6", page: 6, provision: "Cl.21 (p6); Sch 3 Part 7 (p22); P10 (p11)", note: "on any Operating day the tool is in the hole; per day, not averaged over a run"}
+  - {id: DDS.P.first_hour_excluded, value: "1", page: 35, provision: "21A", note: "first hour of each period in the hole is rig-up; report states hours run; invoice charges one fewer"}
+  - {id: DDS.P.metre_tolerance_pct, value: "1", page: 35, provision: "25A", note: "charged <= report + 1% payable as charged; beyond, at the report figure"}
+  - {id: DDS.P.lih_depreciation, value: "1% per complete 25 circulating hours accumulated on the well, max 50%", page: 7, provision: "Cl.31 (p7); Sch 6 (p25); P12 (p11); 31A (p35)"}
+  - {id: DDS.P.depth_boundary_rule, value: "boundary depth belongs to the shallower band", page: 6, provision: "Cl.23; Sch 2 (p17)"}
+  - {id: DDS.P.circulating_hour_rounding, value: "part hour of 30 minutes or more = whole hour", page: 14, provision: "R4"}
+
+tables:
+  DDS.T01_SCH1:
+    title: "Schedule 1 - Service rates (USD, ex VAT, adjusted under Cl.18)"
+    source: {pages: [15, 16], provision: "Schedule 1; Cl.18, 35"}
+    use: pricing
+    columns: [code, description, unit, rate]
+    rows:
+      - [DD-101, "Directional driller, 24-hour coverage", person-day, "1,847.35"]
+      - [DD-102, "Directional coordinator, office based", day, "948.60"]
+      - [DD-110, "Positive displacement motor rental", day, "1,417.75"]
+      - [DD-111, "Motor redress and inspection", run, "3,589.45"]
+      - [DD-120, "Rotary steerable system, circulating", hour, "384.15"]
+      - [DD-121, "Rotary steerable system on standby", day, "2,893.65"]
+      - [DD-130, "Gyro survey", survey, "2,446.15"]
+      - [DD-140, "Well planning and anti-collision study", well, "12,489.50"]
+      - [PD-201, "Drilling optimisation engineer", person-day, "2,094.85"]
+      - [PD-210, "Performance drilling footage", metre, "Schedule 2"]
+      - [PD-220, "Downhole vibration mitigation tool", day, "1,148.35"]
+      - [PD-230, "Drilling dynamics memory sub", day, "639.15"]
+      - [MW-301, "MWD engineer", person-day, "1,646.55"]
+      - [MW-310, "MWD directional and gamma tool", day, "2,245.85"]
+      - [MW-320, "Pressure while drilling module", day, "779.65"]
+      - [MW-330, "Real-time data transmission", day, "309.75"]
+      - [LW-401, "LWD engineer", person-day, "1,898.45"]
+      - [LW-410, "LWD resistivity, logged", metre, "11.37"]
+      - [LW-411, "LWD density and neutron, logged", metre, "16.83"]
+      - [LW-412, "LWD sonic, logged", metre, "13.29"]
+      - [LW-413, "Formation pressure tester, per pressure point", point, "1,849.65"]
+      - [LW-420, "Radioactive source handling", run, "2,746.55"]
+      - [LW-430, "LWD data processing and final log", well, "8,394.75"]
+      - [RM-510, "Hydraulic underreaming, reamed", metre, "38.45"]
+      - [RM-511, "Underreamer rental", day, "1,379.15"]
+      - [RM-520, "Roller reamer and stabiliser rental", day, "419.85"]
+      - [RM-530, "Back-reaming while tripping", hour, "264.55"]
+      - [HC-601, "Hole cleaning circulating sub", day, "689.35"]
+      - [HC-610, "Wiper trip supervision", trip, "1,947.15"]
+      - [HC-620, "Drilling jar rental", day, "539.65"]
+      - [HC-630, "Casing drift and clean-out run", run, "4,295.85"]
+      - [HC-640, "Cuttings bed monitoring", day, "719.55"]
+      - [MB-701, "Mobilisation to rig site", well, "18,497.50"]
+      - [MB-702, "Demobilisation from rig site", well, "14,196.25"]
+      - [LH-711, "Lost in hole, positive displacement motor", each, "Clause 31"]
+      - [LH-712, "Lost in hole, rotary steerable system", each, "Clause 31"]
+      - [LH-713, "Lost in hole, MWD tool", each, "Clause 31"]
+      - [LH-714, "Lost in hole, LWD resistivity tool", each, "Clause 31"]
+
+  DDS.T02_DEPTH_BANDS:
+    title: "Schedule 2 - PD-210 depth bands (boundary depth belongs to the shallower band)"
+    source: {pages: [17], provision: "Schedule 2; Cl.23"}
+    use: pricing
+    columns: [band, from_m, to_m, rate]
+    rows:
+      - ["1", "0", "1,500", "42.35"]
+      - ["2", "1,500", "3,000", "58.15"]
+      - ["3", "3,000", "4,500", "76.45"]
+      - ["4", "4,500", "", "98.70"]
+    note_on_page: "The rate is class-rated under Schedule 3 Part 2 and is not section-rated. (Conflicts with 17B; see spec/overrides.yaml OV-DDS-02.)"
+
+  DDS.T03_ANNUAL_BANDS:
+    title: "Schedule 2 Part 2 - Metres already drilled on the well in the Contract Year"
+    source: {pages: [17], provision: "Schedule 2 Part 2; 3A"}
+    use: pricing
+    columns: [from_m, to_m, pct]
+    rows:
+      - ["1", "40,000", "100"]
+      - ["40,001", "120,000", "96"]
+      - ["above 120,000", "", "92"]
+    note: "per well and Contract Year, counted from zero each Contract Year; an interval crossing a band is divided"
+
+  DDS.T04_RSI_ITEMS:
+    title: "Schedule 2C - Indexed services (Rig Services Index, base 100.00)"
+    source: {pages: [18], provision: "Schedule 2C; 17A"}
+    use: pricing
+    columns: [code, base_rate, unit]
+    rows:
+      - [MW-310, "2,245.85", day]
+      - [HC-620, "539.65", day]
+
+  DDS.T05_RSI:
+    title: "Schedule 2C - Rig Services Index by calendar month of performance"
+    source: {pages: [18], provision: "Schedule 2C; 17A"}
+    use: pricing
+    columns: [month, index]
+    rows:
+      - ["2025-01", "100.00"]
+      - ["2025-02", "100.70"]
+      - ["2025-03", "101.50"]
+      - ["2025-04", "102.30"]
+      - ["2025-05", "103.10"]
+      - ["2025-06", "103.60"]
+      - ["2025-07", "104.80"]
+      - ["2025-08", "105.40"]
+      - ["2025-09", "104.90"]
+      - ["2025-10", "106.20"]
+      - ["2025-11", "107.10"]
+      - ["2025-12", "108.00"]
+      - ["2026-01", "109.30"]
+      - ["2026-02", "110.00"]
+      - ["2026-03", "110.60"]
+      - ["2026-04", "111.40"]
+      - ["2026-05", "110.90"]
+      - ["2026-06", "112.20"]
+      - ["2026-07", "113.00"]
+      - ["2026-08", "112.60"]
+      - ["2026-09", "113.90"]
+      - ["2026-10", "114.70"]
+      - ["2026-11", "115.30"]
+      - ["2026-12", "116.10"]
+
+  DDS.T06_SAR_VALUES:
+    title: "Schedule 2D - Replacement values in SAR (converted under 31A at the month-of-loss rate)"
+    source: {pages: [19], provision: "Schedule 2D; Cl.31; 31A"}
+    use: pricing
+    columns: [code, sar_value]
+    rows:
+      - [LH-711, "543,750.00"]
+      - [LH-712, "4,687,500.00"]
+      - [LH-713, "1,443,750.00"]
+      - [LH-714, "1,950,000.00"]
+
+  DDS.T07_FX:
+    title: "Schedule 2D - Halalas per USD by calendar month"
+    source: {pages: [19], provision: "Schedule 2D; 31A"}
+    use: pricing
+    columns: [month, halalas_per_usd]
+    rows:
+      - ["2025-01", "375.00"]
+      - ["2025-02", "375.10"]
+      - ["2025-03", "375.00"]
+      - ["2025-04", "374.90"]
+      - ["2025-05", "375.20"]
+      - ["2025-06", "375.30"]
+      - ["2025-07", "375.10"]
+      - ["2025-08", "375.00"]
+      - ["2025-09", "374.80"]
+      - ["2025-10", "375.40"]
+      - ["2025-11", "375.60"]
+      - ["2025-12", "375.50"]
+      - ["2026-01", "376.00"]
+      - ["2026-02", "375.80"]
+      - ["2026-03", "375.90"]
+      - ["2026-04", "376.20"]
+      - ["2026-05", "376.40"]
+      - ["2026-06", "376.10"]
+      - ["2026-07", "375.70"]
+      - ["2026-08", "376.30"]
+      - ["2026-09", "376.60"]
+      - ["2026-10", "376.80"]
+      - ["2026-11", "377.00"]
+      - ["2026-12", "376.50"]
+
+  DDS.T08_SECTION_FACTORS:
+    title: "Schedule 3 Part 1 - Hole-section factors"
+    source: {pages: [20], provision: "Schedule 3 Part 1; Cl.18; 17B"}
+    use: pricing
+    columns: [section, factor]
+    rows:
+      - ['26"', "1.315"]
+      - ['17-1/2"', "1.145"]
+      - ['12-1/4"', "1.00"]
+      - ['8-1/2"', "0.945"]
+      - ['6"', "0.885"]
+
+  DDS.T09_SECTION_RATED:
+    title: "Schedule 3 Part 1 - Section-rated services"
+    source: {pages: [20], provision: "Schedule 3 Part 1"}
+    use: eligibility
+    columns: [code]
+    rows: [[DD-110], [DD-120], [PD-220], [MW-310], [RM-510], [RM-511]]
+
+  DDS.T10_CLASS_FACTORS:
+    title: "Schedule 3 Part 2 - Well-class factors"
+    source: {pages: [20], provision: "Schedule 3 Part 2; Cl.4, 18; P2, P3; 17B"}
+    use: pricing
+    columns: [class, factor]
+    rows:
+      - [Standard, "1.00"]
+      - [Extended Reach, "1.175"]
+      - [HPHT, "1.325"]
+
+  DDS.T11_CLASS_RATED:
+    title: "Schedule 3 Part 2 - Class-rated services (PD-210 excluded by 17B; see OV-DDS-02)"
+    source: {pages: [20], provision: "Schedule 3 Part 2"}
+    use: eligibility
+    columns: [code]
+    rows: [[DD-120], [PD-210], [MW-310], [MW-320], [LW-410], [LW-411], [LW-412], [LW-413]]
+
+  DDS.T12_STANDBY:
+    title: "Schedule 3 Part 3 - Standby percentage of the operating rate (NC = not chargeable on a Standby day)"
+    source: {pages: [20, 21], provision: "Schedule 3 Part 3; Cl.20; P13"}
+    use: pricing
+    columns: [code, standby_pct]
+    note: "per-well and loss services are charged in full whatever the status"
+    rows:
+      - [DD-101, "80"]
+      - [DD-102, "100"]
+      - [DD-110, "50"]
+      - [DD-111, "100"]
+      - [DD-120, NC]
+      - [DD-130, NC]
+      - [PD-201, "80"]
+      - [PD-210, NC]
+      - [PD-220, "50"]
+      - [PD-230, "50"]
+      - [MW-301, "80"]
+      - [MW-310, "50"]
+      - [MW-320, "50"]
+      - [MW-330, "100"]
+      - [LW-401, "80"]
+      - [LW-410, NC]
+      - [LW-411, NC]
+      - [LW-412, NC]
+      - [LW-413, NC]
+      - [LW-420, "100"]
+      - [RM-510, NC]
+      - [RM-511, "50"]
+      - [RM-520, "50"]
+      - [RM-530, NC]
+      - [HC-601, "50"]
+      - [HC-610, NC]
+      - [HC-620, "50"]
+      - [HC-630, NC]
+      - [HC-640, NC]
+
+  DDS.T13_DAILY_LIMITS:
+    title: "Schedule 3 Part 5 - Daily limits per well per day"
+    source: {pages: [21, 22], provision: "Schedule 3 Part 5; Cl.22"}
+    use: quantity
+    columns: [code, limit, unit]
+    rows:
+      - [DD-101, "2", person-day]
+      - [DD-102, "1", day]
+      - [DD-110, "1", day]
+      - [DD-120, "24", hour]
+      - [DD-121, "1", day]
+      - [DD-130, "3", survey]
+      - [PD-201, "1", person-day]
+      - [PD-220, "1", day]
+      - [PD-230, "1", day]
+      - [MW-301, "2", person-day]
+      - [MW-310, "1", day]
+      - [MW-320, "1", day]
+      - [MW-330, "1", day]
+      - [LW-401, "1", person-day]
+      - [LW-413, "12", point]
+      - [RM-511, "1", day]
+      - [RM-520, "1", day]
+      - [RM-530, "24", hour]
+      - [HC-601, "1", day]
+      - [HC-610, "2", trip]
+      - [HC-620, "1", day]
+      - [HC-640, "1", day]
+
+  DDS.T14_ONCE_PER_WELL:
+    title: "Schedule 3 Part 6 - Once per well"
+    source: {pages: [22], provision: "Schedule 3 Part 6; Cl.27"}
+    use: quantity
+    columns: [code, day]
+    rows:
+      - [DD-140, "first day on the well (Cl.27, p7)"]
+      - [LW-430, "last day on the well, only where LWD run (Cl.27)"]
+      - [MB-701, "first day on the well (Cl.27)"]
+      - [MB-702, "last day on the well (Cl.27)"]
+
+  DDS.T15_STANDBY_SUBSTITUTE_AND_MINIMUM:
+    title: "Schedule 3 Parts 4 and 7 - DD-121 in place of DD-120 on Standby; DD-120 minimum"
+    source: {pages: [21, 22], provision: "Schedule 3 Parts 4, 7; Cl.21; P10"}
+    use: quantity
+    columns: [rule, value]
+    rows:
+      - ["DD-121 only on a Standby day, in place of DD-120", "Part 4"]
+      - ["DD-120 minimum hours on an Operating day with the tool in the hole", "6"]
+
+  DDS.T16_PERSONNEL:
+    title: "Schedule 4 - Personnel (number charged = number recorded on the DDR, Clause 22, not this table)"
+    source: {pages: [23], provision: "Schedule 4; Cl.6, 22"}
+    use: coverage
+    columns: [code, position, normally_on_rig]
+    rows:
+      - [DD-101, "Directional driller", "2, whole well"]
+      - [DD-102, "Directional coordinator", "1, office based, whole well"]
+      - [MW-301, "MWD engineer", "2, whole well"]
+      - [LW-401, "LWD engineer", "1, while LWD tools are in the hole"]
+      - [PD-201, "Drilling optimisation engineer", "1, performance-drilled sections"]
+
+  DDS.T17_SCH5_PARTS:
+    title: "Schedule 5 - The Daily Drilling Report and its parts (no separate run, survey, source or loss documents)"
+    source: {pages: [24], provision: "Schedule 5; Cl.15, 16, 37"}
+    use: evidence
+    columns: [part, contents, completed]
+    rows:
+      - [A, "Operations summary: section, status, depths, circulating hours, BHA run number, tools in hole, personnel on the rig, and the quantities measured that day", "every day"]
+      - [B, "BHA run record: run number, first and last day of the run, tools in the run, circulating hours, metres logged and reamed, and whether a radioactive source was carried", "every day of a run"]
+      - [C, "Gyro survey record: surveys taken that day", "a day on which surveys were taken"]
+      - [D, "Radioactive source handling: the sources handled and their certification", "a day on which a source was run"]
+      - [E, "Lost in hole: the tool, its service code, the run, and the circulating hours accumulated on the well at the time of the loss", "a day on which a tool was lost"]
+
+  DDS.T18_SCH5_CODES:
+    title: "Schedule 5 - Services and the part that is a condition of payment (Cl.37)"
+    source: {pages: [24], provision: "Schedule 5; Cl.37"}
+    use: evidence
+    columns: [code, part]
+    rows:
+      - [DD-111, B]
+      - [DD-130, C]
+      - [LW-410, B]
+      - [LW-411, B]
+      - [LW-412, B]
+      - [LW-413, B]
+      - [LW-420, D]
+      - [RM-510, B]
+      - [LH-711, E]
+      - [LH-712, E]
+      - [LH-713, E]
+      - [LH-714, E]
+
+  DDS.T19_SCH6_USD:
+    title: "Schedule 6 - Lost-in-hole values when let (USD); superseded for pricing by Sch 2D under 31A"
+    source: {pages: [25], provision: "Schedule 6; Cl.31; 31A"}
+    use: consistency
+    columns: [code, usd_value]
+    rows:
+      - [LH-711, "145,000.00"]
+      - [LH-712, "1,250,000.00"]
+      - [LH-713, "385,000.00"]
+      - [LH-714, "520,000.00"]
+
+  DDS.T20_GLOSSARY:
+    title: "Appendix G - Terms used in the field reports (as Schedule 1 describes it -> as the report writes it)"
+    source: {pages: [36], provision: "Appendix G; 19A"}
+    use: evidence
+    intro: "The Daily Drilling Report is written in the ordinary words of the rig (Clause 19A). The terms below are the ones it uses for the items Schedule 1 prices."
+    footnote: "A tool lost in the hole is recorded by the term above; the item charged is the replacement value Schedule 6 states against it. (Superseded as to value by 31A: Schedule 2D governs; see OV-DDS-04.)"
+    columns: [code, schedule1_description, report_term]
+    rows:
+      - [DD-101, "Directional driller, 24-hour coverage", "directional hands"]
+      - [DD-102, "Directional coordinator, office based", "night man"]
+      - [DD-110, "Positive displacement motor rental", "mud motor"]
+      - [DD-120, "Rotary steerable system, circulating", "rotary steerable"]
+      - [HC-601, "Hole cleaning circulating sub", "circulating sub"]
+      - [HC-620, "Drilling jar rental", "drilling jars"]
+      - [HC-640, "Cuttings bed monitoring", "float sub"]
+      - [LH-711, "Lost in hole, positive displacement motor", "mud motor"]
+      - [LH-712, "Lost in hole, rotary steerable system", "rotary steerable"]
+      - [LH-713, "Lost in hole, MWD tool", "MWD collar"]
+      - [LH-714, "Lost in hole, LWD resistivity tool", "gamma tool"]
+      - [LW-401, "LWD engineer", "logging engineers"]
+      - [LW-410, "LWD resistivity, logged", "gamma tool"]
+      - [LW-411, "LWD density and neutron, logged", "resistivity tool"]
+      - [LW-412, "LWD sonic, logged", "density-neutron"]
+      - [MW-301, "MWD engineer", "MWD engineers"]
+      - [MW-310, "MWD directional and gamma tool", "MWD collar"]
+      - [MW-320, "Pressure while drilling module", "survey package"]
+      - [MW-330, "Real-time data transmission", "real-time link"]
+      - [PD-201, "Drilling optimisation engineer", "performance engineer"]
+      - [PD-220, "Downhole vibration mitigation tool", "bit and reamer"]
+      - [PD-230, "Drilling dynamics memory sub", "hydraulics package"]
+      - [RM-511, "Underreamer rental", "hole opener"]
+      - [RM-520, "Roller reamer and stabiliser rental", "stabiliser string"]
+
+  DDS.T21_APPB_EXAMPLE:
+    title: "Appendix B - Form of invoice (worked example; HPHT well)"
+    source: {pages: [30], provision: "Appendix B"}
+    use: example
+    columns: [date, code, section, status, qty, rate, amount, depths]
+    rows:
+      - ["03-Jun-2025", DD-101, '12-1/4"', Standby, "2", "1,477.88", "2,955.76", ""]
+      - ["04-Jun-2025", MW-310, '12-1/4"', Operating, "1", "2,975.75", "2,975.75", ""]
+      - ["04-Jun-2025", DD-120, '12-1/4"', Operating, "18", "509.00", "9,162.00", ""]
+      - ["04-Jun-2025", PD-210, '12-1/4"', Operating, "70", "58.15", "4,070.50", "2,930-3,000"]
+      - ["04-Jun-2025", PD-210, '12-1/4"', Operating, "85", "76.45", "6,498.25", "3,000-3,085"]
+    totals: {net: "25,662.26", vat: "3,849.34", total: "29,511.60"}
+    discount_example: {services_total: "312,400.00", ds900: "-2,496.00"}
+
+  DDS.T22_APPF_EXAMPLE:
+    title: "Appendix F - Lost in hole report example"
+    source: {pages: [34], provision: "Appendix F; Cl.31"}
+    use: example
+    columns: [code, circulating_hours, depreciation_pct]
+    rows:
+      - [LH-713, "412", "16"]
+
+  DDS.T23_SCH8:
+    title: "Schedule 8 - Scope of services: what each service covers and the event its charge is for"
+    source: {pages: [27, 28], provision: "Schedule 8"}
+    use: quantity
+    intro: "What each service covers and the event its charge is for. Item DD-102 is office based and is charged per day for each coordinator the Daily Drilling Report records."
+    columns: [code, charged_for]
+    rows:
+      - [DD-101, "each person recorded on the rig on the Daily Drilling Report, per day"]
+      - [DD-102, "each day the Daily Drilling Report records the tool in the hole"]
+      - [DD-110, "each day the Daily Drilling Report records the tool in the hole"]
+      - [DD-111, "each BHA run, as Clause 26 describes"]
+      - [DD-120, "each circulating or back-reaming hour recorded on the report"]
+      - [DD-121, "each day the Daily Drilling Report records the tool in the hole"]
+      - [DD-130, "each gyro survey recorded on the report"]
+      - [DD-140, "once for the well, as Clause 27 describes"]
+      - [PD-201, "each person recorded on the rig on the Daily Drilling Report, per day"]
+      - [PD-210, "each metre drilled, logged or reamed as Clauses 23 to 25 describe"]
+      - [PD-220, "each day the Daily Drilling Report records the tool in the hole"]
+      - [PD-230, "each day the Daily Drilling Report records the tool in the hole"]
+      - [MW-301, "each person recorded on the rig on the Daily Drilling Report, per day"]
+      - [MW-310, "each day the Daily Drilling Report records the tool in the hole"]
+      - [MW-320, "each day the Daily Drilling Report records the tool in the hole"]
+      - [MW-330, "each day the Daily Drilling Report records the tool in the hole"]
+      - [LW-401, "each person recorded on the rig on the Daily Drilling Report, per day"]
+      - [LW-410, "each metre drilled, logged or reamed as Clauses 23 to 25 describe"]
+      - [LW-411, "each metre drilled, logged or reamed as Clauses 23 to 25 describe"]
+      - [LW-412, "each metre drilled, logged or reamed as Clauses 23 to 25 describe"]
+      - [LW-413, "each formation pressure point recorded on the report"]
+      - [LW-420, "each BHA run, as Clause 26 describes"]
+      - [LW-430, "once for the well, as Clause 27 describes"]
+      - [RM-510, "each metre drilled, logged or reamed as Clauses 23 to 25 describe"]
+      - [RM-511, "each day the Daily Drilling Report records the tool in the hole"]
+      - [RM-520, "each day the Daily Drilling Report records the tool in the hole"]
+      - [RM-530, "each circulating or back-reaming hour recorded on the report"]
+      - [HC-601, "each day the Daily Drilling Report records the tool in the hole"]
+      - [HC-610, "each wiper trip recorded on the report"]
+      - [HC-620, "each day the Daily Drilling Report records the tool in the hole"]
+      - [HC-630, "each BHA run, as Clause 26 describes"]
+      - [HC-640, "each day the Daily Drilling Report records the tool in the hole"]
+      - [MB-701, "once for the well, as Clause 27 describes"]
+      - [MB-702, "once for the well, as Clause 27 describes"]
+      - [LH-711, "each tool lost in the hole, as Clause 31 describes"]
+      - [LH-712, "each tool lost in the hole, as Clause 31 describes"]
+      - [LH-713, "each tool lost in the hole, as Clause 31 describes"]
+      - [LH-714, "each tool lost in the hole, as Clause 31 describes"]

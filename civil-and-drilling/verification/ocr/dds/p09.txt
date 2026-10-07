@@ -1,0 +1,37 @@
+eeeeeeeeeeeeeeeeeeeeeeeeEeeeeEEeEEeeeeEEEeEee—e——eEe————E—E—E——=
+DDS-2025-118 | Directional Drilling Services a — a _
+PART V — TECHNICAL REQUIREMENTS
+T1. Survey programme : : :
+: Surveys shall be taken at intervals not exceeding 30 m in any build or turn section and 90 m in tangent :
+sections. ; .
+T2. Survey accuracy . :
+MWD surveys shall meet the ISCWSA error model for the tool; gyro surveys shall be run where magnetic
+interference is expected. :
+T3. Anti-collision : ,
+No section shall be drilled without an approved anti-collision report for the well.
+T4. Rotary steerable systems : ;
+, Rotary steerable systems shall be capable of dog-leg severities of 6 degrees per 30 m in 12-1/4inchand .
+8-1/2 inch hole. : :
+T5. Positive displacement motors
+Motors shall be inspected and redressed after every run; redress is charged under Clause 26.
+T6. MWD tools ;
+: MWD tools shall transmit inclination, azimuth, tool face and gamma ray in real time. : .
+T7. Pressure while drilling : is
+A The pressure while drilling module shall record annular and bore pressure at intervals not exceeding 10 .
+: seconds. .
+T8. LWD resistivity : ; ;
+Resistivity shall be measured at no fewer than four depths of investigation.
+: T9. LWD density and neutron a .
+Density and neutron measurements require a radioactive source handled under Clause H6.
+T10. LWD sonic |
+The sonic tool shall record compressional and shear slowness. , .
+T11. Formation pressure testing .
+. Pressure points shall be taken only at depths the Company Representative approves.
+T12. Underreaming
+The underreamer shall open the hole to not less than the diameter in the well programme and shall be
+. verified by caliper. :
+é T13. Hole cleaning
+Cuttings bed monitoring shall be provided in 12-1/4 inch hole with inclination above 60 degrees. }
+T14. Jars
+Page 9 :
+SS

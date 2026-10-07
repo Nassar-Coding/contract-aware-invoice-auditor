@@ -1,0 +1,61 @@
+# G3: the independent readers' figures and the engine's contested figures checked by eye on the scan images
+# (verification/pages/{cw,dds}/pNN.png, cropped; the OCR text was used only to find the rows). Done after the readers
+# finished, by the implementer, not by a reader. `agrees` = the figure printed on the image equals the value used.
+readers_figures:
+  - {case: CW-S56, figure: "D.41.020 rate for June 2025 (S1 cl.1.2 monthly re-measurement)", used: "219.80", page: "CW p39", printed: "219.80", agrees: true}
+  - {case: CW-S19, figure: "C.32.040 rate (USD, Sch 2B)", used: "423.00", page: "CW p22", printed: "423.00", agrees: true}
+  - {case: CW-S19, figure: "rate of exchange 2025-01 (halalas per USD)", used: "375.00", page: "CW p22", printed: "375.00", agrees: true}
+  - {case: CW-R01, figure: "B.23.020 rate (USD, Sch 2B)", used: "38.40", page: "CW p22", printed: "38.40", agrees: true}
+  - {case: CW-R01, figure: "rate of exchange 2026-01", used: "376.00", page: "CW p22", printed: "376.00", agrees: true}
+  - {case: CW-S20, figure: "C.31.010 base rate (Sch 2A)", used: "86.20", page: "CW p21", printed: "86.20", agrees: true}
+  - {case: CW-S20, figure: "Site Materials Index 2025-05", used: "102.60", page: "CW p21", printed: "102.60", agrees: true}
+  - {case: DDS-S57, figure: "DD-101 Schedule 1 rate", used: "1847.35", page: "DDS p15", printed: "1,847.35", agrees: true}
+  - {case: DDS-S15, figure: "PD-210 band 3 (over 3,000 m to 4,500 m); a boundary depth belongs to the shallower band", used: "76.45", page: "DDS p17", printed: "76.45", agrees: true}
+  - {case: DDS-S12, figure: "MW-310 base rate (Sch 2C)", used: "2245.85", page: "DDS p18", printed: "2,245.85", agrees: true}
+  - {case: DDS-S12, figure: "Rig Services Index 2025-06", used: "103.60", page: "DDS p18", printed: "103.60", agrees: true}
+  - {case: DDS-S37, figure: "LH-713 replacement value (SAR, Sch 2D)", used: "1443750.00", page: "DDS p19", printed: "1,443,750.00", agrees: true}
+  - {case: DDS-S37, figure: "rate of exchange 2025-06", used: "375.30", page: "DDS p19", printed: "375.30", agrees: true}
+  - {case: DDS-R10, figure: "LH-712 replacement value (SAR)", used: "4687500.00", page: "DDS p19", printed: "4,687,500.00", agrees: true}
+  - {case: DDS-R10, figure: "rate of exchange 2025-01", used: "375.00", page: "DDS p19", printed: "375.00", agrees: true}
+falsification_probes:   # real lines where billing differs from the engine: could the engine be the one that is wrong?
+  - line: PA-00115-05
+    question: "billed 121.80, engine 121.79 (one halala)"
+    finding: "69.20 x 1.28 = 88.576; billing rounded it to 88.58 before x 1.375 (= 121.7975 -> 121.80). Cl.28 (p6) rounds the built-up rate once; exact 121.792 -> 121.79. Engine follows the clause."
+  - line: MDS-00586-039
+    question: "PD-210 billed 98.70, engine 76.45"
+    finding: "charged interval 4,107-4,199 m lies in band 3 (76.45, DDS p17); 98.70 is band 4 (over 4,500 m). Engine follows Sch 2."
+  - line: MDS-01387-037
+    question: "PD-210 billed 77.05 on an HPHT well, engine 58.15"
+    finding: "58.15 is band 2 for 2,829-2,995 m; billing applied a class factor, which 17B (p35) excludes for PD-210 (decision D1; the Sch 2 note on p17 'class-rated under Schedule 3 Part 2' is the recorded alternative)."
+  - line: "MDS-00840-023 and 4 other DD-121 lines"
+    question: "billed 2,893.65 (the Schedule 1 figure on p15), engine 2,984.00"
+    finding: "Supplement No. 1 1.1 (DDS p38) substitutes 2,984.00 for services on or after 2025-07-01; the five lines are on or after that date. Engine follows the instrument."
+  - line: PA-00297-07
+    question: "D.41.020 billed 72.71, engine 252.47"
+    finding: "72.71 = the Sch 1 base 63.50 x zone Z3 1.145; for work in November 2025 S1 cl.1.2 (CW p39) makes the monthly re-measured rate payable; the last published month, September 2025 (220.50, G1-verified table), is carried forward ('the rate last published applies until it is superseded', p39); x 1.145 = 252.4725 -> 252.47. Carry-forward itself is independently confirmed by case CW-S09."
+review_findings_f:   # review findings F1-F4: the v3 readers' figures and the clauses the fixes rest on, read on the images
+  - {case: "DDS-S66, S67, R23; all class-rated re-reads", figure: "well class factors Standard / Extended Reach / HPHT (Sch 3 Part 2)", used: "1.00 / 1.175 / 1.325", page: "DDS p20", printed: "1.00 / 1.175 / 1.325 (HPHT row cut in the crop; OCR 1.325)", agrees: true}
+  - {case: "CW-S62, S63", figure: "A.13.010 Schedule 1 rate", used: "18.90", page: "CW p17", printed: "18.90", agrees: true}
+  - {case: "CW-S59, R23", figure: "A.12.050 Schedule 1 rate", used: "52.40", page: "CW p17", printed: "52.40", agrees: true}
+  - {case: "CW-S60", figure: "A.12.030 Schedule 1 rate", used: "47.60", page: "CW p17", printed: "47.60", agrees: true}
+  - {case: "CW-R22", figure: "C.35.010 Schedule 1 rate", used: "9.40", page: "CW p18", printed: "9.40", agrees: true}
+  - {case: "CW-R21", figure: "D.41.040 band 1 extent (Sch 4 Part 3)", used: "1 to 3,500 m2 at 100%", page: "CW p25", printed: "1 to 3,500 m2 100%", agrees: true}
+  - {case: "DDS-S65", figure: "HC-630 Schedule 1 rate", used: "4295.85", page: "DDS p16", printed: "4,295.85", agrees: true}
+  - {case: "DDS-S01/S02", figure: "DD-120 substituted rate from 2025-07-01 (Supplement No. 1)", used: "398.50", page: "DDS p38", printed: "398.50", agrees: true}
+clauses_read_for_the_fixes:
+  - {fix: F1, clause: "DDS Cl.4 'The well class stated in the call-off governs the whole well'; P2, P3 'where the call-off so states'", page: "DDS p3, p11"}
+  - {fix: F2, clause: "CW S4 'classified at the point of excavation and recorded on the daily excavation record ... not recorded on the day ... G2'; Cl.5 'determined by the Engineer ... confirmed in writing'", page: "CW p10, p3"}
+  - {fix: F3, clause: "CW Cl.28 'where Clause 30 divides a quantity at a rebate threshold, each part is multiplied by its own rounded rate and the amount is their sum'; Sch 4 Part 3 'a measurement that crosses a band is divided at the band'", page: "CW p6, p24"}
+  - {fix: F4, clause: "DDS Cl.23 'at the rate of the Schedule 2 depth band in which the metres lie'; 25A 'payable as charged'", page: "DDS p6, p35"}
+  - {fix: Q5/D8, clause: "DDS Cl.2 'Parts I to VII, Schedules 1 to 6 and Appendices A to C. A Schedule prevails over a Part'; CW Cl.2 'the General Conditions, Schedules 1 to 5 and Appendix A'", page: "DDS p3, CW p3"}
+review_findings_b:   # review findings B1-B2: the v4 readers' figures and the clauses the fixes rest on, read on the images
+  - {case: "CW-S64..S68", figure: "A.12.020 Schedule 1 rate", used: "34.80", page: "CW p17", printed: "34.80", agrees: true}
+  - {case: "CW-R25", figure: "A.12.040 Schedule 1 rate", used: "69.20", page: "CW p17", printed: "69.20", agrees: true}
+  - {case: "CW-S64, S68, R25", figure: "ground factors G1 / G3 / G5 (Sch 3)", used: "0.94 / 1.12 / 1.63", page: "CW p23", printed: "0.94 / 1.12 / 1.63", agrees: true}
+  - {case: "DDS-S71..S76", figure: "PD-210 band 1 / band 2 rates (Sch 2)", used: "42.35 / 58.15", page: "DDS p17", printed: "42.35 / 58.15", agrees: true}
+  - {case: "DDS-S76", figure: "Cl.17 'Every amount is ascertained in cents' (half to even)", used: "part amounts rounded half-even to the cent", page: "DDS p6", printed: "Every amount is ascertained in cents ... rounded to the even cent", agrees: true}
+clauses_read_for_review_findings_b:
+  - {fix: B1, clause: "CW S4 'classified at the point of excavation and recorded on the daily excavation record'; Cl.5 'determined by the Engineer ... confirmed in writing'; Cl.46-47 (records required by Schedule 5); Cl.42 (application content, no record reference)", page: "CW p10, p3, p8"}
+  - {fix: "B1 follow-up", clause: "App A 'Engineer: the person appointed ... or that person's representative', 'Ground classification: the category assigned under Clause 5'; 27A 'whatever the Engineer recorded on the day'", page: "CW p34, p32"}
+  - {fix: B2, clause: "DDS Cl.23 'taken from the measured depths on the Daily Drilling Report, at the rate of the Schedule 2 depth band in which the metres lie'; 25A 'payable as charged'; Cl.34 depths; Cl.17 cents", page: "DDS p6, p35, p8"}
+  - {fix: D8, clause: "DDS Cl.2 'Parts I to VII, Schedules 1 to 6 and Appendices A to C. A Schedule prevails over a Part, and Part VI prevails over Parts I to V'; Sch 1 DD-120 'Rotary steerable system, circulating', RM-530 'Back-reaming while tripping'; Sch 8 rows 'each circulating or back-reaming hour recorded', HC-630 'each BHA run, as Clause 26 describes'", page: "DDS p3, p15-16, p27-28"}

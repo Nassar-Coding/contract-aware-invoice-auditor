@@ -1,0 +1,13 @@
+# G3 reference cases, civil contract, IDENTITY and area evidence: INPUTS ONLY (no expected values).
+# Added during G3 after the first case set was found to have no identity case (a gap in coverage of the G3 scope
+# "identity and period"). Written before any change to the engine's identity check, and read by independent readers
+# with the v2 reader instructions (v1 plus the identity finding codes). Same defaults as synthetic_cw.yaml.
+# The contract-reference variant is the one that occurs in the supplied applications (CW-2024-0417-CIV).
+defaults:
+  application: {contract_ref: CW-2025-0417-CIV, subcontractor: Ridgeway Civil Engineering LLC, submit_after_days: 5}
+  line: {site: S-01 Platform North, site_zone: Z1 Compound, ground_class: "", night_work: N, record_ref: ""}
+  state: {band_pct: "100", note: "annual quantity-band state is supplied as an input (G4 owns it); no other lines exist"}
+cases:
+  - {id: CW-S56, tests: "application quotes contract reference CW-2024-0417-CIV (one digit group differs)", application: {contract_ref: CW-2024-0417-CIV}, line: {item_code: D.41.020, unit: m2, quantity: "100", work_date: "2025-06-10"}}
+  - {id: CW-S57, tests: "application names a subcontractor other than the contract's", application: {subcontractor: Ridgeway Civil Works LLC}, line: {item_code: D.41.020, unit: m2, quantity: "100", work_date: "2025-06-10"}}
+  - {id: CW-S58, tests: "record is for another work area than the line's site", line: {item_code: A.12.030, unit: m3, quantity: "100", work_date: "2025-06-10", record_ref: DX-90058}, record: {series: DX, title: DAILY EXCAVATION RECORD, area: S-02, date: "2025-06-10", ground: G2, narrative: "trench dig 100 cube, 3 m deep section", signed: both}}

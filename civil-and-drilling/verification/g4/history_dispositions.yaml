@@ -1,0 +1,313 @@
+about: 'Settlement of every disagreement between the G4 engine and the isolated readers (tools/g4_history_compare.py). settled: engine (the reader''s
+  value is not what the contract says; page cited), reader (engine defect, fixed), both (the contract or a registered open question leaves it
+  open; the engine carries the reader''s value as an alternative), presentation (same money, different form).'
+fixed_in_engine:
+- 'HC-630 once per BHA run under the Schedule 8 reading (Q5 residual) was not applied: DDS-H03, r5 (audit/g4_dds.py _hc630_runs)'
+- 'exclusion on the day of the excluding measurement was decided; Cl.32/Sch 4 Part 5 ''following'' vs P19 ''within two days of'' is not settled
+  by the text: now carried (Q6 D) - CW-H06 r1/r2'
+- 'band_divided / footage_band_divided were reported as established where the division held under some readings only: now ''unresolved'' there'
+- a same-day repeat of a run/well event did not also carry Cl.29 charged_twice; a well event charged again after its day did not carry well_event_repeated
+  - DDS-H03, DDS-H04, DDS-R01
+- g4_core.collapse dropped a dimension present under one reading only (a label set that is not a full product) - found on DDS-H03
+dispositions:
+  'CW-H02|r1|PA-92003-01: amount: engine [''1432.90'', ''1466.80'', ''1500.70'', ''1512.00''] reader [''1432.90'', ''1512.00'']':
+    settled: engine
+    basis: Sch 4 Part 3 (p24) substitutes Cl.30 and states no order for measurements of one date; every order of the three 10-Feb measurements
+      is admissible. r1 gave two orders (Cl.30's wording and submission); r2 gave all six and agrees with the engine exactly.
+  'CW-H02|r1|PA-92002-01: amount: engine [''1066.20'', ''1088.80'', ''1134.00''] reader [''1088.80'', ''1134.00'']':
+    settled: engine
+    basis: Sch 4 Part 3 (p24) substitutes Cl.30 and states no order for measurements of one date; every order of the three 10-Feb measurements
+      is admissible. r1 gave two orders (Cl.30's wording and submission); r2 gave all six and agrees with the engine exactly.
+  'CW-H02|r1|PA-92002-02: amount: engine [''533.10'', ''555.70'', ''567.00''] reader [''533.10'', ''567.00'']':
+    settled: engine
+    basis: Sch 4 Part 3 (p24) substitutes Cl.30 and states no order for measurements of one date; every order of the three 10-Feb measurements
+      is admissible. r1 gave two orders (Cl.30's wording and submission); r2 gave all six and agrees with the engine exactly.
+  'CW-H03|r1|PA-93002-02: amount: engine [''4252.50'', ''4725.00''] reader [''4725.00'']':
+    settled: both
+    basis: 'Q12 (3A p32): r1 used the 5 January 2026 reset; r2 and the engine carry both readings (4725.00 reset, 4252.50 no reset). Register
+      Q12 open, owner G5.'
+  'CW-H04|r1|PA-94002-01: amount: engine [''24035.00'', ''24871.00''] reader [''24871.00'']':
+    settled: both
+    basis: 'Q6 (Sch 4 Part 3 p24 ''the quantity measured''): both readers counted payable quantity only (Q6 B) and gave the Q6 A value 24035.00
+      in their note; the engine carries both (register Q6 open).'
+  'CW-H04|r2|PA-94002-01: amount: engine [''24035.00'', ''24871.00''] reader [''24871.00'']':
+    settled: both
+    basis: 'Q6 (Sch 4 Part 3 p24 ''the quantity measured''): both readers counted payable quantity only (Q6 B) and gave the Q6 A value 24035.00
+      in their note; the engine carries both (register Q6 open).'
+  'CW-H08|r4|PA-98002-01: amount: engine [''389.00''] reader [''0.00'', ''389.00'']':
+    settled: engine
+    basis: 'Cl.44 (p8) ''the later measurement shall be disallowed'': the repeated measurements share item, area and date, so ''later'' can only
+      be when they were presented - the later-submitted application (PA-98001, 20-Aug); the application number is not a date. r3 reached the same
+      result; the money is the same either way. Same-day submissions stay open (the engine''s ''earlier'' dimension).'
+  'CW-H08|r4|PA-98001-01: amount: engine [''0.00''] reader [''0.00'', ''389.00'']':
+    settled: engine
+    basis: 'Cl.44 (p8) ''the later measurement shall be disallowed'': the repeated measurements share item, area and date, so ''later'' can only
+      be when they were presented - the later-submitted application (PA-98001, 20-Aug); the application number is not a date. r3 reached the same
+      result; the money is the same either way. Same-day submissions stay open (the engine''s ''earlier'' dimension).'
+  'CW-H08|r4|PA-98001-01: state findings: engine [''duplicate_measurement''] (open []) reader []':
+    settled: engine
+    basis: 'Cl.44 (p8) ''the later measurement shall be disallowed'': the repeated measurements share item, area and date, so ''later'' can only
+      be when they were presented - the later-submitted application (PA-98001, 20-Aug); the application number is not a date. r3 reached the same
+      result; the money is the same either way. Same-day submissions stay open (the engine''s ''earlier'' dimension).'
+  'CW-H12|r4|PA-9C002-01: amount: engine [''5396.00'', ''5680.00''] reader [''5680.00'']':
+    settled: both
+    basis: 'Q12 (3A p32): r4 used the reset reading; r3 and the engine carry both (5680.00 reset, 5396.00 no reset).'
+  'CW-R02|r1|PA-00059-01: amount: engine [''0.00''] reader [''0.00'', ''1480.00'']':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r1|PA-00059-01: state findings: engine [''duplicate_measurement''] (open []) reader []':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r1|PA-00309-05: amount: engine [''0.00''] reader [''0.00'', ''1480.00'']':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r1|PA-00309-05: state findings: engine [''duplicate_measurement''] (open []) reader []':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r1|PA-00431-07: amount: engine [''1568.80''] reader [''0.00'', ''1568.80'']':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r2|PA-00059-01: amount: engine [''0.00''] reader [''0.00'', ''1480.00'']':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r2|PA-00059-01: state findings: engine [''duplicate_measurement''] (open []) reader []':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r2|PA-00309-05: amount: engine [''0.00''] reader [''0.00'', ''1480.00'']':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r2|PA-00309-05: state findings: engine [''duplicate_measurement''] (open []) reader []':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R02|r2|PA-00431-07: amount: engine [''1568.80''] reader [''0.00'', ''1568.80'']':
+    settled: engine
+    basis: 'A weekly item (unit ''week'', Sch 1; one dewatering log per week, Sch 5 note p27 and 47A p33) is measured by the week: the three lines
+      are the same item, work area (S-05) and week, so Cl.44 (p8) disallows the later measurements (G4-D3). ''Later'' is the later submission
+      (see CW-H08): PA-00431 (28-Feb) stands, PA-00309 (02-Mar) and PA-00059 (10-Mar) are disallowed. The readers left ''later'' open between
+      submission, application number and work date; the work date inside the week does not date the weekly measurement and the application number
+      is not a date. r3/r4 treated a reused week the same way in CW-H08.'
+  'CW-R03|r3|PA-00801-05: amount: engine [''0.00'', ''5555.20''] reader [''0.00'']':
+    settled: both
+    basis: 'Exclusion on the day of the A.14.010 measurement: P19 (p13) ''within two days of'' includes it; Cl.32 (p6) and Sch 4 Part 5 (p26)
+      ''following'' do not, and the contract ranks Part P over Parts I-III and a Schedule over the Conditions but not Part P against a Schedule.
+      r3/r4 took P19; r1/r2 kept both in CW-H06; the engine carries both (Q6 D).'
+  'CW-R03|r3|PA-00801-05: payable: engine True reader False':
+    settled: both
+    basis: 'Exclusion on the day of the A.14.010 measurement: P19 (p13) ''within two days of'' includes it; Cl.32 (p6) and Sch 4 Part 5 (p26)
+      ''following'' do not, and the contract ranks Part P over Parts I-III and a Schedule over the Conditions but not Part P against a Schedule.
+      r3/r4 took P19; r1/r2 kept both in CW-H06; the engine carries both (Q6 D).'
+  'CW-R03|r4|PA-00801-05: amount: engine [''0.00'', ''5555.20''] reader [''0.00'']':
+    settled: both
+    basis: 'Exclusion on the day of the A.14.010 measurement: P19 (p13) ''within two days of'' includes it; Cl.32 (p6) and Sch 4 Part 5 (p26)
+      ''following'' do not, and the contract ranks Part P over Parts I-III and a Schedule over the Conditions but not Part P against a Schedule.
+      r3/r4 took P19; r1/r2 kept both in CW-H06; the engine carries both (Q6 D).'
+  'CW-R03|r4|PA-00801-05: payable: engine True reader False':
+    settled: both
+    basis: 'Exclusion on the day of the A.14.010 measurement: P19 (p13) ''within two days of'' includes it; Cl.32 (p6) and Sch 4 Part 5 (p26)
+      ''following'' do not, and the contract ranks Part P over Parts I-III and a Schedule over the Conditions but not Part P against a Schedule.
+      r3/r4 took P19; r1/r2 kept both in CW-H06; the engine carries both (Q6 D).'
+  'DDS-H01|r5|MDS-90001-002: amount: engine [''0.00'', ''3694.70''] reader [''3694.70'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H01|r5|MDS-90002-001: amount: engine [''0.00'', ''1847.35''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H01|r5|MDS-90002-001: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H01|r5|MDS-90002-001: state findings: engine [] (open [''charged_twice'']) reader [''above_daily_limit'', ''charged_twice'']':
+    settled: presentation
+    basis: Q7 C as below; the reader's above_daily_limit describes the 3 persons of the day summed across both charges. Once Cl.29 lets one charge
+      stand, the Cl.22 limit (2) applies to it (D6), and neither charge exceeds it.
+  'DDS-H01|r6|MDS-90001-002: amount: engine [''0.00'', ''3694.70''] reader [''3694.70'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H01|r6|MDS-90002-001: amount: engine [''0.00'', ''1847.35''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H01|r6|MDS-90002-001: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H01|r6|MDS-90002-001: state findings: engine [] (open [''charged_twice'']) reader [''above_daily_limit'', ''charged_twice'']':
+    settled: presentation
+    basis: Q7 C as below; the reader's above_daily_limit describes the 3 persons of the day summed across both charges. Once Cl.29 lets one charge
+      stand, the Cl.22 limit (2) applies to it (D6), and neither charge exceeds it.
+  'DDS-H02|r5|MDS-90011-002: amount: engine [''2907.50'', ''5815.00''] reader [''5815.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H02|r5|MDS-90012-001: amount: engine [''0.00'', ''2907.50''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H02|r5|MDS-90012-001: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H02|r6|MDS-90011-002: amount: engine [''2907.50'', ''5815.00''] reader [''5815.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H02|r6|MDS-90012-001: amount: engine [''0.00'', ''2907.50''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H02|r6|MDS-90012-001: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r5|MDS-90021-001: amount: engine [''0.00'', ''3589.45''] reader [''3589.45'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r5|MDS-90021-004: amount: engine [''0.00'', ''2746.55''] reader [''2746.55'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r5|MDS-90022-001: amount: engine [''0.00'', ''3589.45''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r5|MDS-90022-001: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r5|MDS-90022-002: amount: engine [''0.00'', ''2746.55''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r5|MDS-90022-002: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r6|MDS-90021-001: amount: engine [''0.00'', ''3589.45''] reader [''3589.45'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r6|MDS-90021-002: amount: engine [''0.00'', ''4295.85''] reader [''4295.85'']':
+    settled: both
+    basis: 'Q5 residual HC-630 (Sch 8 p28 ''each BHA run'' vs Cl.30 p7 count): under the Schedule 8 reading one charge of BHA run 2 stands and
+      Cl.26 gives HC-630 no day (Q7 C). r5 carries all three results exactly as the engine; r6 took the first charge as standing.'
+  'DDS-H03|r6|MDS-90021-004: amount: engine [''0.00'', ''2746.55''] reader [''2746.55'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r6|MDS-90022-001: amount: engine [''0.00'', ''3589.45''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r6|MDS-90022-001: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r6|MDS-90022-002: amount: engine [''0.00'', ''2746.55''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H03|r6|MDS-90022-002: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H06|r5|MDS-90051-002: amount: engine [''9475.00'', ''9870.00''] reader [''9475.00'']':
+    settled: both
+    basis: 'Q11 (Sch 2 Part 2 p17 ''metres already drilled on the well''): r5 counted every metre (Q11 B, 9475.00); r6 and the engine carry both
+      (9870.00 under Q11 A).'
+  'DDS-H06|r6|MDS-90053-001: amount: engine [''1934.50'', ''1974.00''] reader [''1974.00'']':
+    settled: both
+    basis: 'Q14 (3A p35): r6 used the 1 January 2026 reset; r5 and the engine carry both (1974.00 reset, 1934.50 no reset).'
+  'DDS-H07|r5|MDS-90061-001: amount: engine [''0.00'', ''377300.00''] reader [''377300.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H07|r5|MDS-90062-001: amount: engine [''0.00'', ''377300.00''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H07|r5|MDS-90062-001: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H07|r6|MDS-90061-001: amount: engine [''0.00'', ''377300.00''] reader [''377300.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H07|r6|MDS-90062-001: amount: engine [''0.00'', ''377300.00''] reader [''0.00'']':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).
+  'DDS-H07|r6|MDS-90062-001: payable: engine True reader False':
+    settled: both
+    basis: DDS Cl.29/Cl.26/Cl.31 (p7) say the service is charged once; no clause says which of two admissible charges is the one that stands (register
+      Q7 C; CW Cl.44's 'later measurement' rule is not in the drilling contract). The readers took the charge on the earlier invoice as standing;
+      the engine carries each charge as a 'stands' alternative, the readers' value among them (owner G5; adopted at G5 as the Q7 C policy).

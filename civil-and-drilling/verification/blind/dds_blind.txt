@@ -1,0 +1,535 @@
+=== PAGE 08 ===
+TITLE: PART IV — INVOICING AND PAYMENT
+TEXT: 32. Invoices — The Contractor shall invoice each well separately, for a period of consecutive days on the well. Every charge on an invoice is for a day within the period the invoice states.
+TEXT: 33. Submission — An invoice shall not be submitted before the last day of its period and shall be submitted within 30 days after it.
+TEXT: 34. Content of a charge — Each charge states the date, the service code, the description, the hole section, the status of the day, the quantity, the unit, the rate and the amount, and for item PD-210 the depths at which the charged interval starts and ends.
+TEXT: 35. Units — A charge is stated in the unit Schedule 1 gives for the service, and in no other.
+TEXT: 36. Net amount — The net amount of an invoice is the sum of the amounts of its charges, including the discount charge under Clause 38.
+TEXT: 37. Documents as a condition of payment — A charge for a service Schedule 5 lists is not payable until the document Schedule 5 names has been delivered for the day or run the charge is for.
+TEXT: 38. Discount — Where the sum of the amounts of the services charged on an invoice exceeds 250,000.00 USD, the Contractor allows a discount of 4 per cent of the excess, rounded under Clause 17, stated as a single charge under code DS-900 with a negative amount.
+TEXT: 39. Value Added Tax — Value Added Tax is charged at 15 per cent of the net amount of the invoice, rounded under Clause 17.
+TEXT: 40. Invoice total — The total of an invoice is its net amount plus Value Added Tax.
+TEXT: 41. Disputed charges — The Company may withhold a disputed charge and shall pay the undisputed balance.
+TEXT: 42. Payment — The Company shall pay within forty-five days of receipt of a correct invoice.
+NOTE: Header "DDS-2025-118 | Directional Drilling Services"; footer "Page 8". In clause 38 a small scan speck sits between "of" and "4" at mid x-height (not on the baseline); read as a speck, not a decimal point, i.e. "4 per cent". Page has many scattered scan specks.
+
+=== PAGE 15 ===
+TITLE: SCHEDULE 1 — SERVICE RATES
+TEXT: Rates are in USD, exclusive of Value Added Tax, and are adjusted under Clause 18. Item PD-210 is rated in Schedule 2 and items LH-711 to LH-714 under Clause 31.
+TABLE 1: Series 100 — Directional Drilling
+COLUMNS: Code | Description | Unit | Rate (USD)
+ROW: DD-101 | Directional driller, 24-hour coverage | person-day | 1,847.35
+ROW: DD-102 | Directional coordinator, office based | day | 948.60
+ROW: DD-110 | Positive displacement motor rental | day | 1,417.75
+ROW: DD-111 | Motor redress and inspection | run | 3,589.45
+ROW: DD-120 | Rotary steerable system, circulating | hour | 384.15
+ROW: DD-121 | Rotary steerable system on standby | day | 2,893.65
+ROW: DD-130 | Gyro survey | survey | 2,446.15
+ROW: DD-140 | Well planning and anti-collision study | well | 12,489.50
+TABLE 2: Series 200 — Performance Drilling
+COLUMNS: Code | Description | Unit | Rate (USD)
+ROW: PD-201 | Drilling optimisation engineer | person-day | 2,094.85
+ROW: PD-210 | Performance drilling footage | metre | Schedule 2
+ROW: PD-220 | Downhole vibration mitigation tool | day | 1,148.35
+ROW: PD-230 | Drilling dynamics memory sub | day | 639.15
+TABLE 3: Series 300 — Measurement While Drilling
+COLUMNS: Code | Description | Unit | Rate (USD)
+ROW: MW-301 | MWD engineer | person-day | 1,646.55
+ROW: MW-310 | MWD directional and gamma tool | day | 2,245.85
+ROW: MW-320 | Pressure while drilling module | day | 779.65
+ROW: MW-330 | Real-time data transmission | day | 309.75
+TABLE 4: Series 400 — Logging While Drilling
+COLUMNS: Code | Description | Unit | Rate (USD)
+ROW: LW-401 | LWD engineer | person-day | 1,898.45
+ROW: LW-410 | LWD resistivity, logged | metre | 11.37
+ROW: LW-411 | LWD density and neutron, logged | metre | 16.83
+ROW: LW-412 | LWD sonic, logged | metre | 13.29
+ROW: LW-413 | Formation pressure tester, per pressure point | point | 1,849.65
+ROW: LW-420 | Radioactive source handling | run | 2,746.55
+NOTE: Footer "Page 15". All cells legible; scattered scan specks only.
+
+=== PAGE 16 ===
+TITLE: (no heading; continuation of Schedule 1 — Series 400 table continued)
+TABLE 1: (continuation, Series 400 — Logging While Drilling)
+COLUMNS: Code | Description | Unit | Rate (USD)
+ROW: LW-430 | LWD data processing and final log | well | 8,394.75
+TABLE 2: Series 500 — Reaming and Hole Enlargement
+COLUMNS: Code | Description | Unit | Rate (USD)
+ROW: RM-510 | Hydraulic underreaming, reamed | metre | 38.45
+ROW: RM-511 | Underreamer rental | day | 1,379.15
+ROW: RM-520 | Roller reamer and stabiliser rental | day | 419.85
+ROW: RM-530 | Back-reaming while tripping | hour | 264.55
+TABLE 3: Series 600 — Hole Conditioning
+COLUMNS: Code | Description | Unit | Rate (USD)
+ROW: HC-601 | Hole cleaning circulating sub | day | 689.35
+ROW: HC-610 | Wiper trip supervision | trip | 1,947.15
+ROW: HC-620 | Drilling jar rental | day | 539.65
+ROW: HC-630 | Casing drift and clean-out run | run | 4,295.85
+ROW: HC-640 | Cuttings bed monitoring | day | 719.55
+TABLE 4: Series 700 — Mobilisation and Lost in Hole
+COLUMNS: Code | Description | Unit | Rate (USD)
+ROW: MB-701 | Mobilisation to rig site | well | 18,497.50
+ROW: MB-702 | Demobilisation from rig site | well | 14,196.25
+ROW: LH-711 | Lost in hole, positive displacement motor | each | Clause 31
+ROW: LH-712 | Lost in hole, rotary steerable system | each | Clause 31
+ROW: LH-713 | Lost in hole, MWD tool | each | Clause 31
+ROW: LH-714 | Lost in hole, LWD resistivity tool | each | Clause 31
+NOTE: Footer "Page 16". Lower half of page blank. All cells legible.
+
+=== PAGE 17 ===
+TITLE: SCHEDULE 2 — PERFORMANCE DRILLING DEPTH BANDS
+TEXT: Item PD-210 is charged at the rate for the band in which the metres lie (Clause 23). A boundary depth belongs to the shallower band.
+TABLE 1: (no separate heading printed; first table under Schedule 2)
+COLUMNS: Band | Measured depth | Rate per metre (USD)
+ROW: Band 1 | 0 m to 1,500 m | 42.35
+ROW: Band 2 | over 1,500 m to 3,000 m | 58.15
+ROW: Band 3 | over 3,000 m to 4,500 m | 76.45
+ROW: Band 4 | over 4,500 m | 98.70
+NOTE: The rate is class-rated under Schedule 3 Part 2 and is not section-rated.
+TABLE 2: Part 2 — Metres drilled in the Contract Year
+TEXT: The rate for item PD-210 is taken at the percentage below according to the metres already drilled on the well in the Contract Year (Clause 3A). Metres are counted from zero at the start of each Contract Year, and an interval that crosses a band is divided at the band.
+COLUMNS: Band | Metres in the Contract Year | Per cent of rate
+ROW: Band 1 | 1 m to 40,000 m | 100%
+ROW: Band 2 | 40,001 m to 120,000 m | 96%
+ROW: Band 3 | above 120,000 m | 92%
+NOTE: Footer "Page 17". There is a "Part 2" heading but no "Part 1" heading printed on this page. Part 2 text says "metres already drilled on the well in the Contract Year" while table heading says "Metres in the Contract Year" (wording as printed). Rest of page blank.
+
+=== PAGE 18 ===
+TITLE: SCHEDULE 2C — INDEXED SERVICES
+TEXT: The services below are priced against the Rig Services Index, base 100.00 (Clause 17A). The rate stated in Schedule 1 for them is a base rate.
+TABLE 1: (no separate heading; indexed services)
+COLUMNS: Code | Description | Base rate | Unit
+ROW: MW-310 | MWD directional and gamma tool | 2,245.85 | day
+ROW: HC-620 | Drilling jar rental | 539.65 | day
+TABLE 2: Rig Services Index, as published:
+COLUMNS: Month | Index | Month | Index
+ROW: 2025-01 | 100.00 | 2026-01 | 109.30
+ROW: 2025-02 | 100.70 | 2026-02 | 110.00
+ROW: 2025-03 | 101.50 | 2026-03 | 110.60
+ROW: 2025-04 | 102.30 | 2026-04 | 111.40
+ROW: 2025-05 | 103.10 | 2026-05 | 110.90
+ROW: 2025-06 | 103.60 | 2026-06 | 112.20
+ROW: 2025-07 | 104.80 | 2026-07 | 113.00
+ROW: 2025-08 | 105.40 | 2026-08 | 112.60
+ROW: 2025-09 | 104.90 | 2026-09 | 113.90
+ROW: 2025-10 | 106.20 | 2026-10 | 114.70
+ROW: 2025-11 | 107.10 | 2026-11 | 115.30
+ROW: 2025-12 | 108.00 | 2026-12 | 116.10
+NOTE: Footer "Page 18". Scan specks near "100.00 (Clause" in intro text, near "104.90" and "114.70" — digits unaffected. Index is not monotonic as printed (e.g. 2025-09 104.90 after 2025-08 105.40; 2026-05 110.90 after 2026-04 111.40; 2026-08 112.60 after 2026-07 113.00) — transcribed as printed. Rest of page blank.
+
+=== PAGE 19 ===
+TITLE: SCHEDULE 2D — REPLACEMENT VALUES IN SAUDI RIYALS
+TEXT: The tools were bought in riyals and the values below are stated in SAR. They are converted into the currency of the Contract under Clause 31A at the rate published for the month of the loss.
+TABLE 1: (no separate heading; replacement values)
+COLUMNS: Code | Tool | Replacement value (SAR)
+ROW: LH-711 | Lost in hole, positive displacement motor | 543,750.00
+ROW: LH-712 | Lost in hole, rotary steerable system | 4,687,500.00
+ROW: LH-713 | Lost in hole, MWD tool | 1,443,750.00
+ROW: LH-714 | Lost in hole, LWD resistivity tool | 1,950,000.00
+TABLE 2: Rate of exchange, as published:
+COLUMNS: Month | Halalas per USD | Month | Halalas per USD
+ROW: 2025-01 | 375.00 | 2026-01 | 376.00
+ROW: 2025-02 | 375.10 | 2026-02 | 375.80
+ROW: 2025-03 | 375.00 | 2026-03 | 375.90
+ROW: 2025-04 | 374.90 | 2026-04 | 376.20
+ROW: 2025-05 | 375.20 | 2026-05 | 376.40
+ROW: 2025-06 | 375.30 | 2026-06 | 376.10
+ROW: 2025-07 | 375.10 | 2026-07 | 375.70
+ROW: 2025-08 | 375.00 | 2026-08 | 376.30
+ROW: 2025-09 | 374.80 | 2026-09 | 376.60
+ROW: 2025-10 | 375.40 | 2026-10 | 376.80
+ROW: 2025-11 | 375.60 | 2026-11 | 377.00
+ROW: 2025-12 | 375.50 | 2026-12 | 376.50
+NOTE: Footer "Page 19". Unit printed as "Halalas per USD" (not SAR per USD) — transcribed as printed. Page is slightly skewed; scattered specks (e.g. over "1,950,000.00", near "375.80") do not affect digits. Rest of page blank.
+
+=== PAGE 20 ===
+TITLE: SCHEDULE 3 — FACTORS, STANDBY AND LIMITS
+TABLE 1: Part 1 — Hole section factors
+COLUMNS: Hole section | Factor
+ROW: 26" | 1.315
+ROW: 17-1/2" | 1.145
+ROW: 12-1/4" | 1.00
+ROW: 8-1/2" | 0.945
+ROW: 6" | 0.885
+NOTE: Section-rated services: DD-110, DD-120, PD-220, MW-310, RM-510, RM-511.
+TABLE 2: Part 2 — Well class factors
+COLUMNS: Well class | Factor
+ROW: Standard | 1.00
+ROW: Extended Reach | 1.175
+ROW: HPHT | 1.325
+NOTE: Class-rated services: DD-120, PD-210, MW-310, MW-320, LW-410, LW-411, LW-412, LW-413.
+TABLE 3: Part 3 — Standby charges
+TEXT: The percentage of the operating rate charged on a Standby day (Clause 20). Services charged per well or for a loss are charged in full whatever the status of the day.
+COLUMNS: Code | Description | Standby charge
+ROW: DD-101 | Directional driller, 24-hour coverage | 80%
+ROW: DD-102 | Directional coordinator, office based | 100%
+ROW: DD-110 | Positive displacement motor rental | 50%
+ROW: DD-111 | Motor redress and inspection | 100%
+ROW: DD-120 | Rotary steerable system, circulating | Not chargeable
+ROW: DD-130 | Gyro survey | Not chargeable
+ROW: PD-201 | Drilling optimisation engineer | 80%
+ROW: PD-210 | Performance drilling footage | Not chargeable
+ROW: PD-220 | Downhole vibration mitigation tool | 50%
+ROW: PD-230 | Drilling dynamics memory sub | 50%
+ROW: MW-301 | MWD engineer | 80%
+ROW: MW-310 | MWD directional and gamma tool | 50%
+ROW: MW-320 | Pressure while drilling module | 50%
+ROW: MW-330 | Real-time data transmission | 100%
+ROW: LW-401 | LWD engineer | 80%
+NOTE: Footer "Page 20". Part 3 table has no closing double rule on this page (appears to continue on next page). DD-121 and DD-140 do not appear in the Part 3 rows on this page. All cells legible.
+
+=== PAGE 21 ===
+TITLE: (no heading; continuation of Schedule 3 Part 3 — Standby charges)
+TABLE 1: (continuation, Part 3 — Standby charges)
+COLUMNS: Code | Description | Standby charge
+ROW: LW-410 | LWD resistivity, logged | Not chargeable
+ROW: LW-411 | LWD density and neutron, logged | Not chargeable
+ROW: LW-412 | LWD sonic, logged | Not chargeable
+ROW: LW-413 | Formation pressure tester, per pressure point | Not chargeable
+ROW: LW-420 | Radioactive source handling | 100%
+ROW: RM-510 | Hydraulic underreaming, reamed | Not chargeable
+ROW: RM-511 | Underreamer rental | 50%
+ROW: RM-520 | Roller reamer and stabiliser rental | 50%
+ROW: RM-530 | Back-reaming while tripping | Not chargeable
+ROW: HC-601 | Hole cleaning circulating sub | 50%
+ROW: HC-610 | Wiper trip supervision | Not chargeable
+ROW: HC-620 | Drilling jar rental | 50%
+ROW: HC-630 | Casing drift and clean-out run | Not chargeable
+ROW: HC-640 | Cuttings bed monitoring | Not chargeable
+TABLE 2: Part 4 — Services charged only on a Standby day
+TEXT: DD-121 is charged only on a Standby day, in place of item DD-120 (Clause 21).
+TABLE 3: Part 5 — Daily limits
+COLUMNS: Code | Description | Limit per day | Unit
+ROW: DD-101 | Directional driller, 24-hour coverage | 2 | person-day
+ROW: DD-102 | Directional coordinator, office based | 1 | day
+ROW: DD-110 | Positive displacement motor rental | 1 | day
+ROW: DD-120 | Rotary steerable system, circulating | 24 | hour
+ROW: DD-121 | Rotary steerable system on standby | 1 | day
+ROW: DD-130 | Gyro survey | 3 | survey
+ROW: PD-201 | Drilling optimisation engineer | 1 | person-day
+ROW: PD-220 | Downhole vibration mitigation tool | 1 | day
+ROW: PD-230 | Drilling dynamics memory sub | 1 | day
+ROW: MW-301 | MWD engineer | 2 | person-day
+ROW: MW-310 | MWD directional and gamma tool | 1 | day
+ROW: MW-320 | Pressure while drilling module | 1 | day
+ROW: MW-330 | Real-time data transmission | 1 | day
+ROW: LW-401 | LWD engineer | 1 | person-day
+ROW: LW-413 | Formation pressure tester, per pressure point | 12 | point
+NOTE: Footer "Page 21". Part 3 standby table (pp. 20-21) lists no row for DD-121, DD-140, LW-430, MB-701, MB-702, LH-711..LH-714 (as printed). Part 5 table has no closing double rule at page foot (may continue on next page). All cells legible.
+
+=== PAGE 22 ===
+TITLE: (no heading; continuation of Schedule 3 Part 5 — Daily limits)
+TABLE 1: (continuation, Part 5 — Daily limits)
+COLUMNS: Code | Description | Limit per day | Unit
+ROW: RM-511 | Underreamer rental | 1 | day
+ROW: RM-520 | Roller reamer and stabiliser rental | 1 | day
+ROW: RM-530 | Back-reaming while tripping | 24 | hour
+ROW: HC-601 | Hole cleaning circulating sub | 1 | day
+ROW: HC-610 | Wiper trip supervision | 2 | trip
+ROW: HC-620 | Drilling jar rental | 1 | day
+ROW: HC-640 | Cuttings bed monitoring | 1 | day
+TABLE 2: Part 6 — Charges once per well
+TEXT: DD-140, LW-430, MB-701, MB-702 (Clause 27).
+TABLE 3: Part 7 — Minimum hours
+TEXT: DD-120: not less than 6 hours on an Operating day (Clause 21).
+NOTE: Footer "Page 22". Rest of page blank. All text legible.
+
+=== PAGE 23 ===
+TITLE: SCHEDULE 4 — PERSONNEL
+TABLE 1: (no separate heading; personnel)
+COLUMNS: Code | Position | Normally on the rig
+ROW: DD-101 | Directional driller | 2, whole well
+ROW: DD-102 | Directional coordinator | 1, office based, whole well
+ROW: MW-301 | MWD engineer | 2, whole well
+ROW: LW-401 | LWD engineer | 1, while LWD tools are in the hole
+ROW: PD-201 | Drilling optimisation engineer | 1, performance-drilled sections
+NOTE: The number charged on a day is the number recorded on the Daily Drilling Report (Clause 22), not the number shown here.
+NOTE: Footer "Page 23". Rest of page blank. All text legible.
+
+=== PAGE 24 ===
+TITLE: SCHEDULE 5 — THE DAILY DRILLING REPORT AND ITS PARTS
+TEXT: One Daily Drilling Report is issued for each well and day (Clause 19). It carries the operations summary and, as numbered parts, every other record this Contract makes a condition of payment. There are no separate run, survey, source or loss documents.
+TABLE 1: (no separate heading; parts of the Daily Drilling Report)
+COLUMNS: Part | Contents | Completed
+ROW: A | Operations summary: section, status, depths, circulating hours, BHA run number, tools in hole, personnel on the rig, and the quantities measured that day | every day
+ROW: B | BHA run record: run number, first and last day of the run, tools in the run, circulating hours, metres logged and reamed, and whether a radioactive source was carried | every day of a run
+ROW: C | Gyro survey record: surveys taken that day | a day on which surveys were taken
+ROW: D | Radioactive source handling: the sources handled and their certification | a day on which a source was run
+ROW: E | Lost in hole: the tool, its service code, the run, and the circulating hours accumulated on the well at the time of the loss | a day on which a tool was lost
+TEXT: A charge for a service below is not payable until the part named has been completed in the Daily Drilling Report for the day or run the charge is for (Clause 37). A part that does not apply to the day is omitted; a part that applies and is absent is a record not delivered.
+TABLE 2: (no separate heading; records required)
+COLUMNS: Code | Description | Record required
+ROW: DD-111 | Motor redress and inspection | Daily Drilling Report, Part B
+ROW: DD-130 | Gyro survey | Daily Drilling Report, Part C
+ROW: LW-410 | LWD resistivity, logged | Daily Drilling Report, Part B
+ROW: LW-411 | LWD density and neutron, logged | Daily Drilling Report, Part B
+ROW: LW-412 | LWD sonic, logged | Daily Drilling Report, Part B
+ROW: LW-413 | Formation pressure tester, per pressure point | Daily Drilling Report, Part B
+ROW: LW-420 | Radioactive source handling | Daily Drilling Report, Part D
+ROW: RM-510 | Hydraulic underreaming, reamed | Daily Drilling Report, Part B
+ROW: LH-711 | Lost in hole, positive displacement motor | Daily Drilling Report, Part E
+ROW: LH-712 | Lost in hole, rotary steerable system | Daily Drilling Report, Part E
+ROW: LH-713 | Lost in hole, MWD tool | Daily Drilling Report, Part E
+ROW: LH-714 | Lost in hole, LWD resistivity tool | Daily Drilling Report, Part E
+NOTE: Footer "Page 24". All text legible. Observation only: LW-413 (per pressure point) is tied to Part B, whose printed contents list does not mention pressure points; Part D is described as "sources handled" but completed "a day on which a source was run" (as printed).
+
+=== PAGE 25 ===
+TITLE: SCHEDULE 6 — LOST IN HOLE REPLACEMENT VALUES
+TABLE 1: (no separate heading; replacement values)
+COLUMNS: Code | Tool | Replacement value (USD)
+ROW: LH-711 | Positive displacement motor | 145,000.00
+ROW: LH-712 | Rotary steerable system | 1,250,000.00
+ROW: LH-713 | MWD directional and gamma tool | 385,000.00
+ROW: LH-714 | LWD resistivity tool | 520,000.00
+NOTE: Depreciation is 1 per cent for each complete 25 circulating hours, to not more than 50 per cent (Clause 31).
+NOTE: Footer "Page 25". Rest of page blank. All text legible. Observation: this schedule states USD replacement values for LH-711..LH-714, while Schedule 2D (page 19) states SAR replacement values for the same codes to be converted under Clause 31A — two replacement-value tables for the same codes, as printed. Tool wording also differs (p19 "Lost in hole, MWD tool" vs here "MWD directional and gamma tool").
+
+=== PAGE 27 ===
+TITLE: SCHEDULE 8 — SCOPE OF SERVICES
+TEXT: What each service covers and the event its charge is for. Item DD-102 is office based and is charged per day for each coordinator the Daily Drilling Report records.
+TABLE 1: (no separate heading; scope of services)
+COLUMNS: Code | Service | Charged for
+ROW: DD-101 | Directional driller, 24-hour coverage | each person recorded on the rig on the Daily Drilling Report, per day
+ROW: DD-102 | Directional coordinator, office based | each day the Daily Drilling Report records the tool in the hole
+ROW: DD-110 | Positive displacement motor rental | each day the Daily Drilling Report records the tool in the hole
+ROW: DD-111 | Motor redress and inspection | each BHA run, as Clause 26 describes
+ROW: DD-120 | Rotary steerable system, circulating | each circulating or back-reaming hour recorded on the report
+ROW: DD-121 | Rotary steerable system on standby | each day the Daily Drilling Report records the tool in the hole
+ROW: DD-130 | Gyro survey | each gyro survey recorded on the report
+ROW: DD-140 | Well planning and anti-collision study | once for the well, as Clause 27 describes
+ROW: PD-201 | Drilling optimisation engineer | each person recorded on the rig on the Daily Drilling Report, per day
+ROW: PD-210 | Performance drilling footage | each metre drilled, logged or reamed as Clauses 23 to 25 describe
+ROW: PD-220 | Downhole vibration mitigation tool | each day the Daily Drilling Report records the tool in the hole
+ROW: PD-230 | Drilling dynamics memory sub | each day the Daily Drilling Report records the tool in the hole
+ROW: MW-301 | MWD engineer | each person recorded on the rig on the Daily Drilling Report, per day
+ROW: MW-310 | MWD directional and gamma tool | each day the Daily Drilling Report records the tool in the hole
+ROW: MW-320 | Pressure while drilling module | each day the Daily Drilling Report records the tool in the hole
+ROW: MW-330 | Real-time data transmission | each day the Daily Drilling Report records the tool in the hole
+ROW: LW-401 | LWD engineer | each person recorded on the rig on the Daily Drilling Report, per day
+ROW: LW-410 | LWD resistivity, logged | each metre drilled, logged or reamed as Clauses 23 to 25 describe
+NOTE: Footer "Page 27". Table continues on next page (no closing double rule). All text legible.
+NOTE: Internal inconsistency on page: intro says DD-102 "is office based and is charged per day for each coordinator the Daily Drilling Report records", but the DD-102 row's "Charged for" reads "each day the Daily Drilling Report records the tool in the hole".
+
+=== PAGE 28 ===
+TITLE: (no heading; continuation of Schedule 8 — Scope of Services)
+TABLE 1: (continuation, Schedule 8)
+COLUMNS: Code | Service | Charged for
+ROW: LW-411 | LWD density and neutron, logged | each metre drilled, logged or reamed as Clauses 23 to 25 describe
+ROW: LW-412 | LWD sonic, logged | each metre drilled, logged or reamed as Clauses 23 to 25 describe
+ROW: LW-413 | Formation pressure tester, per pressure point | each formation pressure point recorded on the report
+ROW: LW-420 | Radioactive source handling | each BHA run, as Clause 26 describes
+ROW: LW-430 | LWD data processing and final log | once for the well, as Clause 27 describes
+ROW: RM-510 | Hydraulic underreaming, reamed | each metre drilled, logged or reamed as Clauses 23 to 25 describe
+ROW: RM-511 | Underreamer rental | each day the Daily Drilling Report records the tool in the hole
+ROW: RM-520 | Roller reamer and stabiliser rental | each day the Daily Drilling Report records the tool in the hole
+ROW: RM-530 | Back-reaming while tripping | each circulating or back-reaming hour recorded on the report
+ROW: HC-601 | Hole cleaning circulating sub | each day the Daily Drilling Report records the tool in the hole
+ROW: HC-610 | Wiper trip supervision | each wiper trip recorded on the report
+ROW: HC-620 | Drilling jar rental | each day the Daily Drilling Report records the tool in the hole
+ROW: HC-630 | Casing drift and clean-out run | each BHA run, as Clause 26 describes
+ROW: HC-640 | Cuttings bed monitoring | each day the Daily Drilling Report records the tool in the hole
+ROW: MB-701 | Mobilisation to rig site | once for the well, as Clause 27 describes
+ROW: MB-702 | Demobilisation from rig site | once for the well, as Clause 27 describes
+ROW: LH-711 | Lost in hole, positive displacement motor | each tool lost in the hole, as Clause 31 describes
+ROW: LH-712 | Lost in hole, rotary steerable system | each tool lost in the hole, as Clause 31 describes
+ROW: LH-713 | Lost in hole, MWD tool | each tool lost in the hole, as Clause 31 describes
+ROW: LH-714 | Lost in hole, LWD resistivity tool | each tool lost in the hole, as Clause 31 describes
+NOTE: Footer "Page 28". Table ends on this page (closing double rule). All text legible; specks only.
+
+=== PAGE 30 ===
+TITLE: APPENDIX B — FORM OF INVOICE
+TEXT: Charges on an HPHT well, showing a Standby day, the circulating-hour minimum not engaged, and footage split at a band boundary.
+TABLE 1: (no separate heading; form of invoice)
+COLUMNS: Date | Code | Section | Status | Depths | Qty | Rate | Amount
+ROW: 03-Jun-2025 | DD-101 | 12-1/4" | Standby |  | 2 | 1,477.88 | 2,955.76
+ROW: 04-Jun-2025 | MW-310 | 12-1/4" | Operating |  | 1 | 2,975.75 | 2,975.75
+ROW: 04-Jun-2025 | DD-120 | 12-1/4" | Operating |  | 18 | 509.00 | 9,162.00
+ROW: 04-Jun-2025 | PD-210 | 12-1/4" | Operating | 2,930-3,000 | 70 | 58.15 | 4,070.50
+ROW: 04-Jun-2025 | PD-210 | 12-1/4" | Operating | 3,000-3,085 | 85 | 76.45 | 6,498.25
+TABLE 2: (totals block)
+ROW: Net amount (below the discount threshold) | 25,662.26
+ROW: Value Added Tax at 15 per cent | 3,849.34
+ROW: Invoice total | 29,511.60
+NOTE: On an invoice whose services total 312,400.00, the discount charge under Clause 38 is -2,496.00.
+NOTE: Footer "Page 30". Depths cells blank for the first three rows. A scan speck sits above the decimal point in "-2,496.00" (makes it look like "2,496:00" at low zoom); at 6x zoom it is a period. Observation only (not reconciled): the two PD-210 rates printed (58.15, 76.45) are the same figures as the Schedule 2 Band 2 / Band 3 rates on p17, although the example is stated to be an HPHT well and PD-210 is listed as class-rated on p20.
+
+=== PAGE 34 ===
+TITLE: APPENDIX F — FORMS OF GYRO SURVEY AND LOST IN HOLE REPORTS
+TEXT: Illustrative only (Clause 16).
+TABLE 1: Gyro Survey Report
+COLUMNS: Field | Value
+ROW: Well | NGP-XX-000
+ROW: Date | 12-Feb-2025
+ROW: Hole section | 17-1/2"
+ROW: Surveys taken | 2
+ROW: Signed | Survey engineer; Company Representative
+TABLE 2: Lost in Hole Report
+COLUMNS: Field | Value
+ROW: Well | NGP-XX-000
+ROW: Date | 22-Aug-2025
+ROW: Run | 6
+ROW: Service code | LH-713
+ROW: Tool | MWD directional and gamma tool
+ROW: Circulating hours accumulated on the well | 412
+ROW: Signed | Company Representative; Contractor's field manager
+NOTE: With 412 hours the depreciation under Clause 31 is 16 per cent.
+NOTE: Footer "Page 34". Tables have no printed column headings (label/value pairs); "Field | Value" supplied by transcriber. Observation only: Schedule 5 (p24) says "There are no separate run, survey, source or loss documents", while this appendix shows separate Gyro Survey and Lost in Hole report forms (marked "Illustrative only (Clause 16)").
+
+=== PAGE 35 ===
+TITLE: PART IX — PARTICULAR CONDITIONS (SECOND SERIES)
+TEXT: 3A. Contract Years — The first Contract Year runs from the Commencement Date to the day before its first anniversary, and each following Contract Year from that anniversary. The final Contract Year ends on the Expiry Date as extended by any Amendment; an extension does not begin a new Contract Year.
+TEXT: 17A. Indexed rates — The rate for a service listed in Schedule 2C is the base rate stated in Schedule 1 multiplied by the Rig Services Index published for the calendar month in which the service was performed and divided by the base index, rounded half to even. That figure is the rate for the purposes of Clause 17.
+TEXT: 17B. Factors that do not apply — The hole-section factor in Schedule 3 Part 1 is not applied on a day the rig is on Standby, the section not being drilled. The well-class factor in Schedule 3 Part 2 is not applied to item PD-210, Schedule 2 having already priced the metre by depth.
+TEXT: 19A. The Daily Drilling Report and its number — Each Daily Drilling Report bears a number in the series DDR, and that number is quoted against every line of that day on the invoice. The report is written by the Contractor's supervisor in the ordinary words of the rig and does not repeat the descriptions in Schedule 1 or carry the service codes.
+TEXT: 21A. Chargeable Hour — For a service charged by the hour, the first hour of each period in the hole is rig-up and is not a Chargeable Hour. The report states the hours run; the invoice charges one fewer.
+TEXT: 25A. Tolerance on metres — Metres charged not exceeding the metres the report supports by more than 1 per cent are payable as charged. Metres exceeding that are payable at the figure the report supports.
+TEXT: 31A. Replacement values — The replacement values in Schedule 2D are stated in SAR and are converted into the currency of the Contract at the rate of exchange published in that Schedule for the month in which the tool was lost, rounded half to even, before the depreciation in Clause 31 is applied. Schedule 6 states the same values in the currency of the Contract as they stood when it was let, and Schedule 2D governs.
+TEXT: 36A. Amendments taking effect before their date of issue — Where an Amendment substitutes a rate with effect from a date before the date it was issued, an invoice submitted before that date of issue was correct at the rate then in force. The difference on services already invoiced is shown as a single adjustment on the first invoice submitted on or after the date of issue, and on no other.
+NOTE: Footer "Page 35". All text legible; specks only.
+NOTE: Observations (cross-page, not reconciled): (a) 17B says the well-class factor is not applied to PD-210, whereas p17 note says the PD-210 rate "is class-rated under Schedule 3 Part 2" and p20 lists PD-210 among class-rated services. (b) 19A says the report does not "carry the service codes", whereas Schedule 5 Part E (p24) says the Lost in hole part records "its service code". (c) 31A addresses the Schedule 6 (USD) vs Schedule 2D (SAR) duplication noted on p25: "Schedule 2D governs".
+
+=== PAGE 36 ===
+TITLE: APPENDIX G — TERMS USED IN THE FIELD REPORTS
+TEXT: The Daily Drilling Report is written in the ordinary words of the rig (Clause 19A). The terms below are the ones it uses for the items Schedule 1 prices.
+TABLE 1: (no separate heading; field report terms)
+COLUMNS: Code | As Schedule 1 describes it | As the report writes it
+ROW: DD-101 | Directional driller, 24-hour coverage | directional hands
+ROW: DD-102 | Directional coordinator, office based | night man
+ROW: DD-110 | Positive displacement motor rental | mud motor
+ROW: DD-120 | Rotary steerable system, circulating | rotary steerable
+ROW: HC-601 | Hole cleaning circulating sub | circulating sub
+ROW: HC-620 | Drilling jar rental | drilling jars
+ROW: HC-640 | Cuttings bed monitoring | float sub
+ROW: LH-711 | Lost in hole, positive displacement motor | mud motor
+ROW: LH-712 | Lost in hole, rotary steerable system | rotary steerable
+ROW: LH-713 | Lost in hole, MWD tool | MWD collar
+ROW: LH-714 | Lost in hole, LWD resistivity tool | gamma tool
+ROW: LW-401 | LWD engineer | logging engineers
+ROW: LW-410 | LWD resistivity, logged | gamma tool
+ROW: LW-411 | LWD density and neutron, logged | resistivity tool
+ROW: LW-412 | LWD sonic, logged | density-neutron
+ROW: MW-301 | MWD engineer | MWD engineers
+ROW: MW-310 | MWD directional and gamma tool | MWD collar
+ROW: MW-320 | Pressure while drilling module | survey package
+ROW: MW-330 | Real-time data transmission | real-time link
+ROW: PD-201 | Drilling optimisation engineer | performance engineer
+ROW: PD-220 | Downhole vibration mitigation tool | bit and reamer
+ROW: PD-230 | Drilling dynamics memory sub | hydraulics package
+ROW: RM-511 | Underreamer rental | hole opener
+ROW: RM-520 | Roller reamer and stabiliser rental | stabiliser string
+NOTE: A tool lost in the hole is recorded by the term above; the item charged is the replacement value Schedule 6 states against it.
+NOTE: Footer "Page 36". All text legible; transcribed exactly as printed.
+NOTE: Observations (as printed, not corrected): several report terms do not match their Schedule 1 description on their face — DD-102 office-based coordinator = "night man"; HC-640 cuttings bed monitoring = "float sub"; LW-410 resistivity = "gamma tool"; LW-411 density and neutron = "resistivity tool"; LW-412 sonic = "density-neutron"; LH-714 LWD resistivity tool = "gamma tool"; MW-320 PWD module = "survey package"; PD-220 = "bit and reamer"; PD-230 = "hydraulics package". Same term used for two codes: "mud motor" (DD-110, LH-711), "rotary steerable" (DD-120, LH-712), "MWD collar" (LH-713, MW-310), "gamma tool" (LH-714, LW-410). Footnote points to Schedule 6 for replacement value, whereas Clause 31A (p35) says Schedule 2D governs.
+
+=== PAGE 37 ===
+TITLE: SCHEDULE OF VARIATIONS
+TEXT: This Contract is to be read with the instruments below, in the order issued. Each takes effect on its own effective date and governs services performed on or after it; nothing in an instrument reopens a service already charged at the rate then chargeable.
+TABLE 1: (no separate heading; instruments)
+COLUMNS: Instrument | Issued | Effective | What it changes
+ROW: Supplement No. 1 | 2025-05-19 | 2025-07-01 | rates: DD-120, DD-121; monthly rate: HC-601
+ROW: Amendment No. 1 | 2025-11-07 | 2026-01-01 | expiry to 2026-06-30; rates: DD-101, MW-301, LW-401
+ROW: Supplement No. 2 | 2026-02-24 | 2026-04-01 | monthly rate: DD-120; 4 per cent on DD-101, MW-301, LW-401, DD-120, MB-701
+ROW: Amendment No. 2 | 2026-05-21 | 2026-07-01 | expiry to 2026-12-31; rates: MW-301, MB-701; 7 per cent on DD-101, MW-301, LW-401, DD-120, MB-701
+ROW: Amendment No. 3 | 2026-08-17 | 2026-02-01 | rates: DD-120, DD-101
+TEXT: The Term as let ran from 1 January 2025 to 31 December 2025. As twice extended it runs from 1 January 2025 to 31 December 2026.
+NOTE: A rate stated in Schedule 1 is the rate chargeable only until an instrument substitutes another for it. Pricing a service therefore requires the date on which it was performed, not the date of the invoice.
+NOTE: Footer "Page 37". All cells legible (speck on "rates:" colon in Amendment No. 2 row and near "MW-301," in Supplement No. 2 row; no effect on characters).
+NOTE: Observations (as printed): Amendment No. 3 effective date 2026-02-01 is before its issue date 2026-08-17 (retroactive). The intro sentence "nothing in an instrument reopens a service already charged at the rate then chargeable" sits against Clause 36A (p35), which requires a single adjustment for the difference on services already invoiced when an Amendment is back-dated. "4 per cent" / "7 per cent" entries do not state whether they are increases or decreases.
+
+=== PAGE 38 ===
+TITLE: SUPPLEMENT NO. 1 TO CONTRACT DDS-2025-118
+TEXT: Reference DDS-2025-118/S1. Issued 19 May 2025 and taking effect 1 July 2025.
+TEXT: Re-publication of the tool rental rates under Clause 19.3, the parties having agreed that the rates in Schedule 1 no longer reflect the cost of the steerable fleet.
+TABLE 1: 1.1 Substituted rates
+TEXT: The rates below are substituted for the rates in Schedule 1 for services performed on or after the effective date stated against each. Services performed before that date are charged at the rate previously chargeable. Schedule 2 footage rates are unaffected.
+COLUMNS: Code | Description | Unit | Rate previously chargeable | Rate chargeable | Effective
+ROW: DD-120 | Rotary steerable system, circula | hour | 384.15 | 398.50 | 2025-07-01
+ROW: DD-121 | Rotary steerable system on stand | day | 2,893.65 | 2,984.00 | 2025-07-01
+TABLE 2: 1.2 Monthly re-publication, item HC-601
+TEXT: Item HC-601 (Hole cleaning circulating sub) is re-published monthly against the Circulating Equipment Index (Gulf, per day). The rate chargeable is the rate published for the calendar month in which the service was performed. Where a service is performed in a month later than the last month stated below, the rate last published applies until it is superseded.
+COLUMNS: Month of performance | Rate chargeable
+ROW: July 2025 | 701.50
+ROW: August 2025 | 714.00
+ROW: September 2025 | 722.60
+ROW: October 2025 | 719.80
+ROW: November 2025 | 731.00
+ROW: December 2025 | 736.40
+NOTE: Save as stated above, the Contract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same service, the later governs services performed on or after its effective date, and the earlier governs services performed before it.
+NOTE: Footer "Page 38". Descriptions in table 1.1 are printed truncated ("circula", "stand") — transcribed as printed. Specks near "2025-07-01" (hyphen) and before "2,893.65"; digits unaffected. HC-601 monthly rates are not monotonic (October 2025 719.80 after September 2025 722.60) — as printed. Clause 19.3 is cited as the basis for re-publication.
+
+=== PAGE 39 ===
+TITLE: AMENDMENT NO. 1 TO CONTRACT DDS-2025-118
+TEXT: Reference DDS-2025-118/A1. Issued 7 November 2025 and taking effect 1 January 2026.
+TEXT: Extension of the Term for the second phase of the campaign, and the anniversary escalation of the personnel day rates under Clause 19.1.
+TEXT: 1.1 Extension of the Term — The Expiry Date stated in the Form of Agreement is extended to 30 June 2026 (extension of the Term, 181 days). The Commencement Date is unchanged. Services performed on or before the extended Expiry Date are chargeable under this Contract; services performed after it are not.
+TABLE 1: 1.2 Substituted rates
+TEXT: The rates below are substituted for the rates in Schedule 1 for services performed on or after the effective date stated against each. Services performed before that date are charged at the rate previously chargeable. Schedule 2 footage rates are unaffected.
+COLUMNS: Code | Description | Unit | Rate previously chargeable | Rate chargeable | Effective
+ROW: DD-101 | Directional driller, 24-hour cov | person-day | 1,847.35 | 1,916.50 | 2026-01-01
+ROW: MW-301 | MWD engineer | person-day | 1,646.55 | 1,708.00 | 2026-01-01
+ROW: LW-401 | LWD engineer | person-day | 1,898.45 | 1,969.00 | 2026-01-01
+NOTE: Save as stated above, the Contract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same service, the later governs services performed on or after its effective date, and the earlier governs services performed before it.
+NOTE: Footer "Page 39". In the MW-301 row the code and description touch ("MW-301MWD engineer", final "1" of the code rendered like "l"); read as code MW-301, description "MWD engineer". DD-101 description printed truncated ("24-hour cov"). Speck over "LW-401" hyphen; no effect.
+
+=== PAGE 40 ===
+TITLE: SUPPLEMENT NO. 2 TO CONTRACT DDS-2025-118
+TEXT: Reference DDS-2025-118/S2. Issued 24 February 2026 and taking effect 1 April 2026.
+TEXT: Discount on the principal services, the Operator having committed a second rig to this Contract. This discount is applied to the rate and is separate from the Clause 38 volume discount on the invoice subtotal.
+TABLE 1: 2.1 Monthly re-publication, item DD-120
+TEXT: Item DD-120 (Rotary steerable system, circulating) is re-published monthly against the Steerable Tool Index (Gulf, per hour). The rate chargeable is the rate published for the calendar month in which the service was performed. Where a service is performed in a month later than the last month stated below, the rate last published applies until it is superseded.
+COLUMNS: Month of performance | Rate chargeable
+ROW: April 2026 | 406.00
+ROW: May 2026 | 411.50
+ROW: June 2026 | 411.50
+ROW: July 2026 | 423.00
+ROW: August 2026 | 429.50
+ROW: September 2026 | 434.00
+ROW: October 2026 | 434.00
+ROW: November 2026 | 441.00
+ROW: December 2026 | 447.50
+TABLE 2: 2.2 Discount on principal services
+TEXT: A discount of 4 per cent is allowed on the services listed below for services performed on or after 1 April 2026. The discount is applied to the rate, as the last factor in the build-up required by Clause 17 and before the rounding it requires. It is separate from, and taken before, the Clause 38 discount on the invoice subtotal. Services performed before that date carry no discount.
+COLUMNS: Code | Description
+ROW: DD-101 | Directional driller, 24-hour coverage
+ROW: MW-301 | MWD engineer
+ROW: LW-401 | LWD engineer
+ROW: DD-120 | Rotary steerable system, circulating
+ROW: MB-701 | Mobilisation to rig site
+NOTE: Save as stated above, the Contract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same service, the later governs services performed on or after its effective date, and the earlier governs services performed before it.
+NOTE: Footer "Page 40". All cells legible; specks only. Observation: the DD-120 monthly table runs to December 2026, beyond the Expiry Date in force when this Supplement was issued (30 June 2026 per Amendment No. 1) — as printed.
+
+=== PAGE 41 ===
+TITLE: AMENDMENT NO. 2 TO CONTRACT DDS-2025-118
+TEXT: Reference DDS-2025-118/A2. Issued 21 May 2026 and taking effect 1 July 2026.
+TEXT: Second extension of the Term to the end of the campaign, the second anniversary escalation, and the deepening of the Supplement No. 2 discount.
+TEXT: 2.1 Extension of the Term — The Expiry Date stated in the Form of Agreement is extended to 31 December 2026 (second extension of the Term, 184 days). The Commencement Date is unchanged. Services performed on or before the extended Expiry Date are chargeable under this Contract; services performed after it are not.
+TABLE 1: 2.2 Substituted rates
+TEXT: The rates below are substituted for the rates in Schedule 1 for services performed on or after the effective date stated against each. Services performed before that date are charged at the rate previously chargeable. Schedule 2 footage rates are unaffected.
+COLUMNS: Code | Description | Unit | Rate previously chargeable | Rate chargeable | Effective
+ROW: MW-301 | MWD engineer | person-day | 1,708.00 | 1,763.00 | 2026-07-01
+ROW: MB-701 | Mobilisation to rig site | well | 18,497.50 | 19,237.00 | 2026-07-01
+TABLE 2: 2.3 Discount on principal services
+TEXT: A discount of 7 per cent is allowed on the services listed below for services performed on or after 1 July 2026. The discount is applied to the rate, as the last factor in the build-up required by Clause 17 and before the rounding it requires. It is separate from, and taken before, the Clause 38 discount on the invoice subtotal. Services performed before that date carry no discount.
+COLUMNS: Code | Description
+ROW: DD-101 | Directional driller, 24-hour coverage
+ROW: MW-301 | MWD engineer
+ROW: LW-401 | LWD engineer
+ROW: DD-120 | Rotary steerable system, circulating
+ROW: MB-701 | Mobilisation to rig site
+NOTE: Save as stated above, the Contract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same service, the later governs services performed on or after its effective date, and the earlier governs services performed before it.
+NOTE: Footer "Page 41". MB-701 "Rate chargeable" appears on the scan as "19,237:00" — at 6x zoom the lower dot sits on the baseline (decimal point) with a scan speck above it forming a colon; read as 19,237.00 (digits certain). MW-301 row again prints code and description touching ("MW-301MWD engineer"). Speck above "4" in "18,497.50"; digits unaffected.
+
+=== PAGE 42 ===
+TITLE: AMENDMENT NO. 3 TO CONTRACT DDS-2025-118
+TEXT: Reference DDS-2025-118/A3. Issued 17 August 2026 and taking effect 1 February 2026.
+TEXT: Settlement of the Contractor's rate review under Clause 16.4. The rates below are substituted with effect from 1 February 2026, which is before the date of this Amendment. Services performed on or after that date and already invoiced shall be re-priced at the substituted rates and the difference shown as a single adjustment on the first invoice submitted after the date of issue (Clause 36A).
+TABLE 1: 3.1 Substituted rates
+TEXT: The rates below are substituted for the rates in Schedule 1 for services performed on or after the effective date stated against each. Services performed before that date are charged at the rate previously chargeable. Schedule 2 footage rates are unaffected.
+COLUMNS: Code | Description | Unit | Rate previously chargeable | Rate chargeable | Effective
+ROW: DD-120 | Rotary steerable system, circula | hour | 398.50 | 416.00 | 2026-02-01
+ROW: DD-101 | Directional driller, 24-hour cov | person-day | 1,916.50 | 1,954.00 | 2026-02-01
+NOTE: Save as stated above, the Contract is unchanged and remains in full force. Where this instrument and an earlier instrument both state a rate or a discount for the same service, the later governs services performed on or after its effective date, and the earlier governs services performed before it.
+NOTE: Footer "Page 42". Descriptions printed truncated ("circula", "24-hour cov"). Speck above "416.00"; digits unaffected. All text legible.
+NOTE: Observations (as printed, not reconciled): (a) this page says the adjustment goes on "the first invoice submitted after the date of issue", whereas Clause 36A (p35) says "the first invoice submitted on or after the date of issue". (b) The re-pricing of already-invoiced services contrasts with the Schedule of Variations intro (p37) "nothing in an instrument reopens a service already charged at the rate then chargeable". (c) This Amendment substitutes a DD-120 rate from 2026-02-01 while Supplement No. 2 (issued earlier, effective 2026-04-01) re-publishes DD-120 monthly from April 2026; the "later governs" footer does not say whether "later" means later issued or later effective.
+
+=== DONE ===

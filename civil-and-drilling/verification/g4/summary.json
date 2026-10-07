@@ -1,0 +1,130 @@
+{
+ "run_context": "0a6df141723a1f95",
+ "contracts": {
+  "CW": {
+   "lines": 7746,
+   "amount_status_g3_to_g4": {
+    "conditional -> alternatives": 276,
+    "conditional -> conditional": 649,
+    "conditional -> determined": 635,
+    "determined -> alternatives": 1,
+    "determined -> determined": 6150,
+    "determined -> not_payable": 20,
+    "not_payable -> not_payable": 15
+   },
+   "state_checks": {
+    "band | finding | band_divided": 13,
+    "band | n/a | -": 1,
+    "band | pass | -": 993,
+    "band | unresolved | band_divided": 19,
+    "band_arithmetic | pass | -": 9,
+    "band_arithmetic | unresolved | amount_arithmetic": 20,
+    "band_rate | finding | rate_differs": 11,
+    "band_rate | pass | -": 634,
+    "band_rate | unresolved | rate_differs": 380,
+    "daily_limit | finding | above_daily_limit": 2,
+    "daily_limit | pass | -": 1181,
+    "duplicate | finding | duplicate_measurement": 21,
+    "duplicate | pass | -": 20,
+    "exclusion | pass | -": 228,
+    "exclusion | unresolved | excluded_by_other_item": 1,
+    "p23 | pass | -": 9
+   },
+   "changed_lines": 1048,
+   "changed_by_code": {
+    "A.12.010": 144,
+    "A.12.020": 100,
+    "A.13.010": 126,
+    "A.14.010": 117,
+    "A.14.020": 1,
+    "A.16.010": 20,
+    "B.22.010": 145,
+    "B.23.010": 129,
+    "D.41.010": 138,
+    "D.41.030": 1,
+    "D.41.040": 126,
+    "E.51.020": 1
+   },
+   "g4_dependency_coverage": {
+    "a3_adjustment": {
+     "lines": 89,
+     "answered": 89,
+     "unanswered": []
+    },
+    "band_state": {
+     "lines": 1026,
+     "answered": 1026,
+     "unanswered": []
+    },
+    "daily_limit": {
+     "lines": 1183,
+     "answered": 1183,
+     "unanswered": []
+    },
+    "exclusion": {
+     "lines": 229,
+     "answered": 229,
+     "unanswered": []
+    },
+    "p23_link": {
+     "lines": 9,
+     "answered": 9,
+     "unanswered": []
+    }
+   }
+  },
+  "DDS": {
+   "lines": 91244,
+   "amount_status_g3_to_g4": {
+    "alternatives -> alternatives": 7,
+    "conditional -> conditional": 26600,
+    "deferred -> deferred": 63,
+    "determined -> alternatives": 6,
+    "determined -> determined": 64542,
+    "determined -> not_payable": 3,
+    "not_payable -> not_payable": 23
+   },
+   "state_checks": {
+    "daily_limit | n/a | -": 19,
+    "daily_limit | pass | -": 79560,
+    "duplicate | pass | -": 368,
+    "duplicate | unresolved | charged_twice": 6,
+    "footage | pass | -": 2390,
+    "loss_event | pass | -": 54,
+    "run_event | n/a | -": 2,
+    "run_event | pass | -": 1449,
+    "well_event | finding | well_event_not_on_its_day": 3,
+    "well_event | finding | well_event_repeated": 3,
+    "well_event | pass | -": 856
+   },
+   "changed_lines": 9,
+   "changed_by_code": {
+    "LW-401": 4,
+    "MB-701": 3,
+    "MW-301": 2
+   },
+   "g4_dependency_coverage": {
+    "a3_adjustment": {
+     "lines": 3309,
+     "answered": 3309,
+     "unanswered": []
+    },
+    "daily_limit": {
+     "lines": 79579,
+     "answered": 79579,
+     "unanswered": []
+    },
+    "once_per_run": {
+     "lines": 1451,
+     "answered": 1451,
+     "unanswered": []
+    },
+    "once_per_well": {
+     "lines": 859,
+     "answered": 859,
+     "unanswered": []
+    }
+   }
+  }
+ }
+}

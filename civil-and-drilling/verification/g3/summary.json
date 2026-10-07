@@ -1,0 +1,1900 @@
+{
+ "run_context": "0a6df141723a1f95",
+ "contracts": {
+  "CW": {
+   "lines": 7746,
+   "amount_status": {
+    "conditional": 1560,
+    "determined": 6171,
+    "not_payable": 15
+   },
+   "findings": {
+    "amount_arithmetic": 3,
+    "contract_ref_variant": 23,
+    "item_not_supported_by_record": 1,
+    "out_of_term": 2,
+    "outside_period": 2,
+    "quantity_above_record": 2,
+    "rate_differs": 32,
+    "record_area_mismatch": 1,
+    "record_date_mismatch": 1,
+    "record_missing": 7,
+    "record_unsigned": 1,
+    "record_wrong_series": 1,
+    "submitted_early": 6,
+    "submitted_late": 21,
+    "wrong_unit": 4
+   },
+   "always_g4": [
+    "duplicate_scope (CW-R17, Cl.44)"
+   ],
+   "codes": {
+    "A.11.010": {
+     "lines": 148,
+     "amount_status": {
+      "determined": 148
+     },
+     "findings": {},
+     "g4": {
+      "daily_limit": 148
+     },
+     "rate_agree": 148,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.11.020": {
+     "lines": 141,
+     "amount_status": {
+      "conditional": 60,
+      "determined": 81
+     },
+     "findings": {
+      "contract_ref_variant": 1
+     },
+     "g4": {},
+     "rate_agree": 81,
+     "rate_differs": 0,
+     "rate_not_single": 60,
+     "billed_rate_is_an_admissible_alternative": 60,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.11.030": {
+     "lines": 130,
+     "amount_status": {
+      "determined": 130
+     },
+     "findings": {
+      "submitted_early": 1,
+      "contract_ref_variant": 1,
+      "submitted_late": 1
+     },
+     "g4": {},
+     "rate_agree": 130,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.12.010": {
+     "lines": 144,
+     "amount_status": {
+      "conditional": 144
+     },
+     "findings": {
+      "rate_differs": 1
+     },
+     "g4": {
+      "band_state": 144,
+      "daily_limit": 144
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 144,
+     "billed_rate_is_an_admissible_alternative": 143,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.12.020": {
+     "lines": 100,
+     "amount_status": {
+      "conditional": 100
+     },
+     "findings": {
+      "contract_ref_variant": 1,
+      "rate_differs": 1
+     },
+     "g4": {
+      "band_state": 100
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 100,
+     "billed_rate_is_an_admissible_alternative": 99,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.12.030": {
+     "lines": 135,
+     "amount_status": {
+      "determined": 134,
+      "not_payable": 1
+     },
+     "findings": {
+      "record_missing": 1,
+      "rate_differs": 1
+     },
+     "g4": {
+      "p23_link": 1
+     },
+     "rate_agree": 133,
+     "rate_differs": 1,
+     "rate_not_single": 1,
+     "billed_rate_is_an_admissible_alternative": 1,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.12.040": {
+     "lines": 132,
+     "amount_status": {
+      "determined": 131,
+      "not_payable": 1
+     },
+     "findings": {
+      "rate_differs": 2,
+      "record_unsigned": 1,
+      "submitted_late": 1
+     },
+     "g4": {
+      "p23_link": 1
+     },
+     "rate_agree": 129,
+     "rate_differs": 2,
+     "rate_not_single": 1,
+     "billed_rate_is_an_admissible_alternative": 1,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.12.050": {
+     "lines": 148,
+     "amount_status": {
+      "conditional": 73,
+      "determined": 75
+     },
+     "findings": {
+      "submitted_early": 1,
+      "rate_differs": 1
+     },
+     "g4": {},
+     "rate_agree": 74,
+     "rate_differs": 1,
+     "rate_not_single": 73,
+     "billed_rate_is_an_admissible_alternative": 73,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.12.060": {
+     "lines": 139,
+     "amount_status": {
+      "determined": 139
+     },
+     "findings": {
+      "rate_differs": 1,
+      "submitted_late": 2
+     },
+     "g4": {},
+     "rate_agree": 138,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.13.010": {
+     "lines": 126,
+     "amount_status": {
+      "conditional": 126
+     },
+     "findings": {
+      "submitted_early": 1
+     },
+     "g4": {
+      "band_state": 126
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 126,
+     "billed_rate_is_an_admissible_alternative": 126,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.13.020": {
+     "lines": 128,
+     "amount_status": {
+      "determined": 128
+     },
+     "findings": {
+      "submitted_late": 1
+     },
+     "g4": {},
+     "rate_agree": 128,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.13.030": {
+     "lines": 141,
+     "amount_status": {
+      "determined": 141
+     },
+     "findings": {
+      "outside_period": 1
+     },
+     "g4": {
+      "daily_limit": 141
+     },
+     "rate_agree": 141,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.14.010": {
+     "lines": 117,
+     "amount_status": {
+      "conditional": 117
+     },
+     "findings": {
+      "rate_differs": 2,
+      "contract_ref_variant": 1
+     },
+     "g4": {
+      "band_state": 117,
+      "a3_adjustment": 42
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 117,
+     "billed_rate_is_an_admissible_alternative": 115,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.14.020": {
+     "lines": 125,
+     "amount_status": {
+      "determined": 65,
+      "conditional": 59,
+      "not_payable": 1
+     },
+     "findings": {
+      "contract_ref_variant": 1,
+      "rate_differs": 1,
+      "wrong_unit": 1
+     },
+     "g4": {
+      "exclusion": 125
+     },
+     "rate_agree": 66,
+     "rate_differs": 0,
+     "rate_not_single": 59,
+     "billed_rate_is_an_admissible_alternative": 58,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.14.030": {
+     "lines": 131,
+     "amount_status": {
+      "determined": 130,
+      "not_payable": 1
+     },
+     "findings": {
+      "wrong_unit": 1,
+      "submitted_late": 1
+     },
+     "g4": {},
+     "rate_agree": 131,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.15.010": {
+     "lines": 122,
+     "amount_status": {
+      "determined": 61,
+      "conditional": 60,
+      "not_payable": 1
+     },
+     "findings": {
+      "submitted_late": 1,
+      "out_of_term": 1,
+      "outside_period": 1
+     },
+     "g4": {},
+     "rate_agree": 62,
+     "rate_differs": 0,
+     "rate_not_single": 60,
+     "billed_rate_is_an_admissible_alternative": 60,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.15.020": {
+     "lines": 120,
+     "amount_status": {
+      "determined": 54,
+      "conditional": 66
+     },
+     "findings": {
+      "contract_ref_variant": 1
+     },
+     "g4": {},
+     "rate_agree": 54,
+     "rate_differs": 0,
+     "rate_not_single": 66,
+     "billed_rate_is_an_admissible_alternative": 66,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "A.16.010": {
+     "lines": 135,
+     "amount_status": {
+      "determined": 134,
+      "not_payable": 1
+     },
+     "findings": {
+      "record_missing": 1
+     },
+     "g4": {
+      "p23_link": 1
+     },
+     "rate_agree": 135,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.21.010": {
+     "lines": 107,
+     "amount_status": {
+      "determined": 107
+     },
+     "findings": {
+      "contract_ref_variant": 1
+     },
+     "g4": {},
+     "rate_agree": 107,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.21.020": {
+     "lines": 106,
+     "amount_status": {
+      "determined": 106
+     },
+     "findings": {},
+     "g4": {
+      "daily_limit": 106
+     },
+     "rate_agree": 106,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.21.030": {
+     "lines": 121,
+     "amount_status": {
+      "determined": 121
+     },
+     "findings": {},
+     "g4": {},
+     "rate_agree": 121,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.21.040": {
+     "lines": 138,
+     "amount_status": {
+      "determined": 138
+     },
+     "findings": {
+      "contract_ref_variant": 1,
+      "submitted_late": 1
+     },
+     "g4": {},
+     "rate_agree": 138,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.21.050": {
+     "lines": 134,
+     "amount_status": {
+      "determined": 134
+     },
+     "findings": {},
+     "g4": {},
+     "rate_agree": 134,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.22.010": {
+     "lines": 145,
+     "amount_status": {
+      "conditional": 145
+     },
+     "findings": {},
+     "g4": {
+      "band_state": 145
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 145,
+     "billed_rate_is_an_admissible_alternative": 145,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.22.020": {
+     "lines": 125,
+     "amount_status": {
+      "determined": 125
+     },
+     "findings": {},
+     "g4": {},
+     "rate_agree": 125,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.22.030": {
+     "lines": 128,
+     "amount_status": {
+      "determined": 128
+     },
+     "findings": {},
+     "g4": {},
+     "rate_agree": 128,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.23.010": {
+     "lines": 129,
+     "amount_status": {
+      "conditional": 129
+     },
+     "findings": {
+      "rate_differs": 2,
+      "contract_ref_variant": 1
+     },
+     "g4": {
+      "band_state": 129
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 129,
+     "billed_rate_is_an_admissible_alternative": 127,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.23.020": {
+     "lines": 129,
+     "amount_status": {
+      "determined": 128,
+      "not_payable": 1
+     },
+     "findings": {
+      "rate_differs": 1,
+      "item_not_supported_by_record": 1,
+      "record_area_mismatch": 1,
+      "record_date_mismatch": 1,
+      "record_wrong_series": 1
+     },
+     "g4": {
+      "p23_link": 1
+     },
+     "rate_agree": 128,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.24.010": {
+     "lines": 127,
+     "amount_status": {
+      "determined": 127
+     },
+     "findings": {
+      "rate_differs": 1
+     },
+     "g4": {},
+     "rate_agree": 126,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.25.010": {
+     "lines": 126,
+     "amount_status": {
+      "determined": 125,
+      "not_payable": 1
+     },
+     "findings": {
+      "rate_differs": 2,
+      "out_of_term": 1
+     },
+     "g4": {},
+     "rate_agree": 124,
+     "rate_differs": 2,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.26.010": {
+     "lines": 128,
+     "amount_status": {
+      "determined": 128
+     },
+     "findings": {
+      "rate_differs": 1
+     },
+     "g4": {},
+     "rate_agree": 127,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "B.27.010": {
+     "lines": 133,
+     "amount_status": {
+      "determined": 133
+     },
+     "findings": {},
+     "g4": {},
+     "rate_agree": 133,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.31.010": {
+     "lines": 140,
+     "amount_status": {
+      "determined": 77,
+      "conditional": 63
+     },
+     "findings": {
+      "rate_differs": 4
+     },
+     "g4": {},
+     "rate_agree": 74,
+     "rate_differs": 3,
+     "rate_not_single": 63,
+     "billed_rate_is_an_admissible_alternative": 62,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.31.020": {
+     "lines": 135,
+     "amount_status": {
+      "determined": 135
+     },
+     "findings": {
+      "amount_arithmetic": 1,
+      "rate_differs": 1
+     },
+     "g4": {},
+     "rate_agree": 134,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.31.030": {
+     "lines": 133,
+     "amount_status": {
+      "determined": 76,
+      "conditional": 57
+     },
+     "findings": {
+      "contract_ref_variant": 2
+     },
+     "g4": {},
+     "rate_agree": 76,
+     "rate_differs": 0,
+     "rate_not_single": 57,
+     "billed_rate_is_an_admissible_alternative": 57,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.31.040": {
+     "lines": 131,
+     "amount_status": {
+      "determined": 130,
+      "not_payable": 1
+     },
+     "findings": {
+      "submitted_late": 1,
+      "wrong_unit": 1
+     },
+     "g4": {},
+     "rate_agree": 131,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.32.010": {
+     "lines": 129,
+     "amount_status": {
+      "determined": 81,
+      "conditional": 48
+     },
+     "findings": {
+      "submitted_early": 1,
+      "rate_differs": 1,
+      "contract_ref_variant": 2,
+      "amount_arithmetic": 1
+     },
+     "g4": {
+      "daily_limit": 129,
+      "a3_adjustment": 47
+     },
+     "rate_agree": 80,
+     "rate_differs": 1,
+     "rate_not_single": 48,
+     "billed_rate_is_an_admissible_alternative": 48,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.32.020": {
+     "lines": 137,
+     "amount_status": {
+      "determined": 137
+     },
+     "findings": {
+      "submitted_late": 2
+     },
+     "g4": {},
+     "rate_agree": 137,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.32.030": {
+     "lines": 135,
+     "amount_status": {
+      "determined": 135
+     },
+     "findings": {
+      "rate_differs": 2,
+      "contract_ref_variant": 1,
+      "submitted_late": 1
+     },
+     "g4": {
+      "daily_limit": 135
+     },
+     "rate_agree": 133,
+     "rate_differs": 2,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.32.040": {
+     "lines": 135,
+     "amount_status": {
+      "determined": 135
+     },
+     "findings": {
+      "submitted_late": 1
+     },
+     "g4": {},
+     "rate_agree": 135,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.33.010": {
+     "lines": 115,
+     "amount_status": {
+      "conditional": 49,
+      "determined": 66
+     },
+     "findings": {},
+     "g4": {},
+     "rate_agree": 66,
+     "rate_differs": 0,
+     "rate_not_single": 49,
+     "billed_rate_is_an_admissible_alternative": 49,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.34.010": {
+     "lines": 119,
+     "amount_status": {
+      "determined": 119
+     },
+     "findings": {
+      "contract_ref_variant": 2,
+      "submitted_late": 1
+     },
+     "g4": {},
+     "rate_agree": 119,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "C.35.010": {
+     "lines": 120,
+     "amount_status": {
+      "determined": 120
+     },
+     "findings": {
+      "amount_arithmetic": 1
+     },
+     "g4": {},
+     "rate_agree": 120,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.41.010": {
+     "lines": 139,
+     "amount_status": {
+      "conditional": 138,
+      "not_payable": 1
+     },
+     "findings": {
+      "contract_ref_variant": 2,
+      "record_missing": 1,
+      "rate_differs": 1
+     },
+     "g4": {
+      "band_state": 139,
+      "p23_link": 1
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 139,
+     "billed_rate_is_an_admissible_alternative": 138,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.41.020": {
+     "lines": 131,
+     "amount_status": {
+      "determined": 131
+     },
+     "findings": {
+      "rate_differs": 4,
+      "contract_ref_variant": 1
+     },
+     "g4": {},
+     "rate_agree": 127,
+     "rate_differs": 4,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.41.030": {
+     "lines": 146,
+     "amount_status": {
+      "determined": 146
+     },
+     "findings": {
+      "rate_differs": 1,
+      "submitted_late": 1
+     },
+     "g4": {
+      "daily_limit": 146
+     },
+     "rate_agree": 145,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.41.040": {
+     "lines": 126,
+     "amount_status": {
+      "conditional": 126
+     },
+     "findings": {
+      "contract_ref_variant": 1
+     },
+     "g4": {
+      "band_state": 126
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 126,
+     "billed_rate_is_an_admissible_alternative": 126,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.41.050": {
+     "lines": 140,
+     "amount_status": {
+      "determined": 140
+     },
+     "findings": {
+      "submitted_early": 1,
+      "contract_ref_variant": 1
+     },
+     "g4": {},
+     "rate_agree": 140,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.42.010": {
+     "lines": 119,
+     "amount_status": {
+      "determined": 118,
+      "not_payable": 1
+     },
+     "findings": {
+      "wrong_unit": 1
+     },
+     "g4": {},
+     "rate_agree": 119,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.42.020": {
+     "lines": 119,
+     "amount_status": {
+      "determined": 119
+     },
+     "findings": {
+      "submitted_late": 1
+     },
+     "g4": {},
+     "rate_agree": 119,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.42.030": {
+     "lines": 125,
+     "amount_status": {
+      "determined": 125
+     },
+     "findings": {
+      "contract_ref_variant": 1
+     },
+     "g4": {},
+     "rate_agree": 125,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.43.010": {
+     "lines": 122,
+     "amount_status": {
+      "determined": 122
+     },
+     "findings": {
+      "rate_differs": 1
+     },
+     "g4": {},
+     "rate_agree": 121,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.43.020": {
+     "lines": 120,
+     "amount_status": {
+      "determined": 120
+     },
+     "findings": {
+      "submitted_late": 1,
+      "contract_ref_variant": 1
+     },
+     "g4": {},
+     "rate_agree": 120,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "D.44.010": {
+     "lines": 135,
+     "amount_status": {
+      "determined": 135
+     },
+     "findings": {
+      "submitted_late": 2
+     },
+     "g4": {},
+     "rate_agree": 135,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "E.51.010": {
+     "lines": 143,
+     "amount_status": {
+      "determined": 142,
+      "not_payable": 1
+     },
+     "findings": {
+      "quantity_above_record": 1,
+      "record_missing": 1
+     },
+     "g4": {
+      "p23_link": 1
+     },
+     "rate_agree": 143,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "E.51.020": {
+     "lines": 104,
+     "amount_status": {
+      "determined": 104
+     },
+     "findings": {
+      "submitted_late": 1
+     },
+     "g4": {
+      "daily_limit": 104,
+      "exclusion": 104
+     },
+     "rate_agree": 104,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "E.51.030": {
+     "lines": 144,
+     "amount_status": {
+      "determined": 143,
+      "not_payable": 1
+     },
+     "findings": {
+      "record_missing": 1,
+      "submitted_late": 1
+     },
+     "g4": {
+      "p23_link": 1
+     },
+     "rate_agree": 144,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "E.52.010": {
+     "lines": 113,
+     "amount_status": {
+      "determined": 111,
+      "not_payable": 2
+     },
+     "findings": {
+      "record_missing": 2,
+      "quantity_above_record": 1
+     },
+     "g4": {
+      "p23_link": 2
+     },
+     "rate_agree": 113,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "E.53.010": {
+     "lines": 130,
+     "amount_status": {
+      "determined": 130
+     },
+     "findings": {},
+     "g4": {
+      "daily_limit": 130
+     },
+     "rate_agree": 130,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "E.54.010": {
+     "lines": 123,
+     "amount_status": {
+      "determined": 123
+     },
+     "findings": {
+      "submitted_early": 1
+     },
+     "g4": {},
+     "rate_agree": 123,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    }
+   },
+   "note": "rate_agree/rate_differs compare the billed rate with the contract rate as a diagnostic only (billing is never the truth criterion). A line whose rate depends on the band (G4), the ground class or the well class (not evidenced; G5) has no single rate: it counts as rate_not_single, and billed_rate_is_an_admissible_alternative counts those billed at one admissible alternative's rate. rate_not_formed: no contract rate was formed (a code outside the schedules, a month outside the published tables, or the line not payable before its rate was needed). value_not_formed: the line has no value at G3 (deferred to G4, or unresolved on an input G2 left empty): no rate is compared."
+  },
+  "DDS": {
+   "lines": 91244,
+   "amount_status": {
+    "alternatives": 7,
+    "conditional": 26600,
+    "deferred": 63,
+    "determined": 64551,
+    "not_payable": 23
+   },
+   "findings": {
+    "amount_arithmetic": 3,
+    "contract_ref_variant": 175,
+    "not_chargeable_on_operating": 4,
+    "not_chargeable_on_standby": 4,
+    "out_of_term": 3,
+    "outside_period": 3,
+    "quantity_above_report": 17,
+    "rate_differs": 55,
+    "report_date_mismatch": 8,
+    "report_unsigned": 33,
+    "required_part_missing": 3,
+    "submitted_early": 105,
+    "submitted_late": 136,
+    "tool_not_in_hole": 3
+   },
+   "always_g4": [
+    "duplicate_scope (DDS-R16, Cl.29)"
+   ],
+   "codes": {
+    "DD-101": {
+     "lines": 8151,
+     "amount_status": {
+      "determined": 8151
+     },
+     "findings": {
+      "submitted_late": 13,
+      "report_unsigned": 3,
+      "submitted_early": 10,
+      "contract_ref_variant": 15,
+      "rate_differs": 2
+     },
+     "g4": {
+      "daily_limit": 8151,
+      "a3_adjustment": 2141
+     },
+     "rate_agree": 8149,
+     "rate_differs": 2,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "DD-102": {
+     "lines": 8151,
+     "amount_status": {
+      "determined": 8151
+     },
+     "findings": {
+      "submitted_late": 13,
+      "report_unsigned": 3,
+      "submitted_early": 10,
+      "contract_ref_variant": 15
+     },
+     "g4": {
+      "daily_limit": 8151
+     },
+     "rate_agree": 8151,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "DD-110": {
+     "lines": 3304,
+     "amount_status": {
+      "determined": 3304
+     },
+     "findings": {
+      "submitted_late": 9,
+      "report_unsigned": 2,
+      "submitted_early": 5,
+      "contract_ref_variant": 9,
+      "rate_differs": 2
+     },
+     "g4": {
+      "daily_limit": 3304
+     },
+     "rate_agree": 3302,
+     "rate_differs": 2,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "DD-111": {
+     "lines": 654,
+     "amount_status": {
+      "determined": 654
+     },
+     "findings": {
+      "submitted_late": 2,
+      "contract_ref_variant": 1,
+      "submitted_early": 1
+     },
+     "g4": {
+      "once_per_run": 654
+     },
+     "rate_agree": 654,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "DD-120": {
+     "lines": 4606,
+     "amount_status": {
+      "conditional": 4601,
+      "alternatives": 5
+     },
+     "findings": {
+      "submitted_late": 4,
+      "submitted_early": 5,
+      "report_unsigned": 1,
+      "quantity_above_report": 3,
+      "rate_differs": 1,
+      "contract_ref_variant": 6
+     },
+     "g4": {
+      "daily_limit": 4606,
+      "a3_adjustment": 1168
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 4606,
+     "billed_rate_is_an_admissible_alternative": 4605,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "DD-121": {
+     "lines": 245,
+     "amount_status": {
+      "determined": 241,
+      "not_payable": 4
+     },
+     "findings": {
+      "rate_differs": 5,
+      "not_chargeable_on_operating": 4
+     },
+     "g4": {
+      "daily_limit": 245
+     },
+     "rate_agree": 240,
+     "rate_differs": 5,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "DD-130": {
+     "lines": 480,
+     "amount_status": {
+      "determined": 479,
+      "not_payable": 1
+     },
+     "findings": {
+      "submitted_late": 2,
+      "required_part_missing": 1,
+      "contract_ref_variant": 2,
+      "submitted_early": 1
+     },
+     "g4": {
+      "daily_limit": 480
+     },
+     "rate_agree": 480,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "DD-140": {
+     "lines": 214,
+     "amount_status": {
+      "determined": 214
+     },
+     "findings": {
+      "submitted_early": 1
+     },
+     "g4": {
+      "once_per_well": 214
+     },
+     "rate_agree": 214,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "DS-900": {
+     "lines": 63,
+     "amount_status": {
+      "deferred": 63
+     },
+     "findings": {},
+     "g4": {},
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 63
+    },
+    "HC-601": {
+     "lines": 1767,
+     "amount_status": {
+      "determined": 1767
+     },
+     "findings": {
+      "submitted_late": 9,
+      "report_unsigned": 2,
+      "contract_ref_variant": 9
+     },
+     "g4": {
+      "daily_limit": 1767
+     },
+     "rate_agree": 1767,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "HC-610": {
+     "lines": 943,
+     "amount_status": {
+      "determined": 943
+     },
+     "findings": {
+      "submitted_late": 1,
+      "submitted_early": 2
+     },
+     "g4": {
+      "daily_limit": 943
+     },
+     "rate_agree": 943,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "HC-620": {
+     "lines": 8151,
+     "amount_status": {
+      "determined": 8151
+     },
+     "findings": {
+      "submitted_late": 13,
+      "report_unsigned": 3,
+      "rate_differs": 2,
+      "submitted_early": 10,
+      "contract_ref_variant": 15
+     },
+     "g4": {
+      "daily_limit": 8151
+     },
+     "rate_agree": 8149,
+     "rate_differs": 2,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "HC-630": {
+     "lines": 428,
+     "amount_status": {
+      "determined": 428
+     },
+     "findings": {
+      "submitted_early": 1
+     },
+     "g4": {
+      "once_per_run": 428
+     },
+     "rate_agree": 428,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "HC-640": {
+     "lines": 2146,
+     "amount_status": {
+      "determined": 2142,
+      "not_payable": 4
+     },
+     "findings": {
+      "not_chargeable_on_standby": 4,
+      "report_unsigned": 1,
+      "contract_ref_variant": 6
+     },
+     "g4": {
+      "daily_limit": 2146
+     },
+     "rate_agree": 2146,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LH-711": {
+     "lines": 10,
+     "amount_status": {
+      "determined": 10
+     },
+     "findings": {
+      "rate_differs": 1
+     },
+     "g4": {},
+     "rate_agree": 9,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LH-712": {
+     "lines": 17,
+     "amount_status": {
+      "determined": 17
+     },
+     "findings": {
+      "rate_differs": 3
+     },
+     "g4": {},
+     "rate_agree": 14,
+     "rate_differs": 3,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LH-713": {
+     "lines": 19,
+     "amount_status": {
+      "determined": 19
+     },
+     "findings": {
+      "rate_differs": 3
+     },
+     "g4": {},
+     "rate_agree": 16,
+     "rate_differs": 3,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LH-714": {
+     "lines": 8,
+     "amount_status": {
+      "determined": 8
+     },
+     "findings": {
+      "rate_differs": 1
+     },
+     "g4": {},
+     "rate_agree": 7,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LW-401": {
+     "lines": 3432,
+     "amount_status": {
+      "determined": 3432
+     },
+     "findings": {
+      "submitted_late": 4,
+      "rate_differs": 3,
+      "submitted_early": 7,
+      "quantity_above_report": 2
+     },
+     "g4": {
+      "daily_limit": 3432
+     },
+     "rate_agree": 3429,
+     "rate_differs": 3,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LW-410": {
+     "lines": 2964,
+     "amount_status": {
+      "conditional": 2964
+     },
+     "findings": {
+      "quantity_above_report": 3,
+      "submitted_late": 4,
+      "submitted_early": 6
+     },
+     "g4": {},
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 2964,
+     "billed_rate_is_an_admissible_alternative": 2964,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LW-411": {
+     "lines": 2250,
+     "amount_status": {
+      "conditional": 2249,
+      "not_payable": 1
+     },
+     "findings": {
+      "submitted_late": 4,
+      "quantity_above_report": 2,
+      "submitted_early": 4,
+      "report_date_mismatch": 1
+     },
+     "g4": {},
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 2250,
+     "billed_rate_is_an_admissible_alternative": 2250,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LW-412": {
+     "lines": 955,
+     "amount_status": {
+      "conditional": 955
+     },
+     "findings": {
+      "submitted_late": 4
+     },
+     "g4": {},
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 955,
+     "billed_rate_is_an_admissible_alternative": 955,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LW-413": {
+     "lines": 445,
+     "amount_status": {
+      "conditional": 445
+     },
+     "findings": {
+      "submitted_late": 1,
+      "submitted_early": 1
+     },
+     "g4": {
+      "daily_limit": 445
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 445,
+     "billed_rate_is_an_admissible_alternative": 445,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LW-420": {
+     "lines": 369,
+     "amount_status": {
+      "determined": 367,
+      "not_payable": 2
+     },
+     "findings": {
+      "required_part_missing": 2
+     },
+     "g4": {
+      "once_per_run": 369
+     },
+     "rate_agree": 369,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "LW-430": {
+     "lines": 214,
+     "amount_status": {
+      "determined": 214
+     },
+     "findings": {},
+     "g4": {
+      "once_per_well": 214
+     },
+     "rate_agree": 214,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "MB-701": {
+     "lines": 217,
+     "amount_status": {
+      "determined": 217
+     },
+     "findings": {
+      "submitted_early": 1,
+      "rate_differs": 2
+     },
+     "g4": {
+      "once_per_well": 217
+     },
+     "rate_agree": 215,
+     "rate_differs": 2,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "MB-702": {
+     "lines": 214,
+     "amount_status": {
+      "determined": 214
+     },
+     "findings": {},
+     "g4": {
+      "once_per_well": 214
+     },
+     "rate_agree": 214,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "MW-301": {
+     "lines": 8152,
+     "amount_status": {
+      "determined": 8148,
+      "not_payable": 4
+     },
+     "findings": {
+      "submitted_late": 13,
+      "rate_differs": 5,
+      "report_date_mismatch": 4,
+      "report_unsigned": 3,
+      "outside_period": 2,
+      "submitted_early": 10,
+      "contract_ref_variant": 15,
+      "quantity_above_report": 1,
+      "out_of_term": 1
+     },
+     "g4": {
+      "daily_limit": 8152
+     },
+     "rate_agree": 8147,
+     "rate_differs": 5,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "MW-310": {
+     "lines": 8151,
+     "amount_status": {
+      "conditional": 8150,
+      "not_payable": 1
+     },
+     "findings": {
+      "submitted_late": 13,
+      "rate_differs": 16,
+      "report_unsigned": 3,
+      "submitted_early": 10,
+      "contract_ref_variant": 15,
+      "quantity_above_report": 1,
+      "out_of_term": 1,
+      "report_date_mismatch": 1
+     },
+     "g4": {
+      "daily_limit": 8151
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 8150,
+     "billed_rate_is_an_admissible_alternative": 8134,
+     "rate_not_formed": 1,
+     "value_not_formed": 0
+    },
+    "MW-320": {
+     "lines": 4847,
+     "amount_status": {
+      "conditional": 4846,
+      "not_payable": 1
+     },
+     "findings": {
+      "rate_differs": 1,
+      "submitted_late": 4,
+      "submitted_early": 5,
+      "report_unsigned": 1,
+      "amount_arithmetic": 1,
+      "out_of_term": 1,
+      "report_date_mismatch": 1,
+      "contract_ref_variant": 6
+     },
+     "g4": {
+      "daily_limit": 4847
+     },
+     "rate_agree": 0,
+     "rate_differs": 0,
+     "rate_not_single": 4847,
+     "billed_rate_is_an_admissible_alternative": 4846,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "MW-330": {
+     "lines": 8151,
+     "amount_status": {
+      "determined": 8151
+     },
+     "findings": {
+      "submitted_late": 13,
+      "report_unsigned": 3,
+      "submitted_early": 10,
+      "contract_ref_variant": 15,
+      "quantity_above_report": 2
+     },
+     "g4": {
+      "daily_limit": 8151
+     },
+     "rate_agree": 8151,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "PD-201": {
+     "lines": 2561,
+     "amount_status": {
+      "determined": 2560,
+      "not_payable": 1
+     },
+     "findings": {
+      "outside_period": 1,
+      "report_date_mismatch": 1,
+      "submitted_early": 2,
+      "report_unsigned": 1,
+      "quantity_above_report": 1,
+      "contract_ref_variant": 6
+     },
+     "g4": {
+      "daily_limit": 2561
+     },
+     "rate_agree": 2561,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "PD-210": {
+     "lines": 2390,
+     "amount_status": {
+      "conditional": 2390
+     },
+     "findings": {
+      "amount_arithmetic": 1,
+      "rate_differs": 7,
+      "submitted_early": 1,
+      "report_unsigned": 1,
+      "contract_ref_variant": 7
+     },
+     "g4": {},
+     "rate_agree": 2383,
+     "rate_differs": 7,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "PD-220": {
+     "lines": 1190,
+     "amount_status": {
+      "determined": 1190
+     },
+     "findings": {
+      "report_unsigned": 1,
+      "contract_ref_variant": 6
+     },
+     "g4": {
+      "daily_limit": 1190
+     },
+     "rate_agree": 1190,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "PD-230": {
+     "lines": 1190,
+     "amount_status": {
+      "determined": 1190
+     },
+     "findings": {
+      "report_unsigned": 1,
+      "contract_ref_variant": 6
+     },
+     "g4": {
+      "daily_limit": 1190
+     },
+     "rate_agree": 1190,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "RM-510": {
+     "lines": 679,
+     "amount_status": {
+      "determined": 678,
+      "not_payable": 1
+     },
+     "findings": {
+      "quantity_above_report": 2,
+      "report_unsigned": 1,
+      "contract_ref_variant": 6
+     },
+     "g4": {},
+     "rate_agree": 679,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "RM-511": {
+     "lines": 806,
+     "amount_status": {
+      "determined": 803,
+      "not_payable": 3
+     },
+     "findings": {
+      "rate_differs": 1,
+      "tool_not_in_hole": 3,
+      "amount_arithmetic": 1,
+      "report_unsigned": 1,
+      "contract_ref_variant": 6
+     },
+     "g4": {
+      "daily_limit": 806
+     },
+     "rate_agree": 805,
+     "rate_differs": 1,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "RM-520": {
+     "lines": 1767,
+     "amount_status": {
+      "determined": 1767
+     },
+     "findings": {
+      "submitted_late": 9,
+      "report_unsigned": 2,
+      "contract_ref_variant": 9
+     },
+     "g4": {
+      "daily_limit": 1767
+     },
+     "rate_agree": 1767,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    },
+    "RM-530": {
+     "lines": 943,
+     "amount_status": {
+      "determined": 941,
+      "alternatives": 2
+     },
+     "findings": {
+      "submitted_late": 1,
+      "submitted_early": 2
+     },
+     "g4": {
+      "daily_limit": 943
+     },
+     "rate_agree": 943,
+     "rate_differs": 0,
+     "rate_not_single": 0,
+     "billed_rate_is_an_admissible_alternative": 0,
+     "rate_not_formed": 0,
+     "value_not_formed": 0
+    }
+   },
+   "note": "rate_agree/rate_differs compare the billed rate with the contract rate as a diagnostic only (billing is never the truth criterion). A line whose rate depends on the band (G4), the ground class or the well class (not evidenced; G5) has no single rate: it counts as rate_not_single, and billed_rate_is_an_admissible_alternative counts those billed at one admissible alternative's rate. rate_not_formed: no contract rate was formed (a code outside the schedules, a month outside the published tables, or the line not payable before its rate was needed). value_not_formed: the line has no value at G3 (deferred to G4, or unresolved on an input G2 left empty): no rate is compared."
+  }
+ }
+}

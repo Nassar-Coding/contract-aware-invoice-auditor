@@ -1,0 +1,229 @@
+# G2 reviewed fixtures. Every value below was typed by hand from the raw snapshot text (record files and CSV
+# rows), never copied from parser output. Fields not seen in the raw text
+# are omitted rather than guessed. tests/test_g2_fixtures.py asserts the parser reproduces each value;
+# tools/verify_g2.py checks that these fixtures cover every record family and every wording/layout branch
+# encountered in the corpus.
+
+civil_records:
+  # ticket: {family, area, date | week_beginning + days_on, ground, rule, quantity, unit, candidates, attributes, foreman, engineer, engineer_signed}
+  CT-00001: {family: CT, area: S-01, date: "2025-01-09", ground: null, rule: CT2, quantity: "792", unit: m2, candidates: [D.41.010], attributes: {}, foreman: K. Doyle, engineer: N. Basri}
+  CT-00002: {family: CT, area: S-04, date: "2025-01-12", ground: null, rule: CT4, quantity: "520", unit: m2, candidates: [D.41.010], attributes: {type: "1"}}
+  CT-00003: {family: CT, area: S-04, date: "2025-01-13", ground: null, rule: CT1, quantity: "121", unit: m2, candidates: [D.41.040], attributes: {}}
+  CT-00007: {family: CT, area: S-02, date: "2025-01-30", ground: null, rule: CT5, quantity: "309", unit: m3, candidates: [A.14.010], attributes: {}}
+  CT-00009: {family: CT, area: S-03, date: "2025-02-02", ground: null, rule: CT3, quantity: "89", unit: m3, candidates: [A.14.010], attributes: {}}
+  CV-00001: {family: CV, area: S-04, date: "2025-01-24", ground: null, rule: CV1, quantity: "154", unit: lm, candidates: [C.35.010], attributes: {}, foreman: T. Okonjo, engineer: H. Suleiman}
+  DW-00001: {family: DW, area: S-04, week_beginning: "2025-01-27", days_on: ["2025-01-27", "2025-01-28", "2025-01-30", "2025-01-31", "2025-02-01", "2025-02-02"], ground: null, rule: DW1, quantity: "1", unit: week, candidates: [A.16.010], attributes: {}, foreman: J. Pretorius, engineer: N. Basri}
+  DW-00003: {family: DW, area: S-05, week_beginning: "2025-02-03", days_on: ["2025-02-03", "2025-02-04", "2025-02-05", "2025-02-06", "2025-02-08", "2025-02-09"], ground: null, rule: DW2, quantity: "1", unit: week, candidates: [A.16.010], attributes: {}}
+  DW-00065: {family: DW, area: S-05, week_beginning: "2025-12-15", days_on: ["2025-12-15", "2025-12-16", "2025-12-17", "2025-12-18", "2025-12-19"], ground: null, rule: DW1, quantity: "1", unit: week, candidates: [A.16.010], attributes: {}, foreman: T. Okonjo, engineer: H. Suleiman}
+  DW-00067: {family: DW, area: S-01, week_beginning: "2025-12-29", days_on: ["2025-12-29", "2025-12-30", "2025-12-31", "2026-01-01", "2026-01-02", "2026-01-03", "2026-01-04"], ground: null, rule: DW2, quantity: "1", unit: week, candidates: [A.16.010], attributes: {}, foreman: J. Pretorius, engineer: N. Basri}
+  DX-00001: {family: DX, area: S-04, date: "2025-01-18", ground: G1, rule: DX2, quantity: "210", unit: m3, candidates: [A.12.030], attributes: {depth_m: "3"}, foreman: S. Raman, engineer: P. Lindqvist}
+  DX-00002: {family: DX, area: S-01, date: "2025-01-19", ground: G3, rule: DX1, quantity: "39", unit: m3, candidates: [A.12.040], attributes: {}}
+  DX-00008: {family: DX, area: S-05, date: "2025-01-27", ground: G1, rule: DX3, quantity: "267", unit: m3, candidates: [A.12.030], attributes: {}}
+  DX-00089: {family: DX, area: S-02, date: "2025-07-14", ground: G1, rule: DX1, quantity: "375", unit: m3, candidates: [A.12.040], attributes: {}, foreman: R. Vasquez, engineer: "____________________", engineer_signed: false}
+  JS-00001: {family: JS, area: S-01, date: "2025-01-09", ground: null, rule: JS2, quantity: "3", unit: no., candidates: [E.52.010], attributes: {}, foreman: K. Doyle, engineer: H. Suleiman}
+  JS-00004: {family: JS, area: S-05, date: "2025-01-20", ground: null, rule: JS4, quantity: "5", unit: tonne, candidates: [B.23.010], attributes: {}}
+  JS-00006: {family: JS, area: S-02, date: "2025-01-28", ground: null, rule: JS1, quantity: "45", unit: m2, candidates: [B.23.020], attributes: {mesh: A393}}
+  JS-00008: {family: JS, area: S-04, date: "2025-02-01", ground: null, rule: JS3, quantity: "8", unit: tonne, candidates: [B.23.010], attributes: {}}
+  MO-00001: {family: MO, area: S-01, date: "2025-01-15", ground: null, rule: MO1, quantity: "6", unit: hour, candidates: [E.51.010], attributes: {reason: weather}, foreman: S. Raman, engineer: P. Lindqvist}
+  MO-00002: {family: MO, area: S-04, date: "2025-01-22", ground: null, rule: MO2, quantity: "5", unit: hour, candidates: [E.51.010], attributes: {reason: rain}}
+  PR-00001: {family: PR, area: S-02, date: "2025-01-11", ground: null, rule: PR5, quantity: "140", unit: m3, candidates: [B.21.020], attributes: {mix: "32/40"}, foreman: S. Raman, engineer: A. Whitfield}
+  PR-00002: {family: PR, area: S-04, date: "2025-01-14", ground: null, rule: PR1, quantity: "335", unit: m3, candidates: [B.21.040], attributes: {mix: "32/40"}}
+  PR-00004: {family: PR, area: S-01, date: "2025-01-18", ground: null, rule: PR3, quantity: "140", unit: m3, candidates: [B.21.020], attributes: {mix: "32/40"}}
+  PR-00006: {family: PR, area: S-05, date: "2025-01-23", ground: null, rule: PR2, quantity: "379", unit: m3, candidates: [B.21.030], attributes: {mix: "32/40"}}
+  PR-00009: {family: PR, area: S-05, date: "2025-01-28", ground: null, rule: PR4, quantity: "176", unit: m3, candidates: [B.21.030], attributes: {mix: "32/40"}}
+  PS-00001: {family: PS, area: S-03, date: "2025-01-13", ground: null, rule: PS1, quantity: "7", unit: hour, candidates: [E.51.030], attributes: {reason: waiting on access}, foreman: K. Doyle, engineer: N. Basri}
+  PS-00004: {family: PS, area: S-05, date: "2025-02-16", ground: null, rule: PS2, quantity: "3", unit: hour, candidates: [E.51.030], attributes: {reason: not stated}}
+  PT-00001: {family: PT, area: S-05, date: "2025-01-17", ground: G4, rule: PT1, quantity: "3", unit: no., candidates: [C.32.030], attributes: {dia_mm: "1800"}, foreman: M. Al-Harbi, engineer: P. Lindqvist}
+  PT-00002: {family: PT, area: S-05, date: "2025-01-21", ground: G4, rule: PT2, quantity: "302", unit: lm, candidates: [C.31.020], attributes: {dia_mm: "400"}}
+
+drilling_reports:
+  # file: header, parts present, typed Part values, tool/crew terms as written, loss term, signatures
+  DDR_NGP-BD-011_20260318.txt:
+    report: DDR-011-20260318
+    contract: DDS-2025-118
+    well: NGP-BD-011
+    rig: NG-Rig 11
+    date: "2026-03-18"
+    parts: [A, B, D]
+    A: {Hole section: '8-1/2"', Status: Operating, Depth start (m MD): 3560, Depth end (m MD): 3701, Circulating hours: 16, BHA run: 4, Gyro surveys: 0, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, drilling jars, gamma tool, real-time link, resistivity tool, rotary steerable, survey package]
+    crew: {directional hands: 2, night man: 1, logging engineers: 1, MWD engineers: 2}
+    B: {Run: 4, Run first day: "2026-03-18", Run last day: "2026-03-20", Run circulating hours: 51, Metres logged: 391, Metres reamed: 0, Radioactive source carried: true}
+    D: {Source run: 4, Sources handled: density and neutron, Source handling certified: true}
+    company_rep: A. Whitfield
+    lead_dd: J. Pretorius
+  DDR_NGP-BD-011_20260225.txt:
+    report: DDR-011-20260225
+    contract: DDS-2025-118
+    well: NGP-BD-011
+    rig: NG-Rig 11
+    date: "2026-02-25"
+    parts: [A, B, C]
+    A: {Hole section: '26"', Status: Operating, Depth start (m MD): 0, Depth end (m MD): 275, Circulating hours: 15, BHA run: 1, Gyro surveys: 1, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, drilling jars, mud motor, real-time link]
+    crew: {directional hands: 2, night man: 1, MWD engineers: 2}
+    B: {Run: 1, Run first day: "2026-02-25", Run last day: "2026-02-28", Run circulating hours: 59, Metres logged: 0, Metres reamed: 0, Radioactive source carried: false}
+    C: {Gyro surveys taken: 1, Surveyed section: '26"'}
+    company_rep: P. Lindqvist
+    lead_dd: M. Farouk
+  DDR_NGP-BD-020_20250421.txt:
+    report: DDR-020-20250421
+    contract: DDS-2025-118
+    well: NGP-BD-020
+    rig: NG-Rig 14
+    date: "2025-04-21"
+    parts: [A, B, E]
+    A: {Hole section: '12-1/4"', Status: Operating, Depth start (m MD): 2378, Depth end (m MD): 2529, Circulating hours: 15, BHA run: 3, Gyro surveys: 0, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, bit and reamer, drilling jars, float sub, hydraulics package, real-time link, rotary steerable, survey package]
+    crew: {directional hands: 2, night man: 1, MWD engineers: 2, performance engineer: 1}
+    B: {Run: 3, Run first day: "2025-04-19", Run last day: "2025-04-28", Run circulating hours: 186, Metres logged: 0, Metres reamed: 0, Radioactive source carried: false}
+    E: {Lost in hole run: 3, Lost in hole tool: rotary steerable, Circulating hours accumulated on the well: 57}
+    lost_code: LH-712
+    company_rep: D. Marchetti
+    lead_dd: J. Pretorius
+  DDR_NGP-QA-111_20250726.txt:
+    report: DDR-111-20250726
+    well: NGP-QA-111
+    date: "2025-07-26"
+    parts: [A, B, C, E]
+    A: {Hole section: '17-1/2"', Status: Operating, Depth start (m MD): 1664, Depth end (m MD): 1749, Circulating hours: 18, BHA run: 2, Gyro surveys: 2, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, circulating sub, drilling jars, mud motor, real-time link, stabiliser string]
+    crew: {directional hands: 2, night man: 1, MWD engineers: 2}
+    B: {Run: 2, Run first day: "2025-07-22", Run last day: "2025-07-27", Run circulating hours: 104, Metres logged: 0, Metres reamed: 0, Radioactive source carried: false}
+    C: {Gyro surveys taken: 2, Surveyed section: '17-1/2"'}
+    E: {Lost in hole run: 2, Lost in hole tool: MWD collar, Circulating hours accumulated on the well: 140}
+    lost_code: LH-713
+    company_rep: A. Whitfield
+    lead_dd: M. Farouk
+  DDR_NGP-BD-152_20260410.txt:
+    report: DDR-152-20260410
+    well: NGP-BD-152
+    date: "2026-04-10"
+    parts: [A, B, D, E]
+    A: {Hole section: '8-1/2"', Status: Operating, Depth start (m MD): 3103, Depth end (m MD): 3235, Circulating hours: 14, BHA run: 5, Gyro surveys: 0, Pressure points: 10, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, drilling jars, gamma tool, real-time link, resistivity tool, rotary steerable, survey package]
+    crew: {directional hands: 2, night man: 1, logging engineers: 1, MWD engineers: 2}
+    B: {Run: 5, Run first day: "2026-04-10", Run last day: "2026-04-16", Run circulating hours: 110, Metres logged: 711, Metres reamed: 0, Radioactive source carried: true}
+    D: {Source run: 5, Sources handled: density and neutron, Source handling certified: true}
+    E: {Lost in hole run: 5, Lost in hole tool: gamma tool, Circulating hours accumulated on the well: 14}
+    lost_code: LH-714
+    company_rep: D. Marchetti
+    lead_dd: R. Vasquez
+  DDR_NGP-BD-011_20260402.txt:
+    report: DDR-011-20260402
+    well: NGP-BD-011
+    date: "2026-04-02"
+    parts: [A, B]
+    A: {Hole section: '6"', Status: Standby, Depth start (m MD): 5088, Depth end (m MD): 5088, Circulating hours: 2, BHA run: 6, Gyro surveys: 0, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, drilling jars, gamma tool, mud motor, real-time link]
+    crew: {directional hands: 2, night man: 1, logging engineers: 1, MWD engineers: 2}
+    B: {Run: 6, Run first day: "2026-04-01", Run last day: "2026-04-02", Run circulating hours: 19, Metres logged: 76, Metres reamed: 0, Radioactive source carried: false}
+    company_rep: D. Marchetti
+    lead_dd: J. Pretorius
+  DDR_NGP-WS-055_20250503.txt:
+    report: DDR-055-20250503
+    well: NGP-WS-055
+    date: "2025-05-03"
+    parts: [A, B]
+    A: {Hole section: '17-1/2"', Status: Standby, Depth start (m MD): 736, Depth end (m MD): 736, Circulating hours: 2, BHA run: 2, Gyro surveys: 0, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, circulating sub, drilling jars, mud motor, real-time link, stabiliser string]
+    crew: {directional hands: 2, night man: 1, MWD engineers: 2}
+    B: {Run: 2, Run first day: "2025-05-02", Run last day: "2025-05-09", Run circulating hours: 115, Metres logged: 0, Metres reamed: 0, Radioactive source carried: false}
+    company_rep: "____________________"
+    lead_dd: "____________________"
+    company_signed: false
+    driller_signed: false
+  DDR_NGP-WS-009_20251211.txt:
+    report: DDR-009-20251211
+    contract: DDS-2025-118
+    well: NGP-WS-009
+    rig: NG-Rig 11
+    date: "2025-12-11"
+    parts: [A, B]
+    A: {Hole section: '26"', Status: Operating, Depth start (m MD): 605, Depth end (m MD): 635, Circulating hours: 19, BHA run: 1, Gyro surveys: 1, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, drilling jars, mud motor, real-time link]
+    crew: {directional hands: 2, night man: 1, MWD engineers: 2}
+    B: {Run: 1, Run first day: "2025-12-09", Run last day: "2025-12-12", Run circulating hours: 69, Metres logged: 0, Metres reamed: 0, Radioactive source carried: false}
+    company_rep: A. Whitfield
+    lead_dd: R. Vasquez
+    conflicts: [gyro_surveys_without_part_C]
+  DDR_NGP-BD-037_20250420.txt:
+    report: DDR-037-20250420
+    well: NGP-BD-037
+    date: "2025-04-20"
+    parts: [A, B, D]
+    A: {Hole section: '8-1/2"', Status: Operating, Depth start (m MD): 3199, Depth end (m MD): 3338, Circulating hours: 14, BHA run: 4, Gyro surveys: 0, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, density-neutron, drilling jars, gamma tool, real-time link, resistivity tool, rotary steerable, survey package]
+    crew: {directional hands: 2, night man: 1, logging engineers: 1, MWD engineers: 2, performance engineer: 1}
+    B: {Run: 4, Run first day: "2025-04-20", Run last day: "2025-04-20", Run circulating hours: 14, Metres logged: 139, Metres reamed: 0, Radioactive source carried: true}
+    D: {Source run: 4, Sources handled: density and neutron, Source handling certified: true}
+    company_rep: N. Basri
+    lead_dd: S. Raman
+  DDR_NGP-BD-018_20250117.txt:
+    report: DDR-018-20250117
+    well: NGP-BD-018
+    date: "2025-01-17"
+    parts: [A, B]
+    A: {Hole section: '12-1/4"', Status: Operating, Depth start (m MD): 2244, Depth end (m MD): 2391, Circulating hours: 15, BHA run: 4, Gyro surveys: 0, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, drilling jars, float sub, hole opener, real-time link, rotary steerable, survey package]
+    crew: {directional hands: 2, night man: 1, MWD engineers: 2}
+    B: {Run: 4, Run first day: "2025-01-17", Run last day: "2025-01-28", Run circulating hours: 174, Metres logged: 0, Metres reamed: 1617, Radioactive source carried: false}
+    company_rep: H. Suleiman
+    lead_dd: M. Farouk
+  DDR_NGP-BD-027_20260226.txt:
+    report: DDR-027-20260226
+    well: NGP-BD-027
+    date: "2026-02-26"
+    parts: [A, B, E]
+    A: {Hole section: '6"', Status: Operating, Depth start (m MD): 5126, Depth end (m MD): 5244, Circulating hours: 14, BHA run: 6, Gyro surveys: 0, Pressure points: 0, Wiper trips: 0, Back-reaming hours: 0, Clean-out runs: 0}
+    in_the_hole: [MWD collar, drilling jars, gamma tool, mud motor, real-time link]
+    crew: {directional hands: 2, night man: 1, logging engineers: 1, MWD engineers: 2}
+    B: {Run: 6, Run first day: "2026-02-26", Run last day: "2026-02-28", Run circulating hours: 35, Metres logged: 214, Metres reamed: 0, Radioactive source carried: false}
+    E: {Lost in hole run: 6, Lost in hole tool: mud motor, Circulating hours accumulated on the well: 178}
+    lost_code: LH-711
+    company_rep: A. Whitfield
+    lead_dd: R. Vasquez
+
+# CSV claims: typed from the raw rows (file line numbers as shown by grep -n; line 1 is the header).
+claims:
+  cw_headers:
+    PA-00001: {line: 2, contract_ref: CW-2025-0417-CIV, subcontractor: Ridgeway Civil Engineering LLC, site: S-03 Access Road, site_zone: Z2 North Spur, period_from: "2025-09-18", period_to: "2025-10-04", application_date: "2025-10-20", application_total: "265123.89", retention: "13256.19", net_payable: "251867.70", adjustment: "0.00", retention_released: "0.00"}
+    PA-00560: {line: 561, contract_ref: CW-2024-0417-CIV, application_total: "351571.74", retention: "17578.58", net_payable: "333993.16"}
+  cw_lines:
+    PA-00001-01: {line: 2, work_date: "2025-09-25", site: S-03 Access Road, item_code: D.43.010, unit: lm, site_zone: Z2 North Spur, ground_class: "", quantity: "299", rate_applied: "19.61", amount: "5863.39", night_work: "Y", record_ref: ""}
+    PA-00001-03: {line: 4, work_date: "2025-09-22", item_code: A.11.020, unit: m2, ground_class: G5 Sound Rock, quantity: "93", rate_applied: "21.42", amount: "1992.06", night_work: "N", record_ref: ""}
+    PA-00613-01: {line: 5323, work_date: "2025-07-14", site: S-02 Platform South, item_code: A.12.040, unit: m3, ground_class: G1 Loose Sand, quantity: "375", rate_applied: "74.48", amount: "27930.00", record_ref: DX-00089}
+  dds_headers:
+    MDS-00001: {line: 2, contract_ref: DDS-2025-118, contractor: Meridian Downhole Services Ltd, well_name: NGP-BD-194, rig: NG-Rig 44, field: Harran, well_class: Standard, period_start: "2025-01-01", period_end: "2025-01-04", invoice_date: "2025-01-27", net_amount: "99820.36", vat_amount: "14973.05", invoice_total: "114793.41", adjustment: "0.00"}
+    MDS-01799: {line: 1800, contract_ref: DDS-2025-181, well_name: NGP-HA-016, rig: NG-Rig 11, field: Qarn Alam North, well_class: Extended Reach, period_start: "2026-10-03", period_end: "2026-10-08", invoice_date: "2026-10-15", net_amount: "267435.12", vat_amount: "40115.27", invoice_total: "307550.39"}
+    MDS-00672: {line: 673, contract_ref: DSS-2025-118, well_name: NGP-BD-040, rig: NG-Rig 17, well_class: Standard, period_start: "2025-08-31", period_end: "2025-09-02", invoice_date: "2025-09-15", net_amount: "41732.84", vat_amount: "6259.93", invoice_total: "47992.77", adjustment: "0.00"}
+  dds_lines:
+    MDS-00018-059: {line: 701, service_date: null, well_name: NGP-WS-141, service_code: DS-900, unit: invoice, hole_section: "", day_status: "", depth_from_m: null, depth_to_m: null, quantity: "1", unit_rate: "-45109.68", amount: "-45109.68", report_ref: ""}
+    MDS-00018-023: {line: 665, service_date: "2025-01-11", well_name: NGP-WS-141, service_code: PD-210, unit: metre, hole_section: '12-1/4"', day_status: Operating, depth_from_m: "1792", depth_to_m: "1944", quantity: "152", unit_rate: "58.15", amount: "8838.80", report_ref: DDR-141-20250111}
+    MDS-00164-050: {line: 7758, service_date: "2025-04-04", well_name: NGP-QA-107, service_code: PD-201, unit: person-day, depth_from_m: null, quantity: "1", unit_rate: "2094.85", amount: "2094.85", report_ref: DDR-107-20250305}
+
+# Links: reference status and the semantic facts that follow (typed from the rows and records above).
+links:
+  cw:
+    PA-00613-01: {reference: resolved, record: DX-00089, date_match: true, area_match: true, activity_includes_item: true, unit_equal: true, quantity_relation: equal, signed_engineer: false}
+    PA-00207-06: {reference: resolved, record: DW-00065, work_date_in_week: true, work_date_is_day_on: false, days_on_count: 5}
+    PA-00609-01: {reference: not_found, record: CT-00126}
+    PA-00672-04: {reference: not_found, record: PS-00039}
+    PA-00678-06: {reference: not_found, record: MO-00089}
+    PA-00111-12: {reference: blank_required}
+    PA-00111-13: {reference: blank_required}
+    PA-00631-10: {reference: blank_required}
+    PA-00766-12: {reference: blank_required}
+    PA-00170-04: {reference: wrong_series, record: PT-00189}
+    PA-00001-01: {reference: blank_not_required}
+  dds:
+    MDS-00164-050: {reference: resolved, record: DDR-107-20250305, date_match: false, well_match: true}
+    MDS-00018-059: {reference: blank_invoice_level}
+    MDS-00018-023: {reference: resolved, record: DDR-141-20250111, date_match: true, well_match: true}
+    # tool presence (review finding 2): raw CSV row + the report's Status / "In the hole" lines
+    MDS-00022-030: {reference: resolved, record: DDR-194-20250114, report_status: Standby, status_match: true, tool_basis_code: DD-120, tool_in_hole: true}   # DD-121 standby; "rotary steerable" in the hole
+    MDS-00287-082: {reference: resolved, record: DDR-054-20250419, tool_basis_code: RM-511, tool_in_hole: false}   # RM-511; no "hole opener" in the hole
+    MDS-00001-002: {reference: resolved, record: DDR-194-20250101, tool_basis_code: null, tool_in_hole: null, crew_recorded: 1}   # DD-102; "1 night man" (Q5)
+    MDS-00001-005: {reference: resolved, record: DDR-194-20250101, tool_basis_code: HC-620, tool_in_hole: true}   # HC-620; "drilling jars" in the hole
+    MDS-00954-021: {reference: resolved, record: DDR-009-20251211, required_part: C, required_part_present: false}   # DD-130; Part A "Gyro surveys: 1", no PART C
+    MDS-00853-005: {reference: resolved, record: DDR-113-20251103, lost_tool_code: LH-714}   # LH-714; PART E "Lost in hole tool: gamma tool"

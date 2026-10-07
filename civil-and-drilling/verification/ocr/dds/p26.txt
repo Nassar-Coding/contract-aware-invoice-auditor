@@ -1,0 +1,33 @@
+Se _______lllldAJdmTYrlllllllSZlWllllllZldSllJ SSS YZSlSZ_____o___
+DDS-2025-118 | Directional Drilling Services — _ _ _ _ ee _ _ 7 _
+. SCHEDULE 7 — TOOL SPECIFICATIONS
+_ Minimum specifications for the tools the Contractor provides. The hole sections shown are those the tool is
+. designed for; which tools are in the hole on a day, and are charged, is as the Daily Drilling Report records
+(Clause 28). . .
+Tool Hole section Max Max Flow range
+temperature pressure
+Positive displacement motor 9-5/8" 26", 17-1/2" 150 C 25,000 psi 3,000-4,500 Ipm :
+Positive displacement motor 4-3/4" 6” 175.C 30,000 psi 600-1,100 Ipm
+Rotary steerable system 9" 12-1/4" 150 C 25,000 psi 2,000-3,800 Ipm ; :
+Rotary steerable system 6-3/4" - 8-1/2" 175C 30,000 psi —_‘1,100-2,400 Ipm
+MWD directional and gamma, 26", 17-1/2" 150. C 25,000 psi —-2,500-5,500 Ipm
+_ 9-1/2" : :
+MWD directional and gamma, 8" 12-1/4" 175 C 30,000 psi _—-1,800-4,200 Ipm
+MWD directional and gamma, 8-1/2", 6" 175C 30,000 psi 600-2,000 Ipm
+4-3/4" :
+Pressure while drilling module 12-1/4", 8-1/2" 175C - 30,000 psi any
+LWD resistivity, 6-3/4" 8-1/2" 175C 30,000 psi 900-2,400 Ipm
+LwD resistivity, 4-3/4" 6" L756 30,000 psi 500-1,100 lpm
+: LWD density and neutron 8-1/2" 150 C 25,000 psi 900-2,400 Ipm
+LWD sonic. 8-1/2" 150 C 25,000 psi 900-2,400 Ipm
+Formation pressure tester 8-1/2" 150 C 25,000 psi —-900-2,200 Ipm
+Hydraulic underreamer 9-7/8" x : 12-1/4" 150 C 20,000 psi 2,000-3,600 lpm
+-  12-1/4" .
+Roller reamer 17-1/2" 150C 20,000 psi any
+Downhole vibration mitigation tool 12-1/4" 150 C 25,000 psi any
+Drilling dynamics memory sub . 12-1/4" 175 C 30,000 psi any
+Hole cleaning circulating sub 17-1/2" 150 C 20,000 psi up to 5,000 Ipm
+Drilling jar, hydraulic-mechanical all 175.C 30,000 psi any ;
+Gyro survey tool 26", 17-1/2" 125,C 15,000 psi not circulating
+: Page26
+——<—<—$—$—$—$—$—$_—$<$<$<$_$_$_$$_$_$_$_$__$___—————————————$_——————<—<<“<<<<—C——————

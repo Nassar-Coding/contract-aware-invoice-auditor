@@ -1,0 +1,70 @@
+# G0 contract-section ownership, DDS-2025-118 (42 pages). Same conventions as sections_cw.yaml.
+contract: DDS
+page_count: 42
+sections:
+  - {pages: [1], section: "Form of Agreement particulars (parties, dates, currency, VAT, rounding, invoicing)", owners: [DDS-R01, DDS-R03, DDS.P.commencement, DDS.P.expiry_as_let, DDS.P.vat_pct, DDS.P.rounding]}
+  - {pages: [2], section: "Contents", not_material: "navigation only; omits Part VIII-IX, Sch 2C/2D/7/8, App D-G, SoV and instruments"}
+  - {pages: [3], section: "Cl.1 Definitions; Cl.2 Documents and precedence", owners: [OV-DDS-02, Q5]}
+  - {pages: [3], section: "Cl.3 Scope spud to release; Cl.4 Call-off and well class; Cl.5 Term", owners: [DDS-R01, DDS-R03, Q8]}
+  - {pages: [3], section: "Cl.6-12 Personnel, equipment, Company items, instructions, liabilities, confidentiality", not_material: "no valuation effect beyond Sch 4 (DDS.T16_PERSONNEL)"}
+  - {pages: [3, 4], section: "Cl.13 Suspension charged as Standby; Cl.14 Termination", owners: [DDS-R13]}
+  - {pages: [5], section: "Cl.15 Daily Drilling Report contents and signatures", owners: [DDS-R05]}
+  - {pages: [5], section: "Cl.16 Other records (now DDR parts)", owners: [DDS-R05, DDS.T17_SCH5_PARTS]}
+  - {pages: [6], section: "Cl.17 Rounding half-even each step; Cl.18 Build-up order", owners: [DDS-R11, DDS.P.rounding]}
+  - {pages: [6], section: "Cl.19 Status and section as on the DDR", owners: [DDS-R05, DDS-R11]}
+  - {pages: [6], section: "Cl.20 Standby; Cl.21 DD-120 hours and minimum", owners: [DDS-R13, DDS-R07, DDS.P.dd120_min_hours]}
+  - {pages: [6], section: "Cl.22 Personnel per person recorded; daily limits", owners: [DDS-R06, DDS-R14]}
+  - {pages: [6], section: "Cl.23 PD-210 depth bands and nominated sections", owners: [DDS-R12, DDS-R19, DDS.P.depth_boundary_rule]}
+  - {pages: [6], section: "Cl.24-25 Logged and reamed metres", owners: [DDS-R07]}
+  - {pages: [7], section: "Cl.26 Run events; Cl.27 Well events", owners: [DDS-R15]}
+  - {pages: [7], section: "Cl.28 Day rental only when tool in hole", owners: [DDS-R06]}
+  - {pages: [7], section: "Cl.29 No service twice per well-day (PD-210 exception)", owners: [DDS-R16]}
+  - {pages: [7], section: "Cl.30 Counted services", owners: [DDS-R07]}
+  - {pages: [7], section: "Cl.31 Lost in hole valuation", owners: [DDS-R17, DDS.P.lih_depreciation]}
+  - {pages: [8], section: "Cl.32 Per-well invoicing and period; Cl.33 30-day window; Cl.34 Charge content", owners: [DDS-R01, DDS-R02, DDS-R04]}
+  - {pages: [8], section: "Cl.35 Units", owners: [DDS-R08, Q11]}
+  - {pages: [8], section: "Cl.36 Net; Cl.38 DS-900 discount; Cl.39 VAT; Cl.40 Total", owners: [DDS-R20, DDS.P.invoice_discount_threshold, DDS.P.invoice_discount_pct]}
+  - {pages: [8], section: "Cl.37 Sch 5 parts as condition of payment", owners: [DDS-R05, DDS.T18_SCH5_CODES]}
+  - {pages: [8], section: "Cl.41 Disputed charges withheld; Cl.42 Payment period", owners: [DDS-R22]}
+  - {pages: [9, 10], section: "Part V Technical T1-T16", not_material: "technical obligations; T5/T9/T11 restate Cl.26/H6/Cl.30 effects already owned"}
+  - {pages: [11], section: "P1 Part VI prevails over Parts I-V", owners: [OV-DDS-02]}
+  - {pages: [11], section: "P2, P3 Well class per call-off", owners: [DDS-R01, DDS-R11]}
+  - {pages: [11], section: "P4 Rig moves; P5 Weather days; P6 Tool failure; P8 No night uplift; P9 No holiday uplift", owners: [DDS-R18]}
+  - {pages: [11], section: "P7 Crew change counted once", owners: [DDS-R06]}
+  - {pages: [11], section: "P10 Minimum per Operating day", owners: [DDS-R07]}
+  - {pages: [11], section: "P11 Discount per invoice alone", owners: [DDS-R20]}
+  - {pages: [11], section: "P12 LIH hours on the well incl. day of loss; P13 Standby personnel", owners: [DDS-R17, DDS-R11]}
+  - {pages: [12], section: "P14 USD invoicing", owners: [DDS-R20]}
+  - {pages: [13], section: "Part VII HSE H1-H12", not_material: "HSE obligations; H6 source certificate is DDR Part D (DDS-R15)"}
+  - {pages: [14], section: "Part VIII Reporting R1-R12", owners: [DDS-R05, DDS-R06, DDS-R07, DDS-R15, OV-DDS-05, DDS.P.circulating_hour_rounding],
+     by_provision: "R3 whole metres from the rotary table and R4 whole hours: DDS-R07 (metres from Part A depths, hours) and DDS.P.circulating_hour_rounding; R5/R6 service codes on the report: DDS-R06 via OV-DDS-05 (19A: the report carries rig words, read through App G); R7 day status final and R8 corrections by a signed revision: DDS-R05; R9 BHA Run Report totals = DDR sums for the run: DDS-R15 (and the G2 run check run_hours_vs_daily_sum); R1, R2, R10-R12 no valuation effect (second reading)"}
+  - {pages: [15, 16], section: "Schedule 1 Service rates", owners: [DDS.T01_SCH1, DDS-R09]}
+  - {pages: [17], section: "Schedule 2 Depth bands and Part 2 annual bands", owners: [DDS.T02_DEPTH_BANDS, DDS.T03_ANNUAL_BANDS, DDS-R12, OV-DDS-02]}
+  - {pages: [18], section: "Schedule 2C Indexed services", owners: [DDS.T04_RSI_ITEMS, DDS.T05_RSI, DDS-R10]}
+  - {pages: [19], section: "Schedule 2D SAR replacement values and FX", owners: [DDS.T06_SAR_VALUES, DDS.T07_FX, DDS-R17]}
+  - {pages: [20], section: "Schedule 3 Parts 1-2 Section and class factors", owners: [DDS.T08_SECTION_FACTORS, DDS.T09_SECTION_RATED, DDS.T10_CLASS_FACTORS, DDS.T11_CLASS_RATED, DDS-R11]}
+  - {pages: [20, 21], section: "Schedule 3 Part 3 Standby charges", owners: [DDS.T12_STANDBY, DDS-R11, DDS-R13]}
+  - {pages: [21, 22], section: "Schedule 3 Parts 4-7 Standby substitute, daily limits, once per well, minimum", owners: [DDS.T13_DAILY_LIMITS, DDS.T14_ONCE_PER_WELL, DDS.T15_STANDBY_SUBSTITUTE_AND_MINIMUM, DDS-R13, DDS-R14, DDS-R15, DDS-R07]}
+  - {pages: [23], section: "Schedule 4 Personnel", owners: [DDS.T16_PERSONNEL, DDS-R06]}
+  - {pages: [24], section: "Schedule 5 DDR and its parts", owners: [DDS.T17_SCH5_PARTS, DDS.T18_SCH5_CODES, DDS-R05]}
+  - {pages: [25], section: "Schedule 6 LIH values when let", owners: [DDS.T19_SCH6_USD, OV-DDS-04]}
+  - {pages: [26], section: "Schedule 7 Tool specifications", not_material: "designed sections; what is charged follows the DDR (Cl.28)"}
+  - {pages: [27, 28], section: "Schedule 8 Scope of services", owners: [DDS.T23_SCH8, DDS-R06, DDS-R07, DDS-R15, Q5]}
+  - {pages: [29], section: "Appendix A Definitions", owners: [DDS-R05, DDS-R19]}
+  - {pages: [30], section: "Appendix B Form of invoice (worked example)", owners: [DDS.T21_APPB_EXAMPLE, DDS-R20, OV-DDS-03]}
+  - {pages: [31], section: "Appendix C Insurances, notices, execution", not_material: "no valuation effect"}
+  - {pages: [32, 33], section: "Appendix D-E Forms of DDR and BHA run report", not_material: "illustrative forms (DDR codes superseded by 19A, OV-DDS-05)"}
+  - {pages: [34], section: "Appendix F Gyro and LIH report forms", owners: [DDS.T22_APPF_EXAMPLE, DDS-R17]}
+  - {pages: [35], section: "Part IX 3A Contract Years", owners: [DDS-R12, Q12]}
+  - {pages: [35], section: "Part IX 17A Indexed rates; 17B Factors that do not apply", owners: [DDS-R10, DDS-R11, OV-DDS-01, OV-DDS-02]}
+  - {pages: [35], section: "Part IX 19A DDR number and rig words", owners: [DDS-R05, OV-DDS-05]}
+  - {pages: [35], section: "Part IX 21A Chargeable Hour; 25A Metre tolerance", owners: [DDS-R07, DDS.P.first_hour_excluded, DDS.P.metre_tolerance_pct]}
+  - {pages: [35], section: "Part IX 31A Replacement values", owners: [DDS-R17, OV-DDS-04]}
+  - {pages: [35], section: "Part IX 36A Amendments before issue", owners: [DDS-R21, Q1]}
+  - {pages: [36], section: "Appendix G Terms used in field reports", owners: [DDS.T20_GLOSSARY, DDS-R06]}
+  - {pages: [37], section: "Schedule of Variations", owners: [DDS-R09, DDS-R03, OV-DDS-06]}
+  - {pages: [38], section: "Supplement No.1", owners: [DDS.S1, DDS-R09]}
+  - {pages: [39], section: "Amendment No.1", owners: [DDS.A1, DDS-R03, DDS-R09, DDS.P.expiry_A1]}
+  - {pages: [40], section: "Supplement No.2", owners: [DDS.S2, DDS-R09, DDS-R11, OV-DDS-07]}
+  - {pages: [41], section: "Amendment No.2", owners: [DDS.A2, DDS-R03, DDS-R09, DDS-R11, DDS.P.expiry_A2]}
+  - {pages: [42], section: "Amendment No.3", owners: [DDS.A3, DDS-R21, OV-DDS-07, Q1, Q2]}

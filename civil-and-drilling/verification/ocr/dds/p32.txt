@@ -1,0 +1,31 @@
+ee a... 22.2...
+DDS-2025-118 | Directional Drilling Services 7 : a
+APPENDIX D — FORM OF DAILY DRILLING REPORT
+Illustrative only. The report for each day on the well is issued in this form (Clauses 15 and R1 to R8).
+
+* Well / Rig NGP-XX-000 / NG-Rig 00
+
+Date 04-Jun-2025
+‘Hole section 12-1/4"
+
+Status of day Operating
+
+Depth start / end (m MD) 2,930 / 3,085
+
+Circulating hours 18
+
+BHA run number : 4
+
+Tools in hole DD-120, MW-310, MW-320, MW-330, HC-620, HC-640
+Personnel on rig DD-101 x2, DD-102 x1, MW-301 x2, PD-201 x1
+
+Gyro surveys / pressure points : 0/0
+
+Wiper trips / back-reaming hours / 0/0/0
+
+clean-out runs
+
+Signed Company Representative; lead directional driller
+
+Page 32 .
+SR

@@ -1,0 +1,40 @@
+” CW-2025-0417-CIV | Civil and Eatthworks Package é
+PART II — MEASUREMENT AND VALUATION
+25. Principle of measurement . ,
+The Works shall be measured net as executed in accordance with the Civil Engineering Standard Method of
+Measurement, as modified by these Clauses. Where a Clause of this Part conflicts with the Method of .
+Measurement, this Part prevails.
+26. Units of measurement :
+Each item in Schedule | states the unit in which it is measured. No item shall be measured in any other
+: unit, and a quantity presented in a unit other than that stated shall be rejected in its entirety rather than ;
+converted. . :
+27. Build-up of rates . . .
+The rates in Schedule 1 are base rates. The sum payable for a measured quantity is ascertained by applying
+to the base rate, in the following order and no other: first the site zone factor from Schedule 2; then the
+ground classification factor from Schedule 3; then the night uplift, if applicable; then the rest-day uplift, if
+applicable; then the cumulative quantity rebate from Schedule 4, if the threshold has been passed; and the
+resulting sum is then rounded.
+28. Rounding .
+Rounding shall be applied once only, to the rate after the whole of the build-up described in Clause 27 has
+been completed, to the nearest halala, a half halala being rounded upward. Rates shall not be rounded at
+intermediate steps. The amount for a measured quantity is the quantity multiplied by the rounded rate; .
+where Clause 30 divides a quantity at a rebate threshold, each part is multiplied by its own rounded rate and
+the amount is their sum. :
+29. Application of factors
+: A factor applies to an item only where Schedule 2 or Schedule 3 lists that item's series. An item whose
+series is not listed is measured at the base rate irrespective of the zone or ground classification in which it is
+: executed.
+30. Cumulative quantity rebates
+Where Schedule 4 states a rebate threshold for an item, the rebate applies to that part of the quantity which
+exceeds the threshold when taken cumulatively across the whole of the Works to date, and not to the
+quantity below it. The cumulative count runs from the Commencement Date, is not reset by a valuation,
+and is taken in order of the date of execution; measurements executed on the same date are taken in order of
+application number and then line number. .
+31. Daily limitations :
+Where Schedule 4 states a daily limitation for an item, no more than that quantity is measurable for that
+item, per work area, per day. A quantity in excess of the limitation is not payable and shall not be carried
+forward to a subsequent day.
+: ; 32. Mutually exclusive items , Ee
+7 Where Schedule 4 states that an item is excluded by another, the excluded item is not measurable within the :
+stated number of days following the measurement of the excluding item on the same work area.
+Page 6 -

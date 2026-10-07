@@ -1,0 +1,27 @@
+———— ee
+DDS-2025-118 | Directional Drilling Services : : :
+Code Description —~—~*~“C~*~‘“‘“‘*‘~‘*~*C«~MSSSRate (USD)
+LW-430 LWD data processing and final log well 8,394.75
+Series 500 — Reaming and Hole Enlargement ;
+Code Description OCS nit SSC SD)
+RM-510 Hydraulic underreaming, reamed metre 38.45
+@ RM-S511 Underreamer rental ; , day 1,379.15
+RM-520 Roller reamer and stabiliser rental day 419.85
+RM-530 Back-reaming while tripping hour 264.55
+Series 600 — Hole Conditioning —
+Cole Decription SSCS Smt éRate (USD)
+HC-601 Hole cleaning circulating sub - day 689.35
+HC-610 Wiper trip supervision : ; trip 1,947.15
+HC-620 Drilling jar rental : day 539.65 .
+HC-630 Casing drift and clean-out run run 4,295.85
+HC-640 Cuttings bed monitoring day 719.55
+Series 700 — Mobilisation and Lost in Hole . .
+Cole Deaciption OOSSSOSSCnit Rate (USD)
+-MB-701 Mobilisation to rig site well 18,497.50
+MB-702 Demobilisation from rig site ; . well 14,196.25 ;
+LH-71 1 Lost in hole, positive displacement motor each Clause 31
+_ LH-712 Lost in hole, rotary steerable system each Clause 31
+LH-713 Lost in hole, MWD tool each Clause 31
+; LH-714 Lost in hole, LWD resistivity tool each ~ Clause 31
+Pagel6- ;
+OOOO

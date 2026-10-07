@@ -1,0 +1,25 @@
+# G0 guideline-check ownership. The twelve checks are identical in both guideline files (verified by diff:
+# only the title and contract line differ). tools/verify_spec.py checks that every check has at least one
+# owning rule per contract and that this map agrees with the `checks` field of spec/rules.yaml.
+source_files:
+  CW: civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+  DDS: drilling_services/guidelines/INVOICE_AUDIT_GUIDELINES.md
+principles:
+  - {n: 1, text: "Work date first", owners: [CW-R10, DDS-R09]}
+  - {n: 2, text: "The record is the evidence", owners: [CW-R05, DDS-R05]}
+  - {n: 3, text: "Say when you do not know", owners: [CW-R24, DDS-R22, C-UNKNOWN]}
+checks:
+  - {n: 1, text: "The invoice belongs to this contract -- reference, issuer and period.", CW: [CW-R01, CW-R02], DDS: [DDS-R01, DDS-R02]}
+  - {n: 2, text: "The contract was live on the work dates, taking the term as extended by every supplement and amendment.", CW: [CW-R03], DDS: [DDS-R03]}
+  - {n: 3, text: "The invoice was raised inside its window, and after the period it bills for had closed.", CW: [CW-R02, CW-R04], DDS: [DDS-R02, DDS-R04]}
+  - {n: 4, text: "Every line has its record for that day or run, signed by whoever the contract says signs it.", CW: [CW-R05, CW-R06], DDS: [DDS-R05, DDS-R06]}
+  - {n: 5, text: "The quantities are the recorded ones. Billed above the record is payable up to the record, not at all above it.", CW: [CW-R06, CW-R07, CW-R18, CW-R19], DDS: [DDS-R06, DDS-R07]}
+  - {n: 6, text: "Each line is identified against a priced item; where two could fit, leave it unresolved rather than choose on price.", CW: [CW-R06, CW-R08, CW-R09, CW-R18, CW-R19, CW-R23], DDS: [DDS-R06, DDS-R08, DDS-R18, DDS-R19]}
+  - {n: 7, text: "The rate is the one in force on the work date -- instruments read in the order issued, the later one governing from its effective date.", CW: [CW-R10, CW-R11, CW-R12, CW-R22], DDS: [DDS-R09, DDS-R10, DDS-R12, DDS-R17, DDS-R21]}
+  - {n: 8, text: "Adjustments are applied in the contract's order and rounded its way, with any discount only from the date it started and at the percentage then in force.", CW: [CW-R11, CW-R12, CW-R13, CW-R14], DDS: [DDS-R10, DDS-R11, DDS-R17]}
+  - {n: 9, text: "Limits hold: caps, exclusion windows, once-only items and minimum charges.", CW: [CW-R14, CW-R15, CW-R16, CW-R18], DDS: [DDS-R12, DDS-R13, DDS-R14, DDS-R15, DDS-R17, DDS-R18]}
+  - {n: 10, text: "Nothing is billed twice, within this invoice or against an earlier one.", CW: [CW-R17], DDS: [DDS-R15, DDS-R16]}
+  - {n: 11, text: "The arithmetic reconciles: line amounts, subtotal, and whatever the contract adds or deducts on the total.", CW: [CW-R20, CW-R21, CW-R22], DDS: [DDS-R20, DDS-R21]}
+  - {n: 12, text: "The outcome is written down -- pass, query, or part-reject -- with the clause relied on, the figure you say is payable, and anything you could not determine.", CW: [CW-R24], DDS: [DDS-R22]}
+guideline_contract_differences:
+  - "Check 5 says billed above the record is payable up to the record; CW 33A allows up to 2% above a joint survey and DDS 25A up to 1% above the report as charged. The contract governs (guidelines' last line); rules CW-R07 and DDS-R07 apply the tolerances."

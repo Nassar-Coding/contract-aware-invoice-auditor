@@ -1,0 +1,601 @@
+{
+ "repo": "https://github.com/majedzahrani3/invoice-auditing-level-2",
+ "commit": "aef4924dc32506b4587de8b788b5a947e6beffec",
+ "file_count": 10330,
+ "files_by_area": {
+  "README.md": 1,
+  "civilwork/contract": 1,
+  "civilwork/guidelines": 1,
+  "civilwork/invoices": 2,
+  "civilwork/records": 2169,
+  "drilling_services/contract": 1,
+  "drilling_services/guidelines": 1,
+  "drilling_services/invoices": 2,
+  "drilling_services/records": 8151,
+  "submission_template.csv": 1
+ },
+ "civil": {
+  "headers": {
+   "rows": 900,
+   "columns": [
+    "application_no",
+    "contract_ref",
+    "subcontractor",
+    "site",
+    "site_zone",
+    "period_from",
+    "period_to",
+    "application_date",
+    "application_total",
+    "retention",
+    "net_payable",
+    "adjustment",
+    "retention_released"
+   ],
+   "unique_ids": 900
+  },
+  "lines": {
+   "rows": 7746,
+   "columns": [
+    "line_ref",
+    "application_no",
+    "line_no",
+    "work_date",
+    "site",
+    "item_code",
+    "description",
+    "unit",
+    "site_zone",
+    "ground_class",
+    "quantity",
+    "rate_applied",
+    "amount",
+    "night_work",
+    "record_ref"
+   ],
+   "unique_line_refs": 7746
+  },
+  "header_ids_equal_line_ids": true,
+  "distinct_item_codes": 60,
+  "item_codes": [
+   "A.11.010",
+   "A.11.020",
+   "A.11.030",
+   "A.12.010",
+   "A.12.020",
+   "A.12.030",
+   "A.12.040",
+   "A.12.050",
+   "A.12.060",
+   "A.13.010",
+   "A.13.020",
+   "A.13.030",
+   "A.14.010",
+   "A.14.020",
+   "A.14.030",
+   "A.15.010",
+   "A.15.020",
+   "A.16.010",
+   "B.21.010",
+   "B.21.020",
+   "B.21.030",
+   "B.21.040",
+   "B.21.050",
+   "B.22.010",
+   "B.22.020",
+   "B.22.030",
+   "B.23.010",
+   "B.23.020",
+   "B.24.010",
+   "B.25.010",
+   "B.26.010",
+   "B.27.010",
+   "C.31.010",
+   "C.31.020",
+   "C.31.030",
+   "C.31.040",
+   "C.32.010",
+   "C.32.020",
+   "C.32.030",
+   "C.32.040",
+   "C.33.010",
+   "C.34.010",
+   "C.35.010",
+   "D.41.010",
+   "D.41.020",
+   "D.41.030",
+   "D.41.040",
+   "D.41.050",
+   "D.42.010",
+   "D.42.020",
+   "D.42.030",
+   "D.43.010",
+   "D.43.020",
+   "D.44.010",
+   "E.51.010",
+   "E.51.020",
+   "E.51.030",
+   "E.52.010",
+   "E.53.010",
+   "E.54.010"
+  ],
+  "units_by_code": {
+   "A.11.010": [
+    "m2"
+   ],
+   "A.11.020": [
+    "m2"
+   ],
+   "A.11.030": [
+    "no."
+   ],
+   "A.12.010": [
+    "m3"
+   ],
+   "A.12.020": [
+    "m3"
+   ],
+   "A.12.030": [
+    "m3"
+   ],
+   "A.12.040": [
+    "m3"
+   ],
+   "A.12.050": [
+    "m3"
+   ],
+   "A.12.060": [
+    "m2"
+   ],
+   "A.13.010": [
+    "m3"
+   ],
+   "A.13.020": [
+    "m3"
+   ],
+   "A.13.030": [
+    "m3"
+   ],
+   "A.14.010": [
+    "m3"
+   ],
+   "A.14.020": [
+    "m3",
+    "no."
+   ],
+   "A.14.030": [
+    "lm",
+    "m2"
+   ],
+   "A.15.010": [
+    "m2"
+   ],
+   "A.15.020": [
+    "m2"
+   ],
+   "A.16.010": [
+    "week"
+   ],
+   "B.21.010": [
+    "m2"
+   ],
+   "B.21.020": [
+    "m3"
+   ],
+   "B.21.030": [
+    "m3"
+   ],
+   "B.21.040": [
+    "m3"
+   ],
+   "B.21.050": [
+    "m3"
+   ],
+   "B.22.010": [
+    "m2"
+   ],
+   "B.22.020": [
+    "m2"
+   ],
+   "B.22.030": [
+    "lm"
+   ],
+   "B.23.010": [
+    "tonne"
+   ],
+   "B.23.020": [
+    "m2"
+   ],
+   "B.24.010": [
+    "lm"
+   ],
+   "B.25.010": [
+    "no."
+   ],
+   "B.26.010": [
+    "m2"
+   ],
+   "B.27.010": [
+    "lm"
+   ],
+   "C.31.010": [
+    "lm"
+   ],
+   "C.31.020": [
+    "lm"
+   ],
+   "C.31.030": [
+    "lm"
+   ],
+   "C.31.040": [
+    "lm",
+    "no."
+   ],
+   "C.32.010": [
+    "no."
+   ],
+   "C.32.020": [
+    "no."
+   ],
+   "C.32.030": [
+    "no."
+   ],
+   "C.32.040": [
+    "no."
+   ],
+   "C.33.010": [
+    "lm"
+   ],
+   "C.34.010": [
+    "no."
+   ],
+   "C.35.010": [
+    "lm"
+   ],
+   "D.41.010": [
+    "m2"
+   ],
+   "D.41.020": [
+    "m2"
+   ],
+   "D.41.030": [
+    "m2"
+   ],
+   "D.41.040": [
+    "m2"
+   ],
+   "D.41.050": [
+    "m2"
+   ],
+   "D.42.010": [
+    "lm",
+    "no."
+   ],
+   "D.42.020": [
+    "lm"
+   ],
+   "D.42.030": [
+    "lm"
+   ],
+   "D.43.010": [
+    "lm"
+   ],
+   "D.43.020": [
+    "m2"
+   ],
+   "D.44.010": [
+    "no."
+   ],
+   "E.51.010": [
+    "hour"
+   ],
+   "E.51.020": [
+    "day"
+   ],
+   "E.51.030": [
+    "hour"
+   ],
+   "E.52.010": [
+    "no."
+   ],
+   "E.53.010": [
+    "day"
+   ],
+   "E.54.010": [
+    "week"
+   ]
+  },
+  "contract_ref_counts": {
+   "CW-2025-0417-CIV": 898,
+   "CW-2024-0417-CIV": 2
+  },
+  "nonzero_adjustment": 0,
+  "nonzero_retention_released": 0,
+  "application_date_range": [
+   "2025-01-23",
+   "2026-10-31"
+  ],
+  "work_date_range": [
+   "2025-01-07",
+   "2026-10-26"
+  ],
+  "records": {
+   "files": 2169,
+   "by_family": {
+    "CT": 381,
+    "CV": 120,
+    "DW": 114,
+    "DX": 266,
+    "JS": 368,
+    "MO": 142,
+    "PR": 365,
+    "PS": 143,
+    "PT": 270
+   },
+   "total_bytes": 557687,
+   "largest_bytes": 344
+  },
+  "lines_with_record_ref": 2193,
+  "lines_blank_record_ref": 5553,
+  "record_refs_without_file": [
+   "CT-00126",
+   "MO-00089",
+   "PS-00039"
+  ],
+  "headers_on_2026_05_12": [
+   "PA-00006",
+   "PA-00023",
+   "PA-00380"
+  ]
+ },
+ "drilling": {
+  "headers": {
+   "rows": 1906,
+   "columns": [
+    "invoice_no",
+    "contract_ref",
+    "contractor",
+    "well_name",
+    "rig",
+    "field",
+    "well_class",
+    "period_start",
+    "period_end",
+    "invoice_date",
+    "net_amount",
+    "vat_amount",
+    "invoice_total",
+    "adjustment"
+   ],
+   "unique_ids": 1906
+  },
+  "lines": {
+   "rows": 91244,
+   "columns": [
+    "line_ref",
+    "invoice_no",
+    "line_no",
+    "service_date",
+    "well_name",
+    "service_code",
+    "description",
+    "unit",
+    "hole_section",
+    "day_status",
+    "depth_from_m",
+    "depth_to_m",
+    "quantity",
+    "unit_rate",
+    "amount",
+    "report_ref"
+   ],
+   "unique_line_refs": 91244
+  },
+  "header_ids_equal_line_ids": true,
+  "distinct_service_codes": 39,
+  "service_codes": [
+   "DD-101",
+   "DD-102",
+   "DD-110",
+   "DD-111",
+   "DD-120",
+   "DD-121",
+   "DD-130",
+   "DD-140",
+   "DS-900",
+   "HC-601",
+   "HC-610",
+   "HC-620",
+   "HC-630",
+   "HC-640",
+   "LH-711",
+   "LH-712",
+   "LH-713",
+   "LH-714",
+   "LW-401",
+   "LW-410",
+   "LW-411",
+   "LW-412",
+   "LW-413",
+   "LW-420",
+   "LW-430",
+   "MB-701",
+   "MB-702",
+   "MW-301",
+   "MW-310",
+   "MW-320",
+   "MW-330",
+   "PD-201",
+   "PD-210",
+   "PD-220",
+   "PD-230",
+   "RM-510",
+   "RM-511",
+   "RM-520",
+   "RM-530"
+  ],
+  "units_by_code": {
+   "DD-101": [
+    "person-day"
+   ],
+   "DD-102": [
+    "day"
+   ],
+   "DD-110": [
+    "day"
+   ],
+   "DD-111": [
+    "run"
+   ],
+   "DD-120": [
+    "hour"
+   ],
+   "DD-121": [
+    "day"
+   ],
+   "DD-130": [
+    "survey"
+   ],
+   "DD-140": [
+    "well"
+   ],
+   "DS-900": [
+    "invoice"
+   ],
+   "HC-601": [
+    "day"
+   ],
+   "HC-610": [
+    "trip"
+   ],
+   "HC-620": [
+    "day"
+   ],
+   "HC-630": [
+    "run"
+   ],
+   "HC-640": [
+    "day"
+   ],
+   "LH-711": [
+    "each"
+   ],
+   "LH-712": [
+    "each"
+   ],
+   "LH-713": [
+    "each"
+   ],
+   "LH-714": [
+    "each"
+   ],
+   "LW-401": [
+    "person-day"
+   ],
+   "LW-410": [
+    "metre"
+   ],
+   "LW-411": [
+    "metre"
+   ],
+   "LW-412": [
+    "metre"
+   ],
+   "LW-413": [
+    "point"
+   ],
+   "LW-420": [
+    "run"
+   ],
+   "LW-430": [
+    "well"
+   ],
+   "MB-701": [
+    "well"
+   ],
+   "MB-702": [
+    "well"
+   ],
+   "MW-301": [
+    "person-day"
+   ],
+   "MW-310": [
+    "day"
+   ],
+   "MW-320": [
+    "day"
+   ],
+   "MW-330": [
+    "day"
+   ],
+   "PD-201": [
+    "person-day"
+   ],
+   "PD-210": [
+    "metre"
+   ],
+   "PD-220": [
+    "day"
+   ],
+   "PD-230": [
+    "day"
+   ],
+   "RM-510": [
+    "metre"
+   ],
+   "RM-511": [
+    "day"
+   ],
+   "RM-520": [
+    "day"
+   ],
+   "RM-530": [
+    "hour"
+   ]
+  },
+  "contract_ref_counts": {
+   "DDS-2025-118": 1903,
+   "DSS-2025-118": 2,
+   "DDS-2025-181": 1
+  },
+  "well_class_counts": {
+   "Standard": 1099,
+   "HPHT": 302,
+   "Extended Reach": 505
+  },
+  "nonzero_adjustment": 0,
+  "records": {
+   "files": 8151,
+   "total_bytes": 7698252,
+   "largest_bytes": 1236
+  },
+  "lines_blank_report_ref": 63,
+  "blank_report_ref_codes": {
+   "DS-900": 63
+  },
+  "ds900_lines": 63,
+  "headers_on_17_Aug_2026": [
+   "MDS-01625"
+  ],
+  "headers_on_18_Aug_2026": [
+   "MDS-01585",
+   "MDS-01631",
+   "MDS-01645"
+  ]
+ },
+ "template": {
+  "rows": 2806,
+  "columns": [
+   "invoice_id",
+   "flagged",
+   "error_category",
+   "expected_total_cents",
+   "billed_total_cents",
+   "confidence"
+  ],
+  "unique_ids": 2806,
+  "ids_equal_header_ids": true,
+  "order_is_civil_then_drilling_in_file_order": true,
+  "all_other_fields_blank": true
+ }
+}

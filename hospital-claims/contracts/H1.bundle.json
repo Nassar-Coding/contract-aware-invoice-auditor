@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "contracts/hospital_1.json": "0fe335d82645de21161080a2c311cdb6db4f297c704420d8e3590a532e09f818",
+    "contracts/rules_hospital_1.json": "2f6901978e9db0677beada87eda11f2af5fd12cc611a7700a096ba839e34307a",
+    "mappings/hospital_1.json": "5516d22fc480af8d4594bbea45348cfd574af76b0f9c2336692f09b4a9149ce5",
+    "mappings/lexicon_v1.json": "aa26fa52885d1d63b8ab6acd045d5c74b280534aed504db35fc7f69dadcb5454"
+  },
+  "contract_path": "contracts/hospital_1.json",
+  "hospital": "H1",
+  "mapping_path": "mappings/hospital_1.json",
+  "review_evidence": [
+    "contracts/README.md"
+  ],
+  "review_state": "accepted",
+  "schema_version": "2",
+  "semantics_version": "2",
+  "source_hashes": {
+    "data/source/contracts/hospital_1/provider_services_agreement.md": "695c50dbb32667446f8330e1fddf785981dd544bd5c2b0d28ac9bb402ad15853"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "ambiguity_error_fraction_threshold": 0.5,
+  "ambiguity_threshold_rule": "Flag on ambiguity alone only when strictly more than half the candidate readings find a fault. Swept on development from one sixth to one when the threshold was fitted: every threshold at or below 0.5 flagged all 143 ambiguity-only invoices, of which 142 were clean: 142 false positives to gain one detection. Every observed error fraction is exactly 0.5, so the sweep is decided at that point and the chosen rule is the majority-of-readings default.",
+  "check_labels_used": false,
+  "event": "flag correct and expected cents exact, on the development partition of Hospital 1",
+  "limitations": [
+    "No Hospital 2-5 labels exist. Their confidence is the fitted Hospital 1 value reduced by a tenth, which is a policy judgment and never transferred empirical accuracy.",
+    "A tier seen fewer than 30 times on development is held at the level of the weaker tier rather than fitted to its own small sample.",
+    "The development partition shares global utilisation with the check partition, so it is not an independent external test."
+  ],
+  "minimum_empirical_n": 30,
+  "qualification_caps": {
+    "capped_quantity_substituted_for_an_unobserved_one": 0.45,
+    "interpretation": 0.65,
+    "outcome_invariant": 0.65
+  },
+  "target_discount": [
+    9,
+    10
+  ],
+  "tiers": {
+    "ambiguous": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.09,
+      "development_accuracy": 0.5,
+      "n": 2,
+      "successes": 1,
+      "wilson_95_lower": 0.094529
+    },
+    "clean": {
+      "basis": "fitted to development accuracy",
+      "confidence": 0.99,
+      "development_accuracy": 1.0,
+      "n": 404,
+      "successes": 404,
+      "wilson_95_lower": 0.990581
+    },
+    "match_fully_priced": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.6,
+      "development_accuracy": 0.857143,
+      "n": 7,
+      "successes": 6,
+      "wilson_95_lower": 0.486865
+    },
+    "no_match": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.6,
+      "development_accuracy": 1.0,
+      "n": 6,
+      "successes": 6,
+      "wilson_95_lower": 0.609657
+    },
+    "partial_amount": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.5,
+      "development_accuracy": null,
+      "n": 0,
+      "successes": 0,
+      "wilson_95_lower": null
+    },
+    "structural": {
+      "basis": "sparse: held at the level of the weaker tier, not fitted",
+      "confidence": 0.8,
+      "development_accuracy": 0.96,
+      "n": 25,
+      "successes": 24,
+      "wilson_95_lower": 0.804555
+    }
+  },
+  "unresolved": "omit entire row",
+  "version": "2"
+}

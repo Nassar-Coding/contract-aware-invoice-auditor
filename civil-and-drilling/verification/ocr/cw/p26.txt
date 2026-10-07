@@ -1,0 +1,28 @@
+SSE.
+. CW-2025-0417-CIV | Civil and Earthworks Package :
+: Code Description . Limit ‘Unit
+: A.11.010 Site clearance, vegetation and topsoil strip ; 4,500 m2
+A.12.010 General excavation to reduce level 1,200 m3
+B.21.020 Reinforced concrete to foundations, C32/40 140 m3
+C.32.010 Precast manhole, 1200 mm diameter, depth to 3 m 6 no.
+: D.41.030 | Stone mastic asphalt surface course, 40 mm 3,200 m2 ;
+E.51.020 Traffic management, two-way signals, per day 1 day
+A.13.030 Double handling of stockpiled material . 800 m3
+C.32.030 Precast manhole, 1800 mm diameter, depth to 5m : , 3 no.
+E.53.010 Attendance on statutory undertaker 2 day
+Part 5 — Mutually exclusive items oO
+The item in the first column is not measurable within the stated period following measurement of the item
+in the second column on the same work area (Clause 32). .
+Excluded item : Excluded by Period
+A.14.020 A.14.010 a 2 days
+[TTTTTTTTTaiii,,,,————$————
+Part 6 — Surveyed items : : .
+The following items are measured only against a joint survey sheet signed by both parties (Clause 33). :
+Code Description 7 Unit |
+B.23.010 High-yield reinforcement bar, cut, bent and fixed tonne
+E.52.010 Joint survey and setting out, chainage band no.
+; B.23.020 Mesh reinforcement, A393, laid and lapped m2
+=
+Nothing in this Schedule permits both the night uplift and the rest-day uplift to be applied to the same measurement save
+on the written instruction of the Engineer (Clause 8). a
+Page 26 . a

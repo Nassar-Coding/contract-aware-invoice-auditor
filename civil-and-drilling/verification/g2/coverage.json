@@ -1,0 +1,420 @@
+{
+ "run_context": {
+  "id": "0a6df141723a1f95",
+  "code": {
+   "audit/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "audit/build.py": "1fbd4af6d12b9950f5ba9605bfcbe69e8364857cd29cb830e6c95a3c07d6fc3f",
+   "audit/claims.py": "6632a1a6df4f2f9b8be612649949db164b70114a553b9b23b7546284d76cba8d",
+   "audit/common.py": "e5d23fc67f081d5df11b96cb7dcf322018a7319595821be1501e2845c72a7fcb",
+   "audit/events.py": "a483048b3a899726a9c6687eeadc837923de41925f3300016f9c3bea4a38566f",
+   "audit/g3_core.py": "92f23df40a15ebcd868540a737d905f49d596c93eada0b22a456a9a632ec2421",
+   "audit/g3_cw.py": "bd85f68745278087e20449b965822d87cb477892e1b6fb9ec91a8065aa3dd56d",
+   "audit/g3_dds.py": "3728ff9f954803737aa63dee21882d1d78e7a7842f53a572f3676e720c738f14",
+   "audit/g3_run.py": "879e9f0c5ef2eafbd42b6b888b8176f8f12b7eadd7fa27faec363450147715d4",
+   "audit/g4_core.py": "da9f3b6947a7439aff5c93b3d3bfc4c308522d53f90b1413bbad8b52bc07b798",
+   "audit/g4_cw.py": "31540d3d1e5b5a5a3fa8fc32ebfc9a3f4eb7c27f0b4cfbfffcdca8f8f3515816",
+   "audit/g4_dds.py": "0c8f46bcc55359d52c881a4dc4e48c07e25c84a05c42bc18a85776efdc96935f",
+   "audit/g4_run.py": "b0ce4df67541e4ef80f29542d8c4e7b1827c812a4566af9878ecdffaba03ec01",
+   "audit/g5_outcomes.py": "b963b51a39c728558040e5292f58352cf32b22dcbf4c1d70145dbd75848374b8",
+   "audit/g5_run.py": "98cb9fd9efdf3c8f06ac431b8792ac91de35de0edbe29ffeb38d9e9b14e3d0a9",
+   "audit/links.py": "f4ad1860fba5de2bc5b2e429262fcd35411a651d5beb4233efb52589964eeb89",
+   "audit/provenance.py": "d8c562124a50d97549c11e08f26170436c7c26d56a2c3612ce14f83e93b41bd2",
+   "audit/records_cw.py": "daf1cd65cfde44295e84938924c94641653769346b062e231c1e7c57a4433fc8",
+   "audit/records_dds.py": "ce8f4ab812ea9a91d9a0f6333f8a0e29c41d94bf05cb2bf7decd7f5b49b98b0c",
+   "audit/terms.py": "fc95cc049ed5596be822ce5c182ebd102b540d7ae6c0abc291245f08c3817438",
+   "tools/snapshot.py": "5879dc3b9e23c542841652ae1c361b8e20b17e4d798ad31c69dc7be5aa65cb42",
+   "tools/spec_lib.py": "8d9e1a23ad83fa8284fdea0388ae4034c7deba630fd0566d66e6e1b0b0a153e3"
+  },
+  "reviewed_inputs": {
+   "spec/evidence_cw.yaml": "ce03766cc1991275ad50ea59726262ec0b13c9caf16783dcf1468ca91da90cb7",
+   "spec/evidence_dds.yaml": "4c1dc87391108f4d97748a009a1d2f58413bd3af854d86f02a5f95937e4a5a2d",
+   "spec/terms_cw.yaml": "d0a14046c72506e7d5a749f1dc89e2d4f85dcb14904e3fa40bdd1b8f49e4509e",
+   "spec/terms_dds.yaml": "89769a6f85efac55fa39209b6972da6a00248d1d2d7c18ce07396058f49eedfa",
+   "spec/instruments.yaml": "c775f2bd269829df27865bec5b9ba13e5a6770a9b3c65f1839141092be2b03ab"
+  },
+  "snapshot": {
+   "repo": "https://github.com/majedzahrani3/invoice-auditing-level-2",
+   "commit": "aef4924dc32506b4587de8b788b5a947e6beffec",
+   "source/manifest.tsv": "2700c625e54bf1ed0d8b4445ec485482f0ff29299cb25df06714f98e9ecdd56a"
+  }
+ },
+ "claims_rows": {
+  "cw_headers": 900,
+  "cw_lines": 7746,
+  "dds_headers": 1906,
+  "dds_lines": 91244
+ },
+ "claims_input_assertions": {
+  "cw_headers_unique_ids": true,
+  "cw_lines_unique_ids": true,
+  "dds_headers_unique_ids": true,
+  "dds_lines_unique_ids": true,
+  "cw_lines_parents_exist": true,
+  "cw_headers_have_lines": true,
+  "dds_lines_parents_exist": true,
+  "dds_headers_have_lines": true,
+  "template_covers_all_headers": true
+ },
+ "cw_records_parsed": 2169,
+ "cw_families": {
+  "CT": 381,
+  "CV": 120,
+  "DW": 114,
+  "DX": 266,
+  "JS": 368,
+  "MO": 142,
+  "PR": 365,
+  "PS": 143,
+  "PT": 270
+ },
+ "cw_rules": {
+  "CT1": 126,
+  "CT2": 81,
+  "CT3": 66,
+  "CT4": 57,
+  "CT5": 51,
+  "CV1": 120,
+  "DW1": 57,
+  "DW2": 57,
+  "DX1": 132,
+  "DX2": 73,
+  "DX3": 61,
+  "JS1": 128,
+  "JS2": 111,
+  "JS3": 78,
+  "JS4": 51,
+  "MO1": 77,
+  "MO2": 65,
+  "PR1": 138,
+  "PR2": 79,
+  "PR3": 72,
+  "PR4": 42,
+  "PR5": 34,
+  "PS1": 90,
+  "PS2": 53,
+  "PT1": 135,
+  "PT2": 135
+ },
+ "cw_ground_stated_by_family": {
+  "DX": 266,
+  "PT": 270
+ },
+ "cw_jobs": {
+  "Northern Access Road, Package 4": 2169
+ },
+ "cw_placeholder_signatures": [
+  "DX-00089"
+ ],
+ "cw_weekly_days_on_counts": {
+  "5": 40,
+  "6": 38,
+  "7": 36
+ },
+ "cw_weekly_crossing_month": [
+  "DW-00001",
+  "DW-00009",
+  "DW-00010",
+  "DW-00014",
+  "DW-00015",
+  "DW-00020",
+  "DW-00023",
+  "DW-00029",
+  "DW-00030",
+  "DW-00035",
+  "DW-00050",
+  "DW-00051",
+  "DW-00052",
+  "DW-00053",
+  "DW-00067",
+  "DW-00068",
+  "DW-00069",
+  "DW-00075",
+  "DW-00078",
+  "DW-00079",
+  "DW-00087",
+  "DW-00105",
+  "DW-00106",
+  "DW-00112"
+ ],
+ "cw_weekly_crossing_year": [
+  "DW-00067",
+  "DW-00068",
+  "DW-00069"
+ ],
+ "cw_special_condition_words": {
+  "flood": 0,
+  "watch": 0,
+  "suspend": 0,
+  "suspension": 0,
+  "heat": 0,
+  "midday": 0,
+  "safety": 0,
+  "reject": 0,
+  "rejected": 0,
+  "unapproved": 0,
+  "over-excavat": 0,
+  "defect": 0,
+  "dust": 0,
+  "method statement": 0,
+  "permit": 0,
+  "instructed": 0,
+  "night": 0,
+  "rest day": 0,
+  "friday": 0,
+  "saturday": 0,
+  "revised": 0,
+  "revision": 0,
+  "correct": 0
+ },
+ "ddr_files": 8151,
+ "ddr_indexed_by_report_number": 8151,
+ "ddr_part_combinations": {
+  "AB": 7258,
+  "ABC": 476,
+  "ABCE": 3,
+  "ABD": 363,
+  "ABDE": 4,
+  "ABE": 47
+ },
+ "ddr_statuses": {
+  "Operating": 7770,
+  "Standby": 381
+ },
+ "ddr_sections": {
+  "12-1/4\"": 2257,
+  "17-1/2\"": 1767,
+  "26\"": 697,
+  "6\"": 840,
+  "8-1/2\"": 2590
+ },
+ "ddr_tool_terms": {
+  "MWD collar": 8151,
+  "bit and reamer": 1190,
+  "circulating sub": 1767,
+  "density-neutron": 1093,
+  "drilling jars": 8151,
+  "float sub": 2257,
+  "gamma tool": 3430,
+  "hole opener": 803,
+  "hydraulics package": 1190,
+  "mud motor": 3304,
+  "real-time link": 8151,
+  "resistivity tool": 2590,
+  "rotary steerable": 4847,
+  "stabiliser string": 1767,
+  "survey package": 4847
+ },
+ "ddr_crew_terms": {
+  "MWD engineers": 8151,
+  "directional hands": 8151,
+  "logging engineers": 3430,
+  "night man": 8151,
+  "performance engineer": 2561
+ },
+ "ddr_lost_tool_terms": {
+  "MWD collar": 19,
+  "gamma tool": 8,
+  "mud motor": 10,
+  "rotary steerable": 17
+ },
+ "ddr_placeholder_signatures": [
+  "DDR-055-20250503",
+  "DDR-149-20251122",
+  "DDR-218-20251029"
+ ],
+ "ddr_signatures_after_last_part": 8151,
+ "runs": 1369,
+ "runs_all_days_reported": 1369,
+ "runs_with_source_days": 367,
+ "losses": 54,
+ "loss_hours_readings": {
+  "tool": 15,
+  "tool+run": 12,
+  "tool+well": 25,
+  "tool+well+run": 2
+ },
+ "observations": {
+  "source_carried_reports": 2590,
+  "source_carried_with_LW-411_in_hole": 2590,
+  "source_carried_without_LW-411_in_hole": 0,
+  "LW-411_in_hole_without_source_carried": 0,
+  "part_D_days_without_LW-411_in_hole": 0,
+  "part_D_on_run_first_day": 367,
+  "pressure_points_reported_days": 445,
+  "run_metres_logged_equals_drilled_or_zero": 1369,
+  "run_metres_reamed_equals_drilled_or_zero": 1369
+ },
+ "wells": 214,
+ "wells_with_report_gaps": 0,
+ "cw_reference_status": {
+  "blank_not_required": 5549,
+  "blank_required": 4,
+  "not_found": 3,
+  "resolved": 2189,
+  "wrong_series": 1
+ },
+ "dds_reference_status": {
+  "blank_invoice_level": 63,
+  "resolved": 91181
+ },
+ "cw_record_accounting": {
+  "records": 2169,
+  "cited": 2169,
+  "unreferenced": []
+ },
+ "ddr_accounting": {
+  "records": 8151,
+  "cited": 8151,
+  "unreferenced": []
+ },
+ "cw_semantic_false_counts": {
+  "area_match": 1,
+  "date_match": 1,
+  "work_date_in_week": 0,
+  "work_date_is_day_on": 20,
+  "activity_includes_item": 1,
+  "unit_equal": 1,
+  "ground_match": 1,
+  "signed_foreman": 0,
+  "signed_engineer": 1
+ },
+ "cw_quantity_relation": {
+  "above_record": 27,
+  "below_record": 424,
+  "equal": 1739
+ },
+ "dds_semantic_false_counts": {
+  "date_match": 8,
+  "well_match": 0,
+  "line_well_matches_header": 0,
+  "rig_matches_header": 0,
+  "status_match": 0,
+  "section_match": 0,
+  "signed_company": 33,
+  "signed_driller": 33,
+  "required_part_present": 3,
+  "tool_in_hole": 3
+ },
+ "dds_tool_presence_by_service": {
+  "DD-102": {
+   "lines": 8151,
+   "true": 0,
+   "false": 0,
+   "null": 8151,
+   "basis": null,
+   "share_not_established": 1.0
+  },
+  "DD-110": {
+   "lines": 3304,
+   "true": 3304,
+   "false": 0,
+   "null": 0,
+   "basis": "DD-110",
+   "share_not_established": 0.0
+  },
+  "DD-121": {
+   "lines": 245,
+   "true": 245,
+   "false": 0,
+   "null": 0,
+   "basis": "DD-120",
+   "share_not_established": 0.0
+  },
+  "HC-601": {
+   "lines": 1767,
+   "true": 1767,
+   "false": 0,
+   "null": 0,
+   "basis": "HC-601",
+   "share_not_established": 0.0
+  },
+  "HC-620": {
+   "lines": 8151,
+   "true": 8151,
+   "false": 0,
+   "null": 0,
+   "basis": "HC-620",
+   "share_not_established": 0.0
+  },
+  "HC-640": {
+   "lines": 2146,
+   "true": 2146,
+   "false": 0,
+   "null": 0,
+   "basis": "HC-640",
+   "share_not_established": 0.0
+  },
+  "MW-310": {
+   "lines": 8151,
+   "true": 8151,
+   "false": 0,
+   "null": 0,
+   "basis": "MW-310",
+   "share_not_established": 0.0
+  },
+  "MW-320": {
+   "lines": 4847,
+   "true": 4847,
+   "false": 0,
+   "null": 0,
+   "basis": "MW-320",
+   "share_not_established": 0.0
+  },
+  "MW-330": {
+   "lines": 8151,
+   "true": 8151,
+   "false": 0,
+   "null": 0,
+   "basis": "MW-330",
+   "share_not_established": 0.0
+  },
+  "PD-220": {
+   "lines": 1190,
+   "true": 1190,
+   "false": 0,
+   "null": 0,
+   "basis": "PD-220",
+   "share_not_established": 0.0
+  },
+  "PD-230": {
+   "lines": 1190,
+   "true": 1190,
+   "false": 0,
+   "null": 0,
+   "basis": "PD-230",
+   "share_not_established": 0.0
+  },
+  "RM-511": {
+   "lines": 806,
+   "true": 803,
+   "false": 3,
+   "null": 0,
+   "basis": "RM-511",
+   "share_not_established": 0.0037
+  },
+  "RM-520": {
+   "lines": 1767,
+   "true": 1767,
+   "false": 0,
+   "null": 0,
+   "basis": "RM-520",
+   "share_not_established": 0.0
+  }
+ },
+ "dds_tool_presence_basis": {
+  "substitutes": {
+   "DD-121": "DD-120"
+  },
+  "no_tool": {
+   "DD-102": "Q5"
+  },
+  "undeclared": []
+ },
+ "dds_personnel_lines_with_no_crew_recorded": 0,
+ "unresolved_total": 0,
+ "unresolved_by_kind_field": {},
+ "conflicts_total": 1,
+ "conflicts_by_check": {
+  "ddr|gyro_surveys_without_part_C": 1
+ }
+}

@@ -1,0 +1,33 @@
+DDS-2025-118 | Directional Drilling Services - : ee - a .
+PART IV — INVOICING AND PAYMENT
+32. Invoices ‘
+: The Contractor shall invoice each well separately, for a period of consecutive days on the well. Every
+charge on an invoice is for a day within the period the invoice states. :
+33. Submission :
+An invoice shall not be submitted before the last day of its period and shall be submitted within 30 days
+after it. , i
+34. Content of a charge : :
+Each charge states the date, the service code, the description, the hole section, the status of the day, the
+quantity, the unit, the rate and the amount, and for item PD-210 the depths at which the charged interval
+starts and ends. :
+35. Units ; ;
+A charge is stated in the unit Schedule 1 gives for the service, and in no other.
+36. Net amount : : :
+The net amount of an invoice is the sum of the amounts of its charges, including the discount charge under .
+Clause 38.
+* 37. Documents as a condition of payment , :
+A charge for a service Schedule 5 lists is:not payable until the document Schedule 5 names has been
+delivered for the day or run the charge is for.
+38. Discount . : ’
+Where the sum of the amounts of the services charged on an invoice exceeds 250,000.00 USD, the :
+Contractor allows a discount of-4 per cent of the excess, rounded under Clause 17, stated as a single charge
+under code DS-900 with a negative amount. : :
+39. Value Added Tax .
+Value Added Tax is charged at 15 per cent of the net amount of the invoice, rounded under Clause 17.
+40. Invoice total
+The total of an invoice is its net amount plus Value Added Tax. ;
+41. Disputed charges
+The Company may withhold a disputed charge and shall pay the undisputed balance.
+42. Payment .
+The Company shall pay within forty-five days of receipt of a correct invoice. 1
+: Page 8 .

@@ -1,0 +1,57 @@
+seed: 5505
+why:
+  PA-00735: random (band-free applications, seed 5505)
+  PA-00671: random (band-free applications, seed 5505)
+  PA-00047: random (band-free applications, seed 5505)
+  PA-00740: random (band-free applications, seed 5505)
+  PA-00764: random (band-free applications, seed 5505)
+  PA-00340: random (band-free applications, seed 5505)
+  PA-00376: random (band-free applications, seed 5505)
+  PA-00043: 'raw: application_total differs from the sum of its lines'
+  PA-00613: 'raw: submitted outside 0..21 days after period_to'
+  PA-00699: 'raw: submitted outside 0..21 days after period_to'
+  PA-00708: 'raw: submitted outside 0..21 days after period_to'
+  PA-00111: 'raw: the same item, site and work date billed twice'
+  PA-00443: 'raw: submitted on/after an A3 issue date or after the extended completion (Q1 / 45A)'
+  PA-00006: 'raw: submitted on/after an A3 issue date or after the extended completion (Q1 / 45A)'
+  MDS-00753: random (invoices of at most 22 lines, seed 5505)
+  MDS-01268: random (invoices of at most 22 lines, seed 5505)
+  MDS-01738: random (invoices of at most 22 lines, seed 5505)
+  MDS-00448: random (invoices of at most 22 lines, seed 5505)
+  MDS-00751: random (invoices of at most 22 lines, seed 5505)
+  MDS-00525: random (invoices of at most 22 lines, seed 5505)
+  MDS-00072: 'raw: the DS-900 line does not equal 4% of the services above 250,000'
+  MDS-00282: 'raw: the DS-900 line does not equal 4% of the services above 250,000'
+  MDS-00537: 'raw: submitted outside 0..30 days after period_end'
+  MDS-00828: 'raw: submitted outside 0..30 days after period_end'
+  MDS-01258: 'raw: submitted outside 0..30 days after period_end'
+packets:
+  packet_cw_a.jsonl:
+  - PA-00735
+  - PA-00047
+  - PA-00764
+  - PA-00376
+  - PA-00613
+  - PA-00708
+  - PA-00443
+  packet_cw_b.jsonl:
+  - PA-00671
+  - PA-00740
+  - PA-00340
+  - PA-00043
+  - PA-00699
+  - PA-00111
+  - PA-00006
+  packet_dds_a.jsonl:
+  - MDS-00753
+  - MDS-01738
+  - MDS-00751
+  - MDS-00072
+  - MDS-00537
+  - MDS-01258
+  packet_dds_b.jsonl:
+  - MDS-01268
+  - MDS-00448
+  - MDS-00525
+  - MDS-00282
+  - MDS-00828

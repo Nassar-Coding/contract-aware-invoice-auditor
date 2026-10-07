@@ -1,0 +1,123 @@
+# G3 code-family coverage (G3 exit condition: "all billed code families are implemented or explicitly marked unresolved").
+# A family is a quantity route of the contract. Membership is derived from the G1-verified tables, never from the engine:
+#   table: code is in that table's first column     sch1_unit: Schedule 1 unit       codes: listed codes
+#   sch8_contains: Schedule 8 'charged for' wording (DDS.T23_SCH8) contains the text    not_in_sch1: code outside Schedule 1
+# All conditions of a rule must hold; families are tried in the order listed and a code belongs to the first match.
+# Where a G3 decision moves a code away from its Schedule 8 wording, the family lists it by code and names the decision.
+# status: implemented | deferred | unresolved. A deferred or unresolved family names the gate that owns it.
+# tools/verify_g3.py X2 checks: every billed code falls in exactly one family; the engine valued every line under that
+# family (LineResult.family); every line of an implemented family has an amount status with a value or a reason; every
+# line of a deferred/unresolved family carries that status; every implemented family has an independent reference case
+# that agrees; and each pricing feature of the verified tables appears in the trace of every line it applies to.
+version: 1
+contracts:
+  CW:
+    - id: CW-HOUR
+      title: hourly items evidenced by a Schedule 5 record - hours attended less the first hour
+      rule: {table: CW.T16_RECORDS, sch1_unit: hour}
+      clauses: "6A (p32); Cl.46-47 (p8); Sch 5 (p27)"
+      status: implemented
+      cases: [CW-S31, CW-S32]
+    - id: CW-WEEK
+      title: weekly items evidenced by a week record - measurable only for a five-day week
+      rule: {table: CW.T16_RECORDS, sch1_unit: week}
+      clauses: "47A (p33); Sch 5 note (p27)"
+      status: implemented
+      cases: [CW-S33, CW-S34]
+    - id: CW-SURV
+      title: surveyed items - payable as measured up to 2% above the survey, else the survey
+      rule: {table: CW.T16_RECORDS, also_table: CW.T15_SURVEYED}
+      clauses: "33A (p32); Sch 4 (p26); Sch 5 (p27)"
+      status: implemented
+      cases: [CW-S35, CW-S36]
+    - id: CW-REC
+      title: other Schedule 5 items - quantity capped by the record
+      rule: {table: CW.T16_RECORDS}
+      clauses: "Cl.46-47 (p8); Sch 5 (p27); guideline check 5"
+      status: implemented
+      cases: [CW-S37, CW-S38, CW-S40]
+    - id: CW-MEAS
+      title: measured items with no prescribed record - quantity as measured in the application
+      rule: {table: CW.T01_SCH1}
+      clauses: "Cl.25-26 (p6); Cl.42 (p8)"
+      status: implemented
+      cases: [CW-S09, CW-S19, CW-S20]
+    - id: CW-UNSCHEDULED
+      title: codes outside Schedule 1 (daywork, provisional or preliminaries routes whose conditions are not evidenced)
+      rule: {not_in_sch1: true}
+      clauses: "Cl.26 (p6); Sch 6-8 (pp28-31); P24 (p14)"
+      status: unresolved
+      owner: G5
+  DDS:
+    - id: DDS-PERSONS
+      title: personnel - each person recorded on the rig, per day
+      rule: {sch8_contains: "each person recorded on the rig"}
+      clauses: "Cl.22 (p6); Sch 4 (p23); Sch 8 (pp27-28); App G (p36)"
+      status: implemented
+      cases: [DDS-S34, DDS-R01]
+    - id: DDS-COORDINATOR
+      title: DD-102 directional coordinator - per coordinator recorded, per day (Q5 decided, spec/g3_decisions.yaml)
+      rule: {codes: [DD-102]}
+      clauses: "Sch 8 introduction (p27); Sch 4 (p23); App G 'night man' (p36)"
+      status: implemented
+      cases: [DDS-S36, DDS-R11]
+    - id: DDS-TOOL-DAY
+      title: day rentals - each day the report records the tool in the hole
+      rule: {sch8_contains: "records the tool in the hole"}
+      clauses: "Cl.28 (p7); Sch 8 (pp27-28); App G (p36)"
+      status: implemented
+      cases: [DDS-S35, DDS-S21, DDS-R13]
+    - id: DDS-HOURLY
+      title: hourly services - circulating (DD-120) or back-reaming (RM-530) hours, first hour and six-hour minimum (Q4 open)
+      rule: {sch8_contains: "hour recorded on the report"}
+      clauses: "Cl.21 (p6); 21A (p35); P10 (p11); Cl.30 (p7)"
+      status: implemented
+      cases: [DDS-S28, DDS-S29, DDS-S30, DDS-R19]
+    - id: DDS-COUNTS
+      title: counted events recorded on the report (gyro surveys, pressure points, wiper trips; HC-630 clean-out runs per Q5)
+      rule: {sch8_contains: "recorded on the report", or_codes: [HC-630]}
+      clauses: "Cl.30 (p7); Sch 8 (pp27-28)"
+      status: implemented
+      cases: [DDS-R14, DDS-R21, DDS-S56]
+    - id: DDS-PERFORMANCE
+      title: PD-210 performance drilling - metres by depth band on a nominated section (nomination not supplied, Q8)
+      rule: {codes: [PD-210]}
+      clauses: "Cl.23 (p6); Sch 2 (p17); App A (p29); 25A (p35)"
+      status: implemented
+      cases: [DDS-S14, DDS-S15, DDS-S16, DDS-S17, DDS-R05]
+    - id: DDS-METRES
+      title: metre charges - metres drilled with the tool in the hole, 1% tolerance
+      rule: {sch8_contains: "each metre drilled"}
+      clauses: "Cl.24-25 (p6); 25A (p35)"
+      status: implemented
+      cases: [DDS-S32, DDS-S33, DDS-R15]
+    - id: DDS-RUN-EVENT
+      title: per-run charges on the run's first or last day (once-per-run counting is G4)
+      rule: {sch8_contains: "each BHA run"}
+      clauses: "Cl.26 (p7)"
+      status: implemented
+      cases: [DDS-R16, DDS-R20]
+    - id: DDS-WELL-EVENT
+      title: once-per-well charges (the well's first/last day is G4)
+      rule: {sch8_contains: "once for the well"}
+      clauses: "Cl.27 (p7)"
+      status: implemented
+      cases: [DDS-R17, DDS-S23]
+    - id: DDS-LOSS
+      title: lost in hole - Sch 2D value at the month's FX, depreciated by the Part E hours
+      rule: {sch8_contains: "lost in the hole"}
+      clauses: "Cl.31 (p7); 31A (p35); P12 (p11); Sch 5 Part E (p24)"
+      status: implemented
+      cases: [DDS-S37, DDS-S38, DDS-S39, DDS-S40, DDS-R10]
+    - id: DDS-DISCOUNT
+      title: DS-900 invoice discount - recomputed from the invoice's corrected service subtotal
+      rule: {codes: [DS-900]}
+      clauses: "Cl.38 (p8); P11 (p11)"
+      status: deferred
+      owner: G5
+    - id: DDS-UNSCHEDULED
+      title: codes outside Schedule 1
+      rule: {not_in_sch1: true}
+      clauses: "Sch 1 (pp15-16); Cl.35 (p8)"
+      status: unresolved
+      owner: G5

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.coverage
+.pytest_cache/
+
+# Input snapshot, fetched at a pinned commit by `make hospital-inputs` (see ../docs/REPRODUCING.md).
+/data/
+
+# Written by `python -m insurance_audit reproduce` and the measurement tools; the frozen inputs reproduce them
+# exactly, so none of it is committed.
+/runs/*
+!/runs/README.md
+/reports/
+/tmp/

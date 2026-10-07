@@ -1,0 +1,47 @@
+note: 'Reviewer dispositions (implementer) of second-reading results that the machine checks cannot pass by themselves. Each
+  is bound to the item''s content hash: an edit to the item reopens it.'
+dispositions:
+  CW-R06:
+    content_sha256: d30292e84abfd6f451f74a263d876047616cfda24edf4e070358767f83bb86af
+    reviewer: implementer, against the scan image and G1-verified tables
+    disposition: 'Reader G (verdict supported) marked source_labels_ok false: validation case 3 cited ''Sch 5 note'', but
+      the wording ''record wording need not follow the Bill of Quantities'' is in the Schedule 5 introduction (p27) and in
+      47A (p33). The label was corrected to exactly that (''Sch 5 introduction p27; 47A p33'') after the reading; no other
+      part of the statement changed (statement read = current statement apart from that label). Settled against p27 and p33
+      as quoted by reader G.'
+  CW-R11:
+    content_sha256: b51d63e6a90106c94792ef2cdbaecefa7c35e3eedbb54d48a5a430366d5795e7
+    reviewer: implementer, against the scan image and G1-verified tables
+    disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+      the quote is present as a token in the page OCR and equals the cell of the G1-verified table CW.T05_SMI [''2025-05'',
+      ''102.60''] (second-verified cell by cell against the scan in G1).'
+  CW-R14:
+    content_sha256: 9438df3f9fa771de46a3341ee432e9117eedd44b2ae7c29ea23f6c11b9317685
+    reviewer: implementer, against the scan image and G1-verified tables
+    disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+      the quote is present as a token in the page OCR and equals the cell of the G1-verified table CW.T12_BANDS (A.12.010
+      4,000/16,000 100/96; A.12.020 1,500/6,000 100/97) (second-verified cell by cell against the scan in G1).'
+  CW-R16:
+    content_sha256: e9a22185575bb09b9c8b24480d0d287d6c2125072bcb7b1cd72be1984e02427c
+    reviewer: implementer, against the scan image and G1-verified tables
+    disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+      the quote is present as a token in the page OCR and equals the cell of the G1-verified table CW.T14_EXCLUSIONS [''A.14.020'',
+      ''A.14.010'', ''2 days following''] (second-verified cell by cell against the scan in G1).'
+  DDS-R09:
+    content_sha256: e4ddfcadf2d62950dfa46912a2e1e11735aea971e9853fd5dccef6cbeb13bc7a
+    reviewer: implementer, against the scan image and G1-verified tables
+    disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+      the quote is present as a token in the page OCR and equals the cell of the G1-verified table instrument DDS.S1 monthly
+      rows [''2025-12'', ''736.40''] (second-verified cell by cell against the scan in G1).'
+  DDS-R11:
+    content_sha256: 0f50dd8ef0e28d986fe5f5d1a539d267321c9d8cef40d59bf4979c342d701cfc
+    reviewer: implementer, against the scan image and G1-verified tables
+    disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+      the quote is present as a token in the page OCR and equals the cell of the G1-verified table DDS.T10_CLASS_FACTORS [''HPHT'',
+      ''1.325''] (second-verified cell by cell against the scan in G1).'
+  DDS-R20:
+    content_sha256: 2c50486824cbfafeccc4a14461fb4c1ff2b304ee404f2a376440aeea87ca1dbd
+    reviewer: implementer, against the scan image and G1-verified tables
+    disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+      the quote is present as a token in the page OCR and equals the cell of the G1-verified table DDS.T21_APPB_EXAMPLE totals
+      (total 29,511.60) (second-verified cell by cell against the scan in G1).'

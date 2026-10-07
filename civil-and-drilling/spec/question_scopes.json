@@ -1,0 +1,148 @@
+{
+ "Q1_Q2_CW": {
+  "a3_lines_work_on_or_after_effective": 136,
+  "a3_lines_in_applications_submitted_before_issue": 89,
+  "a3_applications_submitted_before_issue": 72,
+  "receiving_candidates_on_or_after_issue_first_date": "2026-05-12",
+  "receiving_candidates_on_first_date": [
+   "PA-00006",
+   "PA-00023",
+   "PA-00380"
+  ],
+  "receiving_candidates_strictly_after_first_date": "2026-05-14",
+  "receiving_candidates_strictly_after": [
+   "PA-00443"
+  ]
+ },
+ "Q1_Q2_DDS": {
+  "a3_lines_service_on_or_after_effective": 5357,
+  "a3_lines_in_invoices_submitted_before_issue": 3309,
+  "a3_invoices_submitted_before_issue": 511,
+  "wells_with_pre_issue_a3_lines": 68,
+  "receiving_candidates_on_or_after_issue_first_date": "2026-08-17",
+  "receiving_candidates_on_first_date": [
+   "MDS-01625"
+  ],
+  "receiving_candidates_strictly_after_first_date": "2026-08-18",
+  "receiving_candidates_strictly_after": [
+   "MDS-01585",
+   "MDS-01631",
+   "MDS-01645"
+  ],
+  "per_well_variant_wells_without_any_later_invoice": 56,
+  "dd120_lines_apr_dec_2026_where_s2_monthly_rate_exists": 1578
+ },
+ "Q3_CW": {
+  "record_required_lines": 2197,
+  "blank_record_ref": 4,
+  "ref_without_file": 3,
+  "ref_wrong_series_prefix": 1,
+  "record_ref_on_non_schedule5_lines": 0
+ },
+ "Q4_DDS": {
+  "dd120_lines": 4606,
+  "dd120_lines_quantity_exactly_6": 0,
+  "dd120_lines_quantity_below_6": 0,
+  "rm530_lines": 943
+ },
+ "Q5_DDS": {
+  "dd102_lines": 8151,
+  "hc630_lines": 428,
+  "dd120_lines": 4606,
+  "rm530_lines": 943
+ },
+ "Q6_CW": {
+  "band_item_lines": 1026,
+  "cap_item_lines": 1183,
+  "exclusion_pair_lines_A14020": 125,
+  "exclusion_pair_lines_E51020": 104,
+  "same_item_area_date_groups_with_more_than_one_line": 1
+ },
+ "Q12_CW_contract_year": {
+  "band_item_lines_on_or_after_2026_01_05": 378,
+  "band_item_lines_before_2026_01_05": 648
+ },
+ "Q7": {
+  "cw_record_refs_used_on_more_than_one_work_date": 20,
+  "cw_dw_refs_used_on_more_than_one_work_date": 19,
+  "dds_well_date_code_groups_with_more_than_one_line": 187,
+  "of_which_pd210": 184
+ },
+ "Q8": {
+  "cw_night_lines_on_rest_day_for_items_in_both_uplift_lists": 0,
+  "dds_pd210_lines_performance_section_nomination_not_supplied": 2390
+ },
+ "Q9": {
+  "cw_contract_ref_variants": [
+   "PA-00560",
+   "PA-00711"
+  ],
+  "dds_contract_ref_variants": [
+   "MDS-00672",
+   "MDS-00988",
+   "MDS-01799"
+  ],
+  "cw_applications_after_extended_completion_candidates_for_45A_release": 2
+ },
+ "Q10_DDS": {
+  "invoices_billed_services_above_250000": 66,
+  "of_which_without_ds900": 3,
+  "invoices_with_ds900_at_or_below_250000": 0
+ },
+ "Q11_DDS": {
+  "pd210_lines": 2390,
+  "wells_with_records": 214,
+  "negative_daily_depth_increments": 0,
+  "max_physical_depth_increment_per_well_all_dates": 6026,
+  "well_with_max_physical_depth_increment": "NGP-BD-027",
+  "max_drilled_logged_reamed_metres_per_well_all_dates": 10002,
+  "wells_at_or_above_40000_under_any_reading": 0,
+  "billed_pd210_metres_max_per_well_and_year_not_used_as_bound": "3355"
+ },
+ "Q13_DDS": {
+  "lh_lines": 54,
+  "losses_recorded": 54,
+  "part_e_differs_from_well_daily_sum": 27,
+  "part_e_equals_run_daily_sum_only": 12,
+  "part_e_equals_tool_daily_sum": 54,
+  "part_e_matches_neither": 15
+ },
+ "D_scopes": {
+  "dds_pd210_lines_on_non_standard_wells": 941,
+  "cw_c31010_lines": 140,
+  "dds_mw310_lines": 8151,
+  "cw_lines_after_2026_09_30": 2,
+  "dds_lines_after_2026_12_31": 3,
+  "cw_lines_before_2025_01_05": 0,
+  "cw_ground_lines_after_2025_09_27_not_G2": 1052,
+  "dds_lh_lines": 54,
+  "dds_service_days_over_limit_only_when_wells_are_summed": 10207,
+  "cw_dx_records_with_stated_depth_exactly_2_or_4_m": 0,
+  "cw_dx_records_with_stated_depth": 73,
+  "lines_relying_on_documents_outside_cl2_lists": {
+   "cw": 7746,
+   "dds": 91244
+  },
+  "documents_outside_cl2_lists": {
+   "cw": [
+    "Part II (Cl.25-39)",
+    "Part III (Cl.40-52)",
+    "Part IV (S1-S20)",
+    "Part V (P1-P25)",
+    "Part VI (H1-H15)",
+    "particular conditions 3A-47A (pp32-33)",
+    "Schedules 2A, 2B",
+    "Schedules 6-8",
+    "Appendices B-C",
+    "instruments S1-A3"
+   ],
+   "dds": [
+    "Part VIII (R1-R12)",
+    "Part IX (3A, 17A, 17B, 19A, 21A, 25A, 31A, 36A)",
+    "Schedules 7-8",
+    "Appendices D-G",
+    "instruments S1-A3"
+   ]
+  }
+ }
+}

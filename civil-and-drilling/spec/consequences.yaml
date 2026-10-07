@@ -1,0 +1,34 @@
+# Consequence table (G1). Frozen categories every rule maps to (spec/rules.yaml `consequence`).
+# The judged field is application_total (CW, SAR) / invoice_total (DDS, USD); unknown values stay unknown.
+
+categories:
+  C-REJECT:
+    name: Explicit full rejection of the affected charge
+    effect: "Charge contributes 0 to the expected measured/service value; other lines on the invoice unaffected."
+    sources: ["CW Cl.26 wrong unit (p6)", "CW Cl.44 later duplicate (p8)", "CW A1/A2 work after extended completion (pp40, 42)", "CW Cl.32/P19/P21 exclusions", "DDS A1/A2 services after expiry (pp39, 41)", "DDS Cl.20 NC services on Standby (p6)", "DDS P4 rig-move days (p11)"]
+    judged_total: "recompute; DDS recompute DS-900 and VAT on the corrected subtotal"
+  C-CORR:
+    name: Quantity or rate correction
+    effect: "Use the supported quantity/rate under the applicable exceptions, in either direction (overbilling and underbilling)."
+    sources: ["guideline check 5", "CW 33A, 6A, 47A", "DDS 21A, 25A, Cl.21", "rate/build-up rules"]
+    judged_total: "recompute from corrected lines; never subtract overlapping deltas twice"
+  C-COND:
+    name: Conditional payment eligibility (missing required evidence, part or signature)
+    effect: "Not currently payable (CW Cl.46; DDS Cl.37). Distinguish from eventual entitlement; CW P23 recovers an amount already paid from the next valuation - never deduct the same obligation twice."
+    sources: ["CW Cl.46, Cl.47, P22, P23 (pp8, 14)", "DDS Cl.37, Sch 5 (pp8, 24)"]
+    judged_total: "open - Q3 decides whether the current total excludes it or the recovery posts later"
+  C-PROC:
+    name: Procedural discrepancy (identity, period, window)
+    effect: "Breach recorded; no clause sets the amount to zero. Expected total derived independently of the breach."
+    sources: ["CW Cl.40-41 (p8)", "DDS Cl.32-33 (p8)"]
+    judged_total: "unchanged by the breach itself; binary treatment per Q9"
+  C-PAY:
+    name: Payment-only or retrospective-adjustment effect
+    effect: "Retention, release and A3 adjustment are traced separately from the measured value; posted exactly once."
+    sources: ["CW Cl.45, 45A, 31A, A3 (pp8, 32, 43)", "DDS 36A, A3 (pp35, 42)"]
+    judged_total: "open - Q2 (placement against application_total / invoice_total, DS-900 and VAT)"
+  C-UNKNOWN:
+    name: Unknown or unresolvable value
+    effect: "Kept unknown internally with the missing fact or competing readings named. No automatic zero, billed copy or midpoint."
+    sources: ["guidelines principle 3", "dataset README (output format)", "CW Cl.43 returned unpaid is not a zero total (p8)", "DDS Cl.41 disputed charge withheld (p8)"]
+    judged_total: "export convention decided at G5 - Q9 (spec/g5_decisions.yaml q9_rule)"

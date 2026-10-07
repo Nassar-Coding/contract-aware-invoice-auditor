@@ -1,0 +1,3958 @@
+generated_by: tools/param_rule_verification.py record
+method: 'Second verification of every parameter and rule against the scan images by independent readers who did not see the
+  specification files, reports or earlier readings: each item''s statement was checked against the cited pages and supported
+  with verbatim quotes. Every quote is machine-matched to the OCR text of its page; a parameter''s value as printed is machine-compared
+  with the specification value. Non-supported verdicts, unquoted cited pages and weak OCR matches are settled on the scan
+  image and recorded in verification/param_rule_dispositions.yaml, bound to the item''s content hash.'
+reviewed: '2026-09-26'
+entries:
+  CW.P.commencement:
+    kind: parameter
+    contract: CW
+    pages:
+    - 1
+    - 34
+    content_sha256: e1b2bbbe84873249ca93f639f6f7e182cfdc9de17c851a3a4cf255f34addc06a
+    reading:
+      reader: G
+      file: verification/param_rule_readings/G.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      - 34
+      printed_value: 05 January 2025
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 1
+      document: null
+      text: Commencement date 05 January 2025
+      ocr_match: 1.0
+    - page: 34
+      document: null
+      text: Commencement Date the date stated in the Agreement on which the Subcontractor is to begin the Works.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.completion_as_let:
+    kind: parameter
+    contract: CW
+    pages:
+    - 1
+    content_sha256: 400ebb4a1f94aaba3435671c3db06690ac4cc92c4b2c11efea37b202a4e52ede
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      printed_value: 27 September 2025
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 1
+      document: null
+      text: Date for completion 27 September 2025
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.completion_A1:
+    kind: parameter
+    contract: CW
+    pages:
+    - 40
+    content_sha256: 21ff44a26015c5101ef79e7025a9d0dc6928a3e70f3b1ebfd4e3e74462b71095
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 40
+      printed_value: 31 March 2026
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 40
+      document: null
+      text: The Date for Completion stated in the Form of Subcontract is extended to 31 March 2026 (extension of time, 185
+        days).
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.completion_A2:
+    kind: parameter
+    contract: CW
+    pages:
+    - 42
+    content_sha256: f01d5426353dcb550702e17e8bc67cd534a36f891a41de8de630bec99d69e3a8
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 42
+      printed_value: 30 September 2026
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 42
+      document: null
+      text: The Date for Completion stated in the Form of Subcontract is extended to 30 September 2026 (second extension of
+        time, 183 days).
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.retention_pct:
+    kind: parameter
+    contract: CW
+    pages:
+    - 1
+    - 8
+    content_sha256: a71f688ae50a07ae94fe90d6986be02446188b787e645e46eb34015eee7d6df8
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      - 8
+      printed_value: 5 per cent
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 8
+      document: null
+      text: The Contractor shall retain 5 per cent of the value of each valuation. Retention is calculated on the total of
+        the application and not on individual items, and is rounded down to the nearest halala.
+      ocr_match: 1.0
+    - page: 1
+      document: null
+      text: Retention 5 per cent of each valuation
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.submission_window_days:
+    kind: parameter
+    contract: CW
+    pages:
+    - 8
+    content_sha256: ca876690aab6f9b0ed57dffa023076de1d9199bdfd2dc43165e2237cab7ebecb
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 8
+      printed_value: 21 days
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 8
+      document: null
+      text: No application shall be submitted before the last day of the period it states
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: An application shall be submitted within 21 days of the end of the period it covers.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.working_hours:
+    kind: parameter
+    contract: CW
+    pages:
+    - 3
+    content_sha256: 03638d8843837fd6065051fe2dc0fc162f3839d2d32e3384bfc71de11a156f7f
+    reading:
+      reader: G
+      file: verification/param_rule_readings/G.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 3
+      - 34
+      printed_value: 06:00 to 18:00
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 3
+      document: null
+      text: Normal working hours are 06:00 to 18:00 on working days. Work executed between 18:00 and 06:00 is Night Work
+      ocr_match: 1.0
+    - page: 34
+      document: null
+      text: Night Work work executed between 18:00 and 06:00.
+      ocr_match: 0.915
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.rest_days:
+    kind: parameter
+    contract: CW
+    pages:
+    - 1
+    - 3
+    - 34
+    content_sha256: 03404525f4b785e0870c9787c939200b8d3eec1ab5f9c19d78b67486ae9cf0e1
+    reading:
+      reader: G
+      file: verification/param_rule_readings/G.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      - 3
+      - 34
+      printed_value: Friday and Saturday
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 1
+      document: null
+      text: Rest days Friday and Saturday
+      ocr_match: 1.0
+    - page: 3
+      document: null
+      text: The rest days under this Subcontract are Friday and Saturday.
+      ocr_match: 1.0
+    - page: 34
+      document: null
+      text: Rest day Friday and Saturday.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.rounding:
+    kind: parameter
+    contract: CW
+    pages:
+    - 6
+    content_sha256: 8cef00331ee249e77fddcc9f1ca97d26213573ff4e1924b20aa0205320f167d8
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 6
+      printed_value: once only, to the rate after the whole of the build-up described in Clause 27 has been completed, to
+        the nearest halala, a half halala being rounded upward
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 6
+      document: null
+      text: Rounding shall be applied once only, to the rate after the whole of the build-up described in Clause 27 has been
+        completed, to the nearest halala, a half halala being rounded upward. Rates shall not be rounded at intermediate steps.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.rounding_fx_index:
+    kind: parameter
+    contract: CW
+    pages:
+    - 32
+    content_sha256: a87e7b150f0a757496770e06bbd36716f6d84d5bdcfbf2068f6e18fdbcda4de3
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 32
+      printed_value: rounded to the nearest halala with a half rounded to the nearer even halala
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 32
+      document: null
+      text: the converted figure is rounded to the nearest halala with a half rounded to the nearer even halala. The conversion
+        is made before any factor or uplift is applied.
+      ocr_match: 1.0
+    - page: 32
+      document: null
+      text: and rounded to the nearest halala with a half rounded to the nearer even halala. That figure is then treated as
+        the rate for the purposes of Clause 27, and Clause 28 applies to the build-up as usual.
+      ocr_match: 0.985
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.first_hour_excluded:
+    kind: parameter
+    contract: CW
+    pages:
+    - 32
+    content_sha256: b7395f3a0a6c2fa6193517647401efb3a80faf2c2df18d914e4591f32d3c6dcd
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 32
+      printed_value: the first hour of that attendance (the quantity measured is one hour fewer)
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 32
+      document: null
+      text: Where an item is measured by the hour, a Chargeable Hour is an hour of attendance other than the first hour of
+        that attendance. The site record states the hours attended; the quantity measured is one hour fewer.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.survey_tolerance_pct:
+    kind: parameter
+    contract: CW
+    pages:
+    - 32
+    content_sha256: c4dd507249f22db3ec1da23ce0559343c9ca7cba624f77877a0bbf4eeb267fe2
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 32
+      printed_value: 2 per cent
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 32
+      document: null
+      text: Where an item is measured against a joint survey, a measured quantity not exceeding the surveyed quantity by more
+        than 2 per cent is payable as measured. A measured quantity exceeding the surveyed quantity by more than that is payable
+        at the surveyed quantity only.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.weekly_min_days:
+    kind: parameter
+    contract: CW
+    pages:
+    - 27
+    - 33
+    content_sha256: c8acbf1fa38fc7216d10f56618c9462bd3b1b012a02f761309c60ebef70efb97
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 27
+      - 33
+      printed_value: not fewer than five days
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 33
+      document: null
+      text: A record that evidences a week records each day worked; a week is measurable only where the record shows work
+        on not fewer than five days of that week.
+      ocr_match: 0.987
+    - page: 27
+      document: null
+      text: A record covering a week records each day worked. A week is measurable only where the record shows work on not
+        fewer than five days of that week (Clause 47A).
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.g2_after:
+    kind: parameter
+    contract: CW
+    pages:
+    - 32
+    content_sha256: f915619737df92889b67dd8c1692a0d74517f445d719f6bfe69de96de5ace480
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: 'Note only: Clause 27A is not subdivided (i)/(ii) in print; ''27A(ii)'' corresponds to its second sentence.
+        The printed text names the classification ''G2 Firm Sabkha''.'
+      pages_read:
+      - 32
+      printed_value: 27 September 2025
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 32
+      document: null
+      text: In any period of extension of time granted by an Amendment, that is to say for work executed after 27 September
+        2025, the ground classification is taken as G2 Firm Sabkha whatever the Engineer recorded on the day.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.night_suppressed_zone_factor_above:
+    kind: parameter
+    contract: CW
+    pages:
+    - 32
+    content_sha256: fa57d909eb385bbffcb12091c933d84439caf32c87652bc562f05404e1715011
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: 'Note only: Clause 27A is not subdivided (i)/(ii) in print; ''27A(i)'' corresponds to its first sentence.
+        The threshold is strict (''exceeding 1.1''), so a factor of exactly 1.1 keeps the uplift.'
+      pages_read:
+      - 32
+      printed_value: exceeding 1.1
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 32
+      document: null
+      text: The night-working uplift is not payable on an item priced at a zone factor exceeding 1.1, the allowance for working
+        away from the compound being taken to include it.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.unrecorded_ground:
+    kind: parameter
+    contract: CW
+    pages:
+    - 10
+    content_sha256: 3c40dad6ce7c703a255dfcbba078e6b9cc15cd3c5c051c26b3a4ab4235a054d5
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 10
+      printed_value: G2 Firm Sabkha
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 10
+      document: null
+      text: Material shall be classified at the point of excavation and recorded on the daily excavation record. A classification
+        not recorded on the day of excavation shall be taken to be G2 Firm Sabkha.
+      ocr_match: 0.963
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.retention_release_fraction:
+    kind: parameter
+    contract: CW
+    pages:
+    - 32
+    content_sha256: 38461d52ea1fe57d1f476c950ce11f11979db3739f3813e4158022583b34af21
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 32
+      printed_value: one half
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 32
+      document: null
+      text: On the first Application for Payment submitted after the Date for Completion as extended, one half of the retention
+        held on all earlier Applications is released, rounded down to the halala.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW.P.standby_rain_threshold_mm_per_hour:
+    kind: parameter
+    contract: CW
+    pages:
+    - 11
+    content_sha256: 8b0fed158248a6950fc18e66daf40526eb0366edc7ef92eea5ca2dd4b63ddf40
+    reading:
+      reader: A
+      file: verification/param_rule_readings/A.jsonl
+      verdict: supported
+      discrepancies: 'Note only: the threshold is strict (''exceeds 5 mm in any hour'').'
+      pages_read:
+      - 11
+      printed_value: 5 mm in any hour
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 11
+      document: null
+      text: Work shall be suspended when rainfall exceeds 5 mm in any hour. A suspension shall be recorded on the meteorological
+        record, and standby under item E.51.010 is measurable only for the hours so recorded.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.commencement:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 1
+    content_sha256: f3f62c220ebe3f6483dbd2a21682b1ae42ccf82b73d1a4a237dde394d4638bf0
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      printed_value: 01 January 2025
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 1
+      document: null
+      text: Commencement date 01 January 2025
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.expiry_as_let:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 1
+    content_sha256: b789afe664a6ad8d7c79f297c8984a1aec74f074ca0613a236ed6db4da9638ee
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      printed_value: 31 December 2025
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 1
+      document: null
+      text: Expiry date 31 December 2025
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.expiry_A1:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 39
+    content_sha256: 5000c2954e0318f5a914aeab57e475574fb2cbfa4ffeafb7960b4b54374a9600
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 39
+      printed_value: 30 June 2026
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 39
+      document: null
+      text: Reference DDS-2025-118/A1. Issued 7 November 2025 and taking effect 1 January 2026.
+      ocr_match: 1.0
+    - page: 39
+      document: null
+      text: The Expiry Date stated in the Form of Agreement is extended to 30 June 2026 (extension of the Term, 181 days).
+      ocr_match: 0.981
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.expiry_A2:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 41
+    content_sha256: 773816095c506e2524da37a9119fffc319d1b29d8d4e29fdca35a58702df93ca
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 41
+      printed_value: 31 December 2026
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 41
+      document: null
+      text: Reference DDS-2025-118/A2. Issued 21 May 2026 and taking effect 1 July 2026.
+      ocr_match: 1.0
+    - page: 41
+      document: null
+      text: The Expiry Date stated in the Form of Agreement is extended to 31 December 2026 (second extension of the Term,
+        184 days).
+      ocr_match: 0.971
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.vat_pct:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 1
+    - 8
+    content_sha256: d5f833fbea66542a75ddd6954dc077960e3d8380e74abc6f043bc4abc77fea7a
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      - 8
+      printed_value: 15 per cent
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 1
+      document: null
+      text: Value Added Tax 15 per cent
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: Value Added Tax is charged at 15 per cent of the net amount of the invoice, rounded under Clause 17.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.submission_window_days:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 8
+    content_sha256: 10e12839d4c8af5d7366e247481a90831f756d3fc51b9e08d316c4fb3764a945
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 8
+      printed_value: 30 days
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 8
+      document: null
+      text: An invoice shall not be submitted before the last day of its period and shall be submitted within 30 days after
+        it.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.rounding:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 1
+    - 6
+    - 35
+    content_sha256: 0341d87dd6f551a1aeef5db6f4955a0ac815cfd606e94c01ba297743577e73b1
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      - 6
+      - 35
+      printed_value: rounded to the nearest cent before the next step is applied, and a result exactly half way between two
+        cents is rounded to the even cent
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 6
+      document: null
+      text: 17. Rounding Every amount is ascertained in cents. Where a step of the build-up in Clause 18 produces a fraction
+        of a cent, the result of that step is rounded to the nearest cent before the next step is applied, and a result exactly
+        half way between two cents is rounded to the even cent.
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: 17A. Indexed rates The rate for a service listed in Schedule 2C is the base rate stated in Schedule 1 multiplied
+        by the Rig Services Index published for the calendar month in which the service was performed and divided by the base
+        index, rounded half to even. That figure is the rate for the purposes of Clause 17.
+      ocr_match: 1.0
+    - page: 1
+      document: null
+      text: Rounding to the cent, half to even, at each step
+      ocr_match: 0.921
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.invoice_discount_threshold:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 8
+    - 11
+    content_sha256: 71fbbbbe49abe9bb3c977a031f1d2b80db7726c42c7349ca8a7052e205d29a7e
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 8
+      - 11
+      printed_value: 250,000.00 USD
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 8
+      document: null
+      text: 38. Discount Where the sum of the amounts of the services charged on an invoice exceeds 250,000.00 USD, the Contractor
+        allows a discount of 4 per cent of the excess
+      ocr_match: 0.953
+    - page: 11
+      document: null
+      text: P11. Discount basis The discount under Clause 38 is calculated on each invoice alone and not on the Contractor's
+        invoices taken together.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.invoice_discount_pct:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 8
+    - 11
+    content_sha256: 45a4f2f8ba55576ccf61bf8ca738e1f858f56f5c7197b5b5e57f500fd5d40bf9
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 8
+      - 11
+      printed_value: 4 per cent
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 8
+      document: null
+      text: the Contractor allows a discount of 4 per cent of the excess, rounded under Clause 17, stated as a single charge
+        under code DS-900 with a negative amount.
+      ocr_match: 0.987
+    - page: 11
+      document: null
+      text: P11. Discount basis The discount under Clause 38 is calculated on each invoice alone and not on the Contractor's
+        invoices taken together.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.dd120_min_hours:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 6
+    - 11
+    - 22
+    content_sha256: fd2e6f8bb0ce6fb2d680b60c88be0ebaa225ed98c9058a47c81704071169d60e
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 6
+      - 11
+      - 22
+      printed_value: a minimum of 6 hours
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 6
+      document: null
+      text: Item DD-120 is charged per circulating hour recorded on the Daily Drilling Report for an Operating day, subject
+        to a minimum of 6 hours on any Operating day on which the tool is in the hole.
+      ocr_match: 1.0
+    - page: 22
+      document: null
+      text: 'Part 7 — Minimum hours DD-120: not less than 6 hours on an Operating day (Clause 21).'
+      ocr_match: 0.976
+    - page: 11
+      document: null
+      text: P10. Minimum hours The minimum in Clause 21 applies to each Operating day separately and is not averaged over
+        a run.
+      ocr_match: 0.952
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.first_hour_excluded:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 35
+    content_sha256: 61237b9e0b3cff33801493c8320d0ddd17e7e4b36e0503e784c21439d50826f2
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 35
+      printed_value: the first hour of each period in the hole (the invoice charges one fewer)
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 35
+      document: null
+      text: For a service charged by the hour, the first hour of each period in the hole is rig-up and is not a Chargeable
+        Hour. The report states the hours run; the invoice charges one fewer.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.metre_tolerance_pct:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 35
+    content_sha256: c02e14baafccf3d0b7317a67167e3d7b5a01323b7dabb767a60f455bab22c81c
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 35
+      printed_value: 1 per cent
+      source_labels_ok: true
+    value_equivalent: true
+    quotes:
+    - page: 35
+      document: null
+      text: Metres charged not exceeding the metres the report supports by more than 1 per cent are payable as charged. Metres
+        exceeding that are payable at the figure the report supports.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.lih_depreciation:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 7
+    - 11
+    - 25
+    - 35
+    content_sha256: 7e6b72dacb4ffa38652ecf4a04244a76c9b0bb175364465d62e30685fc7e0b44
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 7
+      - 11
+      - 25
+      - 35
+      printed_value: depreciation of 1 per cent for each complete 25 circulating hours the tool accumulated on the well ...
+        to a depreciation of not more than 50 per cent
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 7
+      document: null
+      text: Where a tool cannot be recovered, the charge is its replacement value in Schedule 6 less depreciation of 1 per
+        cent for each complete 25 circulating hours the tool accumulated on the well, as stated on the Lost in Hole Report,
+        to a depreciation of not more than 50 per cent.
+      ocr_match: 1.0
+    - page: 25
+      document: null
+      text: Depreciation is 1 per cent for each complete 25 circulating hours, to not more than 50 per cent (Clause 31).
+      ocr_match: 0.981
+    - page: 11
+      document: null
+      text: P12. Lost in hole hours Circulating hours for Clause 31 are those the tool accumulated on the well on which it
+        was lost, including the day of the loss.
+      ocr_match: 0.952
+    - page: 35
+      document: null
+      text: 31A. Replacement values The replacement values in Schedule 2D are stated in SAR and are converted into the currency
+        of the Contract at the rate of exchange published in that Schedule for the month in which the tool was lost, rounded
+        half to even, before the depreciation in Clause 31 is applied.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.depth_boundary_rule:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 6
+    - 17
+    content_sha256: 02f81d84716d281eb0a85c088a26d6128101c95a04c5ddd5de8bd4e4abf364f8
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: 'Note, not a contradiction: the rule is stated for the measured-depth bands (Cl.23 and the first table
+        of Schedule 2). Schedule 2 Part 2 (metres drilled in the Contract Year, p17) has its own bands printed as ''1 m to
+        40,000 m'' and ''40,001 m to 120,000 m'' and says only that ''an interval that crosses a band is divided at the band'';
+        the boundary-depth sentence is not restated for those bands.'
+      pages_read:
+      - 6
+      - 17
+      printed_value: A boundary depth belongs to the shallower band.
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 6
+      document: null
+      text: A boundary depth belongs to the shallower band. Bands end at 1,500 m, 3,000 m and 4,500 m.
+      ocr_match: 1.0
+    - page: 17
+      document: null
+      text: Item PD-210 is charged at the rate for the band in which the metres lie (Clause 23). A boundary depth belongs
+        to the shallower band.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS.P.circulating_hour_rounding:
+    kind: parameter
+    contract: DDS
+    pages:
+    - 14
+    content_sha256: 9c44ab1b36c537b47cbacc75e5110340fcf21882752e886f4917baede71b6be7
+    reading:
+      reader: D
+      file: verification/param_rule_readings/D.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 14
+      printed_value: any part hour of thirty minutes or more counting as a whole hour
+      source_labels_ok: true
+    value_equivalent: null
+    quotes:
+    - page: 14
+      document: null
+      text: Circulating hours are stated in whole hours, any part hour of thirty minutes or more counting as a whole hour.
+      ocr_match: 0.981
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R01:
+    kind: rule
+    contract: CW
+    pages:
+    - 1
+    - 8
+    - 20
+    content_sha256: f64f9512cd205a045e58b1d367f011ba54adc276e6fbca20307a1c89c95f1ca8
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'No discrepancy in labels or pages. Ambiguity (not resolved): no clause expressly requires an application
+        header to carry the contract reference or the issuer name; the rule infers this from the p1 particulars (reference
+        CW-2025-0417-CIV; Subcontractor RIDGEWAY CIVIL ENGINEERING LLC) and Cl.40 (''The Subcontractor shall submit''). Cl.42
+        requires each item to state the ''Site zone'', not the work area; the work areas S-01..S-05 on p20 are defined ''For
+        Clauses 19, 31, 32, 44 and P6'', which does not list Cl.40 or Cl.42. The validation cases (reference variant kept
+        as discrepancy; issuer exact match) are audit-handling choices the contract does not address.'
+      pages_read:
+      - 1
+      - 8
+      - 20
+      source_labels_ok: true
+    quotes:
+    - page: 1
+      document: null
+      text: 'Contract reference: CW-2025-0417-CIV'
+      ocr_match: 1.0
+    - page: 1
+      document: null
+      text: THIS AGREEMENT is made between AL-MURJAN INFRASTRUCTURE CONTRACTING COMPANY ("the Contractor") and RIDGEWAY CIVIL
+        ENGINEERING LLC ("the Subcontractor")
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: The Subcontractor shall submit a payment application monthly.
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: Each application shall list every item measured, stating the item code, the date of execution, the Site zone,
+        the ground classification where applicable, the quantity, the unit, the built-up rate applied and the resulting amount.
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: For Clauses 19, 31, 32, 44 and P6 the Site is divided into the work areas below. A work area may extend into more
+        than one zone.
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: S-01 Platform North Northern half of the industrial platform
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R02:
+    kind: rule
+    contract: CW
+    pages:
+    - 8
+    - 34
+    content_sha256: 3a401a4e30a15057b5680627e216801f9ac759bcb65037d5f1baaa359296bf1e
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'Ambiguity (not resolved): the validation cases list scenarios without stating outcomes; the text supports
+        that a line on the boundary day is inside the period (a stated period ''includes'' its first and last day), a line
+        one day outside is barred by Cl.41, and a period wider than the first/last executed day departs from Cl.40''s definition
+        (''being the first and last day on which any measured item included in it was executed''). The contract does not state
+        the consequence of a wrongly stated (too wide) period.'
+      pages_read:
+      - 8
+      - 34
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: Each application shall state the period of the Works it covers, being the first and last day on which any measured
+        item included in it was executed.
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: no item shall be included in an application whose stated period does not include the day on which the work was
+        executed.
+      ocr_match: 0.979
+    - page: 34
+      document: null
+      text: Period in relation to a payment application, the span of days stated in it under Clause 40.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R03:
+    kind: rule
+    contract: CW
+    pages:
+    - 1
+    - 38
+    - 40
+    - 42
+    content_sha256: 7ee18d8d70cdb9aa505597dff7a3d309e5be4caa8d84a69978830568d65c9cfa
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'Parameter values match print: commencement ''05 January 2025'' (p1, also ''5 January 2025'' p38); A2
+        completion ''30 September 2026'' (p42 2.1, p38). Validation 2026-09-30 measurable and 2026-10-01 not measurable follow
+        from A2 2.1 (''on or before ... measurable ... after it is not''). Ambiguity (not resolved): no provision expressly
+        says work executed before the Commencement Date is not measurable; the 2025-01-04 case relies on the Term start (p38
+        ''runs from 5 January 2025'') and the p1 commencement date, while A1 1.1/A2 2.1 only exclude work after the extended
+        Date for Completion.'
+      pages_read:
+      - 1
+      - 38
+      - 40
+      - 42
+      source_labels_ok: true
+    quotes:
+    - page: 1
+      document: null
+      text: Commencement date 05 January 2025
+      ocr_match: 1.0
+    - page: 1
+      document: null
+      text: Date for completion 27 September 2025
+      ocr_match: 1.0
+    - page: 38
+      document: null
+      text: The Term as let ran from 5 January 2025 to 27 September 2025. As twice extended it runs from 5 January 2025 to
+        30 September 2026.
+      ocr_match: 0.977
+    - page: 40
+      document: null
+      text: The Date for Completion stated in the Form of Subcontract is extended to 31 March 2026 (extension of time, 185
+        days). The Date of Possession is unchanged. Work executed on or before the extended Date for Completion is measurable
+        and payable under this Subcontract; work executed after it is not.
+      ocr_match: 1.0
+    - page: 42
+      document: null
+      text: The Date for Completion stated in the Form of Subcontract is extended to 30 September 2026 (second extension of
+        time, 183 days). The Date of Possession is unchanged. Work executed on or before the extended Date for Completion
+        is measurable and payable under this Subcontract; work executed after it is not.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R04:
+    kind: rule
+    contract: CW
+    pages:
+    - 8
+    content_sha256: 382eefd604df7ba822fb851e65b76547c268936b3c5e2ba7dc38c3947ae11b83
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'Parameter value 21 matches print (''within 21 days of the end of the period it covers''). Ambiguity
+        (not resolved): the clause does not state how the 21 days are counted (whether day 1 is the day after the period end);
+        the ''day 21 inside / day 22 outside'' cases assume counting from the day after the last day of the period. ''Same
+        day as period end allowed'' follows from ''No application shall be submitted before the last day'', though the first
+        sentence (''covers a period which has closed'') could be read as requiring the period to be over.'
+      pages_read:
+      - 8
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: An application covers a period which has closed. No application shall be submitted before the last day of the
+        period it states,
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: An application shall be submitted within 21 days of the end of the period it covers.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R05:
+    kind: rule
+    contract: CW
+    pages:
+    - 4
+    - 8
+    - 11
+    - 14
+    - 27
+    - 33
+    content_sha256: 7cb37f60ed92decb9c7b329c23ee1e110ae762cabf44af5cf148264fd2a3d5a3
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'Schedule 5 (p27) lists exactly 17 items (A.12.030, A.14.010, B.21.020, B.21.030, C.31.020, D.41.010,
+        E.51.010, A.12.040, A.16.010, B.21.040, C.32.030, C.35.010, D.41.040, E.51.030, B.23.010, E.52.010, B.23.020), matching
+        the scope. Ambiguity (not resolved): the contract does not say how an ''underscore placeholder'' signature or a reference
+        with no delivered file is to be treated; these cases rest on Cl.46/47 (''delivered'', ''signed ... and countersigned'').
+        ''Non-Sch 5 item with blank ref is not a breach'' is an inference from the reference requirement being tied to Schedule
+        5 items only; no clause states it expressly. P23 gives the consequence for a record-less item already valued (deduction
+        from the next valuation), which the rule statement does not mention.'
+      pages_read:
+      - 4
+      - 8
+      - 11
+      - 14
+      - 27
+      - 33
+      source_labels_ok: true
+    quotes:
+    - page: 27
+      document: null
+      text: The items listed below are not payable in any valuation until the record named against them has been delivered
+        to the Engineer. Each record bears a reference from the series shown, and that reference is quoted against the line
+        in the Application (Clause 47A).
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: Where Schedule 5 states that a record is required for an item, the item is not payable in any valuation until
+        that record has been delivered to the Engineer. The absence of a required record is a breach of this Clause and not
+        merely a want of corroboration.
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: A record required by Schedule 5 shall identify the work area, the date, the item code and the quantity, and shall
+        be signed by the Subcontractor's foreman and countersigned by the Engineer's representative.
+      ocr_match: 1.0
+    - page: 33
+      document: null
+      text: Each record bears a reference from the series stated in Schedule 5 against the item it evidences, and that reference
+        is quoted against the line in the Application.
+      ocr_match: 1.0
+    - page: 14
+      document: null
+      text: A record required by Schedule 5 may be delivered in electronic form provided it bears both signatures required
+        by Clause 47.
+      ocr_match: 1.0
+    - page: 14
+      document: null
+      text: Where an item requiring a record under Schedule 5 has been included in a valuation without that record, the amount
+        shall be deducted from the next valuation together with any retention released upon it.
+      ocr_match: 1.0
+    - page: 4
+      document: null
+      text: Where Schedule 5 makes a test certificate a condition of payment, no valuation shall include the item until the
+        certificate has been delivered.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: Pressure pipework shall be tested in accordance with the Specification and the certificate delivered before the
+        pipework is included in a valuation.
+      ocr_match: 0.941
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R06:
+    kind: rule
+    contract: CW
+    pages:
+    - 8
+    - 27
+    - 33
+    content_sha256: d30292e84abfd6f451f74a263d876047616cfda24edf4e070358767f83bb86af
+    reading:
+      reader: G
+      file: verification/param_rule_readings/G.jsonl
+      verdict: supported
+      discrepancies: 'Label: validation case 3 attributes the ''record wording differs from the BoQ description'' point to
+        the ''Sch 5 note''; on p27 that wording is in the Schedule 5 introductory paragraph above the table (''The record
+        is written in the words of the person who did the work and does not repeat the description in Schedule 1''), while
+        the note below the table is the weekly-record/five-day note. The point itself is also in 47A (p33). Substance is supported.
+        Not in the text (interpretation, not contradicted): validation 1 - neither 47A nor the Sch 5 note mentions weeks that
+        cross a month boundary; they say only that a weekly record records each day worked, so how such a week is split between
+        applications is left open. Validation 2 - the text supports that the record must identify the date (Cl.47), but classifying
+        a date difference as a ''mismatch fact kept separate from reuse and duplication'' is an analyst choice; Cl.44 (duplicate
+        measurement, p8) is a separate clause and says nothing about date mismatch; ''Q7'' is an internal reference not checkable
+        against the contract. Title omits Cl.47''s signature/countersignature requirement (not a claim, noted only). Cl.47
+        applies to ''A record required by Schedule 5'', which matches the scope ''lines with a record'' only for Sch 5 items.'
+      pages_read:
+      - 8
+      - 27
+      - 33
+      source_labels_ok: false
+    quotes:
+    - page: 8
+      document: null
+      text: A record required by Schedule 5 shall identify the work area, the date, the item code and the quantity, and shall
+        be signed by the Subcontractor's foreman and countersigned by the Engineer's representative.
+      ocr_match: 1.0
+    - page: 27
+      document: null
+      text: The record is written in the words of the person who did the work and does not repeat the description in Schedule
+        1.
+      ocr_match: 1.0
+    - page: 27
+      document: null
+      text: A record covering a week records each day worked. A week is measurable only where the record shows work on not
+        fewer than five days of that week (Clause 47A).
+      ocr_match: 1.0
+    - page: 33
+      document: null
+      text: A site record is written by the person who carried out the work and is not required to adopt the wording of the
+        Bill of Quantities.
+      ocr_match: 1.0
+    - page: 33
+      document: null
+      text: A record that evidences a week records each day worked; a week is measurable only where the record shows work
+        on not fewer than five days of that week.
+      ocr_match: 0.987
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      text: 4. **Every line has its record** for that day or run, signed by whoever the contract says signs it.
+      ocr_match: 1.0
+    read_current_statement: false
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    disposition:
+      content_sha256: d30292e84abfd6f451f74a263d876047616cfda24edf4e070358767f83bb86af
+      reviewer: implementer, against the scan image and G1-verified tables
+      disposition: 'Reader G (verdict supported) marked source_labels_ok false: validation case 3 cited ''Sch 5 note'', but
+        the wording ''record wording need not follow the Bill of Quantities'' is in the Schedule 5 introduction (p27) and
+        in 47A (p33). The label was corrected to exactly that (''Sch 5 introduction p27; 47A p33'') after the reading; no
+        other part of the statement changed (statement read = current statement apart from that label). Settled against p27
+        and p33 as quoted by reader G.'
+    status: verified
+  CW-R07:
+    kind: rule
+    contract: CW
+    pages:
+    - 4
+    - 7
+    - 13
+    - 26
+    - 32
+    - 33
+    content_sha256: 04c3d56d2352a7d24734366d5cbace864524e59fb28b007beff1a7059eaa36c2
+    reading:
+      reader: G
+      file: verification/param_rule_readings/G.jsonl
+      verdict: supported
+      discrepancies: 'No contradicted claim. Arithmetic checked: 102.00% exceeds the survey by exactly 2 per cent, i.e. not
+        by more than 2 per cent, so payable as measured (33A); 102.01% exceeds by more than 2 per cent, so surveyed quantity
+        only; 4 days < ''not fewer than five'' so the week is not measurable (47A); 1 hour attended - 1 = 0 chargeable (6A).
+        Parameter values 1 / 5 / 2 match 6A ''first hour'', 47A ''five days'', 33A ''2 per cent''. Ambiguities (described,
+        not resolved): (a) Cl.33 (p7) says the quantity measured ''shall be the quantity on the survey sheet exactly'', while
+        33A (p32) allows up to 2 per cent above the survey to be paid as measured; the text does not state which prevails
+        (Cl.2 on p3 ranks Schedules over General Conditions but says nothing of the Particular Conditions). (b) Guideline
+        check 5 says billed above the record is payable ''not at all above it'', whereas 33A pays up to 2 per cent above a
+        joint survey as measured - the contract governs, so validation cases 1 and 5 differ for surveyed items. (c) Validation
+        case 6 (billed below the record payable as billed, never raised) is not stated in the contract or guideline check
+        5, which addresses only billing above the record; 33A''s ''not exceeding ... is payable as measured'' is consistent
+        with it for surveyed items, but Cl.33''s ''exactly'' could be read otherwise. ''Q10'' is an internal reference not
+        checkable against the contract. P18 (p13) makes the reinforcement quantity the theoretical mass on the approved bar
+        schedule, cross-referring to Clause 33. ''Sch 4 Part 6'' label: Part 6 is on p26 under Schedule 4 (Schedule 4 heading
+        on p24 per OCR; P19 on p13 cites ''Schedule 4, Part 5'', which is on p26).'
+      pages_read:
+      - 4
+      - 7
+      - 13
+      - 26
+      - 32
+      - 33
+      source_labels_ok: true
+    quotes:
+    - page: 32
+      document: null
+      text: Where an item is measured by the hour, a Chargeable Hour is an hour of attendance other than the first hour of
+        that attendance. The site record states the hours attended; the quantity measured is one hour fewer.
+      ocr_match: 1.0
+    - page: 32
+      document: null
+      text: Where an item is measured against a joint survey, a measured quantity not exceeding the surveyed quantity by more
+        than 2 per cent is payable as measured. A measured quantity exceeding the surveyed quantity by more than that is payable
+        at the surveyed quantity only.
+      ocr_match: 1.0
+    - page: 33
+      document: null
+      text: A record that evidences a week records each day worked; a week is measurable only where the record shows work
+        on not fewer than five days of that week.
+      ocr_match: 0.987
+    - page: 7
+      document: null
+      text: Items marked as surveyed in Schedule 1 are measured only against a joint survey sheet signed by both parties.
+        The quantity measured shall be the quantity on the survey sheet exactly.
+      ocr_match: 1.0
+    - page: 26
+      document: null
+      text: Part 6 — Surveyed items The following items are measured only against a joint survey sheet signed by both parties
+        (Clause 33).
+      ocr_match: 0.939
+    - page: 4
+      document: null
+      text: Setting out is measured under item E.52.010 by chainage band and only against a joint survey signed by both parties.
+      ocr_match: 0.956
+    - page: 13
+      document: null
+      text: Wastage on reinforcement is deemed included. The quantity measured is the theoretical mass on the approved bar
+        schedule (Clause 33).
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      text: 5. **The quantities are the recorded ones.** Billed above the record is payable up to the record, not at all above
+        it.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R08:
+    kind: rule
+    contract: CW
+    pages:
+    - 6
+    - 19
+    content_sha256: 13eb253a199cd46348e24f660f9b057a07ddfcb521a113035b685f698a33806f
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'Validation ''A.14.020 billed in no. rejected in full'' is consistent with print: Schedule 1 states A.14.020
+        in m3 (p17, not a cited page, read to check the unit), so ''no.'' is another unit and Cl.26 requires rejection in
+        its entirety. Ambiguity (not resolved): the case ''record synonym cube does not change a correct invoice unit'' is
+        not addressed by Cl.26 or the Sch 1 note; it rests on reading Cl.26 as applying to the quantity presented in the application,
+        with 47A (p33: a record ''is not required to adopt the wording of the Bill of Quantities'') as possible support; the
+        contract does not say so expressly.'
+      pages_read:
+      - 6
+      - 17
+      - 19
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: Each item in Schedule 1 states the unit in which it is measured. No item shall be measured in any other unit,
+        and a quantity presented in a unit other than that stated shall be rejected in its entirety rather than converted.
+      ocr_match: 0.991
+    - page: 19
+      document: null
+      text: Rates are per unit stated. No item may be measured in a unit other than the one shown (Clause 26).
+      ocr_match: 1.0
+    - page: 17
+      document: null
+      text: A.14.020 Backfilling to trenches with selected arisings m3 750 22.40
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R09:
+    kind: rule
+    contract: CW
+    pages:
+    - 13
+    - 17
+    - 18
+    - 19
+    content_sha256: da6ff8c3c5bf47b92a6ae126abf0b16f4d56f8262156b125dd355dba8d98f040
+    reading:
+      reader: G
+      file: verification/param_rule_readings/G.jsonl
+      verdict: supported
+      discrepancies: 'No contradicted claim. Ambiguity (described, not resolved): the Sch 1 depth bands as printed overlap
+        at exactly 2 m - A.12.020 ''depth not exceeding 2 m'' and A.12.030 ''depth 2 m to 4 m'' both include 2 m; at 4 m,
+        A.12.030 ''depth 2 m to 4 m'' includes it and A.12.040 ''depth exceeding 4 m'' does not. P13 does not say which band
+        a depth of exactly 2 m falls in. The ''unresolved, never cheapest'' validation rests on guideline check 6 (''rather
+        than choose on price''), not on contract text; P13 and Sch 1 do not address unresolvable identification. Pages 18-19
+        carry the rest of Sch 1 (Series B-E) and contain nothing specific to trench depth.'
+      pages_read:
+      - 13
+      - 17
+      - 18
+      - 19
+      source_labels_ok: true
+    quotes:
+    - page: 13
+      document: null
+      text: Trench depth shall be measured from the existing ground level at the centre line of the trench to the invert of
+        the pipe, and shall determine which of items A.12.020, A.12.030 and A.12.040 applies. Where a single trench spans
+        two depth bands each part shall be measured separately.
+      ocr_match: 1.0
+    - page: 17
+      document: null
+      text: A.12.020 Excavation in trench, depth not exceeding 2 m m3 2,675 34.80
+      ocr_match: 0.939
+    - page: 17
+      document: null
+      text: A.12.030 Excavation in trench, depth 2 m to 4 m m3 575 47.60
+      ocr_match: 0.943
+    - page: 17
+      document: null
+      text: A.12.040 Excavation in trench, depth exceeding 4 m m3 900 69.20
+      ocr_match: 1.0
+    - page: 18
+      document: null
+      text: Series C — Drainage and Ducting
+      ocr_match: 1.0
+    - page: 19
+      document: null
+      text: Rates are per unit stated. No item may be measured in a unit other than the one shown (Clause 26).
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      text: 6. **Each line is identified** against a priced item; where two could fit, leave it unresolved rather than choose
+        on price.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R10:
+    kind: rule
+    contract: CW
+    pages:
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    content_sha256: ad77aa463158ae548023a1f727b2880863741f983fc9e7a3b06c74ee0f2ea49f
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'Validation cases agree with print: B.23.010 is 4,120.00 in Sch 1 (p17), 4,385.00 from 2025-05-01 (S1),
+        4,450.00 from 2025-10-01 (A1), so 2025-04-30 = 4,120.00, 2025-05-01 and 2025-09-30 = 4,385.00, 2025-10-01 = 4,450.00.
+        D.41.020 table ends September 2025 at 220.50 and the carry-forward sentence applies to October 2025 (S2 substitutes
+        228.00 only from 2025-12-01, showing 220.50 as rate previously payable). E.54.010: A1 948.00 from 2025-10-01 covers
+        March 2026; A2 table gives April 2026 976.00; October 2026 is after the extended Date for Completion 30 September
+        2026. Note: A1''s instrument effective date is 2025-09-28 (p38/p40) but its item rates are effective 2025-10-01. Ambiguity
+        (not resolved): A3 (issued 2026-05-12, effective 2025-11-01) requires already-certified work to be re-measured at
+        the substituted rates with a single adjustment, whereas the SoV says ''nothing in an instrument reopens work already
+        measured at the rate then payable''; and the footer''s ''the later governs'' does not say whether ''later'' means
+        later issued or later effective when an instrument is retroactive (A3).'
+      pages_read:
+      - 17
+      - 19
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      source_labels_ok: true
+    quotes:
+    - page: 38
+      document: null
+      text: The Subcontract is to be read with the instruments below, in the order issued. Each takes effect on its own effective
+        date and governs work executed on or after it; nothing in an instrument reopens work already measured at the rate
+        then payable.
+      ocr_match: 1.0
+    - page: 38
+      document: null
+      text: A rate stated in the Bill of Quantities is the rate payable only until an instrument substitutes another for it.
+        Pricing a measured quantity therefore requires the date on which the work was executed, not the date of the payment
+        application.
+      ocr_match: 0.994
+    - page: 39
+      document: null
+      text: B.23.010 High-yield reinforcement bar, cut, tonne 4,120.00 4,385.00 2025-05-01
+      ocr_match: 1.0
+    - page: 39
+      document: null
+      text: Where work is executed in a month later than the last month stated below, the rate last published applies until
+        it is superseded.
+      ocr_match: 1.0
+    - page: 39
+      document: null
+      text: September 2025 220.50
+      ocr_match: 0.865
+    - page: 40
+      document: null
+      text: E.54.010 Temporary haul road, maintained, p week 876.00 948.00 2025-10-01
+      ocr_match: 1.0
+    - page: 40
+      document: null
+      text: B.23.010 High-yield reinforcement bar, cut, tonne 4,385.00 4,450.00 2025-10-01
+      ocr_match: 1.0
+    - page: 41
+      document: null
+      text: D.41.020 Dense bitumen macadam binder cours m2 220.50 228.00 2025-12-01
+      ocr_match: 0.942
+    - page: 42
+      document: null
+      text: April 2026 976.00
+      ocr_match: 1.0
+    - page: 42
+      document: null
+      text: Work executed on or before the extended Date for Completion is measurable and payable under this Subcontract;
+        work executed after it is not.
+      ocr_match: 1.0
+    - page: 43
+      document: null
+      text: Reference CW-2025-0417-CIV/A3. Issued 12 May 2026 and taking effect 1 November 2025.
+      ocr_match: 1.0
+    - page: 43
+      document: null
+      text: Where this instrument and an earlier instrument both state a rate or a discount for the same item, the later governs
+        work executed on or after its effective date, and the earlier governs work executed before it.
+      ocr_match: 0.986
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R11:
+    kind: rule
+    contract: CW
+    pages:
+    - 21
+    - 32
+    content_sha256: b51d63e6a90106c94792ef2cdbaecefa7c35e3eedbb54d48a5a430366d5795e7
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'Scope matches Sch 2A (C.31.010 and D.41.030 are the only items listed). Validation arithmetic checks:
+        86.20 x 102.60 / 100 = 88.4412, rounded half-even to the halala = 88.44; base rate 86.20 (Sch 2A and Sch 1 p18) and
+        May 2025 index 102.60 match print; base index is printed as 100.00. Ambiguity (not resolved): 29A rounds the indexed
+        rate and then says ''Clause 28 applies to the build-up as usual'', while Cl.28 (p6) says ''Rounding shall be applied
+        once only'' with a half halala rounded upward; the text leaves open how the two roundings interact.'
+      pages_read:
+      - 21
+      - 32
+      source_labels_ok: true
+    quotes:
+    - page: 21
+      document: null
+      text: The items below are priced by reference to the Site Materials Index, base 100.00 at 5 January 2025 (Clause 29A).
+        The rate stated in Schedule 1 for these items is a base rate and is not payable as it stands.
+      ocr_match: 0.993
+    - page: 21
+      document: null
+      text: C.31.010 uPVC drainage pipe, 225 mm, laid and jointed 86.20 lm
+      ocr_match: 0.983
+    - page: 21
+      document: null
+      text: D.41.030 Stone mastic asphalt surface course, 40 mm 89.40 m2
+      ocr_match: 1.0
+    - page: 21
+      document: null
+      text: 2025-05 102.60
+      ocr_match: 0.786
+    - page: 32
+      document: null
+      text: The rate for an item listed in Schedule 2A is the base rate stated in Schedule 1 multiplied by the Site Materials
+        Index published for the calendar month in which the work was executed and divided by the base index, and rounded to
+        the nearest halala with a half rounded to the nearer even halala. That figure is then treated as the rate for the
+        purposes of Clause 27, and Clause 28 applies to the build-up as usual.
+      ocr_match: 0.993
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes:
+    - 21
+    disposition:
+      content_sha256: b51d63e6a90106c94792ef2cdbaecefa7c35e3eedbb54d48a5a430366d5795e7
+      reviewer: implementer, against the scan image and G1-verified tables
+      disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+        the quote is present as a token in the page OCR and equals the cell of the G1-verified table CW.T05_SMI [''2025-05'',
+        ''102.60''] (second-verified cell by cell against the scan in G1).'
+    status: verified
+  CW-R12:
+    kind: rule
+    contract: CW
+    pages:
+    - 22
+    - 32
+    content_sha256: a0c5492f0eb859ddd1e9490b596322d72ac0d4be431e2f2b0621d8527c570dd6
+    reading:
+      reader: B
+      file: verification/param_rule_readings/B.jsonl
+      verdict: supported
+      discrepancies: 'Scope matches Sch 2B (B.23.020 38.40, B.25.010 219.00, C.32.040 423.00 USD). Validation arithmetic checks:
+        January 2025 rate 375.00 halalas per USD = 3.75; 423.00 x 3.75 = 1586.25 (exact, no rounding needed). Half-even at
+        an exact half halala follows from 26A. Ambiguity (not resolved): Schedule 1 (p18) prints these three rates under a
+        column headed ''Rate (SAR)'', while Sch 2B and 26A treat the Schedule 1 figure as USD; the rule follows Sch 2B/26A.
+        26A says the conversion is made ''before any factor or uplift''; it does not state how the converted rate interacts
+        with the single rounding in Cl.28.'
+      pages_read:
+      - 22
+      - 32
+      source_labels_ok: true
+    quotes:
+    - page: 22
+      document: null
+      text: The rate stated in Schedule 1 for the items below is in USD and is converted under Clause 26A at the rate published
+        for the month in which the work was executed.
+      ocr_match: 1.0
+    - page: 22
+      document: null
+      text: C.32.040 Manhole cover and frame, Class D400, bedded 423.00 no.
+      ocr_match: 1.0
+    - page: 22
+      document: null
+      text: 2025-01 375.00
+      ocr_match: 0.929
+    - page: 32
+      document: null
+      text: Where Schedule 1 states a rate in USD, the rate is converted at the rate of exchange published in Schedule 2B
+        for the calendar month in which the work was executed, and the converted figure is rounded to the nearest halala with
+        a half rounded to the nearer even halala. The conversion is made before any factor or uplift is applied.
+      ocr_match: 0.994
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R13:
+    kind: rule
+    contract: CW
+    pages:
+    - 6
+    - 10
+    - 12
+    - 13
+    - 20
+    - 23
+    - 24
+    - 32
+    - 41
+    - 42
+    content_sha256: 923a39ba3711274431f4d1b355f0d25cbeab3712a6c729c1503a9ea9fb068f7f
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted; every source label is on the page given (P11 starts on p12 and its operative
+        text is on p13). Checked arithmetic: 34.80 (Sch 1, p17) x 1.06 (Z2) x 1.375 (G4) = 50.721 -> 50.72, matching App B
+        on p36 (neither p17 nor p36 is among R13''s cited pages). Notes on ambiguity, not resolved: (1) Cl.27 as printed names
+        the fifth step ''the cumulative quantity rebate from Schedule 4, if the threshold has been passed''; the ''band %''
+        step comes from Sch 4 Part 3 (p24, continuing on p25), which substitutes Clause 30 but does not amend Cl.27''s wording.
+        The sources list cites only ''Sch 4 Parts 1-2 (p24)'', not Part 3 or 3A. (2) 26A and 29A on p32 add an earlier half-to-even
+        rounding of USD-converted and indexed base rates before the build-up. ''Rounded once, half up'' is correct for the
+        Cl.28 build-up only. (3) The S2/A2 discounts apply only to the four listed items (C.32.030, C.32.010, D.41.020, B.23.010).
+        (4) P11''s rest-day-alone rule covers items marked for both uplifts (B.21.020, B.21.030, B.21.040, D.41.030). Sch
+        4 Part 2 treats Friday and Saturday as rest days. (5) 27A defines the G2 period as ''any period of extension of time
+        granted by an Amendment, that is to say for work executed after 27 September 2025''. The parameter 2025-09-27 matches
+        this as an exclusive ''after'' date.'
+      pages_read:
+      - 6
+      - 10
+      - 12
+      - 13
+      - 17
+      - 20
+      - 23
+      - 24
+      - 32
+      - 36
+      - 41
+      - 42
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: first the site zone factor from Schedule 2; then the ground classification factor from Schedule 3; then the night
+        uplift, if applicable; then the rest-day uplift, if applicable; then the cumulative quantity rebate from Schedule
+        4, if the threshold has been passed; and the resulting sum is then rounded.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: Rounding shall be applied once only, to the rate after the whole of the build-up described in Clause 27 has been
+        completed, to the nearest halala, a half halala being rounded upward. Rates shall not be rounded at intermediate steps.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: A factor applies to an item only where Schedule 2 or Schedule 3 lists that item's series. An item whose series
+        is not listed is measured at the base rate irrespective of the zone or ground classification in which it is executed.
+      ocr_match: 0.991
+    - page: 10
+      document: null
+      text: A classification not recorded on the day of excavation shall be taken to be G2 Firm Sabkha.
+      ocr_match: 0.967
+    - page: 12
+      document: null
+      text: Consent does not of itself entitle the Subcontractor to the night uplift, which is payable only on the items marked
+        in Schedule 4.
+      ocr_match: 1.0
+    - page: 12
+      document: null
+      text: An agreed variation of hours does not of itself make work Night Work.
+      ocr_match: 1.0
+    - page: 13
+      document: null
+      text: both uplifts apply only where the Engineer has so instructed in writing under Clause 9. In the absence of such
+        an instruction the rest-day uplift alone applies.
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: The factors below apply to every item in Series A, B, C and D. They do not apply to Series E, which is measured
+        at the base rate in every zone.
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: Z2 North Spur | North spur, 500 m to 2 km from the compound | 1.06; Z3 Wadi Crossing | Wadi crossing and approaches,
+        restricted access | 1.145
+      ocr_match: 1.0
+    - page: 23
+      document: null
+      text: G4 Weathered Rock | Weathered rock, rippable by tracked plant | 1.375
+      ocr_match: 1.0
+    - page: 23
+      document: null
+      text: The ground factor is applied after the zone factor and before any uplift (Clause 27).
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: The following items, and no others, attract an uplift where the work is executed between 18:00 and 06:00.
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: The following items attract an uplift where the work is executed on Friday and Saturday.
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: Clause 30 is substituted. The quantity measured for an item in a Contract Year is taken in the bands below, each
+        part of it at the percentage of the rate shown against its band.
+      ocr_match: 1.0
+    - page: 32
+      document: null
+      text: The night-working uplift is not payable on an item priced at a zone factor exceeding 1.1, the allowance for working
+        away from the compound being taken to include it.
+      ocr_match: 1.0
+    - page: 32
+      document: null
+      text: that is to say for work executed after 27 September 2025, the ground classification is taken as G2 Firm Sabkha
+        whatever the Engineer recorded on the day.
+      ocr_match: 1.0
+    - page: 41
+      document: null
+      text: A discount of 5 per cent is allowed on the items listed below for work executed on or after 1 December 2025. The
+        discount is applied as the final factor in the build-up required by Clause 27, before the rounding required by Clause
+        28, and after any rebate under Clause 30. Work executed before that date carries no discount.
+      ocr_match: 0.976
+    - page: 42
+      document: null
+      text: A discount of 8 per cent is allowed on the items listed below for work executed on or after 1 April 2026. The
+        discount is applied as the final factor in the build-up required by Clause 27, before the rounding required by Clause
+        28, and after any rebate under Clause 30.
+      ocr_match: 1.0
+    - page: 17
+      document: null
+      text: A.12.020 | Excavation in trench, depth not exceeding 2 m | m3 | 2,675 | 34.80
+      ocr_match: 0.939
+    - page: 36
+      document: null
+      text: A.12.020 | 06/05/2025 | Z2 | G4 | 180 | m3 | 50.72 | 9,129.60
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R14:
+    kind: rule
+    contract: CW
+    pages:
+    - 6
+    - 13
+    - 24
+    - 25
+    - 32
+    content_sha256: 9438df3f9fa771de46a3341ee432e9117eedd44b2ae7c29ea23f6c11b9317685
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Sch 4 Part 3 runs from p24 onto p25 and bands exactly 8 items: A.12.010, A.12.020,
+        A.13.010, A.14.010, B.22.010, B.23.010, D.41.010, D.41.040. The unit 4,000/4,001 split for A.12.010 and the 1,500/1,501
+        split for A.12.020 match the printed bands. Notes on ambiguity, not resolved: (1) Cl.28 (p6) and P12 (p13) still speak
+        of Clause 30 ''rebate threshold[s]''. Applying Cl.28''s ''each part ... its own rounded rate'' to the band division
+        of the substituted Clause 30 is a reading across the two texts; Sch 4 Part 3 itself says only that the measurement
+        ''is divided at the band''. (2) The 2026-01-05 reset date comes from the Commencement date 05 January 2025 on p1,
+        which is not a cited page. 3A says each following Contract Year ''runs from that anniversary'', which supports a reset.
+        It also says ''The final Contract Year ends on the Date for Completion as extended ... an extension of time does not
+        begin a new Contract Year''. The original Date for completion, 27 September 2025 (p1), falls inside the first year.
+        Whether 2026-01-05 starts a new Contract Year during the extension is therefore open, as the statement''s ''reset
+        vs no reset (Q12)'' case acknowledges.'
+      pages_read:
+      - 1
+      - 6
+      - 13
+      - 24
+      - 25
+      - 32
+      source_labels_ok: true
+    quotes:
+    - page: 24
+      document: null
+      text: Clause 30 is substituted. The quantity measured for an item in a Contract Year is taken in the bands below, each
+        part of it at the percentage of the rate shown against its band. The bands are counted from zero at the start of each
+        Contract Year (Clause 3A), and a measurement that crosses a band is divided at the band.
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: A.12.010 | General excavation to reduce level | 1 to 4,000 | m3 | 100%; A.12.010 | General excavation to reduce
+        level | 4,001 to 16,000 | m3 | 96%; A.12.020 | Excavation in trench, depth not exceeding 2 m | 1 to 1,500 | m3 | 100%
+      ocr_match: 0.758
+    - page: 25
+      document: null
+      text: A.12.020 | Excavation in trench, depth not exceeding 2 m | 1,501 to 6,000 | m3 | 97%
+      ocr_match: 0.813
+    - page: 25
+      document: null
+      text: D.41.040 | Capping layer, 300 mm compacted | above 14,500 | m2 | 92%
+      ocr_match: 1.0
+    - page: 32
+      document: null
+      text: The first Contract Year runs from the Commencement Date to the day before its first anniversary. Each following
+        Contract Year runs from that anniversary. The final Contract Year ends on the Date for Completion as extended by any
+        Amendment, however long that leaves it; an extension of time does not begin a new Contract Year.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: where Clause 30 divides a quantity at a rebate threshold, each part is multiplied by its own rounded rate and
+        the amount is their sum.
+      ocr_match: 1.0
+    - page: 13
+      document: null
+      text: A rebate threshold stated in Schedule 4 is not adjusted by reason of a variation to the quantity of the item.
+      ocr_match: 1.0
+    - page: 1
+      document: null
+      text: Commencement date | 05 January 2025; Date for completion | 27 September 2025
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes:
+    - 24
+    - 25
+    disposition:
+      content_sha256: 9438df3f9fa771de46a3341ee432e9117eedd44b2ae7c29ea23f6c11b9317685
+      reviewer: implementer, against the scan image and G1-verified tables
+      disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+        the quote is present as a token in the page OCR and equals the cell of the G1-verified table CW.T12_BANDS (A.12.010
+        4,000/16,000 100/96; A.12.020 1,500/6,000 100/97) (second-verified cell by cell against the scan in G1).'
+    status: verified
+  CW-R15:
+    kind: rule
+    contract: CW
+    pages:
+    - 4
+    - 6
+    - 12
+    - 25
+    - 26
+    content_sha256: c93a5685aecce583ee4aedc06844e560cb84b9424137b4b5417609aa8ccc0ac9
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Sch 4 Part 4 begins on p25 with the heading and lead-in; its table is on p26
+        and lists exactly 9 items: A.11.010 4,500 m2; A.12.010 1,200 m3; B.21.020 140 m3; C.32.010 6 no.; D.41.030 3,200 m2;
+        E.51.020 1 day; A.13.030 800 m3; C.32.030 3 no.; E.53.010 2 day. Notes on ambiguity, not resolved: (1) ''across applications''
+        is not printed. It is an inference from Cl.31''s ''per work area, per day'', which does not mention applications either
+        way. (2) P6''s wording ''two days per work area per day of attendance'' is itself unclear. It matches the Sch 4 Part
+        4 limit of 2 day for E.53.010. (3) The work-area definition used by the ''two work areas in one zone'' case is on
+        Sch 2, p20, which is not a cited page.'
+      pages_read:
+      - 4
+      - 6
+      - 12
+      - 20
+      - 25
+      - 26
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: Where Schedule 4 states a daily limitation for an item, no more than that quantity is measurable for that item,
+        per work area, per day. A quantity in excess of the limitation is not payable and shall not be carried forward to
+        a subsequent day.
+      ocr_match: 1.0
+    - page: 25
+      document: null
+      text: Part 4 — Daily limitations. Not more than the quantity below is measurable for the item, per work area, per day
+        (Clause 31).
+      ocr_match: 0.967
+    - page: 26
+      document: null
+      text: E.51.020 | Traffic management, two-way signals, per day | 1 | day
+      ocr_match: 1.0
+    - page: 26
+      document: null
+      text: E.53.010 | Attendance on statutory undertaker | 2 | day
+      ocr_match: 1.0
+    - page: 4
+      document: null
+      text: Not more than one day of traffic management is measurable per work area per day, irrespective of the number of
+        locations at which signals are deployed.
+      ocr_match: 1.0
+    - page: 12
+      document: null
+      text: Attendance on a statutory undertaker is measured under item E.53.010 and is limited to two days per work area
+        per day of attendance irrespective of the number of undertakers attending.
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: For Clauses 19, 31, 32, 44 and P6 the Site is divided into the work areas below. A work area may extend into more
+        than one zone.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R16:
+    kind: rule
+    contract: CW
+    pages:
+    - 6
+    - 13
+    - 26
+    content_sha256: e9a22185575bb09b9c8b24480d0d287d6c2125072bcb7b1cd72be1984e02427c
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Sch 4 Part 5 (p26) lists only one pair: A.14.020, excluded by A.14.010, for 2
+        days. The E.51.020 exclusion rests on P21 alone and is limited to the same work area on the same day. P21 lists five
+        D items: D.41.020, D.41.030, D.41.050, D.43.010 and D.43.020. Notes on ambiguity, not resolved: ''within the stated
+        period following measurement'' (Sch 4 Part 5, Cl.32) and ''within two days of the measurement'' (P19) do not say whether
+        the day of the A.14.010 measurement (day 0) counts, or whether day 2 falls inside the period. The statement''s ''day
+        0/1/2/3'' case tests exactly this without the text settling it. P19''s ''within two days of'' could also be read as
+        not limited to days after.'
+      pages_read:
+      - 6
+      - 13
+      - 26
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: Where Schedule 4 states that an item is excluded by another, the excluded item is not measurable within the stated
+        number of days following the measurement of the excluding item on the same work area.
+      ocr_match: 0.98
+    - page: 26
+      document: null
+      text: The item in the first column is not measurable within the stated period following measurement of the item in the
+        second column on the same work area (Clause 32).
+      ocr_match: 1.0
+    - page: 26
+      document: null
+      text: A.14.020 | A.14.010 | 2 days
+      ocr_match: 0.844
+    - page: 13
+      document: null
+      text: Item A.14.020 is not measurable within two days of the measurement of item A.14.010 on the same work area (Schedule
+        4, Part 5).
+      ocr_match: 1.0
+    - page: 13
+      document: null
+      text: Item E.51.020 is not measurable for a work area on a day on which any of items D.41.020, D.41.030, D.41.050, D.43.010
+        or D.43.020 is measured for that work area.
+      ocr_match: 0.978
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes:
+    - 26
+    disposition:
+      content_sha256: e9a22185575bb09b9c8b24480d0d287d6c2125072bcb7b1cd72be1984e02427c
+      reviewer: implementer, against the scan image and G1-verified tables
+      disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+        the quote is present as a token in the page OCR and equals the cell of the G1-verified table CW.T14_EXCLUSIONS [''A.14.020'',
+        ''A.14.010'', ''2 days following''] (second-verified cell by cell against the scan in G1).'
+    status: verified
+  CW-R17:
+    kind: rule
+    contract: CW
+    pages:
+    - 8
+    content_sha256: 59725d49e21e49406cb2f4ed016f711deaca16d5bc488cabcbc19a2bb3a5b36b
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Notes on ambiguity, not resolved: (1) Cl.44 does not say what ''later'' means
+        where the repeat is in the same application or where two applications are submitted on the same day (the ''same-day
+        tie'' case). It could mean later line, later application number or later submission. (2) The key printed is ''same
+        item, work area and date'', so a reused weekly ticket on a different date is not caught by the second sentence. The
+        first sentence, ''No item shall be measured twice'', is broader and could be read to reach it. The statement''s ''not
+        automatically a duplicate'' is consistent with the text without being stated in it.'
+      pages_read:
+      - 8
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: No item shall be measured twice. Where the same item, work area and date appears more than once in an application,
+        or in more than one application, the later measurement shall be disallowed in full.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R18:
+    kind: rule
+    contract: CW
+    pages:
+    - 4
+    - 11
+    - 12
+    - 16
+    content_sha256: 5e3a5964c3006ca4ad0147293f434e75807e4f96ffb2a004562bbf5196c2a423
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. The threshold is printed as ''rainfall exceeds 5 mm in any hour'' (S20), a strict
+        ''exceeds'', consistent with the statement''s ''>5 mm/h'' and the parameter value 5. Notes: (1) The title does not
+        mention P8''s positive case, water bowser standing time during a declared dust event under E.51.030, though P8 is
+        cited. (2) P3 excludes only standing time ''arising from failure'' to programme deliveries on the Z4 haul road; it
+        is narrower than a general ''delivery-programme suspension''. (3) Cl.18 makes both E.51.010 and E.51.030 subject to
+        records ''as required by Schedule 5''. Schedule 5 is not among the cited pages and was not checked.'
+      pages_read:
+      - 4
+      - 11
+      - 12
+      - 16
+      source_labels_ok: true
+    quotes:
+    - page: 4
+      document: null
+      text: Standing time is not payable except (a) where the Works are suspended by reason of adverse weather, in which case
+        item E.51.010 applies against the meteorological record, and (b) plant standing measured under item E.51.030 against
+        the plant standing record, each as required by Schedule 5.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: Work shall be suspended when rainfall exceeds 5 mm in any hour. A suspension shall be recorded on the meteorological
+        record, and standby under item E.51.010 is measurable only for the hours so recorded.
+      ocr_match: 1.0
+    - page: 12
+      document: null
+      text: Standby during a flood watch is measurable under item E.51.010 and not under item E.51.030.
+      ocr_match: 1.0
+    - page: 12
+      document: null
+      text: The Subcontractor shall programme deliveries to avoid simultaneous movements and shall not claim standing time
+        arising from failure to do so.
+      ocr_match: 1.0
+    - page: 12
+      document: null
+      text: save that water bowser standing time during a declared dust event is measurable under item E.51.030.
+      ocr_match: 1.0
+    - page: 12
+      document: null
+      text: Work shall be suspended between 12:00 and 15:00 during the period from 15 June to 15 September in accordance with
+        the applicable labour regulations. Such a suspension is not a ground for standby.
+      ocr_match: 1.0
+    - page: 16
+      document: null
+      text: The Contractor may suspend any activity on safety grounds. Such a suspension is not a ground for standby under
+        item E.51.010 or E.51.030.
+      ocr_match: 0.996
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R19:
+    kind: rule
+    contract: CW
+    pages:
+    - 4
+    - 7
+    - 10
+    - 13
+    - 15
+    content_sha256: d07508ccc8d9896797d002f253e95b5ea78f8dc835168adde073bb56404331a3
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Every item in the title has a printed basis: temporary works, dewatering below
+        the classified water table and own waste (Cl.35, p7); defects (Cl.14, p4); unapproved fill (P15, p13); rejected concrete
+        (P17, p13); no method statement (H2, p15). Notes: (1) S2 (stripping deeper than instructed) and S3 (fill making good
+        over-excavation, not measured under A.14.010) are cited, but the title does not name them; they fit only loosely under
+        ''defects''. (2) Cl.35 excludes only dewatering ''below the classified water table''; other dewatering has its own
+        item, A.16.010 (Sch 1). (3) P17 also requires the delivery ticket to be endorsed by both parties. The validation case,
+        which relies on a record narrative, does not address that endorsement.'
+      pages_read:
+      - 4
+      - 7
+      - 10
+      - 13
+      - 15
+      source_labels_ok: true
+    quotes:
+    - page: 4
+      document: null
+      text: The Engineer may instruct the removal and re-execution of defective work. Re-execution is at the Subcontractor's
+        cost and shall not be measured again.
+      ocr_match: 0.98
+    - page: 7
+      document: null
+      text: Temporary works, dewatering below the classified water table, and the removal of the Subcontractor's own waste
+        are deemed included in the rates and are not separately measurable.
+      ocr_match: 1.0
+    - page: 10
+      document: null
+      text: Stripping to a depth greater than that instructed shall not be measured.
+      ocr_match: 1.0
+    - page: 10
+      document: null
+      text: Over-excavation shall be made good with imported granular fill at the Subcontractor's cost and shall not be measured
+        under item A.14.010.
+      ocr_match: 1.0
+    - page: 13
+      document: null
+      text: Imported granular fill shall be obtained from an approved borrow pit. Fill from an unapproved source shall not
+        be measured.
+      ocr_match: 1.0
+    - page: 13
+      document: null
+      text: Concrete rejected at the point of delivery shall not be measured. The delivery ticket shall be endorsed by both
+        parties.
+      ocr_match: 1.0
+    - page: 15
+      document: null
+      text: Work executed without an accepted method statement shall not be measured.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R20:
+    kind: rule
+    contract: CW
+    pages:
+    - 6
+    - 7
+    - 8
+    - 36
+    content_sha256: acf30ec29ab533b2008c72e15c29059bf8f0cbcc0c8aa5295a6e4bdd77056b44
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Arithmetic checked against the printed App B figures: 180 x 50.72 = 9,129.60;
+        96 x 23.74 = 2,279.04; 48 x 91.37 = 4,385.76; sum 15,794.40, as printed. Notes: (1) Cl.39 (p7) concerns arithmetical
+        errors in Schedule 1, not in an application. It supports the rule only indirectly. (2) ''Segments summed'' rests on
+        Cl.28''s reference to Clause 30 ''rebate threshold'' division. Clause 30 was substituted by Sch 4 Part 3 bands (p24),
+        so applying Cl.28 to a band split is a reading across the two texts. (3) Cl.43''s consequence, ''returned unpaid'',
+        is not stated in the rule.'
+      pages_read:
+      - 6
+      - 7
+      - 8
+      - 36
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: The amount for a measured quantity is the quantity multiplied by the rounded rate; where Clause 30 divides a quantity
+        at a rebate threshold, each part is multiplied by its own rounded rate and the amount is their sum.
+      ocr_match: 0.986
+    - page: 8
+      document: null
+      text: The total of an application shall equal the sum of the amounts of the items listed in it. An application whose
+        total does not so agree shall be returned unpaid.
+      ocr_match: 0.981
+    - page: 7
+      document: null
+      text: An arithmetical error in Schedule 1 shall be corrected and shall not vitiate the rate.
+      ocr_match: 0.977
+    - page: 36
+      document: null
+      text: A.12.020 | 06/05/2025 | Z2 | G4 | 180 | m3 | 50.72 | 9,129.60; A.14.020 | 07/05/2025 | Z2 | G2 | 96 | m3 | 23.74
+        | 2,279.04; C.31.010 | 13/05/2025 | Z2 | G2 | 48 | lm | 91.37 | 4,385.76
+      ocr_match: 0.993
+    - page: 36
+      document: null
+      text: Total of measured items 15,794.40
+      ocr_match: 1.0
+    - page: 36
+      document: null
+      text: The total of the measured items shall equal the sum of the amounts listed (Clause 43).
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R21:
+    kind: rule
+    contract: CW
+    pages:
+    - 8
+    - 9
+    - 14
+    - 32
+    content_sha256: 963c2f133a3c6da4a8ed474535aacdf0492a7886331fcfb145dcfc04cc9c2fc4
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Arithmetic: 15,794.40 x 5% = 789.72 exactly, so the App B case does not itself
+        exercise rounding down; 15,794.40 - 789.72 = 15,004.68, as printed. The parameters match the printed ''5 per cent''
+        and ''one half''. App B is on p36, which is not among the cited pages. Notes on ambiguity, not resolved: (1) Cl.51
+        (p9) releases half on the Taking-Over Certificate and the balance at the end of the Defects Liability Period. 45A
+        (p32) releases half on the first application submitted after the extended Date for Completion. The text does not say
+        whether 45A replaces Cl.51''s first release or adds to it. (2) Cl.45 calculates retention on ''the total of the application''.
+        Whether that total includes a 31A adjustment is not stated; 45A lists the adjustment separately from ''the measured
+        total''. (3) 45A says ''submitted after the Date for Completion as extended'' (strictly after), and ''retention held
+        on all earlier Applications'' does not say whether earlier releases are netted off.'
+      pages_read:
+      - 8
+      - 9
+      - 14
+      - 32
+      - 36
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: The Contractor shall retain 5 per cent of the value of each valuation. Retention is calculated on the total of
+        the application and not on individual items, and is rounded down to the nearest halala.
+      ocr_match: 1.0
+    - page: 32
+      document: null
+      text: On the first Application for Payment submitted after the Date for Completion as extended, one half of the retention
+        held on all earlier Applications is released, rounded down to the halala. The amount payable on an Application is
+        the measured total, plus any adjustment under Clause 31A, less the retention deducted on it, plus any retention released
+        under this Clause.
+      ocr_match: 0.993
+    - page: 9
+      document: null
+      text: One half of the retention shall be released on the Taking-Over Certificate and the balance on the expiry of the
+        Defects Liability Period.
+      ocr_match: 1.0
+    - page: 14
+      document: null
+      text: Where an item requiring a record under Schedule 5 has been included in a valuation without that record, the amount
+        shall be deducted from the next valuation together with any retention released upon it.
+      ocr_match: 1.0
+    - page: 36
+      document: null
+      text: Total of measured items 15,794.40; Less retention at 5 per cent 789.72; Net amount of this application 15,004.68
+      ocr_match: 1.0
+    - page: 36
+      document: null
+      text: Retention is calculated on that total and rounded down to the halala (Clause 45).
+      ocr_match: 0.975
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R22:
+    kind: rule
+    contract: CW
+    pages:
+    - 32
+    - 38
+    - 43
+    content_sha256: 48cc8489b59df137251084c590431fac99d994af1be6590d0f466d5af9068419
+    reading:
+      reader: C
+      file: verification/param_rule_readings/C.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. The statement correctly reports the difference between the two texts: 31A says
+        ''submitted on or after the date of issue'', A3 says ''submitted after the date of issue''. Items (C.32.010, A.14.010),
+        effective date 2025-11-01 and issue date 12 May 2026 all match. Notes on ambiguity, not resolved: (1) The Schedule
+        of Variations lead-in (p38) says ''nothing in an instrument reopens work already measured at the rate then payable'',
+        which sits against A3''s ''re-measured at the substituted rates'' for work ''already certified''. (2) A3 speaks of
+        work ''already certified''; 31A speaks of ''work already valued'' in applications ''submitted''. Work that was submitted
+        but not yet certified at the issue date is not addressed expressly. (3) C.32.010 also carries the S2 5% and A2 8%
+        discounts. A3 is issued later but effective earlier, and the instruments'' ''later governs work executed on or after
+        its effective date'' clause does not say how the two combine. This is outside R22''s stated claims.'
+      pages_read:
+      - 32
+      - 38
+      - 43
+      source_labels_ok: true
+    quotes:
+    - page: 43
+      document: null
+      text: Reference CW-2025-0417-CIV/A3. Issued 12 May 2026 and taking effect 1 November 2025.
+      ocr_match: 1.0
+    - page: 43
+      document: null
+      text: Work executed on or after that date and already certified shall be re-measured at the substituted rates, and the
+        difference shown as a single adjustment on the first Application for Payment submitted after the date of issue (Clause
+        31A).
+      ocr_match: 0.991
+    - page: 43
+      document: null
+      text: C.32.010 | Precast manhole, 1200 mm diameter, | no. | 1,860.00 | 1,984.00 | 2025-11-01; A.14.010 | Imported granular
+        fill, placed and | m3 | 53.20 | 56.80 | 2025-11-01
+      ocr_match: 1.0
+    - page: 32
+      document: null
+      text: 'an Application for Payment submitted before that date of issue is not thereby incorrect: it was valued at the
+        rate then in force. The difference between the rates on work already valued shall be shown as a single adjustment
+        on the first Application for Payment submitted on or after the date of issue, and on no other.'
+      ocr_match: 1.0
+    - page: 38
+      document: null
+      text: 'Amendment No. 3 | 2026-05-12 | 2025-11-01 | rates: C.32.010, A.14.010'
+      ocr_match: 0.961
+    - page: 38
+      document: null
+      text: Each takes effect on its own effective date and governs work executed on or after it; nothing in an instrument
+        reopens work already measured at the rate then payable.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R23:
+    kind: rule
+    contract: CW
+    pages:
+    - 4
+    - 14
+    - 28
+    - 29
+    - 30
+    - 31
+    content_sha256: 02e8e4d84f4441337eb3d8b2afdc53f74f2ab28fd8ec42b71ead83983ef5eb21
+    reading:
+      reader: G
+      file: verification/param_rule_readings/G.jsonl
+      verdict: supported
+      discrepancies: 'No contradicted claim; PR.01 amount 486,000.00 and unit ''item'' match p31; Sch 6 on pp28-29 (Part 3
+        additions: Labour 68%, Plant 22% on p28; Materials 14%, Subcontracted daywork 10% on p29), Sch 7 on p30, Sch 8 on
+        p31, Cl.16/17 on p4, P24 on p14 - labels correct. Ambiguity (described, not resolved): the contract states its own
+        consequence when the condition is not met - daywork sheets not signed on the day ''shall not be admitted'' (Cl.17)
+        and a provisional sum not instructed ''shall be omitted'' (Cl.16, Sch 7) - which reads as disallowance; the ''query''
+        outcome in the rule comes from guideline principle 3 and applies where the supplied data cannot show whether the condition
+        was met. The text does not distinguish ''no evidence supplied'' from ''condition not met''. P24 also allows a rate
+        ''agreed in writing before the work is executed'' as an alternative to Sch 6 daywork rates for unrated work. ''Q8''
+        and ''synthetic PR.01 line'' refer to the analyst''s data/query log and are not checkable against the contract. Sch
+        7''s written-instruction condition covers both provisional (PS) and prime cost (PC) sums; the validation case names
+        only provisional sums.'
+      pages_read:
+      - 4
+      - 14
+      - 28
+      - 29
+      - 30
+      - 31
+      source_labels_ok: true
+    quotes:
+    - page: 4
+      document: null
+      text: Provisional sums shall be expended only on the written instruction of the Engineer and shall be omitted from the
+        Subcontract Sum if not so instructed.
+      ocr_match: 1.0
+    - page: 4
+      document: null
+      text: Work instructed to be executed on a daywork basis shall be recorded on daywork sheets signed daily by the Engineer's
+        representative. Daywork sheets not signed on the day of the work shall not be admitted.
+      ocr_match: 1.0
+    - page: 14
+      document: null
+      text: Work for which no rate appears in Schedule 1 shall be valued at daywork rates in Schedule 6 unless a rate is agreed
+        in writing before the work is executed.
+      ocr_match: 1.0
+    - page: 28
+      document: null
+      text: The rates below apply only to work instructed to be executed on a daywork basis under Clause 17, and to work for
+        which no rate appears in Schedule 1 (Clause P24). Daywork sheets shall be signed on the day of the work.
+      ocr_match: 0.998
+    - page: 29
+      document: null
+      text: The percentage additions are applied to the net cost and are the only additions allowable. No profit is added
+        separately.
+      ocr_match: 1.0
+    - page: 30
+      document: null
+      text: The sums below are included in the Subcontract Sum and shall be expended only on the written instruction of the
+        Engineer (Clause 16). A sum not so instructed shall be omitted.
+      ocr_match: 1.0
+    - page: 30
+      document: null
+      text: A provisional sum (PS) covers work not yet defined. A prime cost sum (PC) covers materials to be supplied by others.
+        Neither is measured under Schedule 1.
+      ocr_match: 1.0
+    - page: 31
+      document: null
+      text: An item priced against the unit "item" is a fixed charge and is valued once, in the valuation in which the obligation
+        is discharged.
+      ocr_match: 0.981
+    - page: 31
+      document: null
+      text: PR.01 Site establishment, offices and welfare item 486,000.00
+      ocr_match: 0.891
+    - page: 31
+      document: null
+      text: Preliminaries are not subject to the zone factor, the ground factor, or any uplift or rebate. They are valued
+        at the amounts stated (Clause 29).
+      ocr_match: 0.989
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      text: 3. **Say when you do not know.** An invoice you cannot price is a query. Record what is missing rather than guessing
+        a figure.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  CW-R24:
+    kind: rule
+    contract: CW
+    pages: []
+    content_sha256: 62180ff8a2833f5afa91efcf9129d909ad5a0399e662a16bd7fac293383194ee
+    reading:
+      reader: G
+      file: verification/param_rule_readings/G.jsonl
+      verdict: supported
+      discrepancies: 'No contradicted claim. Title matches guideline check 12 nearly word for word; the validation case matches
+        guideline principle 3. Observation (not resolved): the README Task records the outcome in a submission file whose
+        columns are flagged (1/0), error_category, expected_total_cents, billed_total_cents and confidence - it has no pass/query/part-reject
+        field and no field for the clause relied on, and expected_total_cents is an integer in minor units (''There are no
+        fractional amounts in a submission''), so an unpriceable row still needs some encoding of its total; the README places
+        ''what you could not determine'' in the report. ''Q9'' (unknown-total encoding) is an internal reference not checkable
+        against these documents. No contract pages cited or read.'
+      pages_read: []
+      source_labels_ok: true
+    quotes:
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      text: 12. **The outcome is written down** -- pass, query, or part-reject -- with the clause relied on, the figure you
+        say is payable, and anything you could not determine.
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      text: 3. **Say when you do not know.** An invoice you cannot price is a query. Record what is missing rather than guessing
+        a figure.
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/README.md
+      text: Apply the twelve checks in `INVOICE_AUDIT_GUIDELINES.md` to every invoice under both contracts, and record the
+        outcome for each one in a **single submission file**.
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/README.md
+      text: Rows you cannot price are still rows — flag them if you believe they are wrong, give your confidence honestly,
+        and say in your report what you could not determine.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R01:
+    kind: rule
+    contract: DDS
+    pages:
+    - 1
+    - 3
+    - 8
+    - 11
+    content_sha256: c5b0f39fa739de11d0364d2d58c2b315fba1ae43a7cd95487bb530d816b7f0a4
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Note (not a discrepancy): on p1 the contract reference and the Contractor''s name are in the opening
+        text above the particulars table, not in the table itself; the table holds dates, currency, VAT, rounding, invoicing
+        and operations. The validation cases (near-miss references DSS-2025-118 / DDS-2025-181; line well differing from header
+        well) are consistent with the printed reference DDS-2025-118 and Cl.32 ''invoice each well separately''; the contract
+        does not itself say how such mismatches are to be recorded.'
+      pages_read:
+      - 1
+      - 3
+      - 8
+      - 11
+      source_labels_ok: true
+    quotes:
+    - page: 1
+      document: null
+      text: 'Contract reference: DDS-2025-118'
+      ocr_match: 1.0
+    - page: 1
+      document: null
+      text: THIS CONTRACT is made between NORTHGATE PETROLEUM OPERATING COMPANY ("the Company") and MERIDIAN DOWNHOLE SERVICES
+        LTD ("the Contractor")
+      ocr_match: 1.0
+    - page: 3
+      document: null
+      text: Each well is called off by a written notice stating the well name, the rig, the field and the well class. The
+        well class stated in the call-off governs the whole well and is not revised while the well is drilled.
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: The Contractor shall invoice each well separately, for a period of consecutive days on the well.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: A well is HPHT where the call-off so states; the class-rated factor applies to the whole well and not only to
+        the deeper sections.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: A well is Extended Reach where the call-off so states, whatever the horizontal displacement achieved.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R02:
+    kind: rule
+    contract: DDS
+    pages:
+    - 8
+    content_sha256: e5101227b5aba4ebb9ffd894a4b77818cbe6874e4f213db3a613ae09bbd1bc75
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Note on the validation case (ambiguity, not resolved): Cl.32 says every charge is for a day within the
+        period and Cl.34 says each charge states the date, while Cl.36 and Cl.38 call the DS-900 discount a ''charge'' ("the
+        discount charge under Clause 38"; "a single charge under code DS-900"). The text does not say whether the DS-900 discount
+        charge must carry a date, nor does p8 itself say a blank DS-900 date is not a missing report; that conclusion rests
+        on Cl.37 (documents only for services Schedule 5 lists), which is on p8 but not cited in this rule''s sources.'
+      pages_read:
+      - 8
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: The Contractor shall invoice each well separately, for a period of consecutive days on the well. Every charge
+        on an invoice is for a day within the period the invoice states.
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: Each charge states the date, the service code, the description, the hole section, the status of the day, the quantity,
+        the unit, the rate and the amount
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: stated as a single charge under code DS-900 with a negative amount.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R03:
+    kind: rule
+    contract: DDS
+    pages:
+    - 1
+    - 37
+    - 39
+    - 41
+    content_sha256: 33bdf77c555d3d7bfaf0735e87a1b6212f54cdbc6f023c7bed08ec4a6daf731f
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: null
+      pages_read:
+      - 1
+      - 37
+      - 39
+      - 41
+      source_labels_ok: true
+    quotes:
+    - page: 1
+      document: null
+      text: Commencement date 01 January 2025
+      ocr_match: 1.0
+    - page: 1
+      document: null
+      text: Expiry date 31 December 2025
+      ocr_match: 1.0
+    - page: 37
+      document: null
+      text: The Term as let ran from 1 January 2025 to 31 December 2025. As twice extended it runs from 1 January 2025 to
+        31 December 2026.
+      ocr_match: 0.969
+    - page: 37
+      document: null
+      text: Amendment No. 2 2026-05-21 2026-07-01 expiry to 2026-12-31
+      ocr_match: 0.934
+    - page: 39
+      document: null
+      text: The Expiry Date stated in the Form of Agreement is extended to 30 June 2026 (extension of the Term, 181 days).
+        The Commencement Date is unchanged. Services performed on or before the extended Expiry Date are chargeable under
+        this Contract; services performed after it are not.
+      ocr_match: 0.989
+    - page: 41
+      document: null
+      text: The Expiry Date stated in the Form of Agreement is extended to 31 December 2026 (second extension of the Term,
+        184 days). The Commencement Date is unchanged. Services performed on or before the extended Expiry Date are chargeable
+        under this Contract; services performed after it are not.
+      ocr_match: 0.984
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R04:
+    kind: rule
+    contract: DDS
+    pages:
+    - 8
+    content_sha256: 254e09599b92bb6b3ce4cb4987ccf9e3ae1eadc04b283180ca10c47a523f284d
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Note (not a discrepancy): the text says ''within 30 days after it'' without saying how the days are
+        counted; the validation reading (day 30 after the last day inside, day 31 outside) is consistent with it. Submission
+        on the last day of the period itself is not barred (''shall not be submitted before the last day'').'
+      pages_read:
+      - 8
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: An invoice shall not be submitted before the last day of its period and shall be submitted within 30 days after
+        it.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R05:
+    kind: rule
+    contract: DDS
+    pages:
+    - 5
+    - 8
+    - 14
+    - 24
+    - 35
+    content_sha256: 957dcff8c7f79e56408cc9ebfaa24984b8cf6ca57f64a122916938edf8bdd895
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Notes (ambiguities, not resolved): (1) Cl.16 (p5, not cited) provides for a separate BHA Run Report,
+        Gyro Survey Report, Source Handling Certificate and Lost in Hole Report, while Sch 5 (p24) says ''There are no separate
+        run, survey, source or loss documents''; the rule follows Sch 5 (Cl.2 on p3: ''A Schedule prevails over a Part'').
+        R9 (p14) also still refers to a BHA Run Report. (2) Cl.37/Sch 5 make only the listed codes (DD-111, DD-130, LW-410
+        to LW-413, LW-420, RM-510, LH-711 to LH-714) conditional on a completed part; the text does not expressly make the
+        DDR itself, or its signatures, a condition of payment for other service lines, although Cl.15 requires the report
+        and its two signatures and 19A requires the DDR number against every line of the day. (3) Sch 5 refers to ''Clause
+        19'' for the daily report, whereas the report clause on p5 is Clause 15. (4) The validation cases ''placeholder signature''
+        and ''report number of another day (mismatch, not duplicate)'' are readings of Cl.15 and 19A; the text does not use
+        those terms.'
+      pages_read:
+      - 5
+      - 8
+      - 14
+      - 24
+      - 35
+      source_labels_ok: true
+    quotes:
+    - page: 5
+      document: null
+      text: A Daily Drilling Report shall be issued for every day on which the Contractor is on the well.
+      ocr_match: 1.0
+    - page: 5
+      document: null
+      text: It is signed by the Company Representative and the Contractor's lead directional driller.
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: A charge for a service Schedule 5 lists is not payable until the document Schedule 5 names has been delivered
+        for the day or run the charge is for.
+      ocr_match: 0.986
+    - page: 14
+      document: null
+      text: The status of the day is recorded by the Company Representative and is final for the purposes of Clause 19.
+      ocr_match: 1.0
+    - page: 14
+      document: null
+      text: A report may be corrected only by a revision signed by both signatories before the invoice for the day is submitted.
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: One Daily Drilling Report is issued for each well and day (Clause 19). It carries the operations summary and,
+        as numbered parts, every other record this Contract makes a condition of payment. There are no separate run, survey,
+        source or loss documents.
+      ocr_match: 0.998
+    - page: 24
+      document: null
+      text: 'B BHA run record: run number, first and last day of the run, tools in the run, circulating hours, metres logged
+        and reamed, and whether a radioactive source was carried every day of a run'
+      ocr_match: 0.888
+    - page: 24
+      document: null
+      text: A charge for a service below is not payable until the part named has been completed in the Daily Drilling Report
+        for the day or run the charge is for (Clause 37). A part that does not apply to the day is omitted; a part that applies
+        and is absent is a record not delivered.
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: Each Daily Drilling Report bears a number in the series DDR, and that number is quoted against every line of that
+        day on the invoice.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R06:
+    kind: rule
+    contract: DDS
+    pages:
+    - 6
+    - 7
+    - 11
+    - 27
+    - 28
+    - 35
+    - 36
+    content_sha256: 289e1e180042be74cd3168f78a3a8bff65dc59956e18140408a30a50190f9716
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Notes (ambiguities, not resolved): (1) 19A (p35) says the report does not carry the service codes, while
+        R5 and R6 (p14, not cited) say the report lists rental tools and personnel ''by service code''. (2) Sch 8 (p27) is
+        internally inconsistent for DD-102: the lead-in says it is charged per day for each coordinator the report records,
+        but the table row says ''each day the Daily Drilling Report records the tool in the hole''. (3) Appendix G gives the
+        same report term to more than one code (''gamma tool'' for LW-410 and LH-714; ''mud motor'' for DD-110 and LH-711;
+        ''rotary steerable'' for DD-120 and LH-712; ''MWD collar'' for MW-310 and LH-713), and its terms do not follow the
+        Schedule 1 descriptions (e.g. LW-411 density and neutron = ''resistivity tool'', LW-412 sonic = ''density-neutron'',
+        MW-310 ''MWD directional and gamma tool'' = ''MWD collar''). The validation mappings (''night man'' -> DD-102, ''gamma
+        tool'' -> LW-410 or LH-714 in a loss context, ''float sub'' -> HC-640) match the printed table; the separation of
+        LW-410 from LH-714 by loss context rests on the p36 footnote.'
+      pages_read:
+      - 6
+      - 7
+      - 11
+      - 27
+      - 28
+      - 35
+      - 36
+      source_labels_ok: true
+    quotes:
+    - page: 36
+      document: null
+      text: The Daily Drilling Report is written in the ordinary words of the rig (Clause 19A). The terms below are the ones
+        it uses for the items Schedule 1 prices.
+      ocr_match: 0.987
+    - page: 36
+      document: null
+      text: DD-102 Directional coordinator, office based night man
+      ocr_match: 1.0
+    - page: 36
+      document: null
+      text: HC-640 Cuttings bed monitoring float sub
+      ocr_match: 1.0
+    - page: 36
+      document: null
+      text: LH-714 Lost in hole, LWD resistivity tool gamma tool
+      ocr_match: 0.929
+    - page: 36
+      document: null
+      text: LW-410 LWD resistivity, logged gamma tool
+      ocr_match: 1.0
+    - page: 36
+      document: null
+      text: A tool lost in the hole is recorded by the term above; the item charged is the replacement value Schedule 6 states
+        against it.
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: The report is written by the Contractor's supervisor in the ordinary words of the rig and does not repeat the
+        descriptions in Schedule 1 or carry the service codes.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: Personnel are charged per person-day for the persons recorded on the rig on the Daily Drilling Report.
+      ocr_match: 1.0
+    - page: 7
+      document: null
+      text: A rental charged by the day is charged for a day only where the Daily Drilling Report records the tool in the
+        hole on that day.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: the failed tool is charged only on days the report records it in the hole.
+      ocr_match: 0.959
+    - page: 11
+      document: null
+      text: A person on a crew change day is counted once, whether arriving or departing.
+      ocr_match: 1.0
+    - page: 27
+      document: null
+      text: What each service covers and the event its charge is for. Item DD-102 is office based and is charged per day for
+        each coordinator the Daily Drilling Report records.
+      ocr_match: 1.0
+    - page: 27
+      document: null
+      text: DD-101 Directional driller, 24-hour coverage each person recorded on the rig on the Daily Drilling Report, per
+        day
+      ocr_match: 0.973
+    - page: 28
+      document: null
+      text: HC-640 Cuttings bed monitoring each day the Daily Drilling Report records the tool in the hole
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R07:
+    kind: rule
+    contract: DDS
+    pages:
+    - 6
+    - 7
+    - 11
+    - 14
+    - 22
+    - 35
+    content_sha256: 882e52e9691938c593d37f9f032ba0f473ea9444b0c569be0646570edb5413c7
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Notes (ambiguities, not resolved): (1) The text does not say whether the 6-hour minimum (Cl.21, Sch
+        3 Part 7, P10) is applied before or after the one-hour rig-up deduction in 21A; the rule correctly leaves this open
+        (Q4). (2) 21A speaks of ''the first hour of each period in the hole'' but then ''The report states the hours run;
+        the invoice charges one fewer'' without saying whether ''one fewer'' is per period or per report/day where a period
+        spans several days. (3) Cl.21 says DD-120 is charged ''per circulating hour recorded'', while 21A deducts the first
+        hour; the two are reconciled only by reading 21A as the later, particular condition. (4) ''Part A depths'' is Schedule
+        5 terminology (p24, not cited here); Cl.23 says only ''the measured depths on the Daily Drilling Report''. The validation
+        arithmetic is consistent with the text: exactly +1% is ''not exceeding ... by more than 1 per cent'' (payable as charged),
+        +1.01% exceeds it (payable at the report figure); 7 hours run -> 6 charged. Parameter values match the print: ''6
+        hours'', ''the first hour'', ''1 per cent''.'
+      pages_read:
+      - 6
+      - 7
+      - 11
+      - 14
+      - 22
+      - 35
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: Item DD-120 is charged per circulating hour recorded on the Daily Drilling Report for an Operating day, subject
+        to a minimum of 6 hours on any Operating day on which the tool is in the hole.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: Item PD-210 is charged for the metres drilled on the day, taken from the measured depths on the Daily Drilling
+        Report
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: Items LW-410, LW-411 and LW-412 are charged for the metres drilled on an Operating day while the tool is in the
+        hole, which are the metres logged.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: Item RM-510 is charged for the metres drilled on an Operating day while the underreamer is in the hole, which
+        are the metres reamed.
+      ocr_match: 1.0
+    - page: 7
+      document: null
+      text: Gyro surveys, formation pressure points, wiper trips, back-reaming hours and clean-out runs are charged in the
+        numbers recorded on the Daily Drilling Report for an Operating day.
+      ocr_match: 0.98
+    - page: 11
+      document: null
+      text: The minimum in Clause 21 applies to each Operating day separately and is not averaged over a run.
+      ocr_match: 1.0
+    - page: 14
+      document: null
+      text: Circulating hours are stated in whole hours, any part hour of thirty minutes or more counting as a whole hour.
+      ocr_match: 0.981
+    - page: 22
+      document: null
+      text: 'Part 7 — Minimum hours DD-120: not less than 6 hours on an Operating day (Clause 21).'
+      ocr_match: 0.976
+    - page: 35
+      document: null
+      text: For a service charged by the hour, the first hour of each period in the hole is rig-up and is not a Chargeable
+        Hour. The report states the hours run; the invoice charges one fewer.
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: Metres charged not exceeding the metres the report supports by more than 1 per cent are payable as charged. Metres
+        exceeding that are payable at the figure the report supports.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R08:
+    kind: rule
+    contract: DDS
+    pages:
+    - 8
+    content_sha256: e13b91dddacd514b97eac359b61396fac3c3113fab66a0f31f2e13d015e5fc72
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Note (not a discrepancy): Cl.35 states the requirement only; p8 gives no monetary consequence for a
+        charge stated in another unit, so the validation''s ''breach recorded; monetary remedy per Q11'' correctly treats
+        the remedy as open. The contract text on p8 neither imports nor refers to any clause of the CW contract.'
+      pages_read:
+      - 8
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: A charge is stated in the unit Schedule 1 gives for the service, and in no other.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R09:
+    kind: rule
+    contract: DDS
+    pages:
+    - 35
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    content_sha256: e4ddfcadf2d62950dfa46912a2e1e11735aea971e9853fd5dccef6cbeb13bc7a
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted; every cited figure and date is as printed (DD-120 384.15 -> 398.50 from 2025-07-01;
+        HC-601 December 2025 736.40 carried forward by S1 1.2; S2 April 2026 406.00; A3 416.00 effective 2026-02-01, issued
+        2026-08-17). Ambiguities the text leaves open (not resolved here): (1) 416.00 over 406.00 for April 2026 rests on
+        reading ''the later'' in the closing sentence of each instrument (and ''in the order issued'', p37) as the later-ISSUED
+        instrument (A3); the text can also be read against it: S2 is later-EFFECTIVE (2026-04-01 vs 2026-02-01), A3 3.1 substitutes
+        ''for the rates in Schedule 1'' while S2 2.1 is a monthly re-publication, and A3''s ''Rate previously chargeable''
+        is 398.50 (the S1 rate), not an S2 monthly rate. On the issue-order reading A3''s 416.00 would also displace every
+        later S2 monthly DD-120 figure (May-Dec 2026), which the statement does not address. (2) The 416.00 and 406.00 figures
+        are rates before the S2 2.2 4 per cent discount on DD-120 (applied to the rate from 1 April 2026), so neither is the
+        charged rate for April 2026. (3) A3 says the adjustment goes on the first invoice submitted ''after'' the date of
+        issue; 36A says ''on or after'' - they differ for an invoice submitted on 2026-08-17 itself. (4) The SoV preamble
+        says ''nothing in an instrument reopens a service already charged at the rate then chargeable'', while A3/36A require
+        re-pricing via a single adjustment. ''D2'', ''DDS-R21'' and ''Q1'' are not contract references and were not checked.'
+      pages_read:
+      - 35
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      source_labels_ok: true
+    quotes:
+    - page: 37
+      document: null
+      text: This Contract is to be read with the instruments below, in the order issued. Each takes effect on its own effective
+        date and governs services performed on or after it; nothing in an instrument reopens a service already charged at
+        the rate then chargeable.
+      ocr_match: 1.0
+    - page: 37
+      document: null
+      text: 'Amendment No. 3 2026-08-17 2026-02-01 rates: DD-120, DD-101'
+      ocr_match: 0.974
+    - page: 37
+      document: null
+      text: A rate stated in Schedule 1 is the rate chargeable only until an instrument substitutes another for it. Pricing
+        a service therefore requires the date on which it was performed, not the date of the invoice.
+      ocr_match: 0.99
+    - page: 38
+      document: null
+      text: DD-120 Rotary steerable system, circula hour 384.15 398.50 2025-07-01
+      ocr_match: 1.0
+    - page: 38
+      document: null
+      text: Where a service is performed in a month later than the last month stated below, the rate last published applies
+        until it is superseded.
+      ocr_match: 1.0
+    - page: 38
+      document: null
+      text: December 2025 736.40
+      ocr_match: 0.8
+    - page: 39
+      document: null
+      text: The Expiry Date stated in the Form of Agreement is extended to 30 June 2026 (extension of the Term, 181 days).
+      ocr_match: 0.981
+    - page: 40
+      document: null
+      text: Reference DDS-2025-118/S2. Issued 24 February 2026 and taking effect 1 April 2026.
+      ocr_match: 1.0
+    - page: 40
+      document: null
+      text: April 2026 406.00
+      ocr_match: 1.0
+    - page: 40
+      document: null
+      text: A discount of 4 per cent is allowed on the services listed below for services performed on or after 1 April 2026.
+        The discount is applied to the rate, as the last factor in the build-up required by Clause 17 and before the rounding
+        it requires.
+      ocr_match: 0.969
+    - page: 41
+      document: null
+      text: Reference DDS-2025-118/A2. Issued 21 May 2026 and taking effect 1 July 2026.
+      ocr_match: 1.0
+    - page: 41
+      document: null
+      text: Where this instrument and an earlier instrument both state a rate or a discount for the same service, the later
+        governs services performed on or after its effective date, and the earlier governs services performed before it.
+      ocr_match: 0.984
+    - page: 42
+      document: null
+      text: Reference DDS-2025-118/A3. Issued 17 August 2026 and taking effect 1 February 2026.
+      ocr_match: 1.0
+    - page: 42
+      document: null
+      text: Services performed on or after that date and already invoiced shall be re-priced at the substituted rates and
+        the difference shown as a single adjustment on the first invoice submitted after the date of issue (Clause 36A).
+      ocr_match: 1.0
+    - page: 42
+      document: null
+      text: DD-120 Rotary steerable system, circula hour 398.50 416.00 2026-02-01
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: Where an Amendment substitutes a rate with effect from a date before the date it was issued, an invoice submitted
+        before that date of issue was correct at the rate then in force. The difference on services already invoiced is shown
+        as a single adjustment on the first invoice submitted on or after the date of issue, and on no other.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes:
+    - 38
+    disposition:
+      content_sha256: e4ddfcadf2d62950dfa46912a2e1e11735aea971e9853fd5dccef6cbeb13bc7a
+      reviewer: implementer, against the scan image and G1-verified tables
+      disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+        the quote is present as a token in the page OCR and equals the cell of the G1-verified table instrument DDS.S1 monthly
+        rows [''2025-12'', ''736.40''] (second-verified cell by cell against the scan in G1).'
+    status: verified
+  DDS-R10:
+    kind: rule
+    contract: DDS
+    pages:
+    - 18
+    - 35
+    content_sha256: 4ad44b5ea13bd6bf7dc746d3ef5bb118773b5949a4eefa3b091b912bb9eb56ba
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Note (ambiguity, not resolved): 17A says the indexed figure ''is the rate for the purposes of Clause
+        17''; on p6 Clause 17 is Rounding and the build-up is Clause 18. The rule''s ''before the build-up'' is a reading
+        of that cross-reference (S2 2.2 and A2 2.3 likewise call the build-up ''the build-up required by Clause 17''). Arithmetic
+        checked: 2,245.85 x 103.60 / 100.00 = 2,326.7006, which rounds to 2,326.70.'
+      pages_read:
+      - 18
+      - 35
+      source_labels_ok: true
+    quotes:
+    - page: 18
+      document: null
+      text: The services below are priced against the Rig Services Index, base 100.00 (Clause 17A). The rate stated in Schedule
+        1 for them is a base rate.
+      ocr_match: 0.978
+    - page: 18
+      document: null
+      text: MW-310 MWD directional and gamma tool 2,245.85 day
+      ocr_match: 1.0
+    - page: 18
+      document: null
+      text: HC-620 Drilling jar rental 539.65 day
+      ocr_match: 0.917
+    - page: 18
+      document: null
+      text: 2025-06 103.60
+      ocr_match: 0.857
+    - page: 35
+      document: null
+      text: The rate for a service listed in Schedule 2C is the base rate stated in Schedule 1 multiplied by the Rig Services
+        Index published for the calendar month in which the service was performed and divided by the base index, rounded half
+        to even. That figure is the rate for the purposes of Clause 17.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R11:
+    kind: rule
+    contract: DDS
+    pages:
+    - 6
+    - 11
+    - 20
+    - 21
+    - 35
+    - 40
+    - 41
+    content_sha256: 0f50dd8ef0e28d986fe5f5d1a539d267321c9d8cef40d59bf4979c342d701cfc
+    reading:
+      reader: E
+      file: verification/param_rule_readings/E.jsonl
+      verdict: supported
+      discrepancies: 'Notes (not discrepancies): (1) The two ''App B'' validation figures were checked on Appendix B (p30,
+        not in the cited pages): ''03-Jun-2025 DD-101 12-1/4" Standby 2 1,477.88 2,955.76'' and ''04-Jun-2025 DD-120 12-1/4"
+        Operating 18 509.00 9,162.00''; 1,847.35 x 0.80 = 1,477.88 and 384.15 x 1.00 (12-1/4") x 1.325 = 508.99875 -> 509.00,
+        as stated. (2) 423 x 0.945 = 399.735 exactly; half to even gives 399.74 (binary float gives 399.73499999..., which
+        would round to 399.73). 423.00 is the S2 DD-120 figure for July 2026 (p40); the case is arithmetic only. (3) Ambiguity:
+        S2 2.2 and A2 2.3 place the discount in ''the build-up required by Clause 17'', while on p6 the build-up is Clause
+        18 and Clause 17 is rounding. A2 describes its 7 per cent as ''the deepening of the Supplement No. 2 discount'' and
+        says the later instrument governs from its effective date, so 7 per cent replaces 4 per cent from 2026-07-01 rather
+        than adding to it. (4) 17B (p35) also says the well-class factor is not applied to PD-210, although Sch 3 Part 2 lists
+        PD-210 as class-rated; this rule does not rely on that sentence.'
+      pages_read:
+      - 6
+      - 11
+      - 20
+      - 21
+      - 30
+      - 35
+      - 40
+      - 41
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: Where a step of the build-up in Clause 18 produces a fraction of a cent, the result of that step is rounded to
+        the nearest cent before the next step is applied, and a result exactly half way between two cents is rounded to the
+        even cent.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: 'to which is applied, in this order and no other: first the hole section factor in Schedule 3 Part 1, where the
+        service is section-rated; then the well class factor in Schedule 3 Part 2, where the service is class-rated; then
+        the standby percentage in Schedule 3 Part 3, where the day is a Standby day. Each step is rounded under Clause 17.'
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: On a Standby day a service is charged at the percentage of its operating rate stated in Schedule 3 Part 3.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: Personnel are charged on a Standby day at the standby percentage for their position in Schedule 3 Part 3.
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: 8-1/2" 0.945
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: 'Section-rated services: DD-110, DD-120, PD-220, MW-310, RM-510, RM-511.'
+      ocr_match: 0.985
+    - page: 20
+      document: null
+      text: HPHT 1.325
+      ocr_match: 0.706
+    - page: 20
+      document: null
+      text: 'Class-rated services: DD-120, PD-210, MW-310, MW-320, LW-410, LW-411, LW-412, LW-413.'
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: DD-101 Directional driller, 24-hour coverage 80%
+      ocr_match: 0.957
+    - page: 21
+      document: null
+      text: HC-620 Drilling jar rental 50%
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: The hole-section factor in Schedule 3 Part 1 is not applied on a day the rig is on Standby, the section not being
+        drilled.
+      ocr_match: 0.975
+    - page: 40
+      document: null
+      text: A discount of 4 per cent is allowed on the services listed below for services performed on or after 1 April 2026.
+        The discount is applied to the rate, as the last factor in the build-up required by Clause 17 and before the rounding
+        it requires.
+      ocr_match: 0.969
+    - page: 41
+      document: null
+      text: A discount of 7 per cent is allowed on the services listed below for services performed on or after 1 July 2026.
+        The discount is applied to the rate, as the last factor in the build-up required by Clause 17 and before the rounding
+        it requires.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes:
+    - 20
+    disposition:
+      content_sha256: 0f50dd8ef0e28d986fe5f5d1a539d267321c9d8cef40d59bf4979c342d701cfc
+      reviewer: implementer, against the scan image and G1-verified tables
+      disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+        the quote is present as a token in the page OCR and equals the cell of the G1-verified table DDS.T10_CLASS_FACTORS
+        [''HPHT'', ''1.325''] (second-verified cell by cell against the scan in G1).'
+    status: verified
+  DDS-R12:
+    kind: rule
+    contract: DDS
+    pages:
+    - 6
+    - 17
+    - 35
+    content_sha256: 57114a77e761e1d058b340e3485cdc8f25d4f7b4caf8523b589ed2852a45e31e
+    reading:
+      reader: F
+      file: verification/param_rule_readings/F.jsonl
+      verdict: supported
+      discrepancies: 'No unsupported claim. Checks: App B (p30, not among the cited pages) prints 2,930-3,000 x 70 at 58.15
+        = 4,070.50 and 3,000-3,085 x 85 at 76.45 = 6,498.25 (both correct); these are the unfactored Band 2/Band 3 rates on
+        an HPHT well (HPHT factor 1.325, Sch 3 Part 2 p20), consistent with 17B. Ambiguity (not resolved): Sch 2 p17 note
+        says the PD-210 rate ''is class-rated under Schedule 3 Part 2'' and Sch 3 Part 2 (p20) lists PD-210 as class-rated,
+        which with Cl.18 would apply the class factor; 17B (p35) says the well-class factor is not applied to PD-210. The
+        rule follows 17B and App B. Also, Sch 2 Part 2 bands are ''1 m to 40,000 m'' / ''40,001 m to 120,000 m'' / ''above
+        120,000 m'' (integer metres; how fractional metres or 0 m are placed is not stated).'
+      pages_read:
+      - 6
+      - 17
+      - 35
+      - 30
+      - 20
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: Where the metres drilled on a day cross a band boundary, the metres in each band are charged as a separate charge
+        stating the depths at which that part starts and ends. A boundary depth belongs to the shallower band. Bands end at
+        1,500 m, 3,000 m and 4,500 m.
+      ocr_match: 1.0
+    - page: 17
+      document: null
+      text: Item PD-210 is charged at the rate for the band in which the metres lie (Clause 23). A boundary depth belongs
+        to the shallower band.
+      ocr_match: 1.0
+    - page: 17
+      document: null
+      text: Band 1 0 m to 1,500 m 42.35 / Band 2 over 1,500 m to 3,000 m 58.15 / Band 3 over 3,000 m to 4,500 m 76.45 / Band
+        4 over 4,500 m 98.70
+      ocr_match: 0.862
+    - page: 17
+      document: null
+      text: The rate for item PD-210 is taken at the percentage below according to the metres already drilled on the well
+        in the Contract Year (Clause 3A). Metres are counted from zero at the start of each Contract Year, and an interval
+        that crosses a band is divided at the band.
+      ocr_match: 1.0
+    - page: 17
+      document: null
+      text: The rate is class-rated under Schedule 3 Part 2 and is not section-rated.
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: The first Contract Year runs from the Commencement Date to the day before its first anniversary, and each following
+        Contract Year from that anniversary.
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: The well-class factor in Schedule 3 Part 2 is not applied to item PD-210, Schedule 2 having already priced the
+        metre by depth.
+      ocr_match: 1.0
+    - page: 30
+      document: null
+      text: Charges on an HPHT well, showing a Standby day, the circulating-hour minimum not engaged, and footage split at
+        a band boundary.
+      ocr_match: 1.0
+    - page: 30
+      document: null
+      text: 04-Jun-2025 PD-210 12-1/4" Operating 2,930-3,000 70 58.15 4,070.50
+      ocr_match: 0.912
+    - page: 30
+      document: null
+      text: 04-Jun-2025 PD-210 12-1/4" Operating 3,000-3,085 85 76.45 6,498.25
+      ocr_match: 0.928
+    - page: 20
+      document: null
+      text: 'Class-rated services: DD-120, PD-210, MW-310, MW-320, LW-410, LW-411, LW-412, LW-413.'
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R13:
+    kind: rule
+    contract: DDS
+    pages:
+    - 4
+    - 6
+    - 11
+    - 20
+    - 21
+    content_sha256: 5462c24a1b86d28b41a3aa9b5f047bc87e86dd00d2d9ea2d960fe2cf52b0d57b
+    reading:
+      reader: F
+      file: verification/param_rule_readings/F.jsonl
+      verdict: supported
+      discrepancies: 'No unsupported claim. Label note: the heading ''13. Suspension'' is printed at the foot of p3; its operative
+        text is on p4, so ''Cl.13 (p4)'' is acceptable. Sch 3 Part 3 (the Standby table) runs from p20 to p21 and Part 4 is
+        on p21, consistent with ''Sch 3 Parts 3-4 (pp20-21)''. Validation ''DD-120 on a Standby day'' follows from Cl.20/Cl.21
+        and the ''Not chargeable'' entry; ''DD-121 on an Operating day'' follows from Part 4 (''charged only on a Standby
+        day''). The per-well / loss items (DD-140, LW-430, MB-701, MB-702, LH items) do not appear in the Part 3 table; the
+        full-charge statement in the Part 3 lead-in covers them.'
+      pages_read:
+      - 6
+      - 20
+      - 21
+      - 4
+      - 3
+      - 11
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: A service Schedule 3 Part 3 marks as not chargeable is not charged on a Standby day in any quantity.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: On a Standby day item DD-120 is not charged and item DD-121 is charged instead.
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: The percentage of the operating rate charged on a Standby day (Clause 20). Services charged per well or for a
+        loss are charged in full whatever the status of the day.
+      ocr_match: 1.0
+    - page: 20
+      document: null
+      text: DD-120 Rotary steerable system, circulating Not chargeable
+      ocr_match: 1.0
+    - page: 21
+      document: null
+      text: DD-121 is charged only on a Standby day, in place of item DD-120 (Clause 21).
+      ocr_match: 1.0
+    - page: 4
+      document: null
+      text: The Company may suspend the services on any well. A day of suspension recorded as Standby on the Daily Drilling
+        Report is charged under Clause 20.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: A day lost to weather is recorded as Standby on the Daily Drilling Report.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R14:
+    kind: rule
+    contract: DDS
+    pages:
+    - 6
+    - 8
+    - 21
+    - 22
+    content_sha256: e41c8016f5078a54a6579a743c692fc12df18b74ecdc8980ae7770cefe0fc3a6
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Sch 3 Part 5 lists 22 codes (15 on p21: DD-101, DD-102, DD-110, DD-120, DD-121,
+        DD-130, PD-201, PD-220, PD-230, MW-301, MW-310, MW-320, MW-330, LW-401, LW-413; 7 on p22: RM-511, RM-520, RM-530,
+        HC-601, HC-610, HC-620, HC-640). DD-101 limit is 2 person-day, so x3 on one day exceeds it. Ambiguity (not resolved):
+        Cl.22 says ''on any day'' and does not itself say the limit is counted per well; ''per well-day'' rests on D6 (not
+        a contract reference, not checked) read with Cl.32 (each well invoiced separately) and Cl.29 (''the same well and
+        the same day''). ''Whichever invoice carries it'' follows from Cl.22 being stated per day rather than per invoice;
+        the text does not expressly address one day appearing on two invoices of the same well.'
+      pages_read:
+      - 6
+      - 8
+      - 21
+      - 22
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: 22. Personnel and daily limits Personnel are charged per person-day for the persons recorded on the rig on the
+        Daily Drilling Report. No service is charged on any day in a quantity above the daily limit in Schedule 3 Part 5.
+      ocr_match: 1.0
+    - page: 21
+      document: null
+      text: Part 5 — Daily limits
+      ocr_match: 1.0
+    - page: 21
+      document: null
+      text: DD-101 Directional driller, 24-hour coverage 2 person-day
+      ocr_match: 1.0
+    - page: 22
+      document: null
+      text: HC-640 Cuttings bed monitoring 1 day
+      ocr_match: 0.914
+    - page: 8
+      document: null
+      text: The Contractor shall invoice each well separately, for a period of consecutive days on the well. Every charge
+        on an invoice is for a day within the period the invoice states.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R15:
+    kind: rule
+    contract: DDS
+    pages:
+    - 7
+    - 22
+    - 24
+    - 27
+    - 28
+    content_sha256: 0a65bbc0d010ac2e82678c75fd3e57b74fbe68ad9e896c3adc56062382018b5f
+    reading:
+      reader: F
+      file: verification/param_rule_readings/F.jsonl
+      verdict: supported
+      discrepancies: 'No unsupported claim about DD-111, LW-420, MB-701, MB-702, DD-140 or LW-430. Validation: Part B is completed
+        ''every day of a run'' and records the first and last day of the run, while Cl.26 charges DD-111 ''once for each BHA
+        run ... on the last day of that run'', so repeated Part B entries do not create a second DD-111; LW-420 requires Part
+        D (''the sources handled and their certification''). Ambiguity (not resolved): ''HC-630 per Q5'' cites Q5, which is
+        not a contract provision and cannot be checked against the scan. Sch 8 (p28) charges HC-630 ''each BHA run, as Clause
+        26 describes'', but Cl.26 names only DD-111 and LW-420 and gives no day for HC-630, while Cl.30 (p7) charges ''clean-out
+        runs ... in the numbers recorded on the Daily Drilling Report for an Operating day''. The text does not settle on
+        which day of a run HC-630 falls. Whether a Part D that is present but lacks certification counts as ''completed''
+        is also not stated.'
+      pages_read:
+      - 7
+      - 22
+      - 24
+      - 27
+      - 28
+      source_labels_ok: true
+    quotes:
+    - page: 7
+      document: null
+      text: Item DD-111 is charged once for each BHA run carrying a positive displacement motor, on the last day of that run.
+        Item LW-420 is charged once for each BHA run carrying a radioactive source, on the first day of that run.
+      ocr_match: 1.0
+    - page: 7
+      document: null
+      text: Items MB-701 and DD-140 are charged once for the well, on the first day on the well. Items LW-430 and MB-702 are
+        charged once for the well, on the last day on the well; item LW-430 only where logging while drilling was run.
+      ocr_match: 1.0
+    - page: 7
+      document: null
+      text: Gyro surveys, formation pressure points, wiper trips, back-reaming hours and clean-out runs are charged in the
+        numbers recorded on the Daily Drilling Report for an Operating day.
+      ocr_match: 0.98
+    - page: 22
+      document: null
+      text: Part 6 — Charges once per well DD-140, LW-430, MB-701, MB-702 (Clause 27).
+      ocr_match: 1.0
+    - page: 27
+      document: null
+      text: DD-111 Motor redress and inspection each BHA run, as Clause 26 describes
+      ocr_match: 1.0
+    - page: 27
+      document: null
+      text: DD-140 Well planning and anti-collision study once for the well, as Clause 27 describes
+      ocr_match: 1.0
+    - page: 28
+      document: null
+      text: LW-420 Radioactive source handling each BHA run, as Clause 26 describes
+      ocr_match: 1.0
+    - page: 28
+      document: null
+      text: HC-630 Casing drift and clean-out run each BHA run, as Clause 26 describes
+      ocr_match: 1.0
+    - page: 28
+      document: null
+      text: MB-702 Demobilisation from rig site once for the well, as Clause 27 describes
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: 'B BHA run record: run number, first and last day of the run, tools in the run, circulating hours, metres logged
+        and reamed, and whether a radioactive source was carried every day of a run'
+      ocr_match: 0.888
+    - page: 24
+      document: null
+      text: 'D Radioactive source handling: the sources handled and their certification a day on which a source was run'
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: A charge for a service below is not payable until the part named has been completed in the Daily Drilling Report
+        for the day or run the charge is for (Clause 37).
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: DD-111 Motor redress and inspection Daily Drilling Report, Part B
+      ocr_match: 1.0
+    - page: 24
+      document: null
+      text: LW-420 Radioactive source handling Daily Drilling Report, Part D
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R16:
+    kind: rule
+    contract: DDS
+    pages:
+    - 6
+    - 7
+    content_sha256: 049db344beeabb9a1ab3091f251a9a2dfdfa4fd1ed541b3ed1e6e589935d5872
+    reading:
+      reader: F
+      file: verification/param_rule_readings/F.jsonl
+      verdict: supported
+      discrepancies: 'No unsupported claim. The validation case ''MDS-00164-050 wrong-day report is not a duplicate'' names
+        an invoice/record reference that is not in the contract and cannot be checked against the scan; it is consistent with
+        Cl.29 applying to ''the same well and the same day''. Ambiguity (not resolved): Cl.29 allows more than one PD-210
+        on a day ''for different depth intervals under Clause 23'', and Cl.23 provides for separate charges only where the
+        day''s metres ''cross a band boundary''. The text does not say whether two non-overlapping PD-210 intervals within
+        one band on one day are permitted, nor expressly how partly overlapping intervals are treated (the rule reads overlap
+        as not ''different depth intervals'').'
+      pages_read:
+      - 7
+      - 6
+      source_labels_ok: true
+    quotes:
+    - page: 7
+      document: null
+      text: No service is charged twice for the same well and the same day, save that item PD-210 may be charged more than
+        once on a day for different depth intervals under Clause 23.
+      ocr_match: 1.0
+    - page: 6
+      document: null
+      text: Where the metres drilled on a day cross a band boundary, the metres in each band are charged as a separate charge
+        stating the depths at which that part starts and ends.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R17:
+    kind: rule
+    contract: DDS
+    pages:
+    - 7
+    - 11
+    - 19
+    - 25
+    - 34
+    - 35
+    content_sha256: bb93b754dd61be1cde3b1db77a563f27b1c7b543d757c641453cf3d53e519790
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Arithmetic checked: 412 h -> 16 complete 25-hour blocks = 16% (matches App F
+        p34); 24 h -> 0%; 25 h -> 1%; 1,250 h -> 50 blocks = 50%, equal to the cap. Sch 2D (p19) and Sch 6 (p25) cover LH-711..LH-714.
+        Notes: App F is headed ''Illustrative only (Clause 16)''. The case ''month-of-loss FX at a half cent'' cannot be reproduced
+        from printed figures: no Sch 2D SAR value divided by any printed monthly rate (halalas per USD) gives an exact half
+        cent, so that case must use a constructed value; the half-to-even rounding it tests is printed in 31A.'
+      pages_read:
+      - 7
+      - 11
+      - 19
+      - 25
+      - 34
+      - 35
+      source_labels_ok: true
+    quotes:
+    - page: 7
+      document: null
+      text: Where a tool cannot be recovered, the charge is its replacement value in Schedule 6 less depreciation of 1 per
+        cent for each complete 25 circulating hours the tool accumulated on the well, as stated on the Lost in Hole Report,
+        to a depreciation of not more than 50 per cent. The result is rounded under Clause 17 and charged as one unit on the
+        day of the loss.
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: The replacement values in Schedule 2D are stated in SAR and are converted into the currency of the Contract at
+        the rate of exchange published in that Schedule for the month in which the tool was lost, rounded half to even, before
+        the depreciation in Clause 31 is applied. Schedule 6 states the same values in the currency of the Contract as they
+        stood when it was let, and Schedule 2D governs.
+      ocr_match: 1.0
+    - page: 19
+      document: null
+      text: The tools were bought in riyals and the values below are stated in SAR. They are converted into the currency of
+        the Contract under Clause 31A at the rate published for the month of the loss.
+      ocr_match: 1.0
+    - page: 25
+      document: null
+      text: Depreciation is 1 per cent for each complete 25 circulating hours, to not more than 50 per cent (Clause 31).
+      ocr_match: 0.981
+    - page: 11
+      document: null
+      text: P12. Lost in hole hours Circulating hours for Clause 31 are those the tool accumulated on the well on which it
+        was lost, including the day of the loss.
+      ocr_match: 0.952
+    - page: 34
+      document: null
+      text: Circulating hours accumulated on the well 412
+      ocr_match: 1.0
+    - page: 34
+      document: null
+      text: With 412 hours the depreciation under Clause 31 is 16 per cent.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R18:
+    kind: rule
+    contract: DDS
+    pages:
+    - 11
+    content_sha256: 2d4cd563410135ffd2003c9b4d51737c82168613c75b1a98545e191924795c5d
+    reading:
+      reader: F
+      file: verification/param_rule_readings/F.jsonl
+      verdict: supported
+      discrepancies: 'No unsupported claim. P4 supports the validation case ''service on a rig-move day'' (no service is charged).
+        Note: P6 does not make a day non-chargeable; it keeps the day Operating for other services and limits the failed tool''s
+        charge to days the report records it in the hole. The title groups it under ''days not chargeable or not uplifted''
+        without misstating it.'
+      pages_read:
+      - 11
+      source_labels_ok: true
+    quotes:
+    - page: 11
+      document: null
+      text: No service is charged for a day on which the rig is moving between wells; such days are not days on the well.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: A day lost to weather is recorded as Standby on the Daily Drilling Report.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: Where a tool fails in the hole, the day remains an Operating day for the other services; the failed tool is charged
+        only on days the report records it in the hole.
+      ocr_match: 0.975
+    - page: 11
+      document: null
+      text: No uplift is payable for work at night; the rates in Schedule 1 cover continuous operations.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: No uplift is payable for work on a public holiday.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R19:
+    kind: rule
+    contract: DDS
+    pages:
+    - 6
+    - 29
+    content_sha256: 910dbb411aa2582c898231887a7efc0e3f036e25f4b043734c40584607e07309
+    reading:
+      reader: F
+      file: verification/param_rule_readings/F.jsonl
+      verdict: supported
+      discrepancies: 'No unsupported claim. The validation case (PD-210 outside the 12-1/4 / 8-1/2 sections) follows from
+        the App A definition. Note: the definition requires both the size (12-1/4 or 8-1/2 inch) and nomination by the call-off,
+        so a 12-1/4 or 8-1/2 inch section the call-off does not nominate is also excluded. The call-off is not part of the
+        scanned contract, so which sections are nominated for a given well cannot be read from the scan.'
+      pages_read:
+      - 6
+      - 29
+      source_labels_ok: true
+    quotes:
+    - page: 6
+      document: null
+      text: Item PD-210 is charged only on the performance-drilled sections nominated in the call-off.
+      ocr_match: 1.0
+    - page: 29
+      document: null
+      text: Performance-drilled section a 12-1/4 inch or 8-1/2 inch section of a well the call-off nominates for performance
+        drilling.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R20:
+    kind: rule
+    contract: DDS
+    pages:
+    - 8
+    - 11
+    - 30
+    content_sha256: 2c50486824cbfafeccc4a14461fb4c1ff2b304ee404f2a376440aeea87ca1dbd
+    reading:
+      reader: F
+      file: verification/param_rule_readings/F.jsonl
+      verdict: supported
+      discrepancies: 'No unsupported claim. Arithmetic: App B lines 2,955.76 + 2,975.75 + 9,162.00 + 4,070.50 + 6,498.25 =
+        25,662.26; 15% x 25,662.26 = 3,849.339 -> 3,849.34; 25,662.26 + 3,849.34 = 29,511.60. (312,400.00 - 250,000.00) x
+        4% = 2,496.00 -> -2,496.00. Exactly 250,000.00 does not ''exceed'' 250,000.00, so no discount. Parameters: threshold
+        printed ''250,000.00 USD'', discount ''4 per cent'', VAT ''15 per cent''. ''Half-even'' rests on ''rounded under Clause
+        17'' in Cl.38 and Cl.39; Cl.17 (p6, not cited) sets the half-to-even rule, worded for the steps of the Clause 18 build-up.
+        The validation case ''correction crossing the threshold'' is not addressed in terms by the text.'
+      pages_read:
+      - 8
+      - 11
+      - 30
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: The net amount of an invoice is the sum of the amounts of its charges, including the discount charge under Clause
+        38.
+      ocr_match: 0.974
+    - page: 8
+      document: null
+      text: Where the sum of the amounts of the services charged on an invoice exceeds 250,000.00 USD, the Contractor allows
+        a discount of 4 per cent of the excess, rounded under Clause 17, stated as a single charge under code DS-900 with
+        a negative amount.
+      ocr_match: 0.992
+    - page: 8
+      document: null
+      text: Value Added Tax is charged at 15 per cent of the net amount of the invoice, rounded under Clause 17.
+      ocr_match: 1.0
+    - page: 8
+      document: null
+      text: The total of an invoice is its net amount plus Value Added Tax.
+      ocr_match: 1.0
+    - page: 11
+      document: null
+      text: The discount under Clause 38 is calculated on each invoice alone and not on the Contractor's invoices taken together.
+      ocr_match: 1.0
+    - page: 30
+      document: null
+      text: Net amount (below the discount threshold) 25,662.26
+      ocr_match: 1.0
+    - page: 30
+      document: null
+      text: Value Added Tax at 15 per cent 3,849.34
+      ocr_match: 1.0
+    - page: 30
+      document: null
+      text: Invoice total 29,511.60
+      ocr_match: 0.75
+    - page: 30
+      document: null
+      text: On an invoice whose services total 312,400.00, the discount charge under Clause 38 is -2,496.00.
+      ocr_match: 0.989
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes:
+    - 30
+    disposition:
+      content_sha256: 2c50486824cbfafeccc4a14461fb4c1ff2b304ee404f2a376440aeea87ca1dbd
+      reviewer: implementer, against the scan image and G1-verified tables
+      disposition: 'Table-row quote: OCR loses the column layout, so the whole-row similarity is below 0.85; every value in
+        the quote is present as a token in the page OCR and equals the cell of the G1-verified table DDS.T21_APPB_EXAMPLE
+        totals (total 29,511.60) (second-verified cell by cell against the scan in G1).'
+    status: verified
+  DDS-R21:
+    kind: rule
+    contract: DDS
+    pages:
+    - 8
+    - 35
+    - 37
+    - 42
+    content_sha256: 83d9bc6ee6ac30cdace639e2226c49b85cb9a86d99de6a5e41d35f4f03b53462
+    reading:
+      reader: F
+      file: verification/param_rule_readings/F.jsonl
+      verdict: supported
+      discrepancies: 'No unsupported claim. The statement correctly reports that 36A says ''on or after the date of issue''
+        and A3 says ''after the date of issue'' (issue date 17 August 2026), so an invoice submitted 2026-08-17 qualifies
+        under 36A but not under A3''s wording. Scope ''DD-120, DD-101 services from 2026-02-01'' matches the A3 table and
+        the SoV row. Ambiguities (not resolved): (1) 36A/A3 vs Cl.32: invoices are per well, and the text does not say whether
+        ''the first invoice submitted'' means the first invoice for the same well or the first invoice on the Contract. (2)
+        The SoV lead-in says ''nothing in an instrument reopens a service already charged at the rate then chargeable'', while
+        A3 requires already-invoiced services to be ''re-priced'' through a single adjustment. (3) Supplement No. 2 (effective
+        2026-04-01) and Amendment No. 2 (effective 2026-07-01), both issued before A3, also state a rate or a percentage for
+        DD-120/DD-101. A3''s ''later governs'' sentence does not say whether ''later'' means later issued or later effective,
+        so it is open how far after 2026-04-01 the A3 rates govern. (4) Nothing in the text addresses how the adjustment interacts
+        with the DS-900 base (''services charged on an invoice'') or with VAT.'
+      pages_read:
+      - 42
+      - 35
+      - 37
+      - 8
+      source_labels_ok: true
+    quotes:
+    - page: 42
+      document: null
+      text: Reference DDS-2025-118/A3. Issued 17 August 2026 and taking effect 1 February 2026.
+      ocr_match: 1.0
+    - page: 42
+      document: null
+      text: Services performed on or after that date and already invoiced shall be re-priced at the substituted rates and
+        the difference shown as a single adjustment on the first invoice submitted after the date of issue (Clause 36A).
+      ocr_match: 1.0
+    - page: 42
+      document: null
+      text: DD-120 Rotary steerable system, circula hour 398.50 416.00 2026-02-01
+      ocr_match: 1.0
+    - page: 42
+      document: null
+      text: DD-101 Directional driller, 24-hour cov person-day 1,916.50 1,954.00 2026-02-01
+      ocr_match: 1.0
+    - page: 42
+      document: null
+      text: Where this instrument and an earlier instrument both state a rate or a discount for the same service, the later
+        governs services performed on or after its effective date, and the earlier governs services performed before it.
+      ocr_match: 1.0
+    - page: 35
+      document: null
+      text: Where an Amendment substitutes a rate with effect from a date before the date it was issued, an invoice submitted
+        before that date of issue was correct at the rate then in force. The difference on services already invoiced is shown
+        as a single adjustment on the first invoice submitted on or after the date of issue, and on no other.
+      ocr_match: 1.0
+    - page: 37
+      document: null
+      text: Each takes effect on its own effective date and governs services performed on or after it; nothing in an instrument
+        reopens a service already charged at the rate then chargeable.
+      ocr_match: 1.0
+    - page: 37
+      document: null
+      text: 'Amendment No. 3 2026-08-17 2026-02-01 rates: DD-120, DD-101'
+      ocr_match: 0.974
+    - page: 8
+      document: null
+      text: The Contractor shall invoice each well separately, for a period of consecutive days on the well.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified
+  DDS-R22:
+    kind: rule
+    contract: DDS
+    pages:
+    - 8
+    content_sha256: d3d66b5bcce46e590b025f85f8d86e355c22833c13ff4581c7d3a05c3cca1719
+    reading:
+      reader: H
+      file: verification/param_rule_readings/H.jsonl
+      verdict: supported
+      discrepancies: 'No claim contradicted. Title matches guideline check 12 almost word for word; ''guideline principle
+        3'' is the third of the three numbered principles above ''The checks'' (''Say when you do not know''). Notes, not
+        resolved: the README submission columns (flagged 0/1, error_category, expected_total_cents, billed_total_cents, confidence)
+        have no pass/query/part-reject field and no field for the clause relied on; the README puts what could not be determined
+        in the report, and for unpriceable rows says ''flag them if you believe they are wrong'' rather than treating them
+        as queries. Cl.41 says only that the Company may withhold a disputed charge and shall pay the undisputed balance;
+        ''still valued'' is a reading of ''shall pay the undisputed balance''. ''Q9'' is not a contract or document reference
+        and was not checked.'
+      pages_read:
+      - 8
+      source_labels_ok: true
+    quotes:
+    - page: 8
+      document: null
+      text: 41. Disputed charges The Company may withhold a disputed charge and shall pay the undisputed balance.
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/drilling_services/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      text: 12. **The outcome is written down** -- pass, query, or part-reject -- with the clause relied on, the figure you
+        say is payable, and anything you could not determine.
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/drilling_services/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      text: 3. **Say when you do not know.** An invoice you cannot price is a query. Record what is missing rather than guessing
+        a figure.
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/README.md
+      text: Apply the twelve checks in `INVOICE_AUDIT_GUIDELINES.md` to every invoice under both contracts, and record the
+        outcome for each one in a **single submission file**.
+      ocr_match: 1.0
+    - page: null
+      document: /home/user/majedzahrani3/invoice-auditing-level-2/README.md
+      text: Rows you cannot price are still rows — flag them if you believe they are wrong, give your confidence honestly,
+        and say in your report what you could not determine.
+      ocr_match: 1.0
+    read_current_statement: true
+    cited_pages_without_quote: []
+    weak_ocr_quotes: []
+    status: verified

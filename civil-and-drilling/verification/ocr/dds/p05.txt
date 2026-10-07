@@ -1,0 +1,18 @@
+DDS-2025-1 18 | Directional Drilling Services ose FT a — ee
+PART II — OPERATIONS AND FIELD RECORDS
+15. Daily Drilling Report
+A Daily Drilling Report shall be issued for every day on which the Contractor is on the well. It records the
+well, the rig, the date, the hole section, the measured depth at the start and end of the day, the status of the
+day as Operating or Standby, the circulating hours, the BHA run number, the tools in the hole, the
+
+. Contractor's personnel on the rig, and the number of gyro surveys, formation pressure points, wiper trips,
+back-reaming hours and clean-out runs. It is signed by the Company Representative and the Contractor's
+lead directional driller.
+16. Other field records
+A BHA Run Report is issued at the end of each BHA run and records the run number, the hole section, the
+first and last day of the run, the tools in the run, the circulating hours, the metres logged and the metres ~
+reamed. A Gyro Survey Report is issued for each day on which a gyro survey is taken, a Source Handling
+Certificate for each run carrying a radioactive source, and a Lost in Hole Report for each tool that cannot be
+recovered. ; ;
+
+Page 5

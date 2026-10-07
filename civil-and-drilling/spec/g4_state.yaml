@@ -1,0 +1,84 @@
+# G4 state families: the shared state each contract keeps across applications/invoices, what keys it, what clock
+# orders it, what quantity it counts, and the consequence on a line. Implemented in audit/g4_cw.py and audit/g4_dds.py;
+# decisions in spec/g4_decisions.yaml. G3 line results are the input and are never modified: every consequence is a
+# G4 state check on a copy of the line (family, status, rule, clause, finding, ledger entry) with a replayable trace.
+version: 1
+families:
+  CW:
+    duplicate:
+      rule: CW-R17
+      key: "item, work area, work date; for a weekly item also item, work area and the week of the cited weekly record (union)"
+      clock: "submission date of the application; within one application its line order (G4-D5)"
+      consequence: "every measurement after the first is disallowed in full (C-REJECT, duplicate_measurement); same-day submissions: 'earlier' alternatives"
+      source: "Cl.44 (p8); Sch 5 note (p27); 47A (p33)"
+    exclusion:
+      rule: CW-R16
+      key: "excluded item, work area; excluding items from CW.T14"
+      clock: "work date: D+1..D+2 after A.14.010 (day D open, Q6 D); the same day for E.51.020"
+      counts: "an excluding measurement that stands; unpaid for want of its record under Q6 A only"
+      consequence: "not measurable (C-REJECT, excluded_by_other_item)"
+      source: "Cl.32 (p6); Sch 4 Part 5 (p26); P19, P21 (p13)"
+    daily_limit:
+      rule: CW-R15
+      key: "item, work area, work date"
+      counts: "the quantity of the measurement that stands (G4-D6)"
+      consequence: "excess not payable, not carried forward (above_daily_limit)"
+      source: "Cl.31 (p6); Sch 4 Part 4 (p26); Cl.19 (p4); P6 (p12)"
+    band:
+      rule: CW-R14
+      key: "item, Contract Year (Q12 A/B)"
+      clock: "execution date; one date's measurements in every order that changes a division (G4-D1)"
+      counts: "Q6 A measured incl. unpaid for want of record / Q6 B payable; rejected quantities never"
+      consequence: "a measurement crossing a band edge is divided; each part at its band's rounded rate (band_divided); a divided line's displayed rate is one of its parts' rates or the built-up (band-1) rate, never a band it does not reach (review finding A-6)"
+      source: "Sch 4 Part 3 (pp24-25); 3A (p32); Cl.28 (p6); Cl.42 (p8)"
+    a3:
+      rule: CW-R22
+      key: "instrument A3; lines G3 protected (submitted before the issue date), and every line that may be (its submission date, work date or rate not established: review findings A-4/B-2)"
+      consequence: "difference = value as if submitted on the issue date - G4 value; posted once, on one recipient per Q1 reading; an unvalued line leaves the account open on the side its rate change can move it (C-1)"
+      source: "31A (p32); A3 (p43)"
+    p23:
+      rule: CW-R05
+      key: "line without its record -> the next valuation"
+      consequence: "not posted under Q3 A (G4-D9)"
+      source: "P23 (p14)"
+    retention:
+      rule: CW-R21
+      key: "application"
+      clock: "submission date; release on the first application after 2026-09-30"
+      consequence: "5% rounded down per application; one half of earlier retention released once, rounded down; an earlier application of unestablished value bounds the release below by its valued lines (review finding B-1)"
+      source: "Cl.45 (p8); 45A (p32)"
+  DDS:
+    once_only:
+      rule: [DDS-R15, DDS-R16]
+      key: "service, well, day (Cl.29); service, well, BHA run (Cl.26: DD-111 last day, LW-420 first day); service, well (Cl.27: MB-701/DD-140 first day, MB-702/LW-430 last day); lost tool code, well, lost-in-hole run (Cl.31); joined into one group where they overlap"
+      clock: "service date against the well's first/last Daily Drilling Report and the run's first/last day"
+      consequence: "a charge off its day never stands (well_event_not_on_its_day, lwd_not_run); of the admissible charges one stands - which is carried (stands, Q7 C)"
+      source: "Cl.26, 27, 29, 31 (p7); Sch 5 (p24); P4 (p11)"
+    hc630_run:
+      rule: DDS-R15
+      key: "well, BHA run - under the Schedule 8 reading of the Q5 residual"
+      consequence: "one charge per run (stands carried); Cl.30 reading: each charge"
+      source: "Sch 8 (p28); Cl.30 (p7)"
+    pd210_intervals:
+      rule: DDS-R16
+      key: "well, day"
+      consequence: "different intervals allowed; overlapping metres charged once (stands carried); a charge whose date or depths are not established is a possible contestant of the metres it may cover (review finding A-1)"
+      source: "Cl.23 (p6); Cl.29 (p7)"
+    daily_limit:
+      rule: DDS-R14
+      key: "service, well, day (D6)"
+      counts: "the charge that stands"
+      consequence: "excess not chargeable (above_daily_limit)"
+      source: "Cl.22 (p6); Sch 3 Part 5 (pp21-22)"
+    footage:
+      rule: DDS-R12
+      key: "well, Contract Year (Q14 A/B)"
+      clock: "service date, then depth"
+      counts: "Q11 A PD-210 metres charged (certain where payable at G3 and the nomination is not in question; otherwise a possible contributor, upper bound only: A-2) / Q11 B every metre drilled (Part A depths; a report whose depths, date or well are not established leaves the count unbounded above: A-3)"
+      consequence: "metres above 40,000 / 120,000 at 96% / 92% of the depth rate, rounded half to even (footage_band_divided)"
+      source: "Sch 2 Part 2 (p17); 3A (p35); Cl.17 (p6)"
+    a3:
+      rule: DDS-R21
+      key: "instrument A3; lines G3 protected (invoiced before the issue date), and every charge that may be (A-4)"
+      consequence: "difference posted once per Q1 reading (A, B contract-wide; C per well)"
+      source: "36A (p35); A3 (p42); Cl.32 (p8)"

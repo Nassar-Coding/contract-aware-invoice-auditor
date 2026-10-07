@@ -1,0 +1,33 @@
+ee ee ee ee ee eee
+DDS-2025-118 | Directional Drilling Services ; ; ;
+APPENDIX G — TERMS USED IN THE FIELD REPORTS
+The Daily Drilling Report is written in the ordinary words of the rig (Clause 19A). The terms below are the
+ones it uses for the items Schedule | prices. :
+Code AsScheduleldescribesit. + ~—~—~«SAsthereportwritesit. =
+DD-101 Directional driller, 24-hour coverage : directional hands 7 :
+DD-102 Directional coordinator, office based night man . ,
+DD-110 Positive displacement motor rental mud motor
+DD-120 Rotary steerable system, circulating : rotary steerable
+HC-601 Hole cleaning circulating sub : circulating sub
+HC-620 Drilling jar rental ; drilling jars ,
+HC-640 Cuttings bed monitoring float sub ;
+LH-711 Lost in hole, positive displacement motor mud motor
+LH-712 Lost in hole, rotary steerable system ’ rotary steerable
+LH-713 Lost in hole, MWD tool MWD collar :
+LH-714 Lost in hole, LWD resistivity tool : gamma tool ; ;
+LW-401 : LWD engineer logging engineers
+LW-410 LWD resistivity, logged gamma tool
+LW-411 LWD density and neutron, logged - resistivity tool
+LW-412 LWD sonic, logged density-neutron .
+. MW-301 MWD engineer , MWD engineers
+MW-310 MWD directional and gamma tool MWD collar
+MW-320 Pressure while drilling module survey package : ~~ :
+MW-330 Real-time data transmission ; real-time link
+: PD-201 Drilling optimisation engineer performance engineer
+PD-220 Downhole vibration mitigation tool bit and reamer
+PD-230 Drilling dynamics memory sub hydraulics package
+RM-511 Underreamer rental hole opener —
+RM-520 Roller reamer and stabiliser rental stabiliser string ;
+A tool lost in the hole is recorded by the term above; the item charged is the replacement value Schedule 6 states against it. :
+-_ Page 36
+————OOEeEeEeEeEeEeEeEeEeEeaeaEamaEaeaeaeEeEeEeEeEeEeEeEeEeEeeEeEeEeEeEeooEEeEeEeeEeEeee

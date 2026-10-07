@@ -1,0 +1,530 @@
+{
+ "G4-D1_order": {
+  "lines_with_order_alternatives": [
+   "PA-00140-04",
+   "PA-00155-12",
+   "PA-00303-03",
+   "PA-00382-07",
+   "PA-00459-09",
+   "PA-00506-06",
+   "PA-00611-04",
+   "PA-00778-01"
+  ],
+  "amount_by_order": {}
+ },
+ "G4-D2_contract_year": {
+  "cw_lines_with_Q12": 270,
+  "cw_amount_by_Q12": {
+   "A": {
+    "min": "4131905.39",
+    "max": "4133322.35"
+   },
+   "B": {
+    "min": "3952170.39",
+    "max": "3952170.39"
+   }
+  },
+  "dds_lines_with_Q14": 0
+ },
+ "G4-D3_weekly_duplicates": {
+  "groups": [
+   {
+    "group": "CW-DUP:A.16.010|S-05|2026-04-23,2026-04-25",
+    "members": [
+     "PA-00006-11",
+     "PA-00348-11"
+    ],
+    "earlier": [
+     "PA-00006-11"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-02|2025-04-01,2025-04-03",
+    "members": [
+     "PA-00388-01",
+     "PA-00019-02"
+    ],
+    "earlier": [
+     "PA-00388-01"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-02|2026-05-06,2026-05-07",
+    "members": [
+     "PA-00026-02",
+     "PA-00411-11"
+    ],
+    "earlier": [
+     "PA-00026-02"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-02|2026-02-03,2026-02-04",
+    "members": [
+     "PA-00044-07",
+     "PA-00874-03"
+    ],
+    "earlier": [
+     "PA-00044-07"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-05|2025-02-10,2025-02-11,2025-02-15",
+    "members": [
+     "PA-00431-07",
+     "PA-00309-05",
+     "PA-00059-01"
+    ],
+    "earlier": [
+     "PA-00431-07"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-03|2025-06-17,2025-06-19",
+    "members": [
+     "PA-00877-07",
+     "PA-00067-09"
+    ],
+    "earlier": [
+     "PA-00877-07"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-02|2026-07-13,2026-07-17",
+    "members": [
+     "PA-00101-03",
+     "PA-00219-12"
+    ],
+    "earlier": [
+     "PA-00101-03"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-04|2025-09-05,2025-09-07",
+    "members": [
+     "PA-00116-02",
+     "PA-00116-07"
+    ],
+    "earlier": [
+     "PA-00116-02"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-05|2025-02-05,2025-02-07",
+    "members": [
+     "PA-00175-01",
+     "PA-00468-04"
+    ],
+    "earlier": [
+     "PA-00175-01"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-05|2026-01-12,2026-01-16",
+    "members": [
+     "PA-00253-01",
+     "PA-00880-04"
+    ],
+    "earlier": [
+     "PA-00253-01"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-01|2026-07-08,2026-07-09",
+    "members": [
+     "PA-00352-03",
+     "PA-00262-07"
+    ],
+    "earlier": [
+     "PA-00352-03"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-04|2026-08-13,2026-08-15",
+    "members": [
+     "PA-00547-04",
+     "PA-00263-01"
+    ],
+    "earlier": [
+     "PA-00547-04"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-04|2025-04-23,2025-04-26",
+    "members": [
+     "PA-00286-09",
+     "PA-00813-01"
+    ],
+    "earlier": [
+     "PA-00286-09"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-02|2025-09-02,2025-09-04",
+    "members": [
+     "PA-00368-03",
+     "PA-00529-10"
+    ],
+    "earlier": [
+     "PA-00368-03"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-02|2026-05-28,2026-05-29",
+    "members": [
+     "PA-00395-02",
+     "PA-00395-05"
+    ],
+    "earlier": [
+     "PA-00395-02"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-05|2026-03-23,2026-03-28",
+    "members": [
+     "PA-00741-02",
+     "PA-00479-04"
+    ],
+    "earlier": [
+     "PA-00741-02"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-03|2026-05-25,2026-05-29",
+    "members": [
+     "PA-00508-04",
+     "PA-00580-10"
+    ],
+    "earlier": [
+     "PA-00508-04"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-02|2026-03-17,2026-03-19",
+    "members": [
+     "PA-00557-06",
+     "PA-00825-02"
+    ],
+    "earlier": [
+     "PA-00557-06"
+    ],
+    "rule": "Cl.44 (p8)"
+   },
+   {
+    "group": "CW-DUP:A.16.010|S-03|2025-08-25,2025-08-30",
+    "members": [
+     "PA-00896-04",
+     "PA-00833-05"
+    ],
+    "earlier": [
+     "PA-00896-04"
+    ],
+    "rule": "Cl.44 (p8)"
+   }
+  ],
+  "lines_disallowed": [
+   "PA-00019-02",
+   "PA-00059-01",
+   "PA-00067-09",
+   "PA-00111-12",
+   "PA-00116-07",
+   "PA-00219-12",
+   "PA-00262-07",
+   "PA-00263-01",
+   "PA-00309-05",
+   "PA-00348-11",
+   "PA-00395-05",
+   "PA-00411-11",
+   "PA-00468-04",
+   "PA-00479-04",
+   "PA-00529-10",
+   "PA-00580-10",
+   "PA-00813-01",
+   "PA-00825-02",
+   "PA-00833-05",
+   "PA-00874-03",
+   "PA-00880-04"
+  ]
+ },
+ "G4-D4_exclusion_window": {
+  "excluded": [],
+  "open_Q6_day0": [
+   "PA-00801-05"
+  ]
+ },
+ "G4-D5_later_measurement": {
+  "groups": 20,
+  "same_day_ties": []
+ },
+ "G4-D6_daily_limits": {
+  "cw_lines_cut": [
+   "PA-00243-10",
+   "PA-00845-03"
+  ],
+  "dds_lines_cut": []
+ },
+ "G4-D7_band_quantity_basis_Q6": {
+  "lines_with_Q6": [],
+  "amount_by_Q6": {}
+ },
+ "G4-D8_A3": {
+  "CW": {
+   "total": {
+    "by_reading": {
+     "Q12:A": {
+      "min": "60508.18",
+      "max": "60508.18"
+     },
+     "Q12:B": {
+      "min": "59252.02",
+      "max": "59252.02"
+     }
+    },
+    "min": "59252.02",
+    "max": "60508.18",
+    "lines_not_established": 0,
+    "unknown_lo_open": false,
+    "unknown_hi_open": false
+   },
+   "recipient": {
+    "Q1:A (31A: first application submitted on or after the date of issue)": {
+     "tie": [
+      "PA-00006",
+      "PA-00023",
+      "PA-00380"
+     ]
+    },
+    "Q1:B (A3: first application submitted after the date of issue)": "PA-00443"
+   },
+   "eligible_lines": 89
+  },
+  "DDS": {
+   "total": {
+    "by_reading": {
+     "": {
+      "min": "289180.18",
+      "max": "345755.27"
+     }
+    },
+    "min": "289180.18",
+    "max": "345755.27",
+    "lines_not_established": 0,
+    "unknown_lo_open": false,
+    "unknown_hi_open": false
+   },
+   "recipient": {
+    "Q1:A (36A: first invoice submitted on or after the date of issue)": "MDS-01625",
+    "Q1:B (A3: first invoice submitted after the date of issue)": {
+     "tie": [
+      "MDS-01585",
+      "MDS-01631",
+      "MDS-01645"
+     ]
+    },
+    "Q1:C (each well's own first invoice on or after the date of issue)": {
+     "NGP-HA-097": null,
+     "NGP-WS-185": null,
+     "NGP-BD-027": null,
+     "NGP-BD-220": null,
+     "NGP-QA-133": null,
+     "NGP-QA-010": null,
+     "NGP-QA-150": null,
+     "NGP-QA-116": null,
+     "NGP-WS-044": null,
+     "NGP-HA-203": null,
+     "NGP-WS-061": null,
+     "NGP-WS-169": null,
+     "NGP-WS-186": null,
+     "NGP-HA-080": null,
+     "NGP-QA-098": null,
+     "NGP-WS-151": null,
+     "NGP-WS-204": null,
+     "NGP-QA-221": null,
+     "NGP-BD-062": null,
+     "NGP-BD-011": null,
+     "NGP-WS-134": null,
+     "NGP-BD-099": null,
+     "NGP-QA-117": null,
+     "NGP-HA-028": null,
+     "NGP-BD-170": null,
+     "NGP-QA-045": null,
+     "NGP-BD-152": null,
+     "NGP-WS-081": null,
+     "NGP-WS-187": null,
+     "NGP-HA-063": null,
+     "NGP-WS-205": null,
+     "NGP-BD-135": null,
+     "NGP-HA-222": null,
+     "NGP-HA-012": null,
+     "NGP-HA-118": null,
+     "NGP-HA-100": null,
+     "NGP-WS-029": null,
+     "NGP-WS-153": null,
+     "NGP-BD-082": null,
+     "NGP-BD-046": null,
+     "NGP-QA-171": null,
+     "NGP-QA-188": null,
+     "NGP-WS-064": null,
+     "NGP-WS-136": null,
+     "NGP-BD-223": null,
+     "NGP-QA-206": null,
+     "NGP-BD-013": null,
+     "NGP-HA-047": null,
+     "NGP-BD-083": null,
+     "NGP-WS-154": null,
+     "NGP-QA-101": null,
+     "NGP-WS-030": null,
+     "NGP-BD-119": null,
+     "NGP-HA-172": null,
+     "NGP-WS-065": null,
+     "NGP-HA-189": "MDS-01606",
+     "NGP-WS-207": "MDS-01603",
+     "NGP-QA-137": null,
+     "NGP-QA-224": "MDS-01594",
+     "NGP-HA-014": "MDS-01625",
+     "NGP-QA-102": "MDS-01607",
+     "NGP-BD-084": "MDS-01621",
+     "NGP-WS-120": "MDS-01651",
+     "NGP-QA-155": "MDS-01637",
+     "NGP-HA-048": "MDS-01620",
+     "NGP-BD-173": "MDS-01652",
+     "NGP-BD-031": "MDS-01645",
+     "NGP-WS-066": "MDS-01585"
+    }
+   },
+   "eligible_lines": 3309
+  }
+ },
+ "G4-D9_P23": {
+  "links": 9,
+  "posted": 0
+ },
+ "G4-D10_retention": {
+  "applications": 900,
+  "release": {
+   "recipient": "PA-00678",
+   "submitted": "2026-10-28",
+   "earlier_applications": 898,
+   "possibly_earlier_applications": [],
+   "released": {
+    "by_reading": {
+     "Q12:A|Q6-day0:A": {
+      "min": "3974311.52",
+      "max": "4121067.19"
+     },
+     "Q12:A|Q6-day0:B": {
+      "min": "3974450.40",
+      "max": "4121206.07"
+     },
+     "Q12:B|Q6-day0:A": {
+      "min": "3969849.29",
+      "max": "4116569.54"
+     },
+     "Q12:B|Q6-day0:B": {
+      "min": "3969988.17",
+      "max": "4116708.42"
+     }
+    }
+   },
+   "not_established_count": 0,
+   "chronology_not_established": [],
+   "later_applications_without_release": [
+    "PA-00375"
+   ],
+   "basis": "45A (p32): 'On the first Application for Payment submitted after the Date for Completion as extended (2026-09-30), one half of the retention held on all earlier Applications is released, rounded down to the halala' - once; Cl.45 (p8) retention rounded down per application"
+  }
+ },
+ "G4-D11_once_only": {
+  "groups": 1936,
+  "stands_open": [
+   {
+    "group": "DDS-ONCE:MW-301|NGP-QA-074|2025-06-22",
+    "members": [
+     "MDS-00476-045",
+     "MDS-00476-051"
+    ],
+    "candidates": [
+     "MDS-00476-045",
+     "MDS-00476-051"
+    ],
+    "rule": "Cl.29 (p7)",
+    "not_on_day": {}
+   },
+   {
+    "group": "DDS-ONCE:LW-401|NGP-QA-128|2025-07-29",
+    "members": [
+     "MDS-00580-039",
+     "MDS-00580-046"
+    ],
+    "candidates": [
+     "MDS-00580-039",
+     "MDS-00580-046"
+    ],
+    "rule": "Cl.29 (p7)",
+    "not_on_day": {}
+   },
+   {
+    "group": "DDS-ONCE:LW-401|NGP-BD-031|2026-08-20",
+    "members": [
+     "MDS-01654-069",
+     "MDS-01654-078"
+    ],
+    "candidates": [
+     "MDS-01654-069",
+     "MDS-01654-078"
+    ],
+    "rule": "Cl.29 (p7)",
+    "not_on_day": {}
+   }
+  ],
+  "not_on_its_day": [
+   "MDS-00320-016",
+   "MDS-01438-039",
+   "MDS-01887-049"
+  ],
+  "lwd_not_run": []
+ },
+ "G4-D12_HC630_per_run": {
+  "runs_with_more_than_one_charge": []
+ },
+ "G4-D13_footage": {
+  "lines_repriced": [],
+  "max_metres_before_any_line": "5156",
+  "segments_with_open_upper_bound": 0
+ },
+ "G4-D14_pd210_overlaps": {
+  "groups_with_overlap": []
+ },
+ "G4-D15_loss_once": {
+  "loss_lines": 54,
+  "repeated": []
+ },
+ "Q7C_stands": {
+  "lines": [
+   "MDS-00476-045",
+   "MDS-00476-051",
+   "MDS-00580-039",
+   "MDS-00580-046",
+   "MDS-01654-069",
+   "MDS-01654-078"
+  ],
+  "pd210_allocation_lines": []
+ }
+}

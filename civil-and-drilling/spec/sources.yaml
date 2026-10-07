@@ -1,0 +1,22 @@
+# G0 source index. Hashes for every file are in source/manifest.tsv; per-page scan identities in
+# source/pdf_pages.json. Pages are one-based PDF pages and match the printed footers.
+snapshot: {repo: "https://github.com/majedzahrani3/invoice-auditing-level-2", commit: aef4924dc32506b4587de8b788b5a947e6beffec}
+documents:
+  - {id: README, path: README.md, role: "dataset description, input formats, output format"}
+  - {id: CW, path: civilwork/contract/CW-2025-0417-CIV.pdf, pages: 43, role: "civil contract (scan, no text layer)"}
+  - {id: CW-G, path: civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md, role: "12 checks"}
+  - {id: CW-H, path: civilwork/invoices/applications.csv, rows: 900}
+  - {id: CW-L, path: civilwork/invoices/application_lines.csv, rows: 7746}
+  - {id: CW-REC, path: civilwork/records/, files: 2169}
+  - {id: DDS, path: drilling_services/contract/DDS-2025-118.pdf, pages: 42, role: "drilling contract (scan, no text layer)"}
+  - {id: DDS-G, path: drilling_services/guidelines/INVOICE_AUDIT_GUIDELINES.md, role: "12 checks"}
+  - {id: DDS-H, path: drilling_services/invoices/invoices.csv, rows: 1906}
+  - {id: DDS-L, path: drilling_services/invoices/invoice_lines.csv, rows: 91244}
+  - {id: DDS-REC, path: drilling_services/records/, files: 8151}
+  - {id: TEMPLATE, path: submission_template.csv, rows: 2806}
+readings:
+  first_pass: "visual transcription of the scans, carried into spec/terms_*.yaml"
+  verbatim_reread: verification/verbatim_reread/ (CW pp1,3,4,6,7,8,10,11,12; DDS pp1,3-8)
+  second_pass_visual: verification/second_pass_visual_log.txt
+  blind_transcription: verification/blind/ (CW pp17-33,36,38-43; DDS pp8,15-25,27,28,30,34-42)
+  ocr: verification/ocr/ (all 85 pages, tesseract 5.3.4 --psm 6)

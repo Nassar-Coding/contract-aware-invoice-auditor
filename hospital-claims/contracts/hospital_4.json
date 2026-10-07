@@ -1,0 +1,3110 @@
+{
+  "bundles": [
+    {
+      "a": "H4-S012",
+      "a_cents": 11875,
+      "b": "H4-S047",
+      "b_cents": 4900,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L212"
+    },
+    {
+      "a": "H4-S013",
+      "a_cents": 3550,
+      "b": "H4-S014",
+      "b_cents": 28750,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L213"
+    },
+    {
+      "a": "H4-S018",
+      "a_cents": 2675,
+      "b": "H4-S065",
+      "b_cents": 9375,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L214"
+    },
+    {
+      "a": "H4-S030",
+      "a_cents": 28625,
+      "b": "H4-S076",
+      "b_cents": 70975,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L215"
+    },
+    {
+      "a": "H4-S033",
+      "a_cents": 1250,
+      "b": "H4-S060",
+      "b_cents": 111675,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L216"
+    },
+    {
+      "a": "H4-S035",
+      "a_cents": 8400,
+      "b": "H4-S040",
+      "b_cents": 35200,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L217"
+    },
+    {
+      "a": "H4-S086",
+      "a_cents": 91600,
+      "b": "H4-S097",
+      "b_cents": 13900,
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L218"
+    }
+  ],
+  "contract_number": "INS-H4-2024-2049",
+  "coverage": [
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "Conditional Reimbursement Agreement",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L1",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "1. Definitions",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L13",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "2. Term and Scope",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L25",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "3. Base Rates",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L33",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "4. Order of Adjustments",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L140",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "5. Threshold Premiums",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L150",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "6. Daily Quantity Limits",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L179",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "7. Bundled Delivery",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L206",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "8. Discounts",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L222",
+      "state": "unresolved"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "9. Exclusion Windows",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L241",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "10. Non-Business-Day Uplifts",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L263",
+      "state": "accepted"
+    },
+    {
+      "qualification": "\u00a71.4 instance equals one unit. \u00a78 does not explicitly state patient aggregation scope: retain bounds from known patient-specific to all-patient prior usage; emit only invariant rates. \u00a79 explicitly both directions; equality withheld. Compound unit unobserved. See finite records for exact rule applicability; missing essential mappings and disputed dependencies withhold the entire invoice.",
+      "representation": "11. Invoicing",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L269",
+      "state": "accepted"
+    },
+    {
+      "qualification": "per hour, per item supplies no independent second quantity dimension; no invented conversion.",
+      "representation": "Intermittent Urologic Telemetry Monitoring",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L99",
+      "state": "unresolved"
+    }
+  ],
+  "exclusions": [
+    {
+      "anchor": "H4-S022",
+      "days": 30,
+      "service": "H4-S003",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L247"
+    },
+    {
+      "anchor": "H4-S071",
+      "days": 7,
+      "service": "H4-S008",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L248"
+    },
+    {
+      "anchor": "H4-S062",
+      "days": 10,
+      "service": "H4-S019",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L249"
+    },
+    {
+      "anchor": "H4-S010",
+      "days": 7,
+      "service": "H4-S026",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L250"
+    },
+    {
+      "anchor": "H4-S070",
+      "days": 10,
+      "service": "H4-S028",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L251"
+    },
+    {
+      "anchor": "H4-S067",
+      "days": 21,
+      "service": "H4-S046",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L252"
+    },
+    {
+      "anchor": "H4-S022",
+      "days": 14,
+      "service": "H4-S048",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L253"
+    },
+    {
+      "anchor": "H4-S038",
+      "days": 14,
+      "service": "H4-S050",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L254"
+    },
+    {
+      "anchor": "H4-S091",
+      "days": 10,
+      "service": "H4-S053",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L255"
+    },
+    {
+      "anchor": "H4-S061",
+      "days": 30,
+      "service": "H4-S056",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L256"
+    },
+    {
+      "anchor": "H4-S092",
+      "days": 30,
+      "service": "H4-S069",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L257"
+    },
+    {
+      "anchor": "H4-S064",
+      "days": 14,
+      "service": "H4-S074",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L258"
+    },
+    {
+      "anchor": "H4-S022",
+      "days": 30,
+      "service": "H4-S083",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L259"
+    },
+    {
+      "anchor": "H4-S042",
+      "days": 30,
+      "service": "H4-S089",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L260"
+    },
+    {
+      "anchor": "H4-S025",
+      "days": 7,
+      "service": "H4-S093",
+      "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L261"
+    }
+  ],
+  "hospital": "H4",
+  "review_state": "accepted",
+  "schema_version": "2",
+  "semantics": {
+    "adjustment_order": [
+      "bundle",
+      "facility",
+      "tier",
+      "daily_premium",
+      "weekend_uplift",
+      "volume_discount"
+    ],
+    "cap_policy": "single_line_cap_otherwise_abstain",
+    "duplicate_policy": "abstain_repeated_service_day",
+    "exclusion_boundary": "inclusive_at_equal",
+    "exclusion_direction": "both",
+    "facility_source": "none",
+    "invoice_eligibility": "supplied_invoice_facts",
+    "refs": [
+      "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md"
+    ],
+    "rounding": "half_up_cent",
+    "service_date_not_after_invoice": true,
+    "service_day": "calendar",
+    "version_precedence": "single",
+    "volume_basis": "contract_term_patient_scope_unspecified"
+  },
+  "semantics_version": "2",
+  "services": [
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S001",
+      "name": "Advanced Oncology Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L39"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 68700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L39",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S002",
+      "name": "Advanced Orthopaedic Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L40",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L185"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 97925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L40",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S003",
+      "name": "Advanced Paediatric Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L41"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 37100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L41",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S004",
+      "name": "Advanced Palliative Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L42"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 11450,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L42",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L156"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S005",
+      "name": "Advanced Vascular Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L43",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L156"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 321775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L43",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S006",
+      "name": "Ambulatory Cardiac Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L44",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L186"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 46350,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L44",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 16,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L157"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S007",
+      "name": "Ambulatory Gastrointestinal Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L45",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L157"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 4175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L45",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S008",
+      "name": "Ambulatory Haematology Transfusion Service",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L46"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 402275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L46",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S009",
+      "name": "Ambulatory Immunologic Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L187"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 74700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L47",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S010",
+      "name": "Ambulatory Musculoskeletal Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L48"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 9550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L48",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S011",
+      "name": "Ambulatory Musculoskeletal Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L49",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L232",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L233"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 157150,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L49",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 80,
+          "multiplier": [
+            85,
+            100
+          ],
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L232"
+        },
+        {
+          "exceeds": 240,
+          "multiplier": [
+            70,
+            100
+          ],
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L233"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S012",
+      "name": "Ambulatory Obstetric Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L50"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 13975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L50",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S013",
+      "name": "Ambulatory Paediatric Critical Care Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L51"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 4750,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L51",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S014",
+      "name": "Ambulatory Rheumatologic Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L52"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 38325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L52",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L158"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S015",
+      "name": "Assisted Cardiac Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L53",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L158"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 155700,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L53",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 24,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S016",
+      "name": "Assisted Gastrointestinal Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L54",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L188"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 3050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L54",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S017",
+      "name": "Assisted Obstetric Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L55"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 10100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L55",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S018",
+      "name": "Assisted Paediatric Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L56"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 3150,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L56",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S019",
+      "name": "Assisted Paediatric Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L57"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 9275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L57",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S020",
+      "name": "Assisted Renal Nutritional Support",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L58"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 3575,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L58",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 4,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S021",
+      "name": "Assisted Urologic Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L59",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L189"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 132675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L59",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S022",
+      "name": "Bedside Cardiac Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L60"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 64800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L60",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S023",
+      "name": "Bedside Gastrointestinal Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L61",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L190"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 11075,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L61",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S024",
+      "name": "Bedside Obstetric Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L62"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 365675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L62",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S025",
+      "name": "Comprehensive Neurological Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L63"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 309275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L63",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S026",
+      "name": "Comprehensive Ophthalmic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L64"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 58525,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L64",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S027",
+      "name": "Comprehensive Urologic Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L65"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 23075,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L65",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S028",
+      "name": "Continuous Gastrointestinal Transfusion Service",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L66"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 308100,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L66",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L159"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S029",
+      "name": "Continuous Infectious Critical Care Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L67",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L159"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 13925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L67",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S030",
+      "name": "Continuous Psychiatric Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L68"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 34900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L68",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 6,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S031",
+      "name": "Elective Gastrointestinal Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L69",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L191"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 58925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L69",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S032",
+      "name": "Elective Neurological Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L70"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 170125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L70",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S033",
+      "name": "Elective Obstetric Transfusion Service",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L71"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 1425,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L71",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L160"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S034",
+      "name": "Elective Ophthalmic Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L72",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L160"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 373600,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L72",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S035",
+      "name": "Emergency Cardiac Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L73"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 9875,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L73",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S036",
+      "name": "Emergency Metabolic Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L74"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 364925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L74",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 8,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L161"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S037",
+      "name": "Emergency Rheumatologic Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L75",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L161"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 62000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L75",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S038",
+      "name": "Extended Hepatic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L76"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 7950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L76",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S039",
+      "name": "Extended Hepatic Transfusion Service",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L77",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L192"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 8450,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L77",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S040",
+      "name": "Extended Obstetric Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L78"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 41425,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L78",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L162"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S041",
+      "name": "Extended Psychiatric Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L79",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L162"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 325800,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L79",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S042",
+      "name": "Extended Renal Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L80"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 174050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L80",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S043",
+      "name": "Extended Rheumatologic Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L81"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 87375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L81",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S044",
+      "name": "Extended Urologic Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L82",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L193"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 144825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L82",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S045",
+      "name": "Focused Metabolic Biopsy Procedure",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L194"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 15025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L83",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S046",
+      "name": "Focused Urologic Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L84"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 20200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L84",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S047",
+      "name": "Focused Vascular Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L85"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 5775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L85",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S048",
+      "name": "Focused Vascular Transport Service",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L86"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 24450,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L86",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S049",
+      "name": "Inpatient Orthopaedic Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L87",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L195"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 145950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L87",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S050",
+      "name": "Inpatient Psychiatric Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L88"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 19275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L88",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S051",
+      "name": "Intensive Geriatric Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L89",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L196"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 10475,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L89",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          120,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L163"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S052",
+      "name": "Intensive Paediatric Consultation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L90",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L163"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 39175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L90",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S053",
+      "name": "Intensive Rheumatologic Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L91"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 23425,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L91",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 24,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S054",
+      "name": "Intensive Urologic Specimen Analysis",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L92",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L197"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 19675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L92",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S055",
+      "name": "Intensive Vascular Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L93"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 25350,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L93",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S056",
+      "name": "Intermittent Neurological Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L94"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 10175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L94",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S057",
+      "name": "Intermittent Oncology Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L95"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 22050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L95",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L164"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S058",
+      "name": "Intermittent Psychiatric Rehabilitation Programme",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L96",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L164"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 32275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L96",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S059",
+      "name": "Intermittent Renal Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L97"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 6600,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L97",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S060",
+      "name": "Intermittent Rheumatologic Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L98"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 126900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L98",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S061",
+      "name": "Intermittent Urologic Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L99"
+      ],
+      "support": "composite_dimension_unobserved",
+      "tier_multipliers": {},
+      "unit": "per_hour_per_item",
+      "versions": [
+        {
+          "cents": 7275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L99",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S062",
+      "name": "Outpatient Cardiac Physiotherapy Session",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L100"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 27300,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L100",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 12,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L165"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S063",
+      "name": "Outpatient Geriatric Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L101",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L165"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 190450,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L101",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S064",
+      "name": "Outpatient Obstetric Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L102"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 367900,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L102",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S065",
+      "name": "Outpatient Orthopaedic Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L103"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 11025,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L103",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S066",
+      "name": "Outpatient Rheumatologic Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L104"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 20875,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L104",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S067",
+      "name": "Outpatient Urologic Endoscopic Procedure",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L105"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 372925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L105",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S068",
+      "name": "Outpatient Urologic Theatre Time",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L106"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 7650,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L106",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S069",
+      "name": "Postoperative Cardiac Wound Care",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L107"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 17325,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L107",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S070",
+      "name": "Postoperative Geriatric Case Conference",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L108"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 4275,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L108",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S071",
+      "name": "Postoperative Geriatric Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L109"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 43925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L109",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 12,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S072",
+      "name": "Postoperative Oncology Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L110",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L198"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 23250,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L110",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 24,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S073",
+      "name": "Postoperative Otolaryngologic Telemetry Monitoring",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L111",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L199"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 10000,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L111",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S074",
+      "name": "Postoperative Paediatric Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L112"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 88600,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L112",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S075",
+      "name": "Postoperative Paediatric Sterilisation Service",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L113",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L200"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 16050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L113",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S076",
+      "name": "Postoperative Palliative Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L114"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 86550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L114",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 6,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S077",
+      "name": "Postoperative Rheumatologic Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L115",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L201"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 46425,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L115",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          140,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L166"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S078",
+      "name": "Preoperative Geriatric Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L116",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L166"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 19550,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L116",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 16,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L167"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S079",
+      "name": "Preoperative Haematology Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L117",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L167"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_test",
+      "versions": [
+        {
+          "cents": 11375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L117",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S080",
+      "name": "Preoperative Musculoskeletal Recovery Room Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L118"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 162775,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L118",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": 8,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S081",
+      "name": "Preoperative Oncology Diagnostic Imaging",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L119",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L202"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 102650,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L119",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L168"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S082",
+      "name": "Routine Cardiac Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L120",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L168"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 16200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L120",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S083",
+      "name": "Specialist Cardiac Ventilation Support",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L121"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 18125,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L121",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S084",
+      "name": "Specialist Gastrointestinal Imaging Interpretation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L122"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 83625,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L122",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L169"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S085",
+      "name": "Specialist Hepatic Discharge Planning",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L123",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L169"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 41175,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L123",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S086",
+      "name": "Specialist Immunologic Consultation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L124"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 114500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L124",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 6,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L170"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S087",
+      "name": "Standard Hepatic Infusion Therapy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L125",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L170"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_unit_dispensed",
+      "versions": [
+        {
+          "cents": 3975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L125",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S088",
+      "name": "Standard Oncology Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L126",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L234"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_day",
+      "versions": [
+        {
+          "cents": 57950,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L126",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 120,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L234"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S089",
+      "name": "Standard Ophthalmic Laboratory Panel",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L127"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 17925,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L127",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S090",
+      "name": "Standard Orthopaedic Critical Care Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L128",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L235"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 148975,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L128",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [
+        {
+          "exceeds": 120,
+          "multiplier": [
+            90,
+            100
+          ],
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L235"
+        }
+      ],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S091",
+      "name": "Standard Paediatric Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L129"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_procedure",
+      "versions": [
+        {
+          "cents": 368050,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L129",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S092",
+      "name": "Standard Vascular Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L130"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 26200,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L130",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S093",
+      "name": "Supervised Gastrointestinal Nursing Observation",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L131"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 156825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L131",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          125,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L171"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S094",
+      "name": "Supervised Immunologic Ward Bed Occupancy",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L132",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L171"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_night",
+      "versions": [
+        {
+          "cents": 194400,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L132",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S095",
+      "name": "Supervised Pulmonary Anaesthesia Administration",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L133"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_hour",
+      "versions": [
+        {
+          "cents": 13500,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L133",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          130,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L172"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S096",
+      "name": "Supervised Pulmonary Home Visit",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L134",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L172"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 28675,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L134",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": null,
+      "facility_multipliers": {},
+      "id": "H4-S097",
+      "name": "Supervised Rheumatologic Dialysis Session",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L135"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_visit",
+      "versions": [
+        {
+          "cents": 17375,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L135",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    },
+    {
+      "daily_cap": null,
+      "daily_premium": {
+        "exceeds": 10,
+        "multiplier": [
+          115,
+          100
+        ],
+        "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L173"
+      },
+      "facility_multipliers": {},
+      "id": "H4-S098",
+      "name": "Supervised Vascular Radiotherapy Fraction",
+      "refs": [
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L136",
+        "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L173"
+      ],
+      "support": "supported",
+      "tier_multipliers": {},
+      "unit": "per_item",
+      "versions": [
+        {
+          "cents": 15825,
+          "end": "2025-12-31",
+          "priority": 0,
+          "source": "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md#L136",
+          "start": "2024-01-01"
+        }
+      ],
+      "volume_discounts": [],
+      "weekend_multiplier": [
+        1,
+        1
+      ]
+    }
+  ],
+  "source_hashes": {
+    "data/source/contracts/hospital_4/conditional_reimbursement_agreement.md": "715c7db32ff8c6fcd28bb7c9bcba7c2b14137d473305197950e901a08df73ec3"
+  },
+  "term": [
+    "2024-01-01",
+    "2025-12-31"
+  ]
+}
