@@ -1305,7 +1305,7 @@ entries:
         on not fewer than five days of that week.
       ocr_match: 0.987
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      document: civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
       text: 4. **Every line has its record** for that day or run, signed by whoever the contract says signs it.
       ocr_match: 1.0
     read_current_statement: false
@@ -1395,7 +1395,7 @@ entries:
         schedule (Clause 33).
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      document: civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
       text: 5. **The quantities are the recorded ones.** Billed above the record is payable up to the record, not at all above
         it.
       ocr_match: 1.0
@@ -1496,7 +1496,7 @@ entries:
       text: Rates are per unit stated. No item may be measured in a unit other than the one shown (Clause 26).
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      document: civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
       text: 6. **Each line is identified** against a priced item; where two could fit, leave it unresolved rather than choose
         on price.
       ocr_match: 1.0
@@ -2483,7 +2483,7 @@ entries:
         at the amounts stated (Clause 29).
       ocr_match: 0.989
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      document: civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
       text: 3. **Say when you do not know.** An invoice you cannot price is a query. Record what is missing rather than guessing
         a figure.
       ocr_match: 1.0
@@ -2495,38 +2495,38 @@ entries:
     kind: rule
     contract: CW
     pages: []
-    content_sha256: 62180ff8a2833f5afa91efcf9129d909ad5a0399e662a16bd7fac293383194ee
+    content_sha256: 7273b2b3f5c5ebbb6adf54eede67b00e67d668a6bfb61040a118ac8b0accda1c
     reading:
       reader: G
       file: verification/param_rule_readings/G.jsonl
       verdict: supported
       discrepancies: 'No contradicted claim. Title matches guideline check 12 nearly word for word; the validation case matches
-        guideline principle 3. Observation (not resolved): the README Task records the outcome in a submission file whose
-        columns are flagged (1/0), error_category, expected_total_cents, billed_total_cents and confidence - it has no pass/query/part-reject
-        field and no field for the clause relied on, and expected_total_cents is an integer in minor units (''There are no
-        fractional amounts in a submission''), so an unpriceable row still needs some encoding of its total; the README places
-        ''what you could not determine'' in the report. ''Q9'' (unknown-total encoding) is an internal reference not checkable
-        against these documents. No contract pages cited or read.'
+        guideline principle 3. Observation (not resolved): the dataset README (output format) records the outcome in a submission
+        file whose columns are flagged (1/0), error_category, expected_total_cents, billed_total_cents and confidence - it
+        has no pass/query/part-reject field and no field for the clause relied on, and expected_total_cents is an integer
+        in minor units (''There are no fractional amounts in a submission''), so an unpriceable row still needs some encoding
+        of its total; the README places ''what you could not determine'' in the report. ''Q9'' (unknown-total encoding) is
+        an internal reference not checkable against these documents. No contract pages cited or read.'
       pages_read: []
       source_labels_ok: true
     quotes:
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      document: civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
       text: 12. **The outcome is written down** -- pass, query, or part-reject -- with the clause relied on, the figure you
         say is payable, and anything you could not determine.
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      document: civilwork/guidelines/INVOICE_AUDIT_GUIDELINES.md
       text: 3. **Say when you do not know.** An invoice you cannot price is a query. Record what is missing rather than guessing
         a figure.
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/README.md
+      document: README.md
       text: Apply the twelve checks in `INVOICE_AUDIT_GUIDELINES.md` to every invoice under both contracts, and record the
         outcome for each one in a **single submission file**.
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/README.md
+      document: README.md
       text: Rows you cannot price are still rows — flag them if you believe they are wrong, give your confidence honestly,
         and say in your report what you could not determine.
       ocr_match: 1.0
@@ -3911,7 +3911,7 @@ entries:
     contract: DDS
     pages:
     - 8
-    content_sha256: d3d66b5bcce46e590b025f85f8d86e355c22833c13ff4581c7d3a05c3cca1719
+    content_sha256: a022f4e55ccc092ac55be5a3c532f85e2da0c9ba8131fefd05c6ea658fd030f0
     reading:
       reader: H
       file: verification/param_rule_readings/H.jsonl
@@ -3933,22 +3933,22 @@ entries:
       text: 41. Disputed charges The Company may withhold a disputed charge and shall pay the undisputed balance.
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/drilling_services/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      document: drilling_services/guidelines/INVOICE_AUDIT_GUIDELINES.md
       text: 12. **The outcome is written down** -- pass, query, or part-reject -- with the clause relied on, the figure you
         say is payable, and anything you could not determine.
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/drilling_services/guidelines/INVOICE_AUDIT_GUIDELINES.md
+      document: drilling_services/guidelines/INVOICE_AUDIT_GUIDELINES.md
       text: 3. **Say when you do not know.** An invoice you cannot price is a query. Record what is missing rather than guessing
         a figure.
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/README.md
+      document: README.md
       text: Apply the twelve checks in `INVOICE_AUDIT_GUIDELINES.md` to every invoice under both contracts, and record the
         outcome for each one in a **single submission file**.
       ocr_match: 1.0
     - page: null
-      document: /home/user/majedzahrani3/invoice-auditing-level-2/README.md
+      document: README.md
       text: Rows you cannot price are still rows — flag them if you believe they are wrong, give your confidence honestly,
         and say in your report what you could not determine.
       ocr_match: 1.0

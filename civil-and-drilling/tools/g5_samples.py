@@ -64,7 +64,7 @@ PREMISES = [
     "'the later measurement' is the one on the later-submitted application, within one application the later line; a "
     "weekly item is measured by the week (lines citing one week's log for the same item and area are one measurement); "
     "for drilling repeats (Cl.29, Cl.26, Cl.27, Cl.31) the charge on the earlier-submitted invoice stands and the later one "
-    "is the repeat (owner decision), within one invoice one of the identical lines is the repeat; only what the contract "
+    "is the repeat (policy decision), within one invoice one of the identical lines is the repeat; only what the contract "
     "requires is added (no unbilled events added, Q10 A).",
     "Readings left open (report each alternative that changes the outcome in `alternatives`): the A3 adjustment "
     "recipient ('on or after' 31A/36A vs 'after' A3, same-day ties); civil exclusion on the same day as A.14.010 (P19 vs "

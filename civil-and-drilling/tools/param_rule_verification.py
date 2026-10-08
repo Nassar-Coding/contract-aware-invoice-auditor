@@ -142,14 +142,10 @@ def ocr_ratio(contract: str, page: int, quote: str) -> float:
 
 
 def snapshot_path(path: str):
-    """A reader's document path, re-rooted on the pinned snapshot of THIS checkout (the readings
-    recorded absolute paths of the original checkout)."""
+    """A reader's document path, recorded relative to the pinned input snapshot, resolved on THIS checkout's snapshot."""
     import snapshot
-    marker = "invoice-auditing-level-2/"
-    if marker in path:
-        return Path(snapshot.DEFAULT_SNAPSHOT) / path.split(marker, 1)[1]
     p = Path(path)
-    return p if p.is_absolute() else None
+    return None if p.is_absolute() else Path(snapshot.DEFAULT_SNAPSHOT) / p
 
 
 def document_match(path: str, quote: str) -> float:

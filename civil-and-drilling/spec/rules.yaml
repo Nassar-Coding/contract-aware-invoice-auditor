@@ -305,7 +305,7 @@ rules:
     scope: every application
     prerequisites: []
     consequence: C-PROC
-    sources: ["guideline check 12", "guideline principle 3", "README Task"]
+    sources: ["guideline check 12", "guideline principle 3", "dataset README (output format)"]
     tables: []
     questions: [Q9]
     status: settled
@@ -586,7 +586,7 @@ rules:
     scope: every invoice
     prerequisites: []
     consequence: C-PROC
-    sources: ["guideline check 12", "guideline principle 3", "README Task", "Cl.41 (p8)"]
+    sources: ["guideline check 12", "guideline principle 3", "dataset README (output format)", "Cl.41 (p8)"]
     tables: []
     questions: [Q9]
     status: settled

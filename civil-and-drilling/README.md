@@ -136,7 +136,7 @@ the original development repository (see [Provenance](../README.md#provenance)) 
 | `audit/` | the pipeline (evidence, line pricing, cross-invoice state, outcomes) |
 | `spec/` | contract terms and instruments as printed, rule index, decisions with sources and alternatives, open questions |
 | `source/` | identity of the pinned inputs: SHA-256 and git blob of all 10,330 files, scan page hashes, input inventory |
-| `verification/` | committed outputs of every gate (`g2/` … `g6/`), OCR of the scans, the visual second pass and verbatim re-reads, the packets given to independent readers, their readings, and the comparisons and dispositions |
+| `verification/` | committed outputs of every gate (`g2/` … `g6/`), OCR of the scans, the visual second pass and verbatim re-reads, the packets given to independent readers, their readings, and the comparisons and dispositions ([map](verification/README.md)) |
 | `tools/` | verifiers, packet builders, comparison tools, the output checker, the page extractor |
 | `tests/` | the test suite, including the negative controls and the prior-code fixtures |
 | `audit_results.csv` | the audit output, one row per invoice |

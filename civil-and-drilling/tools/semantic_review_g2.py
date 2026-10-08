@@ -76,7 +76,7 @@ def packet() -> None:
     s = json.loads((DIR / "sample.json").read_text())
     pk = DIR / "packets"
     pk.mkdir(parents=True, exist_ok=True)
-    (pk / "ddr.jsonl").write_text("".join(json.dumps({"file": f, "path": str(SNAPSHOT / "drilling_services/records" / f)}) + "\n"
+    (pk / "ddr.jsonl").write_text("".join(json.dumps({"file": f, "path": f"drilling_services/records/{f}"}) + "\n"
                                           for f in s["ddr"]))
     # Civil packet carries only the record title and the narrative line (no names or signatures): the reviewer
     # needs the site's wording, nothing personal.
@@ -92,7 +92,7 @@ def packet() -> None:
     rec = {}
     for f in (SNAPSHOT / "drilling_services/records").iterdir():
         head = f.read_text().splitlines()[1]          # "Report: DDR-..."
-        rec[head.split(": ", 1)[1]] = str(f)
+        rec[head.split(": ", 1)[1]] = str(f.relative_to(SNAPSHOT))   # relative to the input snapshot
     half = (len(s["lines"]) + 1) // 2
     for name, part in (("lines_1", s["lines"][:half]), ("lines_2", s["lines"][half:])):
         out = []
