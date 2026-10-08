@@ -2,8 +2,8 @@
 
 Three gate checks (X1 in verify_g3, Y1 in verify_g4, Z5 in verify_g5) prove an ordering: each review packet was
 committed before the readers' expected results computed from it, and, for G4 and G5, those results before the engine
-they were compared with. The ordering is a fact about the original development history (the repository named in
-verification/commit_order.json), recorded here so the checks run on any clone of this project.
+they were compared with. The ordering is a fact about the original development history (see Provenance in the
+top-level README), recorded here so the checks run on any clone of this project.
 
   python tools/commit_order.py check --source PATH    re-derive the record from a clone of that repository; exit 1 on
                                                         any difference
@@ -20,7 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RECORD = ROOT / "verification" / "commit_order.json"
-SOURCE_REPOSITORY = "https://github.com/Nassar-Coding/invoice_v2"
+SOURCE_REPOSITORY = "the original development repository (see Provenance in the top-level README)"
 SCOPE = ("audit", "verification/g3/cases", "verification/g4/histories", "verification/g5/samples")
 
 
