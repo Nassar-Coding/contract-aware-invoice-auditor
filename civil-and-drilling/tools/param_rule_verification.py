@@ -242,7 +242,6 @@ def record(recertify: list[str]) -> int:
                   "machine-compared with the specification value. Non-supported verdicts, unquoted cited pages and weak OCR "
                   "matches are settled on the scan image and recorded in verification/param_rule_dispositions.yaml, bound "
                   "to the item's content hash.",
-        "reviewed": str(dt.date.today()),
         "entries": entries,
     }
     LOG.write_text(yaml.safe_dump(out, sort_keys=False, allow_unicode=True, width=120))

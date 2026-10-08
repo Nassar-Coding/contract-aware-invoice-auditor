@@ -25,7 +25,6 @@ import yaml
 import compare_readings as cr
 import spec_lib as sl
 
-REVIEWED = "2026-09-24"
 REVIEWER = "visual second pass against scan images"
 
 # Pages each blind reader covered (as assigned in the blind readers' instructions).
@@ -100,7 +99,7 @@ def main() -> int:
             "content_sha256": sl.canonical_hash(sl.table_content(t)),
             "rows": len(t.get("rows", [])),
             "numeric_cells": len(sl.numeric_cells(t)),
-            "visual_second_pass": {"status": "verified", "reviewer": REVIEWER, "date": REVIEWED,
+            "visual_second_pass": {"status": "verified", "reviewer": REVIEWER,
                                    "log": "verification/second_pass_visual_log.txt"},
             "blind_numeric": {k: bl.get(k) for k in ("cells", "agree")} | {"disagree": len(bl.get("disagree", []))} if bl else "not covered",
             "blind_text": {k: (len(v) if k == "disagree" else v) for k, v in txt.items()},
@@ -124,7 +123,7 @@ def main() -> int:
             "use": "pricing",
             "pages": [inst["page"]],
             "content_sha256": sl.canonical_hash(sl.instrument_content(inst)),
-            "visual_second_pass": {"status": "verified", "reviewer": REVIEWER, "date": REVIEWED,
+            "visual_second_pass": {"status": "verified", "reviewer": REVIEWER,
                                    "log": "verification/second_pass_visual_log.txt"},
             "blind_numeric": {k: ({"cells": v["cells"], "agree": v["agree"], "disagree": len(v["disagree"])} if v else None)
                               for k, v in sub.items() if v},

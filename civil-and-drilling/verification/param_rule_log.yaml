@@ -4,7 +4,6 @@ method: 'Second verification of every parameter and rule against the scan images
   with verbatim quotes. Every quote is machine-matched to the OCR text of its page; a parameter''s value as printed is machine-compared
   with the specification value. Non-supported verdicts, unquoted cited pages and weak OCR matches are settled on the scan
   image and recorded in verification/param_rule_dispositions.yaml, bound to the item''s content hash.'
-reviewed: '2026-09-26'
 entries:
   CW.P.commencement:
     kind: parameter

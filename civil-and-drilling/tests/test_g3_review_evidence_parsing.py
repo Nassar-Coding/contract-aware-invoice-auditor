@@ -1,7 +1,7 @@
 """G3 review findings FD01-FD08: evidence parsing and the engines that read it.
 
 Every test runs the real G2 parsers on mutated source text (records, reports, claim CSV rows) and the G3 engines on
-what G2 hands over. Each negative control runs the code at commit 6885224 - its G2 parsers with their own helpers and
+what G2 hands over. Each negative control runs the code as it stood before these fixes - its G2 parsers with their own helpers and
 its engines - on the same input and shows the defect the review reproduced."""
 import copy
 import prior_code
@@ -19,12 +19,12 @@ from audit import build, g3_cw, g3_dds, records_cw, records_dds
 from audit.common import Queue
 
 ROOT = Path(__file__).resolve().parents[1]
-R3 = "6885224"                                    # the reviewed code
+R3 = "g3_before_parsing_fixes"                                    # the reviewed code
 
 
 def r3_module(name: str, patch: dict | None = None):
-    """audit/<name>.py as committed at 6885224, executed inside the audit package; `patch` replaces module globals
-    (the 6885224 helpers it imported from modules changed since)."""
+    """audit/<name>.py as it stood before the parsing fixes, executed inside the audit package; `patch` replaces module globals
+    (the earlier helpers it imported from modules changed since)."""
     src = prior_code.source(R3, f"audit/{name}.py")
     mod = types.ModuleType(f"audit._r3_{name}")
     mod.__package__ = "audit"
@@ -167,7 +167,7 @@ def test_fd01_ground_authority_needs_an_established_countersignature():
 
 
 def test_fd01_control_prior_code_promotes_unreadable_text_to_approval(world, r3):
-    """The review's reproductions on the 6885224 parser and engine: '??' in either required signature leaves MDS-00001-013
+    """The review's reproductions on the earlier parser and engine: '??' in either required signature leaves MDS-00001-013
     payable at USD 4,892.30 and PA-00001-04 at SAR 17,730.62, with no finding, condition or queue item."""
     for key in DDS_SIGS:
         r, q = dds_eval(world, "MDS-00001-013", swap(key, "??"), engine=r3.g3_dds, parser=r3.records_dds)
@@ -176,7 +176,7 @@ def test_fd01_control_prior_code_promotes_unreadable_text_to_approval(world, r3)
     assert r.amount == Decimal("17730.62") and not q.items
     c = _s64_with_countersignature("??")
     rec = r3.records_cw.parse_file(f"civilwork/records/{c['line']['record_ref']}.txt", c["record"], Queue())
-    assert rec.engineer_signed                                        # 6885224: '??' is the Engineer's approval
+    assert rec.engineer_signed                                        # earlier code: '??' is the Engineer's approval
 
 
 # ============================================================================================ FD02 repeated evidence
@@ -269,7 +269,7 @@ def test_fd02_civil_conflicting_key_in_either_order_and_identical_repeat(world):
 
 
 def test_fd02_control_prior_code(world, r3):
-    """6885224: a conflicting date prepended (original last) is silently resolved to the last - the line stays payable
+    """Earlier code: a conflicting date prepended (original last) is silently resolved to the last - the line stays payable
     at USD 4,892.30 with no queue item; an unsigned line followed by a named one is signed; an identical Part A repeated
     doubles the crew (quantity 2, USD 3,694.70, no finding)."""
     r, q = dds_eval(world, "MDS-00001-013", _insert_before("Date", "Date: 03-Jan-2025"), engine=r3.g3_dds, parser=r3.records_dds)
@@ -328,7 +328,7 @@ def test_fd03_every_pour_record_variant(narrative, item, grade, ok):
 
 
 def test_fd03_control_prior_code_ignores_the_specification(world, r3):
-    """The review's table: on 6885224 each changed specification keeps its candidate and its value."""
+    """The review's table: on the earlier code each changed specification keeps its candidate and its value."""
     for ref, same, other, _u in FD03:
         base, _ = cw_eval(world, ref, lambda t: t, engine=r3.g3_cw, parser=r3.records_cw)
         r, q = cw_eval(world, ref, _narrative(world, ref, same, other), engine=r3.g3_cw, parser=r3.records_cw)
@@ -402,7 +402,7 @@ def x8_r3_engine(world, r3):
 
 
 def test_x8_control_prior_code_engine_ignores_obligations(x8_r3_engine):
-    """X8 on the 6885224 engines (G2 as now): required Part content removed or unreadable leaves a payable value -
+    """X8 on the earlier engines (G2 as now): required Part content removed or unreadable leaves a payable value -
     rejected as an ignored obligation (the review's FD04 note: an engine-derived relevance test would have accepted it)."""
     errs, stats = x8_r3_engine
     assert stats["obligation_ignored"] > 50
@@ -599,11 +599,11 @@ def test_fd07_control_prior_code_depends_on_spelling(world, r3):
     assert [str(r3.g3_dds.pd210_step(Decimal(q))) for q in DDS_Q] == ["1", "0.1", "0.01"]
 
 
-R4 = "77537c5e8c64b779bf6bdb714758195b388c23fc"   # the reviewed code FD07 (DDS) reopens
+R4 = "g3_before_pd210_domain_fix"   # the reviewed code FD07 (DDS) reopens
 
 
 def _at_r4(path: str, name: str):
-    """`path` as committed at 77537c5, executed as `name` (inside the audit package for audit modules)."""
+    """`path` as it stood before the PD-210 domain fix, executed as `name` (inside the audit package for audit modules)."""
     src = prior_code.source(R4, path)
     mod = types.ModuleType(name)
     if path.startswith("audit/"):
@@ -614,7 +614,7 @@ def _at_r4(path: str, name: str):
     return mod
 
 
-# the 77537c5 negative control's messages, as the runs below produce them
+# the earlier code's negative-control messages, as the runs below produce them
 R4_CLOSURE_FAILURE = "domain claimed finite or complete"
 R4_OFF_GRID = ("PD-210 allocation (Decimal('49.5'), Decimal('48.5')) is not admissible (sum 98, bands "
                "[(Decimal('48'), Decimal('50')), (Decimal('48'), Decimal('50'))], step 1)")
@@ -622,7 +622,7 @@ R4_COUNT = "PD-210 allocation domain incomplete: 4 distinct allocation(s) listed
 
 
 def test_fd07_control_prior_code_claims_a_complete_three_point_domain(monkeypatch):
-    """The FD07 closure controls, on the engine and verifier at commit 77537c5: (1) its unmodified DDS-S72 path
+    """The FD07 closure controls, on the engine and verifier as they stood before the PD-210 domain fix: (1) its unmodified DDS-S72 path
     reaches the 98 m valuation and the three-point output; (2) the continuous-domain closure assertion fails on it;
     (3) a correctly formed 49.5 / 48.5 m witness at 4,916.60 is rejected by its pd210_domain_errors as off the 1 m grid
     and beyond its count of three; (4) the corrected verifier accepts that witness on the corrected result and rejects

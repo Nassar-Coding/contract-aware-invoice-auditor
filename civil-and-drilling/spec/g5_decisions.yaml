@@ -133,7 +133,7 @@ decisions:
     alternatives: {A: "CW tie PA-00006/PA-00023/PA-00380; DDS MDS-01625", B: "CW PA-00443; DDS tie MDS-01585/MDS-01631/MDS-01645", C: "DDS per well (rejected)"}
     effect_key: Q1
   - id: Q7C
-    status: decided (policy, 2026-09-28)
+    status: decided (policy)
     reading: "Of two admissible charges of one service for one well-day, run, well or loss, the charge on the earlier-submitted invoice stands and the later one is the repeat (Cl.29 p7; both independent G4 readers). Within one invoice the lines are the same charge on the same invoice: the invoice carries one charge and the repeat line is wrong whichever line is taken as the repeat; the judged total is the same."
     decided_by: policy
     alternatives: {stands_either: "each charge carried as the one that stands (G4)"}

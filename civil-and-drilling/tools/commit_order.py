@@ -29,17 +29,17 @@ def _record() -> dict:
     return json.loads(RECORD.read_text())
 
 
-def first_commit(path: str) -> str | None:
-    """The commit that first added `path` in the original history, or None if the record has no such file."""
+def first_commit(path: str) -> int | None:
+    """The position (1 = the first commit) of the commit that first added `path` in the original linear history, or None
+    if the record has no such file."""
     return _record()["first_commit"].get(path)
 
 
-def committed_before(a: str | None, b: str | None) -> bool:
-    """True when commit a strictly precedes commit b in the original (linear) history."""
-    position = _record()["position"]
-    if not a or not b or a == b or a not in position or b not in position:
+def committed_before(a: int | None, b: int | None) -> bool:
+    """True when position a strictly precedes position b in the original (linear) history."""
+    if a is None or b is None:
         return False
-    return position[a] < position[b]
+    return a < b
 
 
 def derive(source: Path) -> dict:
@@ -48,16 +48,15 @@ def derive(source: Path) -> dict:
     if git("rev-list", "--merges", "HEAD").strip():
         raise SystemExit("the source history has merges; positions would not express ancestry")
     commits = git("rev-list", "--reverse", "HEAD").split()
+    position = {c: i + 1 for i, c in enumerate(commits)}
     paths = sorted(str(p.relative_to(ROOT)) for scope in SCOPE for p in (ROOT / scope).rglob("*")
                    if p.is_file() and "__pycache__" not in p.parts)
     first = {}
     for path in paths:
         added = git("log", "--diff-filter=A", "--format=%H", "--", path).split()
         if added:
-            first[path] = added[-1]
-    used = sorted(set(first.values()), key=commits.index)
-    return {"source_repository": SOURCE_REPOSITORY, "source_head": commits[-1],
-            "first_commit": first, "position": {c: commits.index(c) for c in used}}
+            first[path] = position[added[-1]]
+    return {"source_repository": SOURCE_REPOSITORY, "commits": len(commits), "first_commit": first}
 
 
 def main() -> int:
@@ -71,7 +70,7 @@ def main() -> int:
         print(f"recorded {len(fresh['first_commit'])} files")
         return 0
     same = fresh == json.loads(RECORD.read_text())
-    print(f"COMMIT ORDER {'OK' if same else 'DIFFERS'}: {len(fresh['first_commit'])} files against {fresh['source_head'][:7]}")
+    print(f"COMMIT ORDER {'OK' if same else 'DIFFERS'}: {len(fresh['first_commit'])} files, {fresh['commits']} commits in the source history")
     return 0 if same else 1
 
 

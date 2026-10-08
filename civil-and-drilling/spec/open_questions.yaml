@@ -107,10 +107,10 @@ questions:
     scope_ref: [Q7]
     status: decided
     decided_at: G5
-    decided_by: policy (2026-09-28)
+    decided_by: policy
     originally_blocks: G4
     g4_disposition: "CW decided (A and B converge): a weekly item is measured by the week, so lines citing one week's dewatering log are the same item, work area and week; Cl.44 disallows the later-submitted ones in full (19 week groups on the pinned data). C kept open: of two admissible drilling charges for one well-day, run, well or loss, each is carried as the one that stands ('stands' alternatives, owner G5): 3 pairs on the pinned data (MDS-00476 MW-301, MDS-00580 LW-401, MDS-01654 LW-401). The independent readers took the charge on the earlier invoice as standing where the invoices differ; that reading was then adopted as policy at G5. spec/g4_decisions.yaml G4-Q7"
-    g5_disposition: 'C decided as policy (2026-09-28): the charge on the earlier-submitted invoice stands. On the pinned data the 3 pairs are within one invoice each (MDS-00476, MDS-00580, MDS-01654): the invoice carries one charge whichever line is the repeat; flags unchanged under ''either stands''.'
+    g5_disposition: 'C decided as policy: the charge on the earlier-submitted invoice stands. On the pinned data the 3 pairs are within one invoice each (MDS-00476, MDS-00580, MDS-01654): the invoice carries one charge whichever line is the repeat; flags unchanged under ''either stands''.'
   - id: Q8
     title: Background documents not supplied (call-offs, performance-section nominations, written uplift instructions, permits, well endpoints)
     sources: ["CW Cl.5, 9 (p3)", "P11 (p13)", "H3 (p15)", "DDS Cl.3-4 (p3)", "Cl.23 (p6)", "App A (p29)"]

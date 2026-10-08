@@ -1,6 +1,6 @@
 """G4/G5 review blockers (G4-B01.., G5-B01..): each blocker's demonstrated variants through the
-production pipeline, the corrected result, and a negative control - the G4/G5 code as first completed (9fa5514, 13eb768;
-tests/fixtures/prior_code/), run on the same input and rejected by the corrected oracle for the blocker's reason."""
+production pipeline, the corrected result, and a negative control - the G4/G5 code as first completed
+(tests/fixtures/prior_code/), run on the same input and rejected by the corrected oracle for the blocker's reason."""
 import importlib.util
 import prior_code
 import sys
@@ -16,21 +16,21 @@ from audit import g3_cw, g3_dds, g4_cw, g4_dds
 from audit.g3_core import result_keys
 
 ROOT = Path(__file__).resolve().parents[1]
-PRIOR_G4 = "9fa5514a88af49b9daf9c982c7c4352dc8ef984b"
-PRIOR_G5 = "13eb7684a52dc9634c364bf9d9b3ba3087f882c1"
+PRIOR_G4 = "g4_first_version"
+PRIOR_G5 = "g5_first_version"
 D = Decimal
 W = "NGP-ZZ-951"
 
 
-def prior_module(sha: str, path: str, name: str) -> types.ModuleType:
+def prior_module(label: str, path: str, name: str) -> types.ModuleType:
     """The prior version of an audit module, loaded under the audit package (its relative imports resolve to the
     current G3 layer, which these corrections do not change)."""
-    src = prior_code.source(sha, path)
+    src = prior_code.source(label, path)
     spec = importlib.util.spec_from_loader(f"audit.{name}", loader=None)
     mod = importlib.util.module_from_spec(spec)
     mod.__package__ = "audit"
     sys.modules[f"audit.{name}"] = mod
-    exec(compile(src, f"{sha[:7]}:{path}", "exec"), mod.__dict__)
+    exec(compile(src, f"{label}:{path}", "exec"), mod.__dict__)
     return mod
 
 

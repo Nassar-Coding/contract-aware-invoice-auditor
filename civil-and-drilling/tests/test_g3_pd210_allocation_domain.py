@@ -222,7 +222,7 @@ def _tol(r):
 
 
 def _three_point(r):
-    """The 77537c5 claim: a complete domain of the three whole-metre allocations."""
+    """The earlier claim: a complete domain of the three whole-metre allocations."""
     old = set(r.alternatives)
     for q1 in ("50", "49", "48"):
         r = with_witness(r, (Decimal(q1), Decimal(98) - Decimal(q1)), key=f"tolerance:{q1}")

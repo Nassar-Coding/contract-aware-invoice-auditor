@@ -11,7 +11,7 @@ Everything the gate checks compare against, and the evidence behind each figure 
 | `section_readings.jsonl`, `section_dispositions.yaml` | second readings of the contract sections not otherwise re-read |
 | `g2/blind/`, `g2/semantic/` | blind annotation and semantic review of a seeded record sample |
 | `g3/cases/`, `g4/histories/`, `g5/samples/` | packets given to independent readers (inputs only) and the expected results they returned |
-| `commit_order.json` | the order in which those packets, results and the engine were first committed (`tools/commit_order.py`) |
+| `commit_order.json` | for each of those packets and results and for the engine code, its position in the original development history (the commit that first added it); `tools/commit_order.py check` re-derives the record from a clone of that history |
 
 The independent readers' packets and returned readings are kept as given, with two normalizations:
 

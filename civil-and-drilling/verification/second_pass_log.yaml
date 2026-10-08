@@ -20,7 +20,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 120
@@ -52,7 +51,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 4
@@ -80,7 +78,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -108,7 +105,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 2
@@ -136,7 +132,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 24
@@ -164,7 +159,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 3
@@ -192,7 +186,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 24
@@ -220,7 +213,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 5
@@ -248,7 +240,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -276,7 +267,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 13
@@ -304,7 +294,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 4
@@ -337,7 +326,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 40
@@ -369,7 +357,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 9
@@ -398,7 +385,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -479,7 +465,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -507,7 +492,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -535,7 +519,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 10
@@ -563,7 +546,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 12
@@ -592,7 +574,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 4
@@ -620,7 +601,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 8
@@ -648,7 +628,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 14
@@ -680,7 +659,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 9
@@ -709,7 +687,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 33
@@ -741,7 +718,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 15
@@ -773,7 +749,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 7
@@ -801,7 +776,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 2
@@ -829,7 +803,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 24
@@ -857,7 +830,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 4
@@ -885,7 +857,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 24
@@ -913,7 +884,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 5
@@ -941,7 +911,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -969,7 +938,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 3
@@ -997,7 +965,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -1026,7 +993,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 17
@@ -1055,7 +1021,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 22
@@ -1083,7 +1048,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -1129,7 +1093,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 1
@@ -1176,7 +1139,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -1204,7 +1166,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -1232,7 +1193,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -1260,7 +1220,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 4
@@ -1288,7 +1247,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -1316,7 +1274,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 15
@@ -1344,7 +1301,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 2
@@ -1381,7 +1337,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       cells: 0
@@ -1407,7 +1362,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       rates:
@@ -1428,7 +1382,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       rates:
@@ -1445,7 +1398,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       rates:
@@ -1466,7 +1418,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       monthly:
@@ -1487,7 +1438,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       rates:
@@ -1504,7 +1454,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       rates:
@@ -1525,7 +1474,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       rates:
@@ -1542,7 +1490,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       monthly:
@@ -1563,7 +1510,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       rates:
@@ -1584,7 +1530,6 @@ entries:
     visual_second_pass:
       status: verified
       reviewer: visual second pass against scan images
-      date: '2026-09-24'
       log: verification/second_pass_visual_log.txt
     blind_numeric:
       rates:

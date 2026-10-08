@@ -1,7 +1,7 @@
 """G3 missing inputs: a PD-210 charge without its depths - start
 only, end only, or both - returns an explicit missing-depth finding and an owned unresolved result, through the case
 path, the typed G2 handoff (the real claims loader on a CSV with the cells blank) and the batch; the batch carries on;
-the unguarded engine at commit 3c308ab fails the same controls."""
+the earlier, unguarded engine fails the same controls."""
 import copy
 import csv
 import datetime as dt
@@ -19,13 +19,13 @@ from audit import build, g3_dds
 from audit.common import SNAPSHOT
 
 ROOT = Path(__file__).resolve().parents[1]
-OLD = "3c308ab"                                  # the reviewed, unguarded engine
+OLD = "g3_unguarded"                                  # the reviewed, unguarded engine
 LINES = "drilling_services/invoices/invoice_lines.csv"
 PROBES = {"MDS-00018-023": ("depth_from_m",), "MDS-00018-039": ("depth_to_m",), "MDS-00018-054": ("depth_from_m", "depth_to_m")}
 
 
 def old_module(name: str, rev: str = OLD):
-    """The module as committed at `rev` (default 3c308ab), executed inside the audit package (its relative imports
+    """The module as committed at `rev` (default g3_unguarded), executed inside the audit package (its relative imports
     resolve)."""
     src = prior_code.source(rev, f"audit/{name}.py")
     mod = types.ModuleType(f"audit._old_{name}")
@@ -170,7 +170,7 @@ def test_mds_00018_023_start_depth_none_in_the_population_batch(base):
 # ---------------------------------------------------------------------------------------------------- controls
 @pytest.mark.parametrize("gone", [("depth_from_m",), ("depth_to_m",), ("depth_from_m", "depth_to_m")])
 def test_control_the_old_engine_fails_the_case_path(gone, monkeypatch):
-    """The 3c308ab engine, called as it was designed (no G2 provenance argument): the complete case values; the same
+    """The unguarded engine, called as it was designed (no G2 provenance argument): the complete case values; the same
     case without its depths crashes on the missing depth itself."""
     old = old_module("g3_dds")
     monkeypatch.setattr(gcc, "g3_dds", old)
@@ -339,7 +339,7 @@ def test_output_stage_on_an_empty_quantity(both):
     sc = g3_run.decision_scopes(sub, res)
     assert sc["Q3"]["effect_by_reading"]["B"]["lines_not_valued"] == {"SAR": [ref]}
     g3_run.summary(sub, res), g3_run.trace_sample(res)
-    old = old_module("g3_run")                                                # the 3c308ab output stage:
+    old = old_module("g3_run")                                                # the unguarded output stage:
     old.decision_scopes(w, res0)                                              # completes on the complete world,
     with pytest.raises(TypeError, match=r"unsupported operand type\(s\) for \*: 'NoneType' and 'decimal.Decimal'"):
         old.decision_scopes(sub, res)                                         # crashes on the empty quantity
@@ -373,7 +373,7 @@ def test_a_line_with_no_value_is_never_counted(both):
 
 def test_batch_never_lets_one_line_replace_another(both):
     """Two lines sharing a reference, and a line with none (G2 then identifies it by its source position): every line
-    has its own result and its own provenance; the 3c308ab batch loses one."""
+    has its own result and its own provenance; the unguarded batch loses one."""
     w, _ = both
     rows = w.claims.rows["cw_lines"][:4]
     twin, blank = copy.copy(rows[1]), copy.copy(rows[2])
@@ -442,7 +442,7 @@ def test_established_consequences_dominate_an_open_identity(both):
     rec = w.cw.get(cw.values.get("record_ref") or "")
     r = g3_cw.evaluate({**cw.values, "item_code": None}, app, rec, rec is not None, inputs=Inputs())
     assert r.amount_status == "not_payable" and "out_of_term" in r.findings
-    assert old_module("g3_cw", "1e62a6a").evaluate({**cw.values, "item_code": None}, app, rec, rec is not None,
+    assert old_module("g3_cw", "g3_missing_inputs_first_fix").evaluate({**cw.values, "item_code": None}, app, rec, rec is not None,
                                                    inputs=Inputs()).amount_status == "unresolved"   # control
 
 
@@ -456,7 +456,7 @@ def test_a_twice_written_foreman_line_does_not_hide_a_missing_countersignature(b
     r = g3_cw.evaluate(row.values, app, rec, True, inputs=twice)
     assert r.amount_status == "not_payable" and "record_unsigned" in r.findings
     assert "Countersigned (Engineer's representative) missing" in next(c.detail for c in r.checks if c.finding == "record_unsigned")
-    assert old_module("g3_cw", "1e62a6a").evaluate(row.values, app, rec, True, inputs=twice).amount_status == "unresolved"
+    assert old_module("g3_cw", "g3_missing_inputs_first_fix").evaluate(row.values, app, rec, True, inputs=twice).amount_status == "unresolved"
 
 
 def test_x8_output_stage_control_the_unguarded_output_stage(both):
@@ -475,7 +475,7 @@ def test_x8_output_stage_control_a_scope_that_hides_unvalued_lines(both, monkeyp
 
 
 def test_x8_control_an_engine_that_ignores_a_repeated_report_number(old_x8):
-    """X8 carries the repeated-number state: the 3c308ab drilling engine, which takes G2's first file silently, fails."""
+    """X8 carries the repeated-number state: the unguarded drilling engine, which takes G2's first file silently, fails."""
     errs, _ = old_x8
     assert any("doc Report='repeated'" in e for e in errs)
 
@@ -501,5 +501,5 @@ def test_a_header_number_two_rows_carry_gives_no_header_fact(both):
     gap = next(c for c in r.checks if c.check == "input" and c.detail.startswith("application_no:"))
     assert "carried by 2 application rows" in gap.detail and f"{h.source.path}:{h.source.line}" in gap.detail
     assert not any(c.check == "window" and c.status in ("pass", "finding") for c in r.checks)      # no header fact used
-    old = old_module("g3_cw", "ed7ba60").run(sub)["PA-00001-01"]
+    old = old_module("g3_cw", "g3_missing_inputs_second_fix").run(sub)["PA-00001-01"]
     assert any(c.check == "window" and c.status in ("pass", "finding") for c in old.checks)        # the last row, silently

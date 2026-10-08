@@ -1,6 +1,6 @@
 """Independent review of G4/G5 (findings A-n, B-n, C-n): each finding's reproduction
 through the production pipeline (or the engine objects it produces), the corrected result, and a negative control - the
-reviewed commit's code (1f797bf, from tests/fixtures/prior_code/) on the same input, failing for the finding's reason
+reviewed code (tests/fixtures/prior_code/g4g5_reviewed/) on the same input, failing for the finding's reason
 and rejected by the corrected oracle where one applies."""
 import copy
 import json
@@ -21,7 +21,7 @@ from audit.g3_core import Check
 from test_g4g5_regressions import _claims, _hist, cw_hist, prior_module
 
 ROOT = Path(__file__).resolve().parents[1]
-PRE = "1f797bf5c887decad85d35316d58c7341107d87a"          # the commit the independent reviewers examined
+PRE = "g4g5_reviewed"          # the commit the independent reviewers examined
 D = Decimal
 CREW = F.CREW
 
@@ -220,7 +220,7 @@ def _pre_tool(path, name):
     mod = importlib.util.module_from_spec(spec)
     mod.__file__ = str(ROOT / path)
     sys.modules[name] = mod
-    exec(compile(src, f"{PRE[:7]}:{path}", "exec"), mod.__dict__)
+    exec(compile(src, f"{PRE}:{path}", "exec"), mod.__dict__)
     return mod
 
 
